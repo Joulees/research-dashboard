@@ -1,0 +1,3 @@
+# Das Research-Skript nutzt ausschliesslich die Python-Standardbibliothek
+# (urllib, json, math, datetime) — es sind KEINE externen Pakete noetig.
+# Diese Datei dient nur der Dokumentation; Python 3.10+ wird vorausgesetzt.

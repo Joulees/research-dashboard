@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Research Dashboard</title>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<style>
+  body { margin: 0; }
+  #root { min-height: 100vh; }
+  .boot { font-family: system-ui; color: #4A586C; text-align: center; padding: 80px 20px; }
+</style>
+</head>
+<body>
+<div id="root"><div class="boot">Lade Dashboard…</div></div>
+
+<script type="text/babel" data-presets="react">
+const { useState, useEffect, useMemo, useCallback, useRef } = React;
+
+/* ============================ DATENQUELLEN ============================
+   Universum: data/companies.json (im Repo, von der App editierbar -> Download)
+   Snapshot:  data/snapshot.json  (taeglich vom GitHub-Action-Skript erzeugt)
+   Lokale Bearbeitungen liegen im localStorage und ueberschreiben companies.json. */
+const LS_UNIVERSE = "rd-universe-override-v1";
+
+const CAT_COLORS = { Earnings:"#2C6E6A", Conference:"#3A5BA0", Guidance:"#9C6B1E", "M&A":"#7A3E8E", Rating:"#9A3B2C", Markt:"#4A6741", Sonstiges:"#46546A" };
+const EVENT_COLORS = { Earnings:"#2C6E6A", Conference:"#3A5BA0", Hauptversammlung:"#7A3E8E", "Capital Markets Day":"#9C6B1E", Sonstiges:"#46546A" };
+
+const todayISO = () => new Date().toISOString().slice(0,10);
+const fmtDate = (s) => { try { return new Date(s).toLocaleDateString("de-DE",{day:"2-digit",month:"short",year:"numeric"});} catch { return s; } };
+const fmtTime = (s) => { try { return new Date(s).toLocaleString("de-DE",{day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"});} catch { return "—"; } };
+
+/* ---------- TA-Helfer (nur fuer den Chart; Kennzahlen kommen fertig aus dem Snapshot) ---------- */
+function smaLine(a, n){ return a.map((_,i)=>{ const w=a.slice(Math.max(0,i-n+1),i+1); return w.length===n? w.reduce((x,y)=>x+y,0)/n : null; }); }
+function MiniChart({ closes }){
+  if(!closes || closes.length<2) return null;
+  const W=560,H=200,pad=8;
+  const s20=smaLine(closes,20), s50=smaLine(closes,50);
+  const all=closes.concat(s20.filter(v=>v!=null),s50.filter(v=>v!=null));
+  const min=Math.min(...all),max=Math.max(...all),span=max-min||1;
+  const x=i=>pad+(i/(closes.length-1))*(W-2*pad);
+  const y=v=>pad+(1-(v-min)/span)*(H-2*pad);
+  const path=(arr)=>arr.map((v,i)=>v==null?null:`${i===0||arr[i-1]==null?"M":"L"}${x(i).toFixed(1)},${y(v).toFixed(1)}`).filter(Boolean).join(" ");
+  const up=closes[closes.length-1]>=closes[0];
+  return (
+    <svg className="rd-chart" viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none">
+      <path d={path(closes)} fill="none" stroke={up?"var(--bond)":"var(--watch)"} strokeWidth="2"/>
+      <path d={path(s20)} fill="none" stroke="var(--gold)" strokeWidth="1.3" strokeDasharray="4 3" opacity="0.9"/>
+      <path d={path(s50)} fill="none" stroke="var(--navy)" strokeWidth="1.3" opacity="0.6"/>
+    </svg>
+  );
+}
+
+/* ============================ APP ============================ */
+function App(){
+  const [page,setPage]=useState("home");
+  const [universe,setUniverse]=useState([]);
+  const [snap,setSnap]=useState({companies:{},news:[],events:[],generatedAt:null});
+  const [loading,setLoading]=useState(true);
+  const [loadErr,setLoadErr]=useState("");
+  const [fAsset,setFAsset]=useState("Alle");
+  const [fStatus,setFStatus]=useState("Alle");
+  const [selId,setSelId]=useState(null);
+
+  const loadAll = useCallback(async ()=>{
+    setLoading(true); setLoadErr("");
+    // Universum: lokale Bearbeitung bevorzugen, sonst companies.json
+    let uni=null;
+    try { const ls=localStorage.getItem(LS_UNIVERSE); if(ls) uni=JSON.parse(ls); } catch {}
+    if(!uni){
+      try { const r=await fetch("./data/companies.json?_="+Date.now()); uni=await r.json(); } catch(e){ uni=[]; }
+    }
+    setUniverse(Array.isArray(uni)?uni:[]);
+    try {
+      const r=await fetch("./data/snapshot.json?_="+Date.now());
+      if(!r.ok) throw new Error("snapshot.json fehlt ("+r.status+")");
+      setSnap(await r.json());
+    } catch(e){ setLoadErr("Noch kein Snapshot vorhanden. Sobald der taegliche Lauf (oder ein manueller „Run workflow“) durchgelaufen ist, erscheinen hier die Daten."); }
+    setLoading(false);
+  },[]);
+
+  useEffect(()=>{ loadAll(); },[loadAll]);
+
+  const saveUniverse=useCallback((next)=>{
+    setUniverse(next);
+    try { localStorage.setItem(LS_UNIVERSE, JSON.stringify(next)); } catch {}
+  },[]);
+
+  const companyById=useMemo(()=>Object.fromEntries(universe.map(c=>[c.id,c])),[universe]);
+  const inFilter=(a,s)=>(fAsset==="Alle"||a===fAsset)&&(fStatus==="Alle"||s===fStatus);
+
+  const visNews=useMemo(()=> (snap.news||[]).filter(n=>{
+    const c=companyById[n.companyId]; if(!c) return false; return inFilter(c.asset,c.status);
+  }),[snap,fAsset,fStatus,companyById]);
+
+  const visEvents=useMemo(()=>{ const t=todayISO();
+    return (snap.events||[]).filter(e=>{ const c=companyById[e.companyId]; const okF=c?inFilter(c.asset,c.status):true; return okF && (!e.date||e.date>=t); });
+  },[snap,fAsset,fStatus,companyById]);
+
+  const openCompany=useCallback((id)=>{ setSelId(id); setPage("company"); },[]);
+
+  return (
+    <div className="rd">
+      <Style/>
+      <div className="rd-top"><div className="rd-topin">
+        <div className="rd-brand"><span className="k">Research Dashboard</span><span className="n">Coverage Desk</span></div>
+        <nav className="rd-nav">
+          <button className={page==="home"?"on":""} onClick={()=>setPage("home")}>Newsflow</button>
+          <button className={page==="markets"?"on":""} onClick={()=>setPage("markets")}>Märkte</button>
+          <button className={page==="company"?"on":""} onClick={()=>setPage("company")}>Unternehmen</button>
+          <button className={page==="tech"?"on":""} onClick={()=>setPage("tech")}>Technik</button>
+          <button className={page==="settings"?"on":""} onClick={()=>setPage("settings")}>⚙ Einstellungen</button>
+        </nav>
+      </div></div>
+
+      <div className="rd-wrap">
+        {page==="home" && <HomePage {...{snap,visNews,visEvents,fAsset,setFAsset,fStatus,setFStatus,loading,loadErr,loadAll,companyById,openCompany}}/>}
+        {page==="markets" && <MarketsPage universe={universe} onOpen={openCompany}/>}
+        {page==="company" && <CompanyDetail {...{universe,selId,setSelId,snap}}/>}
+        {page==="tech" && <TechPage universe={universe} snap={snap} onOpen={openCompany}/>}
+        {page==="settings" && <SettingsPage universe={universe} saveUniverse={saveUniverse} reload={loadAll}/>}
+      </div>
+
+      <div className="rd-foot">
+        {universe.length} Titel im Universum · Snapshot vom {snap.generatedAt? fmtTime(snap.generatedAt):"—"} · automatischer Refresh taeglich 07:00 via GitHub Actions.
+      </div>
+    </div>
+  );
+}
+
+/* ---------------- HOME ---------------- */
+function HomePage({snap,visNews,visEvents,fAsset,setFAsset,fStatus,setFStatus,loading,loadErr,loadAll,companyById,openCompany}){
+  return (
+    <div className="fade">
+      <div className="rd-h">
+        <div>
+          <h1>Newsflow & Kalender</h1>
+          <p>Meldungen, Earnings, Konferenzen und IR-Termine über das gesamte Universum. Klicke eine Meldung für Details und Quelle.</p>
+        </div>
+        <div className="rd-tools">
+          <div className="rd-segs">
+            <div className="rd-seg2">{["Alle","Aktien","Anleihen"].map(a=><button key={a} className={fAsset===a?"on":""} onClick={()=>setFAsset(a)}>{a}</button>)}</div>
+            <div className="rd-seg2">{["Alle","Portfolio","Watchlist"].map(s=><button key={s} className={fStatus===s?"on":""} onClick={()=>setFStatus(s)}>{s}</button>)}</div>
+          </div>
+          <div className="rd-refresh">
+            <span className="rd-stamp">Stand: <b>{snap.generatedAt?fmtTime(snap.generatedAt):"—"}</b></span>
+            <button className="rd-btn sm" onClick={loadAll} disabled={loading}>{loading?"lädt…":"↻ Neu laden"}</button>
+          </div>
+        </div>
+      </div>
+
+      {loadErr && <div className="rd-diag-box bad">{loadErr}</div>}
+
+      <div className="rd-grid">
+        <div>
+          <div className="rd-sechead"><h2>Newsflow</h2><span className="c">{visNews.length} Einträge</span></div>
+          <div className="rd-feed">
+            {!loading && visNews.length===0 && <div className="rd-empty">Keine Meldungen für diese Filter im aktuellen Snapshot.</div>}
+            {visNews.map(n=><NewsCard key={n.url||n.companyId+n.title+n.date} n={n} name={companyById[n.companyId]?.name||n.company} onOpen={()=>companyById[n.companyId]&&openCompany(n.companyId)}/>)}
+          </div>
+        </div>
+        <aside>
+          <div className="rd-cal">
+            <h2>Event-Kalender</h2><p className="sub">Bevorstehende Termine der nächsten Monate</p>
+            <CalendarBody events={visEvents}/>
+          </div>
+        </aside>
+      </div>
+    </div>
+  );
+}
+
+function NewsCard({n,name,onOpen}){
+  const [open,setOpen]=useState(false);
+  const color=CAT_COLORS[n.category]||CAT_COLORS.Sonstiges;
+  return (
+    <div className="rd-news" onClick={()=>setOpen(o=>!o)}>
+      <div className="row1">
+        <span className="rd-cat" style={{background:color}}>{n.category}</span>
+        <span className="rd-co rd-link" onClick={e=>{e.stopPropagation(); onOpen&&onOpen();}}>{name||n.company}</span>
+        <span className="rd-when">{fmtDate(n.date)}</span>
+      </div>
+      <h3>{n.title}</h3>
+      <p>{n.summary}</p>
+      {open && <div className="detail">Quelle: {n.source||"—"}{n.url? <> · <a href={n.url} target="_blank" rel="noopener noreferrer" onClick={e=>e.stopPropagation()}>Zur Quelle ↗</a></>:""}</div>}
+    </div>
+  );
+}
+
+function CalendarBody({events}){
+  if(!events.length) return <div className="rd-empty" style={{padding:"28px 16px",fontSize:12.5}}>Keine bevorstehenden Events im Snapshot.</div>;
+  const groups={};
+  events.forEach(e=>{ const d=new Date(e.date); const key=isNaN(d)?"Demnächst":d.toLocaleDateString("de-DE",{month:"long",year:"numeric"}); (groups[key]=groups[key]||[]).push(e); });
+  return (<div>{Object.entries(groups).map(([month,evs])=>(
+    <div key={month}><div className="rd-month">{month}</div>
+      {evs.map((e,i)=>{ const d=new Date(e.date); const color=EVENT_COLORS[e.type]||EVENT_COLORS.Sonstiges; return (
+        <div className="rd-ev" key={i}>
+          <div className="d"><b>{isNaN(d)?"—":d.getDate()}</b><span>{isNaN(d)?"":d.toLocaleDateString("de-DE",{weekday:"short"})}</span></div>
+          <div className="body"><div className="t">{e.title}</div><div className="m"><span className="co">{e.company}</span><span className="ty" style={{background:color}}>{e.type}</span></div></div>
+        </div>);})}
+    </div>))}</div>);
+}
+
+/* ---------------- MAERKTE ---------------- */
+function MarketsPage({universe,onOpen}){
+  const [fAsset,setFAsset]=useState("Alle");
+  const port=universe.filter(c=>c.status==="Portfolio"&&(fAsset==="Alle"||c.asset===fAsset));
+  const groups={}; port.forEach(c=>{ const k=c.sector||"Sonstiges"; (groups[k]=groups[k]||[]).push(c); });
+  const ordered=Object.entries(groups).sort((a,b)=>b[1].length-a[1].length);
+  return (
+    <div className="fade">
+      <div className="rd-h">
+        <div><h1>Märkte</h1><p>Portfolio-Titel nach Endmärkten gruppiert (ohne Wettbewerber). Klicke einen Titel für den Deep-Dive.</p></div>
+        <div className="rd-tools"><div className="rd-segs"><div className="rd-seg2">{["Alle","Aktien","Anleihen"].map(a=><button key={a} className={fAsset===a?"on":""} onClick={()=>setFAsset(a)}>{a}</button>)}</div></div></div>
+      </div>
+      <div className="rd-mk-grid">
+        {ordered.map(([sector,cos])=>(
+          <div className="rd-mk-col" key={sector}>
+            <div className="rd-mk-head"><span>{sector}</span><b>{cos.length}</b></div>
+            {cos.map(c=>(<div className="rd-mk-card" key={c.id} onClick={()=>onOpen(c.id)}>
+              <div className="nm">{c.name}</div><div className="mt">{c.markets}</div>
+              <span className={"rd-tag "+(c.asset==="Anleihen"?"bond":"equity")}>{c.asset}</span>
+            </div>))}
+          </div>))}
+        {!ordered.length && <div className="rd-empty">Keine Portfolio-Titel für diesen Filter.</div>}
+      </div>
+    </div>
+  );
+}
+
+/* ---------------- UNTERNEHMEN ---------------- */
+function CompanyDetail({universe,selId,setSelId,snap}){
+  const current=universe.find(c=>c.id===selId)||universe[0];
+  if(!current) return <div className="rd-empty fade">Kein Unternehmen im Universum.</div>;
+  const data=(snap.companies||{})[String(current.id)]||{};
+  const prof=data.profile, ta=data.tech, today=todayISO();
+  const coNews=(data.news||[]).slice().sort((a,b)=>(b.date||"").localeCompare(a.date||"")).slice(0,8);
+  const coEvents=(data.events||[]).filter(e=>!e.date||e.date>=today).sort((a,b)=>(a.date||"").localeCompare(b.date||""));
+  const cur=ta?(ta.currency||""):"";
+  const fmtP=v=>v==null?"—":`${cur} ${Number(v).toFixed(2)}`;
+  return (
+    <div className="fade">
+      <div className="rd-h">
+        <div>
+          <div className="rd-dd-sel"><select value={current.id} onChange={e=>setSelId(Number(e.target.value))}>{universe.map(c=><option key={c.id} value={c.id}>{c.name}</option>)}</select></div>
+          <h1>{current.name}</h1>
+          <div className="rd-dd-tags">
+            <span className={"rd-tag "+(current.asset==="Anleihen"?"bond":"equity")}>{current.asset}</span>
+            <span className={"rd-tag "+(current.status==="Watchlist"?"watch":"port")}>{current.status}</span>
+            {current.sector && <span className="rd-tag sector">{current.sector}</span>}
+          </div>
+        </div>
+      </div>
+      <div className="rd-dd-grid">
+        <div>
+          <div className="rd-card"><h3>Geschäftsmodell</h3><p>{prof?.businessModel||"Keine Beschreibung im Snapshot. (Geschäftsmodell-Texte sind optional und werden erzeugt, wenn ein ANTHROPIC_API_KEY hinterlegt ist.)"}</p></div>
+          <div className="rd-card"><h3>Abgrenzung zu Wettbewerbern</h3><p>{prof?.differentiation||"—"}</p>
+            <div className="rd-dd-peers">{(current.competitors||[]).map((p,i)=><span className="rd-chip" key={i}>{p}</span>)}</div>
+          </div>
+          <div className="rd-card"><h3>Endmärkte</h3><p>{current.markets||"—"}</p></div>
+          <div className="rd-card">
+            <div className="rd-card-h"><h3>Technische Analyse</h3>{ta&&<span className={"rd-sig "+ta.label.toLowerCase()}>{ta.label}</span>}</div>
+            {current.noChart? <p className="muted">Reiner Anleihe-Emittent ohne börsennotierte Aktie — keine Kurschart-Analyse.</p>
+              : !ta? <p className="muted">Keine Kursdaten im Snapshot (Symbol evtl. nicht von FMP abgedeckt).</p>
+              : <>
+                  <MiniChart closes={ta.closes}/>
+                  <div className="rd-chart-leg"><span><i style={{background:"var(--bond)"}}/>Kurs</span><span><i style={{background:"var(--gold)"}}/>SMA20</span><span><i style={{background:"var(--navy)"}}/>SMA50</span></div>
+                  <div className="rd-ind">
+                    <div><span>Kurs</span><b>{fmtP(ta.price)}</b></div>
+                    <div><span>SMA50</span><b>{fmtP(ta.sma50)}</b></div>
+                    <div><span>SMA200</span><b>{fmtP(ta.sma200)}</b></div>
+                    <div><span>RSI(14)</span><b>{ta.rsi==null?"—":ta.rsi}</b></div>
+                    <div><span>MACD</span><b>{ta.macd?(ta.macd==="bullisch"?"über Signal":"unter Signal"):"—"}</b></div>
+                    <div><span>Spanne</span><b>{fmtP(ta.low)} – {fmtP(ta.high)}</b></div>
+                  </div>
+                  <div className="rd-sig-note">Regelbasiertes technisches Signal aus {ta.reasons.length} Faktoren: {ta.reasons.join(", ")}. Mechanische Lesart der Indikatoren, keine Anlageempfehlung.</div>
+                </>}
+          </div>
+        </div>
+        <aside>
+          <div className="rd-card"><h3>Letzte News</h3>
+            {coNews.length? coNews.map((n,i)=>(
+              <div className="rd-dd-news" key={i}>
+                <div className="r1"><span className="rd-cat sm" style={{background:CAT_COLORS[n.category]||CAT_COLORS.Sonstiges}}>{n.category}</span><span className="dt">{fmtDate(n.date)}</span></div>
+                <div className="ti">{n.url? <a href={n.url} target="_blank" rel="noopener noreferrer">{n.title} ↗</a>:n.title}</div>
+                <p>{n.summary}</p>
+              </div>)) : <p className="muted">Keine Meldungen im Snapshot.</p>}
+          </div>
+          <div className="rd-card"><h3>Bevorstehende Events</h3>
+            {coEvents.length? coEvents.map((e,i)=>(
+              <div className="rd-dd-ev" key={i}><b>{fmtDate(e.date)}</b><span>{e.title}</span><span className="ty" style={{background:EVENT_COLORS[e.type]||EVENT_COLORS.Sonstiges}}>{e.type}</span></div>
+            )) : <p className="muted">Keine künftigen Events im Snapshot.</p>}
+          </div>
+        </aside>
+      </div>
+    </div>
+  );
+}
+
+/* ---------------- TECHNIK ---------------- */
+function TechPage({universe,snap,onOpen}){
+  const rows=universe.map(c=>({c,ta:(snap.companies||{})[String(c.id)]?.tech||null}));
+  const order={Bullisch:0,Neutral:1,Baerisch:2};
+  rows.sort((a,b)=>(a.ta?order[a.ta.label]:3)-(b.ta?order[b.ta.label]:3));
+  return (
+    <div className="fade">
+      <div className="rd-h"><div><h1>Technische Analyse</h1><p>Indikator-Übersicht je Titel mit regelbasiertem Signal (Trend ggü. SMA50/200, MACD, RSI, Bollinger). Mechanische Lesart, keine Anlageempfehlung.</p></div></div>
+      <table className="rd-tech-tbl">
+        <thead><tr><th>Unternehmen</th><th>Signal</th><th>Kurs</th><th>vs SMA50</th><th>vs SMA200</th><th>RSI</th><th>MACD</th></tr></thead>
+        <tbody>
+          {rows.map(({c,ta})=>(
+            <tr key={c.id} onClick={()=>onOpen(c.id)}>
+              <td><div className="nm">{c.name}</div><span className={"rd-tag "+(c.asset==="Anleihen"?"bond":"equity")}>{c.asset}</span></td>
+              <td>{ta? <span className={"rd-sig "+ta.label.toLowerCase()}>{ta.label}</span> : <span className="muted">{c.noChart?"—":"keine Daten"}</span>}</td>
+              <td className="num">{ta?`${ta.currency} ${ta.price}`:"—"}</td>
+              <td>{ta&&ta.sma50!=null? <span className={ta.price>=ta.sma50?"pos":"neg"}>{ta.price>=ta.sma50?"▲ darüber":"▼ darunter"}</span>:"—"}</td>
+              <td>{ta&&ta.sma200!=null? <span className={ta.price>=ta.sma200?"pos":"neg"}>{ta.price>=ta.sma200?"▲ darüber":"▼ darunter"}</span>:"—"}</td>
+              <td className="num">{ta&&ta.rsi!=null?ta.rsi:"—"}</td>
+              <td>{ta&&ta.macd? (ta.macd==="bullisch"?<span className="pos">bullisch</span>:<span className="neg">bärisch</span>):"—"}</td>
+            </tr>))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+/* ---------------- EINSTELLUNGEN ---------------- */
+const blankCo=()=>({id:Date.now(),name:"",symbol:"",asset:"Aktien",status:"Portfolio",competitors:[],markets:"",sector:""});
+function SettingsPage({universe,saveUniverse,reload}){
+  const [editing,setEditing]=useState(null);
+  const [isNew,setIsNew]=useState(false);
+  const [q,setQ]=useState("");
+  const [fAsset,setFAsset]=useState("Alle");
+  const [fStatus,setFStatus]=useState("Alle");
+  const filtered=universe.filter(c=>{
+    if(fAsset!=="Alle"&&c.asset!==fAsset) return false;
+    if(fStatus!=="Alle"&&c.status!==fStatus) return false;
+    const t=q.trim().toLowerCase(); if(!t) return true;
+    return (c.name+" "+(c.markets||"")+" "+(c.competitors||[]).join(" ")).toLowerCase().includes(t);
+  });
+  const openEdit=(c)=>{ setEditing(JSON.parse(JSON.stringify(c))); setIsNew(false); };
+  const openNew=()=>{ setEditing(blankCo()); setIsNew(true); };
+  const close=()=>setEditing(null);
+  const save=()=>{ if(!editing.name.trim()) return; saveUniverse(isNew?[...universe,editing]:universe.map(c=>c.id===editing.id?editing:c)); close(); };
+  const remove=()=>{ saveUniverse(universe.filter(c=>c.id!==editing.id)); close(); };
+  const downloadJSON=()=>{
+    const blob=new Blob([JSON.stringify(universe,null,2)],{type:"application/json"});
+    const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="companies.json"; a.click();
+  };
+  const resetLocal=()=>{ if(confirm("Lokale Bearbeitungen verwerfen und companies.json aus dem Repo neu laden?")){ try{localStorage.removeItem(LS_UNIVERSE);}catch{} reload(); } };
+  return (
+    <div className="fade">
+      <div className="rd-h">
+        <div><h1>Auswahl Unternehmen</h1><p>Universum verwalten: Titel anlegen, bearbeiten, entfernen. Speichern wirkt sofort lokal. Damit der tägliche Refresh die Änderung nutzt, „companies.json herunterladen“ und im Repo ersetzen.</p></div>
+        <div className="rd-tools">
+          <div className="rd-segs">
+            <div className="rd-seg2">{["Alle","Aktien","Anleihen"].map(a=><button key={a} className={fAsset===a?"on":""} onClick={()=>setFAsset(a)}>{a}</button>)}</div>
+            <div className="rd-seg2">{["Alle","Portfolio","Watchlist"].map(s=><button key={s} className={fStatus===s?"on":""} onClick={()=>setFStatus(s)}>{s}</button>)}</div>
+          </div>
+          <button className="rd-btn sm" onClick={openNew}>＋ Titel</button>
+        </div>
+      </div>
+      <div className="rd-su-stats">
+        <span><b>{universe.length}</b> Titel</span>
+        <span><b>{universe.filter(c=>c.asset==="Aktien").length}</b> Aktien</span>
+        <span><b>{universe.filter(c=>c.asset==="Anleihen").length}</b> Anleihen</span>
+        <span><b>{universe.filter(c=>c.status==="Watchlist").length}</b> Watchlist</span>
+        <input className="rd-su-search" placeholder="Suche…" value={q} onChange={e=>setQ(e.target.value)}/>
+      </div>
+      <div className="rd-su-list">
+        {filtered.map(c=>(
+          <div className="rd-su-row" key={c.id} onClick={()=>openEdit(c)}>
+            <div className="main"><div className="nm">{c.name} {c.symbol&&<span className="sym">{c.symbol}</span>}</div>
+              <div className="tags"><span className={"rd-tag "+(c.asset==="Anleihen"?"bond":"equity")}>{c.asset}</span><span className={"rd-tag "+(c.status==="Watchlist"?"watch":"port")}>{c.status}</span></div>
+            </div>
+            <div className="peers">{(c.competitors||[]).slice(0,5).map((p,i)=><span className="rd-chip" key={i}>{p}</span>)}{(!c.competitors||!c.competitors.length)&&<span className="muted">keine Wettbewerber</span>}</div>
+            <div className="mkt">{c.markets||"—"}</div>
+            <button className="rd-edit" onClick={(e)=>{e.stopPropagation();openEdit(c);}}>✎</button>
+          </div>))}
+        {!filtered.length && <div className="rd-empty">Keine Treffer.</div>}
+      </div>
+      <div className="rd-su-foot">
+        <span>{filtered.length} von {universe.length} Titeln · Bearbeitungen liegen lokal im Browser.</span>
+        <span style={{display:"flex",gap:10}}>
+          <button className="rd-btn sm ghost" onClick={resetLocal}>↺ Aus Repo neu laden</button>
+          <button className="rd-btn sm" onClick={downloadJSON}>↓ companies.json herunterladen</button>
+        </span>
+      </div>
+      {editing && <EditPanel editing={editing} setEditing={setEditing} isNew={isNew} onSave={save} onDelete={remove} onClose={close}/>}
+    </div>
+  );
+}
+
+function EditPanel({editing,setEditing,isNew,onSave,onDelete,onClose}){
+  const [cInput,setCInput]=useState("");
+  const set=(k,v)=>setEditing(e=>({...e,[k]:v}));
+  const addComp=()=>{ const v=cInput.trim(); if(!v) return; set("competitors",[...editing.competitors,v]); setCInput(""); };
+  const over=editing.competitors.length>5;
+  return (
+    <div className="rd-ov" onMouseDown={e=>{if(e.target===e.currentTarget)onClose();}}>
+      <div className="rd-panel">
+        <h2>{isNew?"Titel hinzufügen":"Titel bearbeiten"}</h2>
+        <div className="rd-field"><label>Unternehmen</label><input value={editing.name} autoFocus onChange={e=>set("name",e.target.value)} placeholder="z. B. Metro Bank"/></div>
+        <div className="rd-field"><label>FMP-Ticker-Symbol (für Kurse/News)</label><input value={editing.symbol||""} onChange={e=>set("symbol",e.target.value)} placeholder="z. B. MTRO.L, AMZN, MIN.AX — leer = keine Marktdaten"/></div>
+        <div className="rd-field"><label>Relevant für</label><div className="rd-seg">{["Aktien","Anleihen"].map(a=><button key={a} className={editing.asset===a?"on":""} onClick={()=>set("asset",a)}>{a}</button>)}</div></div>
+        <div className="rd-field"><label>Portfolio oder Watchlist</label><div className="rd-seg">{["Portfolio","Watchlist"].map(s=><button key={s} className={editing.status===s?"on":""} onClick={()=>set("status",s)}>{s}</button>)}</div></div>
+        <div className="rd-field">
+          <label>Wichtigste Wettbewerber (max. 5)</label>
+          <div className="rd-cwrap">{editing.competitors.map((c,i)=><span className="rd-cchip" key={i}>{c}<button onClick={()=>set("competitors",editing.competitors.filter((_,j)=>j!==i))}>×</button></span>)}</div>
+          <div className="rd-cadd"><input value={cInput} onChange={e=>setCInput(e.target.value)} onKeyDown={e=>{if(e.key==="Enter"){e.preventDefault();addComp();}}} placeholder="Wettbewerber + Enter"/><button className="rd-btn ghost sm" onClick={addComp}>＋</button></div>
+          <div className={"rd-hint"+(over?" warn":"")}>{editing.competitors.length}/5 erfasst{over?" — empfohlen sind höchstens 5.":"."}</div>
+        </div>
+        <div className="rd-field"><label>Endmärkte</label><textarea value={editing.markets} onChange={e=>set("markets",e.target.value)} placeholder="Sektoren / Kundengruppen / Geografien."/></div>
+        <div className="rd-field"><label>Sektor / Markt (für die Märkte-Seite)</label><input value={editing.sector||""} onChange={e=>set("sector",e.target.value)} placeholder="z. B. Banken, Software, Energie"/></div>
+        <div className="rd-actions">
+          {!isNew && <button className="rd-del" onClick={()=>{if(confirm(`"${editing.name}" löschen?`))onDelete();}}>Löschen</button>}
+          <button className="rd-btn ghost" onClick={onClose}>Abbrechen</button>
+          <button className="rd-btn" onClick={onSave}>Speichern</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ---------------- STYLES ---------------- */
+function Style(){ return <style>{`
+.rd{--paper:#F4F1E9;--paper2:#FBF9F4;--card:#FFFFFF;--ink:#15202E;--ink2:#4A586C;--ink3:#7C8798;--line:#E3DCCC;--navy:#16314F;--gold:#9C6B1E;--bond:#2C6E6A;--equity:#9C6B1E;--watch:#9A3B2C;
+ font-family:'Spline Sans',ui-sans-serif,system-ui;color:var(--ink);background:radial-gradient(1100px 360px at 88% -8%,rgba(22,49,79,.07),transparent 60%),var(--paper);min-height:100vh;}
+.rd *{box-sizing:border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Spline+Sans:wght@400;500;600;700&family=Spline+Sans+Mono:wght@500;600&display=swap');
+.rd-top{position:sticky;top:0;z-index:20;background:rgba(244,241,233,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);}
+.rd-topin{max-width:1200px;margin:0 auto;padding:13px 24px;display:flex;align-items:center;gap:26px;flex-wrap:wrap;}
+.rd-brand{display:flex;flex-direction:column;line-height:1;}
+.rd-brand .k{font-family:'Spline Sans Mono',monospace;font-size:9.5px;letter-spacing:.26em;text-transform:uppercase;color:var(--gold);margin-bottom:3px;}
+.rd-brand .n{font-family:'Fraunces',serif;font-weight:600;font-size:20px;letter-spacing:-.01em;}
+.rd-nav{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap;}
+.rd-nav button{font:inherit;font-size:13.5px;font-weight:500;padding:8px 14px;border:none;background:transparent;border-radius:8px;cursor:pointer;color:var(--ink2);transition:.13s;}
+.rd-nav button:hover{background:rgba(22,49,79,.06);color:var(--ink);}
+.rd-nav button.on{background:var(--navy);color:#fff;}
+.rd-wrap{max-width:1200px;margin:0 auto;padding:26px 24px 70px;}
+.rd-h{display:flex;justify-content:space-between;align-items:flex-end;gap:20px 28px;flex-wrap:wrap;margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--line);}
+.rd-h h1{font-family:'Fraunces',serif;font-weight:600;font-size:33px;margin:0;letter-spacing:-.015em;}
+.rd-h p{color:var(--ink2);font-size:13.5px;margin:6px 0 0;max-width:560px;}
+.rd-tools{display:flex;flex-direction:row;align-items:center;gap:10px;flex-wrap:wrap;justify-content:flex-end;}
+.rd-segs{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;}
+.rd-seg2{display:inline-flex;background:var(--paper2);border:1px solid var(--line);border-radius:9px;padding:2px;}
+.rd-seg2 button{font:inherit;font-size:11.5px;font-weight:500;padding:5px 10px;border:none;background:transparent;border-radius:7px;cursor:pointer;color:var(--ink2);transition:.12s;white-space:nowrap;}
+.rd-seg2 button.on{background:var(--navy);color:#fff;}
+.rd-refresh{display:flex;align-items:center;gap:10px;}
+.rd-stamp{font-size:11px;color:var(--ink3);font-family:'Spline Sans Mono',monospace;white-space:nowrap;}
+.rd-stamp b{color:var(--ink2);}
+.rd-btn{font:inherit;font-size:13px;font-weight:600;padding:9px 16px;border-radius:9px;cursor:pointer;border:1px solid var(--navy);background:var(--navy);color:#fff;transition:.13s;display:inline-flex;align-items:center;gap:8px;white-space:nowrap;}
+.rd-btn:hover{background:#0f243b;}
+.rd-btn:disabled{opacity:.5;cursor:default;}
+.rd-btn.ghost{background:transparent;color:var(--navy);}
+.rd-btn.ghost:hover{background:rgba(22,49,79,.07);}
+.rd-btn.sm{padding:7px 13px;font-size:12.5px;border-radius:8px;}
+.rd-diag-box{margin:0 0 18px;border-radius:12px;padding:12px 16px;font-size:13px;line-height:1.5;}
+.rd-diag-box.bad{background:rgba(154,59,44,.07);border:1px solid rgba(154,59,44,.25);color:#7c2d20;}
+.rd-grid{display:grid;grid-template-columns:1fr 340px;gap:26px;align-items:start;}
+@media(max-width:900px){.rd-grid{grid-template-columns:1fr;}}
+.rd-sechead{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:12px;}
+.rd-sechead h2{font-family:'Fraunces',serif;font-weight:600;font-size:19px;margin:0;}
+.rd-sechead .c{font-family:'Spline Sans Mono',monospace;font-size:11px;color:var(--ink3);}
+.rd-feed{display:flex;flex-direction:column;gap:10px;}
+.rd-news{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:15px 17px;cursor:pointer;transition:.14s;}
+.rd-news:hover{border-color:var(--navy);box-shadow:0 8px 26px rgba(22,32,46,.09);transform:translateY(-1px);}
+.rd-news .row1{display:flex;align-items:center;gap:9px;margin-bottom:7px;flex-wrap:wrap;}
+.rd-cat{font-family:'Spline Sans Mono',monospace;font-size:9.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:5px;color:#fff;}
+.rd-cat.sm{font-size:8.5px;padding:2px 6px;}
+.rd-co{font-weight:600;font-size:13.5px;}
+.rd-link{cursor:pointer;border-bottom:1px dotted transparent;}
+.rd-link:hover{color:var(--navy);border-bottom-color:var(--navy);}
+.rd-when{margin-left:auto;font-size:11px;color:var(--ink3);font-family:'Spline Sans Mono',monospace;}
+.rd-news h3{font-size:15px;font-weight:600;margin:0 0 5px;line-height:1.32;}
+.rd-news p{font-size:13px;color:var(--ink2);margin:0;line-height:1.5;}
+.rd-news .detail{margin-top:12px;padding-top:12px;border-top:1px solid var(--line);font-size:12.5px;color:var(--ink2);}
+.rd-news .detail a{color:var(--navy);font-weight:600;text-decoration:none;}
+.rd-cal{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;position:sticky;top:78px;}
+.rd-cal h2{font-family:'Fraunces',serif;font-weight:600;font-size:18px;margin:0 0 4px;}
+.rd-cal .sub{font-size:11.5px;color:var(--ink3);margin:0 0 16px;}
+.rd-month{font-family:'Spline Sans Mono',monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:14px 0 8px;padding-bottom:5px;border-bottom:1px solid var(--line);}
+.rd-month:first-of-type{margin-top:0;}
+.rd-ev{display:flex;gap:11px;padding:8px 0;align-items:flex-start;}
+.rd-ev .d{flex-shrink:0;width:42px;text-align:center;}
+.rd-ev .d b{display:block;font-family:'Fraunces',serif;font-size:18px;font-weight:600;line-height:1;}
+.rd-ev .d span{font-size:9px;font-family:'Spline Sans Mono',monospace;text-transform:uppercase;color:var(--ink3);}
+.rd-ev .body .t{font-size:12.5px;font-weight:600;line-height:1.3;}
+.rd-ev .body .m{display:flex;gap:6px;align-items:center;margin-top:3px;flex-wrap:wrap;}
+.rd-ev .body .co{font-size:11px;color:var(--ink2);}
+.rd-ev .body .ty{font-size:8.5px;font-family:'Spline Sans Mono',monospace;text-transform:uppercase;letter-spacing:.05em;padding:1px 6px;border-radius:4px;color:#fff;}
+.rd-empty{text-align:center;padding:48px 20px;color:var(--ink3);background:var(--card);border:1px dashed var(--line);border-radius:13px;font-size:13.5px;}
+.rd-tag{font-family:'Spline Sans Mono',monospace;font-size:9.5px;font-weight:600;letter-spacing:.05em;padding:2px 7px;border-radius:5px;text-transform:uppercase;}
+.rd-tag.bond{background:rgba(44,110,106,.12);color:var(--bond);}
+.rd-tag.equity{background:rgba(156,107,30,.13);color:var(--equity);}
+.rd-tag.port{background:rgba(22,49,79,.09);color:var(--navy);}
+.rd-tag.watch{background:rgba(154,59,44,.1);color:var(--watch);}
+.rd-tag.sector{background:rgba(58,91,160,.1);color:#3A5BA0;}
+.rd-chip{font-size:11.5px;padding:3px 8px;background:var(--paper);border:1px solid var(--line);border-radius:999px;white-space:nowrap;}
+.muted{color:var(--ink3);font-style:italic;}
+.rd-mk-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;align-items:start;}
+.rd-mk-col{background:rgba(251,249,244,.6);border:1px solid var(--line);border-radius:14px;padding:13px;}
+.rd-mk-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--line);}
+.rd-mk-head span{font-family:'Spline Sans Mono',monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);}
+.rd-mk-head b{font-family:'Fraunces',serif;font-size:16px;}
+.rd-mk-card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:11px 12px;margin-bottom:8px;cursor:pointer;transition:.13s;}
+.rd-mk-card:hover{border-color:var(--navy);transform:translateY(-1px);box-shadow:0 6px 18px rgba(22,32,46,.08);}
+.rd-mk-card .nm{font-weight:600;font-size:13.5px;}
+.rd-mk-card .mt{font-size:11.5px;color:var(--ink2);margin:4px 0 7px;line-height:1.4;}
+.rd-dd-sel select{font:inherit;font-size:12px;color:var(--ink2);background:var(--paper2);border:1px solid var(--line);border-radius:7px;padding:4px 8px;cursor:pointer;margin-bottom:8px;}
+.rd-dd-tags{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap;}
+.rd-dd-grid{display:grid;grid-template-columns:1fr 340px;gap:22px;align-items:start;}
+@media(max-width:900px){.rd-dd-grid{grid-template-columns:1fr;}}
+.rd-card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:16px;}
+.rd-card h3{font-family:'Fraunces',serif;font-weight:600;font-size:16px;margin:0 0 9px;}
+.rd-card p{font-size:13.5px;color:var(--ink2);line-height:1.6;margin:0;}
+.rd-card-h{display:flex;justify-content:space-between;align-items:center;margin-bottom:9px;}
+.rd-card-h h3{margin:0;}
+.rd-dd-peers{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;}
+.rd-sig{font-family:'Spline Sans Mono',monospace;font-size:11px;font-weight:600;letter-spacing:.04em;padding:3px 10px;border-radius:6px;text-transform:uppercase;}
+.rd-sig.bullisch{background:rgba(44,110,106,.14);color:var(--bond);}
+.rd-sig.baerisch{background:rgba(154,59,44,.12);color:var(--watch);}
+.rd-sig.neutral{background:rgba(70,84,108,.12);color:var(--ink2);}
+.rd-chart{width:100%;height:200px;display:block;margin:4px 0 8px;}
+.rd-chart-leg{display:flex;gap:16px;font-size:11px;color:var(--ink2);margin-bottom:14px;}
+.rd-chart-leg span{display:flex;align-items:center;gap:5px;}
+.rd-chart-leg i{width:14px;height:3px;border-radius:2px;display:inline-block;}
+.rd-ind{display:grid;grid-template-columns:repeat(3,1fr);gap:10px 16px;margin:4px 0 12px;}
+.rd-ind>div{display:flex;flex-direction:column;}
+.rd-ind span{font-family:'Spline Sans Mono',monospace;font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3);}
+.rd-ind b{font-size:14px;font-variant-numeric:tabular-nums;}
+.rd-sig-note{font-size:11.5px;color:var(--ink3);line-height:1.5;padding-top:12px;border-top:1px solid var(--line);}
+.rd-dd-news{padding:10px 0;border-bottom:1px solid var(--line);}
+.rd-dd-news:last-child{border-bottom:none;}
+.rd-dd-news .r1{display:flex;align-items:center;gap:8px;margin-bottom:5px;}
+.rd-dd-news .dt{font-size:10.5px;color:var(--ink3);font-family:'Spline Sans Mono',monospace;margin-left:auto;}
+.rd-dd-news .ti{font-size:13px;font-weight:600;line-height:1.35;margin-bottom:4px;}
+.rd-dd-news .ti a{color:var(--navy);text-decoration:none;}
+.rd-dd-news p{font-size:12px;color:var(--ink2);line-height:1.45;margin:0;}
+.rd-dd-ev{display:flex;align-items:center;gap:9px;padding:8px 0;border-bottom:1px solid var(--line);font-size:12.5px;}
+.rd-dd-ev:last-child{border-bottom:none;}
+.rd-dd-ev b{font-family:'Spline Sans Mono',monospace;font-size:11px;white-space:nowrap;}
+.rd-dd-ev span:nth-child(2){flex:1;color:var(--ink2);}
+.rd-dd-ev .ty{font-size:8.5px;font-family:'Spline Sans Mono',monospace;text-transform:uppercase;padding:1px 6px;border-radius:4px;color:#fff;}
+.rd-tech-tbl{width:100%;border-collapse:collapse;}
+.rd-tech-tbl thead th{font-family:'Spline Sans Mono',monospace;font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);text-align:left;padding:0 12px 10px;font-weight:600;border-bottom:1px solid var(--line);}
+.rd-tech-tbl tbody tr{background:var(--card);cursor:pointer;transition:.12s;}
+.rd-tech-tbl tbody tr:hover{background:#fff;box-shadow:0 4px 14px rgba(22,32,46,.06);}
+.rd-tech-tbl td{padding:12px;border-bottom:1px solid var(--line);font-size:13px;vertical-align:middle;}
+.rd-tech-tbl .nm{font-weight:600;font-size:13.5px;margin-bottom:4px;}
+.rd-tech-tbl .num{font-variant-numeric:tabular-nums;}
+.rd-tech-tbl .pos{color:var(--bond);font-weight:500;}
+.rd-tech-tbl .neg{color:var(--watch);font-weight:500;}
+@media(max-width:760px){.rd-tech-tbl{font-size:11px;}.rd-tech-tbl th:nth-child(6),.rd-tech-tbl td:nth-child(6),.rd-tech-tbl th:nth-child(7),.rd-tech-tbl td:nth-child(7){display:none;}}
+.rd-su-stats{display:flex;gap:22px;align-items:center;flex-wrap:wrap;margin-bottom:16px;}
+.rd-su-stats>span{font-size:12.5px;color:var(--ink2);font-family:'Spline Sans Mono',monospace;}
+.rd-su-stats>span b{font-family:'Fraunces',serif;font-size:18px;color:var(--ink);margin-right:4px;}
+.rd-su-search{margin-left:auto;padding:8px 13px;border:1px solid var(--line);border-radius:9px;background:var(--paper2);font:inherit;font-size:13px;color:var(--ink);outline:none;min-width:180px;}
+.rd-su-list{display:flex;flex-direction:column;gap:8px;}
+.rd-su-row{display:grid;grid-template-columns:1.1fr 1.7fr 1.5fr 40px;gap:16px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 15px;cursor:pointer;transition:.13s;}
+.rd-su-row:hover{border-color:var(--navy);box-shadow:0 6px 20px rgba(22,32,46,.08);}
+.rd-su-row .nm{font-weight:600;font-size:14.5px;}
+.rd-su-row .nm .sym{font-family:'Spline Sans Mono',monospace;font-size:10px;color:var(--ink3);font-weight:500;margin-left:6px;}
+.rd-su-row .tags{display:flex;gap:5px;margin-top:6px;flex-wrap:wrap;}
+.rd-su-row .peers{display:flex;flex-wrap:wrap;gap:5px;}
+.rd-su-row .mkt{font-size:12.5px;color:var(--ink2);line-height:1.45;}
+.rd-edit{opacity:.3;border:1px solid var(--line);background:var(--paper2);border-radius:7px;width:30px;height:30px;cursor:pointer;color:var(--navy);transition:.13s;font-size:13px;}
+.rd-su-row:hover .rd-edit{opacity:1;}
+.rd-edit:hover{background:var(--navy);color:#fff;}
+.rd-su-foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-top:18px;padding-top:14px;border-top:1px solid var(--line);font-size:11.5px;color:var(--ink3);align-items:center;}
+.rd-del{font:inherit;font-size:12.5px;font-weight:500;color:var(--watch);background:transparent;border:1px solid rgba(154,59,44,.3);border-radius:9px;padding:8px 14px;cursor:pointer;}
+.rd-del:hover{background:rgba(154,59,44,.08);}
+@media(max-width:780px){.rd-su-row{grid-template-columns:1fr 36px;}.rd-su-row .peers,.rd-su-row .mkt{grid-column:1 / 2;}}
+.rd-ov{position:fixed;inset:0;background:rgba(20,26,36,.46);backdrop-filter:blur(3px);display:flex;justify-content:flex-end;z-index:60;}
+.rd-panel{width:min(520px,100%);height:100%;background:var(--paper2);box-shadow:-12px 0 40px rgba(0,0,0,.18);padding:28px;overflow-y:auto;}
+.rd-panel h2{font-family:'Fraunces',serif;font-weight:600;font-size:24px;margin:0 0 22px;}
+.rd-field{margin-bottom:17px;}
+.rd-field>label{display:block;font-family:'Spline Sans Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);margin-bottom:7px;font-weight:600;}
+.rd-field input,.rd-field textarea{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;font:inherit;font-size:14px;color:var(--ink);outline:none;}
+.rd-field textarea{resize:vertical;min-height:72px;line-height:1.5;}
+.rd-seg{display:flex;gap:6px;}
+.rd-seg button{flex:1;font:inherit;font-size:13px;font-weight:500;padding:9px;border:1px solid var(--line);background:#fff;border-radius:8px;cursor:pointer;color:var(--ink2);}
+.rd-seg button.on{background:var(--navy);border-color:var(--navy);color:#fff;}
+.rd-cwrap{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px;}
+.rd-cchip{display:inline-flex;align-items:center;gap:6px;font-size:13px;padding:5px 6px 5px 11px;background:#fff;border:1px solid var(--line);border-radius:999px;}
+.rd-cchip button{border:none;background:rgba(154,59,44,.1);color:var(--watch);width:18px;height:18px;border-radius:50%;cursor:pointer;}
+.rd-cadd{display:flex;gap:8px;}
+.rd-cadd input{flex:1;}
+.rd-hint{font-size:11.5px;color:var(--ink2);margin-top:6px;}
+.rd-hint.warn{color:var(--watch);}
+.rd-actions{display:flex;gap:10px;margin-top:24px;padding-top:18px;border-top:1px solid var(--line);}
+.rd-actions .rd-btn{flex:1;justify-content:center;}
+.rd-foot{max-width:1200px;margin:0 auto;padding:18px 24px 36px;font-size:11px;color:var(--ink3);border-top:1px solid var(--line);}
+.fade{animation:fade .4s ease both;}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+`}</style>; }
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App/>);
+</script>
+</body>
+</html>

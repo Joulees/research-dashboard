@@ -1,0 +1,45 @@
+name: Taeglicher Research-Refresh
+
+# Laeuft automatisch jeden Tag um 07:00 Wiener Zeit und auf Knopfdruck.
+# Cron in GitHub Actions ist UTC. 05:00 UTC = 07:00 MESZ (Sommer) bzw. 06:00 MEZ (Winter).
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch: {}     # manueller Start ueber den "Run workflow"-Button
+
+permissions:
+  contents: write           # noetig, um snapshot.json zurueck ins Repo zu committen
+
+concurrency:
+  group: research-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Datensammler ausfuehren
+        env:
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/research.py
+
+      - name: Snapshot committen (falls geaendert)
+        run: |
+          git config user.name  "research-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data/snapshot.json
+          if git diff --staged --quiet; then
+            echo "Keine Aenderungen am Snapshot."
+          else
+            git commit -m "Daten-Refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
