@@ -1,9 +1,38 @@
 {
- "generatedAt": "2026-05-29T14:21:04+00:00",
+ "generatedAt": "2026-05-29T14:24:17+00:00",
  "companies": {
   "1": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 1,
+     "company": "Metro Bank"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 1,
+     "company": "Metro Bank"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 1,
+     "company": "Metro Bank"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 1,
+     "company": "Metro Bank"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -12,7 +41,36 @@
   },
   "2": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 2,
+     "company": "Chapters"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 2,
+     "company": "Chapters"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 2,
+     "company": "Chapters"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 2,
+     "company": "Chapters"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -21,7 +79,36 @@
   },
   "3": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 3,
+     "company": "International Petroleum"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 3,
+     "company": "International Petroleum"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 3,
+     "company": "International Petroleum"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 3,
+     "company": "International Petroleum"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -30,7 +117,36 @@
   },
   "4": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 4,
+     "company": "Borr"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 4,
+     "company": "Borr"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 4,
+     "company": "Borr"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 4,
+     "company": "Borr"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -39,7 +155,36 @@
   },
   "5": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 5,
+     "company": "Mineral Resources"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 5,
+     "company": "Mineral Resources"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 5,
+     "company": "Mineral Resources"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 5,
+     "company": "Mineral Resources"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -48,7 +193,36 @@
   },
   "6": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 6,
+     "company": "Ubisoft"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 6,
+     "company": "Ubisoft"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 6,
+     "company": "Ubisoft"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 6,
+     "company": "Ubisoft"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -57,7 +231,36 @@
   },
   "7": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 7,
+     "company": "Grenke"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 7,
+     "company": "Grenke"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 7,
+     "company": "Grenke"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 7,
+     "company": "Grenke"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -66,7 +269,36 @@
   },
   "8": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 8,
+     "company": "Prosus"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 8,
+     "company": "Prosus"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 8,
+     "company": "Prosus"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 8,
+     "company": "Prosus"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -84,7 +316,36 @@
   },
   "10": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 10,
+     "company": "XPO"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 10,
+     "company": "XPO"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 10,
+     "company": "XPO"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 10,
+     "company": "XPO"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -93,7 +354,36 @@
   },
   "11": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 11,
+     "company": "Graphic Packaging"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 11,
+     "company": "Graphic Packaging"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 11,
+     "company": "Graphic Packaging"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 11,
+     "company": "Graphic Packaging"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -102,7 +392,36 @@
   },
   "12": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 12,
+     "company": "Post Holdings"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 12,
+     "company": "Post Holdings"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 12,
+     "company": "Post Holdings"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 12,
+     "company": "Post Holdings"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -111,7 +430,36 @@
   },
   "13": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 13,
+     "company": "Da Vita"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 13,
+     "company": "Da Vita"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 13,
+     "company": "Da Vita"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 13,
+     "company": "Da Vita"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -120,7 +468,36 @@
   },
   "14": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 14,
+     "company": "Eurofins Scientific"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 14,
+     "company": "Eurofins Scientific"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 14,
+     "company": "Eurofins Scientific"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 14,
+     "company": "Eurofins Scientific"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -129,7 +506,36 @@
   },
   "15": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 15,
+     "company": "Brookfield Corp"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 15,
+     "company": "Brookfield Corp"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 15,
+     "company": "Brookfield Corp"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 15,
+     "company": "Brookfield Corp"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -138,7 +544,36 @@
   },
   "16": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 16,
+     "company": "BAWAG"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 16,
+     "company": "BAWAG"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 16,
+     "company": "BAWAG"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 16,
+     "company": "BAWAG"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -147,7 +582,36 @@
   },
   "17": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 17,
+     "company": "Kaspi.kz"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 17,
+     "company": "Kaspi.kz"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 17,
+     "company": "Kaspi.kz"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 17,
+     "company": "Kaspi.kz"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -156,8 +620,149 @@
   },
   "18": {
    "news": [],
-   "events": [],
-   "tech": null,
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 18,
+     "company": "Amazon"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 18,
+     "company": "Amazon"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 18,
+     "company": "Amazon"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 18,
+     "company": "Amazon"
+    }
+   ],
+   "tech": {
+    "currency": "USD",
+    "closes": [
+     242.6,
+     236.65,
+     238.18,
+     239.12,
+     231.0,
+     231.31,
+     234.34,
+     239.16,
+     238.42,
+     244.68,
+     243.01,
+     241.73,
+     239.3,
+     242.96,
+     238.62,
+     232.99,
+     222.69,
+     210.32,
+     208.72,
+     206.96,
+     204.08,
+     199.6,
+     198.79,
+     201.15,
+     204.79,
+     204.86,
+     210.11,
+     205.27,
+     208.56,
+     210.64,
+     207.92,
+     210.0,
+     208.39,
+     208.73,
+     216.82,
+     218.94,
+     213.21,
+     213.49,
+     214.33,
+     212.65,
+     209.53,
+     207.67,
+     211.74,
+     215.2,
+     209.87,
+     208.76,
+     205.37,
+     210.14,
+     207.24,
+     211.71,
+     207.54,
+     199.34,
+     200.95,
+     208.27,
+     210.57,
+     209.77,
+     212.79,
+     213.77,
+     221.25,
+     233.65,
+     238.38,
+     239.89,
+     249.02,
+     248.5,
+     249.7,
+     250.56,
+     248.28,
+     249.91,
+     255.36,
+     255.08,
+     263.99,
+     261.12,
+     259.7,
+     263.04,
+     265.06,
+     268.26,
+     272.05,
+     273.55,
+     274.99,
+     271.17,
+     272.68,
+     268.99,
+     265.82,
+     270.13,
+     267.22,
+     264.14,
+     264.86,
+     259.34,
+     265.01,
+     268.46,
+     266.32,
+     265.29,
+     271.85,
+     274.0,
+     271.73
+    ],
+    "price": 271.73,
+    "sma50": 246.69,
+    "sma200": null,
+    "rsi": 49,
+    "macd": "baerisch",
+    "high": 274.99,
+    "low": 198.79,
+    "score": 0,
+    "label": "Neutral",
+    "reasons": [
+     "Kurs ueber SMA50",
+     "MACD unter Signallinie"
+    ]
+   },
    "profile": {
     "businessModel": "",
     "differentiation": ""
@@ -165,7 +770,36 @@
   },
   "19": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 19,
+     "company": "MTY Food"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 19,
+     "company": "MTY Food"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 19,
+     "company": "MTY Food"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 19,
+     "company": "MTY Food"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -174,8 +808,150 @@
   },
   "20": {
    "news": [],
-   "events": [],
-   "tech": null,
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 20,
+     "company": "Microsoft"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 20,
+     "company": "Microsoft"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 20,
+     "company": "Microsoft"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 20,
+     "company": "Microsoft"
+    }
+   ],
+   "tech": {
+    "currency": "USD",
+    "closes": [
+     470.67,
+     459.38,
+     456.66,
+     459.86,
+     454.52,
+     444.11,
+     451.14,
+     465.95,
+     470.28,
+     480.58,
+     481.63,
+     433.5,
+     430.29,
+     423.37,
+     411.21,
+     414.19,
+     393.67,
+     401.14,
+     413.6,
+     413.27,
+     404.37,
+     401.84,
+     401.32,
+     396.86,
+     399.6,
+     398.46,
+     397.23,
+     384.47,
+     389.0,
+     400.6,
+     401.72,
+     392.74,
+     398.55,
+     403.93,
+     405.2,
+     410.68,
+     408.96,
+     409.41,
+     405.76,
+     404.88,
+     401.86,
+     395.55,
+     399.95,
+     399.41,
+     391.79,
+     389.02,
+     381.87,
+     383.0,
+     372.74,
+     371.04,
+     365.97,
+     356.77,
+     358.96,
+     370.17,
+     369.37,
+     373.46,
+     372.88,
+     372.29,
+     374.33,
+     373.07,
+     370.87,
+     384.37,
+     393.11,
+     411.22,
+     420.26,
+     422.79,
+     418.07,
+     424.16,
+     432.92,
+     415.75,
+     424.62,
+     424.82,
+     429.25,
+     424.46,
+     407.78,
+     414.44,
+     413.62,
+     411.38,
+     413.96,
+     420.77,
+     415.12,
+     412.66,
+     407.77,
+     405.21,
+     409.43,
+     421.92,
+     423.54,
+     417.42,
+     421.06,
+     419.09,
+     418.57,
+     416.03,
+     412.67,
+     426.99,
+     438.32
+    ],
+    "price": 438.32,
+    "sma50": 402.59,
+    "sma200": null,
+    "rsi": 66,
+    "macd": "bullisch",
+    "high": 481.63,
+    "low": 356.77,
+    "score": 1,
+    "label": "Neutral",
+    "reasons": [
+     "Kurs ueber SMA50",
+     "MACD ueber Signallinie",
+     "ueber oberem Bollinger-Band"
+    ]
+   },
    "profile": {
     "businessModel": "",
     "differentiation": ""
@@ -183,7 +959,36 @@
   },
   "21": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 21,
+     "company": "Reply SpA"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 21,
+     "company": "Reply SpA"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 21,
+     "company": "Reply SpA"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 21,
+     "company": "Reply SpA"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -192,8 +997,149 @@
   },
   "22": {
    "news": [],
-   "events": [],
-   "tech": null,
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 22,
+     "company": "Meta"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 22,
+     "company": "Meta"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 22,
+     "company": "Meta"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 22,
+     "company": "Meta"
+    }
+   ],
+   "tech": {
+    "currency": "USD",
+    "closes": [
+     631.09,
+     615.52,
+     620.8,
+     620.25,
+     604.12,
+     612.96,
+     647.63,
+     658.76,
+     672.36,
+     672.97,
+     668.73,
+     738.31,
+     716.5,
+     706.41,
+     691.7,
+     668.99,
+     670.21,
+     661.46,
+     677.22,
+     670.72,
+     668.69,
+     649.81,
+     639.77,
+     639.29,
+     643.22,
+     644.78,
+     655.66,
+     637.25,
+     639.3,
+     653.69,
+     657.01,
+     648.18,
+     653.56,
+     655.08,
+     667.73,
+     660.57,
+     644.86,
+     647.39,
+     654.07,
+     654.86,
+     638.18,
+     613.71,
+     627.45,
+     622.66,
+     615.68,
+     606.7,
+     593.66,
+     604.06,
+     592.92,
+     594.89,
+     547.54,
+     525.72,
+     536.38,
+     572.13,
+     579.23,
+     574.46,
+     573.02,
+     575.05,
+     612.42,
+     628.39,
+     629.86,
+     634.53,
+     662.49,
+     671.58,
+     676.87,
+     688.55,
+     670.91,
+     668.84,
+     674.72,
+     659.15,
+     675.03,
+     678.62,
+     671.34,
+     669.12,
+     611.91,
+     608.75,
+     610.41,
+     604.96,
+     612.88,
+     616.81,
+     609.63,
+     598.86,
+     603.0,
+     616.63,
+     618.43,
+     614.23,
+     611.21,
+     602.61,
+     605.06,
+     607.38,
+     610.26,
+     612.34,
+     635.26,
+     635.29,
+     625.605
+    ],
+    "price": 625.61,
+    "sma50": 618.39,
+    "sma200": null,
+    "rsi": 59,
+    "macd": "bullisch",
+    "high": 738.31,
+    "low": 525.72,
+    "score": 2,
+    "label": "Bullisch",
+    "reasons": [
+     "Kurs ueber SMA50",
+     "MACD ueber Signallinie"
+    ]
+   },
    "profile": {
     "businessModel": "",
     "differentiation": ""
@@ -201,7 +1147,36 @@
   },
   "23": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 23,
+     "company": "Watches of Switzerland"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 23,
+     "company": "Watches of Switzerland"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 23,
+     "company": "Watches of Switzerland"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 23,
+     "company": "Watches of Switzerland"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -210,7 +1185,36 @@
   },
   "24": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 24,
+     "company": "Amcor"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 24,
+     "company": "Amcor"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 24,
+     "company": "Amcor"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 24,
+     "company": "Amcor"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -219,7 +1223,36 @@
   },
   "25": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 25,
+     "company": "AerCap Holdings"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 25,
+     "company": "AerCap Holdings"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 25,
+     "company": "AerCap Holdings"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 25,
+     "company": "AerCap Holdings"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -228,7 +1261,36 @@
   },
   "26": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 26,
+     "company": "OSB Group"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 26,
+     "company": "OSB Group"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 26,
+     "company": "OSB Group"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 26,
+     "company": "OSB Group"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -237,7 +1299,36 @@
   },
   "27": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 27,
+     "company": "Linamar Corp"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 27,
+     "company": "Linamar Corp"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 27,
+     "company": "Linamar Corp"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 27,
+     "company": "Linamar Corp"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -246,7 +1337,36 @@
   },
   "28": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 28,
+     "company": "MTU Aero Engines"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 28,
+     "company": "MTU Aero Engines"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 28,
+     "company": "MTU Aero Engines"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 28,
+     "company": "MTU Aero Engines"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -255,7 +1375,36 @@
   },
   "29": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 29,
+     "company": "Vistry"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 29,
+     "company": "Vistry"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 29,
+     "company": "Vistry"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 29,
+     "company": "Vistry"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -264,8 +1413,150 @@
   },
   "30": {
    "news": [],
-   "events": [],
-   "tech": null,
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 30,
+     "company": "HCA Healthcare"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 30,
+     "company": "HCA Healthcare"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 30,
+     "company": "HCA Healthcare"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 30,
+     "company": "HCA Healthcare"
+    }
+   ],
+   "tech": {
+    "currency": "USD",
+    "closes": [
+     479.32,
+     478.84,
+     483.8,
+     469.29,
+     464.38,
+     465.44,
+     466.34,
+     470.88,
+     472.38,
+     505.84,
+     491.23,
+     482.53,
+     488.27,
+     496.85,
+     499.21,
+     493.64,
+     513.76,
+     501.69,
+     497.54,
+     501.91,
+     531.47,
+     535.22,
+     540.29,
+     534.78,
+     535.02,
+     528.66,
+     532.3,
+     535.97,
+     526.52,
+     540.57,
+     525.88,
+     529.7,
+     532.92,
+     541.8,
+     544.41,
+     534.47,
+     532.81,
+     545.13,
+     537.64,
+     537.28,
+     532.58,
+     532.97,
+     525.19,
+     509.87,
+     502.05,
+     499.68,
+     493.88,
+     494.58,
+     485.72,
+     484.02,
+     480.32,
+     471.85,
+     467.83,
+     473.24,
+     474.75,
+     471.84,
+     483.92,
+     489.58,
+     505.12,
+     507.19,
+     495.47,
+     497.42,
+     498.66,
+     488.58,
+     482.97,
+     488.0,
+     478.13,
+     471.18,
+     471.34,
+     474.03,
+     432.46,
+     445.82,
+     431.92,
+     434.78,
+     434.45,
+     433.09,
+     427.18,
+     428.79,
+     429.45,
+     429.02,
+     435.19,
+     426.37,
+     429.69,
+     427.54,
+     432.7,
+     423.0,
+     422.79,
+     404.69,
+     396.67,
+     392.56,
+     394.07,
+     392.42,
+     392.15,
+     384.39,
+     386.79
+    ],
+    "price": 386.79,
+    "sma50": 451.95,
+    "sma200": null,
+    "rsi": 17,
+    "macd": "baerisch",
+    "high": 545.13,
+    "low": 384.39,
+    "score": -1,
+    "label": "Neutral",
+    "reasons": [
+     "Kurs unter SMA50",
+     "MACD unter Signallinie",
+     "RSI ueberverkauft (<30)"
+    ]
+   },
    "profile": {
     "businessModel": "",
     "differentiation": ""
@@ -273,7 +1564,36 @@
   },
   "31": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 31,
+     "company": "Tencent"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 31,
+     "company": "Tencent"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 31,
+     "company": "Tencent"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 31,
+     "company": "Tencent"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -282,7 +1602,36 @@
   },
   "32": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 32,
+     "company": "Salesforce"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 32,
+     "company": "Salesforce"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 32,
+     "company": "Salesforce"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 32,
+     "company": "Salesforce"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -291,7 +1640,36 @@
   },
   "33": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 33,
+     "company": "goeasy"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 33,
+     "company": "goeasy"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 33,
+     "company": "goeasy"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 33,
+     "company": "goeasy"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -300,7 +1678,36 @@
   },
   "34": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 34,
+     "company": "S&P Global"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 34,
+     "company": "S&P Global"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 34,
+     "company": "S&P Global"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 34,
+     "company": "S&P Global"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -309,7 +1716,36 @@
   },
   "35": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 35,
+     "company": "NewPrinces"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 35,
+     "company": "NewPrinces"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 35,
+     "company": "NewPrinces"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 35,
+     "company": "NewPrinces"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -318,7 +1754,36 @@
   },
   "36": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 36,
+     "company": "Adyen"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 36,
+     "company": "Adyen"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 36,
+     "company": "Adyen"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 36,
+     "company": "Adyen"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -327,7 +1792,36 @@
   },
   "37": {
    "news": [],
-   "events": [],
+   "events": [
+    {
+     "date": "2026-09-04",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 37,
+     "company": "Tronox"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 37,
+     "company": "Tronox"
+    },
+    {
+     "date": "2026-08-28",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 37,
+     "company": "Tronox"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Earnings / Quartalszahlen",
+     "type": "Earnings",
+     "companyId": 37,
+     "company": "Tronox"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -336,5 +1830,1014 @@
   }
  },
  "news": [],
- "events": []
+ "events": [
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 1,
+   "company": "Metro Bank"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 2,
+   "company": "Chapters"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 3,
+   "company": "International Petroleum"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 4,
+   "company": "Borr"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 5,
+   "company": "Mineral Resources"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 6,
+   "company": "Ubisoft"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 7,
+   "company": "Grenke"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 8,
+   "company": "Prosus"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 10,
+   "company": "XPO"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 11,
+   "company": "Graphic Packaging"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 12,
+   "company": "Post Holdings"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 13,
+   "company": "Da Vita"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 14,
+   "company": "Eurofins Scientific"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 15,
+   "company": "Brookfield Corp"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 16,
+   "company": "BAWAG"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 17,
+   "company": "Kaspi.kz"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 18,
+   "company": "Amazon"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 19,
+   "company": "MTY Food"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 20,
+   "company": "Microsoft"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 21,
+   "company": "Reply SpA"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 22,
+   "company": "Meta"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 23,
+   "company": "Watches of Switzerland"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 24,
+   "company": "Amcor"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 25,
+   "company": "AerCap Holdings"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 26,
+   "company": "OSB Group"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 27,
+   "company": "Linamar Corp"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 28,
+   "company": "MTU Aero Engines"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 29,
+   "company": "Vistry"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 30,
+   "company": "HCA Healthcare"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 31,
+   "company": "Tencent"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 32,
+   "company": "Salesforce"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 33,
+   "company": "goeasy"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 34,
+   "company": "S&P Global"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 35,
+   "company": "NewPrinces"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 36,
+   "company": "Adyen"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 37,
+   "company": "Tronox"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 1,
+   "company": "Metro Bank"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 2,
+   "company": "Chapters"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 3,
+   "company": "International Petroleum"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 4,
+   "company": "Borr"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 5,
+   "company": "Mineral Resources"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 6,
+   "company": "Ubisoft"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 7,
+   "company": "Grenke"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 8,
+   "company": "Prosus"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 10,
+   "company": "XPO"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 11,
+   "company": "Graphic Packaging"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 12,
+   "company": "Post Holdings"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 13,
+   "company": "Da Vita"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 14,
+   "company": "Eurofins Scientific"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 15,
+   "company": "Brookfield Corp"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 16,
+   "company": "BAWAG"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 17,
+   "company": "Kaspi.kz"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 18,
+   "company": "Amazon"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 19,
+   "company": "MTY Food"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 20,
+   "company": "Microsoft"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 21,
+   "company": "Reply SpA"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 22,
+   "company": "Meta"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 23,
+   "company": "Watches of Switzerland"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 24,
+   "company": "Amcor"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 25,
+   "company": "AerCap Holdings"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 26,
+   "company": "OSB Group"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 27,
+   "company": "Linamar Corp"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 28,
+   "company": "MTU Aero Engines"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 29,
+   "company": "Vistry"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 30,
+   "company": "HCA Healthcare"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 31,
+   "company": "Tencent"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 32,
+   "company": "Salesforce"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 33,
+   "company": "goeasy"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 34,
+   "company": "S&P Global"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 35,
+   "company": "NewPrinces"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 36,
+   "company": "Adyen"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 37,
+   "company": "Tronox"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 1,
+   "company": "Metro Bank"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 2,
+   "company": "Chapters"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 3,
+   "company": "International Petroleum"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 4,
+   "company": "Borr"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 5,
+   "company": "Mineral Resources"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 6,
+   "company": "Ubisoft"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 7,
+   "company": "Grenke"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 8,
+   "company": "Prosus"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 10,
+   "company": "XPO"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 11,
+   "company": "Graphic Packaging"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 12,
+   "company": "Post Holdings"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 13,
+   "company": "Da Vita"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 14,
+   "company": "Eurofins Scientific"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 15,
+   "company": "Brookfield Corp"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 16,
+   "company": "BAWAG"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 17,
+   "company": "Kaspi.kz"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 18,
+   "company": "Amazon"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 19,
+   "company": "MTY Food"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 20,
+   "company": "Microsoft"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 21,
+   "company": "Reply SpA"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 22,
+   "company": "Meta"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 23,
+   "company": "Watches of Switzerland"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 24,
+   "company": "Amcor"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 25,
+   "company": "AerCap Holdings"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 26,
+   "company": "OSB Group"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 27,
+   "company": "Linamar Corp"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 28,
+   "company": "MTU Aero Engines"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 29,
+   "company": "Vistry"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 30,
+   "company": "HCA Healthcare"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 31,
+   "company": "Tencent"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 32,
+   "company": "Salesforce"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 33,
+   "company": "goeasy"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 34,
+   "company": "S&P Global"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 35,
+   "company": "NewPrinces"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 36,
+   "company": "Adyen"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 37,
+   "company": "Tronox"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 1,
+   "company": "Metro Bank"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 2,
+   "company": "Chapters"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 3,
+   "company": "International Petroleum"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 4,
+   "company": "Borr"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 5,
+   "company": "Mineral Resources"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 6,
+   "company": "Ubisoft"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 7,
+   "company": "Grenke"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 8,
+   "company": "Prosus"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 10,
+   "company": "XPO"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 11,
+   "company": "Graphic Packaging"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 12,
+   "company": "Post Holdings"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 13,
+   "company": "Da Vita"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 14,
+   "company": "Eurofins Scientific"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 15,
+   "company": "Brookfield Corp"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 16,
+   "company": "BAWAG"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 17,
+   "company": "Kaspi.kz"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 18,
+   "company": "Amazon"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 19,
+   "company": "MTY Food"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 20,
+   "company": "Microsoft"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 21,
+   "company": "Reply SpA"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 22,
+   "company": "Meta"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 23,
+   "company": "Watches of Switzerland"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 24,
+   "company": "Amcor"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 25,
+   "company": "AerCap Holdings"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 26,
+   "company": "OSB Group"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 27,
+   "company": "Linamar Corp"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 28,
+   "company": "MTU Aero Engines"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 29,
+   "company": "Vistry"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 30,
+   "company": "HCA Healthcare"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 31,
+   "company": "Tencent"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 32,
+   "company": "Salesforce"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 33,
+   "company": "goeasy"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 34,
+   "company": "S&P Global"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 35,
+   "company": "NewPrinces"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 36,
+   "company": "Adyen"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Earnings / Quartalszahlen",
+   "type": "Earnings",
+   "companyId": 37,
+   "company": "Tronox"
+  }
+ ]
 }
