@@ -463,17 +463,40 @@ def summarize_news(name, news):
 
 
 # ----------------------------- Hauptlauf -----------------------------
-def process_company(c):
-    """Sammelt News, Kurse und IR-Events fuer EINEN Titel (thread-sicher, keine globalen Writes)."""
+def _news_key(n):
+    """Stabiler Schluessel zum Wiedererkennen einer Meldung zwischen Laeufen."""
+    return n.get("url") or (str(n.get("companyId", "")) + "|" + n.get("title", ""))
+
+
+def process_company(c, prev_entry=None, run_stamp=None):
+    """Sammelt News, Kurse und IR-Events fuer EINEN Titel.
+    Inkrementell: bereits bekannte News werden 1:1 uebernommen (keine erneute KI-Summary);
+    nur WIRKLICH NEUE Meldungen gehen an Claude und werden mit firstSeen=run_stamp markiert."""
     cid, name, sym = c["id"], c["name"], c.get("symbol")
     entry = {"news": [], "events": [], "tech": None,
-             "profile": {"businessModel": "", "differentiation": ""}}
+             "profile": (prev_entry or {}).get("profile", {"businessModel": "", "differentiation": ""})}
 
-    # News (Google-News-RSS) fuer alle Titel
-    raw_news = summarize_news(name, get_news(name, c.get("newsQuery")))
-    for n in raw_news:
+    # Bekannte News aus dem letzten Snapshot indizieren
+    prev_news = {(_news_key(n)): n for n in (prev_entry or {}).get("news", [])}
+
+    fetched = get_news(name, c.get("newsQuery"))
+    known, fresh = [], []
+    for n in fetched:
+        k = _news_key(n)
+        if k in prev_news:
+            known.append(prev_news[k])          # schon zusammengefasst -> unveraendert uebernehmen
+        else:
+            fresh.append(n)                      # neu -> gleich zusammenfassen
+
+    if fresh:
+        fresh = summarize_news(name, fresh)
+        for n in fresh:
+            n["firstSeen"] = run_stamp           # markiert die Meldung als "neu in diesem Lauf"
+    for n in (known + fresh):
         n.update({"companyId": cid, "company": name, "asset": c["asset"], "status": c["status"]})
-    entry["news"] = raw_news
+    # neueste zuerst, auf 8 begrenzen
+    alln = sorted(known + fresh, key=lambda n: n.get("date", ""), reverse=True)[:8]
+    entry["news"] = alln
 
     # Kurse via FMP (nur mit Symbol)
     if sym:
@@ -486,8 +509,8 @@ def process_company(c):
         e.update({"companyId": cid, "company": name})
         entry["events"].append(e)
 
-    print(f"   fertig: {name} — {len(entry['news'])} News, {len(entry['events'])} Events,"
-          f" {'Kurs' if entry['tech'] else 'kein Kurs'}")
+    print(f"   fertig: {name} — {len(alln)} News ({len(fresh)} neu), "
+          f"{len(entry['events'])} Events, {'Kurs' if entry['tech'] else 'kein Kurs'}")
     return cid, entry
 
 
@@ -499,21 +522,29 @@ def main():
     with open(COMPANIES_FILE, encoding="utf-8") as f:
         companies = json.load(f)
 
-    snapshot = {
-        "generatedAt": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-        "companies": {}, "news": [], "events": [],
-    }
+    # Vorherigen Snapshot laden (fuer inkrementelle News -> spart Tokens)
+    prev = {}
+    try:
+        with open(OUT_FILE, encoding="utf-8") as f:
+            prev = json.load(f).get("companies", {})
+    except Exception:
+        prev = {}
 
-    # Titel parallel verarbeiten -> deutlich schneller als sequentiell
+    run_stamp = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+    snapshot = {"generatedAt": run_stamp, "companies": {}, "news": [], "events": []}
+
     from concurrent.futures import ThreadPoolExecutor
-    print(f"Verarbeite {len(companies)} Titel parallel …")
+    print(f"Verarbeite {len(companies)} Titel parallel (inkrementell) …")
     with ThreadPoolExecutor(max_workers=6) as pool:
-        results = list(pool.map(process_company, companies))
+        results = list(pool.map(
+            lambda c: process_company(c, prev.get(str(c["id"])), run_stamp), companies))
 
+    new_count = 0
     for cid, entry in results:
         snapshot["companies"][str(cid)] = entry
         snapshot["news"].extend(entry["news"])
         snapshot["events"].extend(entry["events"])
+        new_count += sum(1 for n in entry["news"] if n.get("firstSeen") == run_stamp)
 
     snapshot["news"].sort(key=lambda n: n.get("date", ""), reverse=True)
     snapshot["events"].sort(key=lambda e: e.get("date", ""))
@@ -522,8 +553,8 @@ def main():
     with open(OUT_FILE, "w", encoding="utf-8") as f:
         json.dump(snapshot, f, ensure_ascii=False, indent=1)
 
-    print(f"\nFertig: {len(snapshot['news'])} News, {len(snapshot['events'])} Events "
-          f"-> {os.path.relpath(OUT_FILE, ROOT)}")
+    print(f"\nFertig: {len(snapshot['news'])} News ({new_count} neu in diesem Lauf), "
+          f"{len(snapshot['events'])} Events -> {os.path.relpath(OUT_FILE, ROOT)}")
 
     have_tech = sum(1 for e in snapshot["companies"].values() if e.get("tech"))
     print(f"Kursdaten vorhanden fuer {have_tech} Titel.")
