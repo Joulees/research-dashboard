@@ -17,6 +17,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Repo auschecken
         uses: actions/checkout@v4
