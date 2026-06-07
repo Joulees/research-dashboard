@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-07T04:55:52+00:00",
+ "generatedAt": "2026-06-07T06:41:36+00:00",
  "companies": {
   "1": {
    "news": [],
@@ -13,6 +13,19 @@
   },
   "2": {
    "news": [
+    {
+     "date": "2026-06-04",
+     "title": "Chapters Health System Named as a 2026 Top Workplace for Nursing",
+     "summary": "Chapters Health System Named as a 2026 Top Workplace for Nursing PR Newswire",
+     "source": "PR Newswire",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQenJmMERKT2hMdlBlU3VlLXAwcHJtREZPU3BhTHp6RWIwRWl3amtjN0RMemh2T0pCeTliX1pyYlNhQVJNZlFkN0tZTFA1REo1bnlSSDA5ZkVXM2xzWS01X2IwekZHV3pGTGE3UzNtTUhrSjNoZkN3dXVYX3dWVHlsOGUwZllNZlRGb2tyZlc2RVpaVEctXzYwN2c1eGpoakRhWGoyZi1TQW9GTkJjQ1pReEh3TzZFUWQzR1J4TA?oc=5",
+     "category": "Sonstiges",
+     "firstSeen": "2026-06-07T06:41:36+00:00",
+     "companyId": 2,
+     "company": "Chapters",
+     "asset": "Anleihen",
+     "status": "Portfolio"
+    },
     {
      "date": "2026-05-21",
      "title": "2025-2026 Tri-M® Music Honor Society National and State Chapters of the Year Announced",
@@ -890,19 +903,6 @@
      "status": "Portfolio"
     },
     {
-     "date": "2026-05-31",
-     "title": "The High-Stakes Hunt for the Next Amazon in the AI Haystack",
-     "summary": "The High-Stakes Hunt for the Next Amazon in the AI Haystack WSJ",
-     "source": "WSJ",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZmJlTUVuQ3ZnN3NhVDdMZF9xTVpnZVBESjcxRmtLb3lpTHp0ZzZPOVFyWkZRbTlIcUZZQmZ4dXZIWmRSRDZMTzJXTEtrS1MxUzRpMGhMZEVvTktSQldGZmlSVWdpRVJOTjQ2Y1RZeGJycXBhUTJMenNoZXFYMWNGN0RDVFg4Z1VSOElKMDl5TXVCWGtSRVZXZjJWY08?oc=5",
-     "category": "M&A",
-     "firstSeen": "2026-06-06T04:19:57+00:00",
-     "companyId": 18,
-     "company": "Amazon",
-     "asset": "Aktien",
-     "status": "Portfolio"
-    },
-    {
      "date": "2026-05-27",
      "title": "Snowflake rockets 36% on earnings beat and plan to spend $6 billion on Amazon cloud",
      "summary": "Snowflake rockets 36% on earnings beat and plan to spend $6 billion on Amazon cloud CNBC",
@@ -1429,6 +1429,32 @@
   "22": {
    "news": [
     {
+     "date": "2026-06-05",
+     "title": "Meta Considers Raising Billions in Share Sale, FT Reports",
+     "summary": "Meta Considers Raising Billions in Share Sale, FT Reports Bloomberg",
+     "source": "Bloomberg",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaFhZRkpXQnBRajRLWmNWQkFCZTU2T2UzVXZOS09NRjFycU4tcXhjc00wbEg5ZDZsOTk5azlhYTVZWU05ejVIMUJjM1FMRjNBU1Z6Sy1rck41Mk5JdWxKdjlwTWhid1pTRnNsbXlaWVBCYzJ5cWJlZFd4aDhCUjBPXzNnUkRERUI2R2xmbHp3bGJHeFk3bnY5LXdpdVNqUGotQWtfSlREUnZWT0k?oc=5",
+     "category": "Markt",
+     "firstSeen": "2026-06-07T06:41:36+00:00",
+     "companyId": 22,
+     "company": "Meta",
+     "asset": "Aktien",
+     "status": "Portfolio"
+    },
+    {
+     "date": "2026-06-03",
+     "title": "Meta shares defy tech weakness thanks to an update that fights the bear case",
+     "summary": "Meta shares defy tech weakness thanks to an update that fights the bear case CNBC",
+     "source": "CNBC",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWXhSU3Q4UmdtaHJSc0FCUTJINm1YQm1Nd2F4UlFNbktnWl9RVXN2dG85S1V4ZXBVQ21ibXI2cWhsZWJmVTJpY0dkRjViVVl4YWNzV09weVViLVJSbGp5OURVbXVReEk1YjRoakFXXzFqbGRRMTNOanlWRlhza2FwQlZwLThYa1VlVzdieVpQUGZpSGoxaTAzVjR4cnRuZF83U28zTW85LUgyR3o0WTZKYXczNA?oc=5",
+     "category": "Earnings",
+     "firstSeen": "2026-06-07T06:41:36+00:00",
+     "companyId": 22,
+     "company": "Meta",
+     "asset": "Aktien",
+     "status": "Portfolio"
+    },
+    {
      "date": "2026-05-27",
      "title": "Meta Stock Jumps Nearly 4% As It Launches Premium Facebook, Instagram Subscriptions",
      "summary": "Meta Stock Jumps Nearly 4% As It Launches Premium Facebook, Instagram Subscriptions Forbes",
@@ -1471,18 +1497,6 @@
      "summary": "Zuckerberg's Meta layoffs memo: 'Success isn't a given' in the AI era CNBC",
      "source": "CNBC",
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOEFoWUdIMTFJaWtwM3pCdUltTmZlOWRHTkIzVFZndWF5WUlSUnJmSkxBTUVyOXVGUE1weGw0UG9QaG9yeUJzc0l0dnpIZnVwcVJWN0pNTTUzZWpHaWxyb0M2UXNJTEJsQk4zLU16RkZOblhjUklfcVU1OWxkZHZMVjh3ZWxxVkJOeUFSUDRJRTBVdmFqSnNIVnpB0gGfAUFVX3lxTE5ra0M5dXhnWnA5RWllVUZ4Y2ZsRnh0OGNRRTVmcmczY0w4SE5Jclc5ZnRPMVpMTlkwUXYxN1BpWU9BMXdXT2RHbUxqdW83bjgtZTdvWDNuUFhnLW5fcW9DYkZ1b1ZWa3B1WnU2a1RTSmw3VTBjd0xraEgxMHpzTkJDcW9DNFdrVkw5LVFMQVlab25QYnRzeFNZVzR5d05hSQ?oc=5",
-     "category": "Markt",
-     "companyId": 22,
-     "company": "Meta",
-     "asset": "Aktien",
-     "status": "Portfolio"
-    },
-    {
-     "date": "2026-05-18",
-     "title": "Exclusive: Meta lays out details of May 20 restructuring in internal document",
-     "summary": "Exclusive: Meta lays out details of May 20 restructuring in internal document Reuters",
-     "source": "Reuters",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeU9uWEUtam15N0pKQzdxSGZBOGVhZG84V3BETV9USHJsSjhmSThFSE5Cd3FfeGMzeUZneWxyemRqNjF4Sjc4clRPeDdMUzBud19OYzBnWENaLVQwRnBiNUZTYUlNU01qd1NYdFNqZk5MZW1QTXRCdWwxLTdndTdyTm1lR2dCRmtrYl9ybEVacXV4dDRhQ1kwcUdqeXBxeEkwYVNKWjJlSkRMWVBscnhpQndJUQ?oc=5",
      "category": "Markt",
      "companyId": 22,
      "company": "Meta",
@@ -1817,6 +1831,19 @@
   "24": {
    "news": [
     {
+     "date": "2026-05-20",
+     "title": "Amcor launches global call for startups for Amcor Lift-Off -- Rigids challenge",
+     "summary": "Amcor launches global call for startups for Amcor Lift-Off -- Rigids challenge PR Newswire",
+     "source": "PR Newswire",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTnI2djZENjlpbUNEN1B5ZDljTlphNTFZdEViOEhYaDdNdUM0eTZWaU0zTXBxRTFZRVdjMXgyMzJCYjg5SXpqX0JaSm9SWDRSNnBic0FQZVVvR3o4cGNWYkUxVVZtelNsc0JpbGNxdkhMMTk3MmpaR2hQVVRNYVhxYUJpQnlKbG9YOHBlNmxWcWZqelhSVmxnUjZzYVhNUFRwOVZLT200YjZJTkI1OUhMdnR6WU9LbmQ3SHZ5bWw1X0xBakJQVENXdi15Y1Y?oc=5",
+     "category": "Sonstiges",
+     "firstSeen": "2026-06-07T06:41:36+00:00",
+     "companyId": 24,
+     "company": "Amcor",
+     "asset": "Aktien",
+     "status": "Portfolio"
+    },
+    {
      "date": "2026-05-11",
      "title": "Amcor achieves CNAS accreditation in China, speeding customer access to global markets",
      "summary": "Amcor achieves CNAS accreditation in China, speeding customer access to global markets PR Newswire",
@@ -2048,19 +2075,6 @@
   },
   "29": {
    "news": [
-    {
-     "date": "2026-06-02",
-     "title": "Vistry appoints Kate Rust as Commercial Director in East Anglia",
-     "summary": "Vistry appoints Kate Rust as Commercial Director in East Anglia Peterborough Telegraph",
-     "source": "Peterborough Telegraph",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQkhUVlNGQTVKOW1oRlQ1RFhxdmY4cHN1Y2Z6MkRNSjFjSVAxMFYwY29NNFc2NVZPenpCV1ZfcXg0UHpSMUkwdmk5OGg0U1JMTU5zTFF3dnF2ZkZCWXgxdnNheEZLRktLU2ptNkNycTZlVDc3UXBVSjZQX1dvV0RGakxrVjlxSkdVVmk0ek1SYm9KekNRNHZSenBmaHVaNF9QYzhQalhlQ0Vvc3JFcmdCQWF6aFpoX0lCanc?oc=5",
-     "category": "Markt",
-     "firstSeen": "2026-06-05T12:36:11+00:00",
-     "companyId": 29,
-     "company": "Vistry",
-     "asset": "Aktien",
-     "status": "Portfolio"
-    },
     {
      "date": "2026-05-16",
      "title": "Vistry orders workers to down tools to preserve cash",
@@ -2346,19 +2360,6 @@
      "status": "Portfolio"
     },
     {
-     "date": "2026-05-31",
-     "title": "UBS Reaffirms Their Buy Rating on Tencent Holdings (TCTZF)",
-     "summary": "UBS Reaffirms Their Buy Rating on Tencent Holdings (TCTZF) The Globe and Mail",
-     "source": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPa0lPNGFicUpVMU1mSjkwTDRFaFJVaGs4a3prZS1GTnR2dXJ2WlpZTnF4clJDMlZCUzhIZW1ON1k3R29hVHVWUTZsZkhza2wwMFQwUVJuMDR1eWtveHM5bkdLLXBLUjhUTHFhZ0lrRC1rRzhEQXY1V0VwRmJ0MGhuZExXa1VCdER0RFJRSENVQXU2VHFDeXhzbEpMWkprV0JoRXhZS1pzc0FDR2twLUtPTFZxeVR6b1hBTVN0S0ZBZi15S0FWMk5EeldMS3NhcEpCQ294Vm5OOURJZw?oc=5",
-     "category": "Rating",
-     "firstSeen": "2026-06-05T12:36:11+00:00",
-     "companyId": 31,
-     "company": "Tencent",
-     "asset": "Aktien",
-     "status": "Portfolio"
-    },
-    {
      "date": "2026-05-29",
      "title": "Tencent Rolls Out New AI Tools and Enterprise Solutions for Global Markets at Inaugural Tencent Cloud Day Hong Kong",
      "summary": "Tencent Rolls Out New AI Tools and Enterprise Solutions for Global Markets at Inaugural Tencent Cloud Day Hong Kong PR Newswire",
@@ -2366,6 +2367,19 @@
      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNY2JIQmNHTkxjaUVWY3lNLXEyVW9jZ216Umplbk9ITVVUbkhXb2NtOXJPbno2Rlh1eExsVGFib3ZpQVczaXNDaEFxR3hkYmVSaWlXYzZ4eXNuNzNoUmVndUlSbF9uUUFUS1pMQ0lrRC03d1EwVWZ3dEVhdjN2TTByenA0REdWRFgyTHJ4Yk1IR3FpTWNRTE9vM0tUWlROWlhiR0t6SVVkMl95YTlQNG5oZWQ2bnhlNl9EYnA4NWFvVzlnSHZxLWh4YzhnWjBVZHhoNTN1Tk1qcHA1XzlhMXhTNW1aSTNTaDBlWVZkRTY3dXFseFBvWUdrbWdSd3k4bGk2Z240ZkMwTQ?oc=5",
      "category": "Sonstiges",
      "firstSeen": "2026-06-07T04:55:52+00:00",
+     "companyId": 31,
+     "company": "Tencent",
+     "asset": "Aktien",
+     "status": "Portfolio"
+    },
+    {
+     "date": "2026-05-27",
+     "title": "Tencent Announces Three Initiatives to Make Inbound Payments for International Visitors Easier Than Ever During APEC 2026",
+     "summary": "Tencent Announces Three Initiatives to Make Inbound Payments for International Visitors Easier Than Ever During APEC 2026 PR Newswire",
+     "source": "PR Newswire",
+     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNQnhXcXpOcVhneXpmRWI5NS0xVm15cHpGQkszT3lKVHFKdE03SHByblM1ODc1cnpQaEtPNEVxbU1DWnFhUjcxS0FKakdFRW0wZlpkUVdXQWNxdmhtN1hCX1pmbm4zUlFyVEhybVh0Nl9oa3JHZXdvcjFMVjlCS1BFVHl5TFA2aHVmLUdURVFhemkxd25XUkhXVkxzUWpXMmtFc3dYdjFwVlI2U0ZNNWxKbkw0ZnkwYnM2dTJQTUFORk9LUWd6VHc3c3FFZzlFTi1yVjBBTS1sTGhKTHZXQUp6ZDVfUjVCc0ZvQS1kTkZZYUlDV1hfb1ozb01MZ2Zmb1BXMzJkblAzSVJGMWhFVVRF?oc=5",
+     "category": "Sonstiges",
+     "firstSeen": "2026-06-07T06:41:36+00:00",
      "companyId": 31,
      "company": "Tencent",
      "asset": "Aktien",
@@ -2382,19 +2396,6 @@
   },
   "32": {
    "news": [
-    {
-     "date": "2026-05-29",
-     "title": "Salesforce CEO Marc Benioff says that the company has almost not hired engineers since last two years, re",
-     "summary": "Salesforce CEO Marc Benioff says that the company has almost not hired engineers since last two years, re The Times of India",
-     "source": "The Times of India",
-     "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxPYXF4eXNkNDRUd1FZVmFTeWl3aU9POGUzeVhTWHQtUmVtbHRRbjhTYnE0dWdMSHZlZGlHWXppYmszX04xdlVvM21KSXctS0phRmY0dFE5WUplUmtaRjdwZHUySWlnZGczWFBnN3lUanBvc2pIWFFmbU5hbEJpa0JVUEF0alVDNUVhMGF5UXBDYXpGOGxPZS1CalFnRFc2cVJpdEFpTV9hckNfY3BXRW1MS2pnR2M1amFNRE1EaW0wSlJHdTJwd2xBS2FKM0NpMlNFUG9wZjV2TERsUDVkcjVvY0t6SnlkU3hCYXhFVXRySkZHSTFnRmJnallhR1BCYXp4RlVfQ0ZXQllTSW5RR2xDTmI5Ykhtc2oyU0xxRnVLUkpjdmg5SnlGMFJOUHoxRExGZG8xUVlIMlctNUxYUFHSAcMCQVVfeXFMT2RJVmxDRHVzTUU4RHdjWDh1UC1JQmljenY1akNoSU5CMy1LZ0k3b0l2eFZlaEp3VDVGOWpsTWFHcnZXVnZCTVRselJhRzlQQXUzdk82NnNrZmMxOFR4eWFwTjRKVXV3S25XZE05VkM4bDlUcXlYbE9BczVRMVFWSllfVTZqNkZaUzdZbldKWDVlVGhmanlJMHd3QkJXdDNFX1p3SjVQdVFYc2hST2JSaWNhRUhqVzlRMTlGY3FBUHZXOTlweHhLYW1RNzBMakxqMV9qQUJDSVNaWVNhMnBvU2k5bEk0UlBXTGhSaTdkejVrX1JYYldUNVlLa2Q3MnRsM3JDa0FyWWEzV0ROOVF6V3loRFN1dy11Y2JoVmplVWlGYk1taEZ0dWNiSzhKU28tdkl5S3NMU2F4NkFsQVdET0d3cHM?oc=5",
-     "category": "Markt",
-     "firstSeen": "2026-06-06T04:19:57+00:00",
-     "companyId": 32,
-     "company": "Salesforce",
-     "asset": "Aktien",
-     "status": "Portfolio"
-    },
     {
      "date": "2026-05-28",
      "title": "Salesforce Earnings Beat Expectations. The Stock Slides Anyway.",
@@ -2452,6 +2453,19 @@
      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONTcta0duTkxlTnA1RUk4aGpMdjIxTGN0WlJmcVNGYmZqV1dfd3ZBRTZnQkVRVnVwTXBnQTZKdklCcURKXzlMdW1RSmVFUjFwUVlMYmFmX1pPX0o3TDdQRUtOckpITVlPa1RIR2VYSzJ0XzZkMGNkdGlhSnhIckFRRNIBhgFBVV95cUxPeS11ODJfajlNNnMtbU4yUHRyelY5a2VTM3d1Z0IzckliX0F0M1hWazd0VlBwSy1fdWszS3ZHNjMyMDJVVGgxR0RMZTBDVVRaYnVTc1BiaktiaHpneXhpRFNHREt0T052YUtBdmNFMi1XRFdjYmZNWlJnUHhXVklaZzM1OVJyUQ?oc=5",
      "category": "Earnings",
      "firstSeen": "2026-06-06T06:01:46+00:00",
+     "companyId": 32,
+     "company": "Salesforce",
+     "asset": "Aktien",
+     "status": "Portfolio"
+    },
+    {
+     "date": "2026-05-27",
+     "title": "Salesforce turbocharges $25 billion stock buying spree with debt, cuts cash flow guidance in half",
+     "summary": "Salesforce turbocharges $25 billion stock buying spree with debt, cuts cash flow guidance in half Fortune",
+     "source": "Fortune",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZXAyV1o2UTgyMm1nRVdFSzFCenJhZUFSM3VGQ0RXR1RSMFdmTmlxMlVsWUhFTktxd1hQT0tVYnA2aUJmaldaejZBaF9rdTNYd050VE9Cc0drbVBMdTJ4Z3gtbFBHd1NUMHp5OVgxZFNhdFE5SmdwUWpNTnBCV3hSTDIzUDNjRjMtTjFmLUF5bHRRZkR1WGlwUnY4SVpnOFVQUklQTmxaQlBaRUtyMm55Ulk5T2tTWi1nQnU5V3N1RE9hVEFFWXc?oc=5",
+     "category": "Guidance",
+     "firstSeen": "2026-06-07T06:41:36+00:00",
      "companyId": 32,
      "company": "Salesforce",
      "asset": "Aktien",
@@ -2554,19 +2568,6 @@
   "34": {
    "news": [
     {
-     "date": "2026-06-04",
-     "title": "S&P Global Launches Agentic AI-Powered Credit Memo Builder™ to Streamline Credit Analysis",
-     "summary": "S&P Global Launches Agentic AI-Powered Credit Memo Builder™ to Streamline Credit Analysis PR Newswire",
-     "source": "PR Newswire",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUmtJTWNRQjhuSEF4SlNRR082MEI4N1RMNUNFRHJJeEw3WGpjakRvQlFqTURmM0o3Q3RVeDlvRUZVclVhcUQteG1DZUl2XzBZUUxTVm45VEhyZFJRdF9sZGljZEZ2aVBtcGczM2dhMnVzQ0xZb21wbmRhY2JfY1BoRFlOV3BVa3plTkM0RGZ2ZHBFbnVQZlRWbXd4aTZCQnhUZDEzaEJKRHJHeXpoNGI0ZF8yRmx5blIxR2IzajFEeUZya1pSM3lqN1hlczl0Z3NfS1hJd2UxRXRkdTQ?oc=5",
-     "category": "Sonstiges",
-     "firstSeen": "2026-06-05T12:36:11+00:00",
-     "companyId": 34,
-     "company": "S&P Global",
-     "asset": "Aktien",
-     "status": "Watchlist"
-    },
-    {
      "date": "2026-06-02",
      "title": "The Conference Board to Honor S&P Global and UL Solutions at 2026 People First Awards Dinner",
      "summary": "The Conference Board to Honor S&P Global and UL Solutions at 2026 People First Awards Dinner PR Newswire",
@@ -2574,18 +2575,6 @@
      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQdXVVWjZ0WEpTTUk3b1lrZTRQdWNxd096YTNYMTZCdEIwZ2tXTzJmdEU3aGFoTjhTM3RLN002bTVZU3pqS1h6c3VpSmR2ZDUwVHJJUl81NGFMNWl1UUhXdlpsWlZ2SzgyeDlVUmoxMjhUOG5mSnVWdkhyaWYzWTJWQi10QUhpc0R4VkZXZFFYZkx1Zm9GZ091LVNEV3Z2bGpSZUpaOXhtLUQxT2dLc21ncW5fdVBOeTBGQThQUHNJNnYzLWRJMVVNRWZZaVRWLV9NNnlNRXpGcG84ZG52ZWVNXw?oc=5",
      "category": "Conference",
      "firstSeen": "2026-06-03T09:21:56+00:00",
-     "companyId": 34,
-     "company": "S&P Global",
-     "asset": "Aktien",
-     "status": "Watchlist"
-    },
-    {
-     "date": "2026-05-28",
-     "title": "ION Commodities expands collaboration with S&P Global Energy Platts",
-     "summary": "ION Commodities expands collaboration with S&P Global Energy Platts PR Newswire",
-     "source": "PR Newswire",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS1RzODdLWWt0SjhWaDk0WGR5Z1dsUFI4cDJ1NUN6UTZObEp5X3I1dUxna0dpNUFRa0tua2Q0SkN6RXpKSm11ZVBtNzJrT3k2ZVVmaFFpNEZkMWFnUlEyM1FWTmtQcHIxeU5nMklDcm5VamhfQWpFaEFNdHdyQWVPZ29sUmh0d3dLSFNyNU0zdGlWd3RhcGxISTFVaXJ4N2JZVnBkTjB5djNTbDVncUU1eHNndEdFbFBvOVBIYWxzVQ?oc=5",
-     "category": "Sonstiges",
      "companyId": 34,
      "company": "S&P Global",
      "asset": "Aktien",
@@ -2604,19 +2593,6 @@
      "status": "Watchlist"
     },
     {
-     "date": "2026-05-27",
-     "title": "S&P Global Ratings Wins CLO Rating Agency of the Year at GlobalCapital's U.S. Securitization Awards 2026",
-     "summary": "S&P Global Ratings Wins CLO Rating Agency of the Year at GlobalCapital's U.S. Securitization Awards 2026 PR Newswire",
-     "source": "PR Newswire",
-     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVzhUOVRONHFvdUpBTW1qcnRQYVhJaDhIb0loTlo0ekQxS1VhTXRrMnowR1g1TTc5aERMeElBSWhpMnRCSENGR054djJIMGFwcTB0amRCdDNyelQyc1JaYjVXVXVBWURjclJVUF9HV2lISGZzRllNYW5LNnlFWTFyNk14aU9GZVBOVkdJOVZubTVLYnc3Z3RoeWlabnFlazJ2aThrQmtJX21zWXFDWDhZd2pzTVNCYkdqcl9XY3lNQU53SnVVaDNsd1ZoUkkyV1hrS3E0RjBzdEN4U2hSQzZWN0Q2c2pWRWMydmtwRQ?oc=5",
-     "category": "Rating",
-     "firstSeen": "2026-06-05T12:36:11+00:00",
-     "companyId": 34,
-     "company": "S&P Global",
-     "asset": "Aktien",
-     "status": "Watchlist"
-    },
-    {
      "date": "2026-05-26",
      "title": "S&P Global Announces Leadership Change for Market Intelligence, Evolution of Enterprise Data, Technology & Transformation",
      "summary": "S&P Global Announces Leadership Change for Market Intelligence, Evolution of Enterprise Data, Technology & Transformation PR Newswire",
@@ -2624,6 +2600,45 @@
      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNUmtJM003cGFmZjkxQmdSYnVCQVZGVkwweXZ3SzYyYXdfakRWQUpMemNMdngwamZWQV9EVUNHNkhwYk5mRUMwWnVnbzVaZkRmSHdlNEI3SThPZS1EekpJYzdTRnNoZWdwUkQ5T3RZSGNjaTRGSmp2SFlkNFlpQTNjX1Q3TWVHX3ZsM0NBMjJPeXpXa3FUM09jdk9YQldSSExnMHlYUnVSbXZYQ1NtMGZtUU5HN0lmMWJFRGFQTWFhV0FheXJBcVJnczNmejRwWVFwbHJWSGZpeE13eXoySmVlN0xxcWdFQkRnWEcwb0NKd1VOWFhwY25DOGYtMXhnWVFobS00?oc=5",
      "category": "Sonstiges",
      "firstSeen": "2026-06-07T04:55:52+00:00",
+     "companyId": 34,
+     "company": "S&P Global",
+     "asset": "Aktien",
+     "status": "Watchlist"
+    },
+    {
+     "date": "2026-05-21",
+     "title": "S&P Global Announces Approval of Separation of Mobility Global",
+     "summary": "S&P Global Announces Approval of Separation of Mobility Global PR Newswire",
+     "source": "PR Newswire",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUkJFTk5iNXBlYXczY3k1M1ZYTF9YeWJScmo5R2JtR0lxM2JjdTBFUG1GdVZxZTF6VG5ZU05aMWFuemhqVXY5UnFsQVAzZUE2VE05ZllGRE5HYkR1ektpWm5TeGE0akJ2NlY1LVNDUUNubWFQaFNSQ3NsblB0SmtRM3UwWFA0RkdNa2lSb29OUm92NXNwN1ozNGRJQjBndmtBS2xBLWV0c3JfNjhMMG45Q0FRc3hqV3ZX?oc=5",
+     "category": "Sonstiges",
+     "firstSeen": "2026-06-07T06:41:36+00:00",
+     "companyId": 34,
+     "company": "S&P Global",
+     "asset": "Aktien",
+     "status": "Watchlist"
+    },
+    {
+     "date": "2026-05-20",
+     "title": "S&P Global Ratings Maalot Raises Elbit Systems' Long Term Rating to \"ilAAA\" (Local Scale), With a Stable Outlook and Reaffirms Short Term Rating of \"ilA-1+\" (Local Scale)",
+     "summary": "S&P Global Ratings Maalot Raises Elbit Systems' Long Term Rating to \"ilAAA\" (Local Scale), With a Stable Outlook and Reaffirms Short Term Rating of \"ilA-1+\" (Local Scale) PR Newswire",
+     "source": "PR Newswire",
+     "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQLWNlZkRoRE43ZlphQkZDVFpkeGdVaUozRGQ1YmZTZ0pfc21jaVpaSTQ3X29CTjZhbUNQdUN1UERCWnluUWYwY2NvVDlKaHg2R3ZKb0ZKc1FNU25hbW83T1h2Zkd3UGxVZDIwTUR3aTlmQWxCUmF5eDJSRTN3R3NJQ1NKT29HNjdCMjlGOHptcEV4bXN4SUpjRjdBS0J0ZUw3b2R3N3Z3aF9Idl9OaXJaQTRqUFVWVzVKNWJxaDdyRXlJMHBzNU1paVMwaUhqNThOb1ozak96QVRDTnM5UUxMRDdtM01XVFl5bTRsM2F6UkhfSnltaVdyTGl1NDhsQ2RsN0owajE1SC1sLWp1Zmh4VDZrNDBXeER0aHpEa2lXZkcydFRpV0tTSUg3a2U0Z3F6X3RQdkVsRFBVdw?oc=5",
+     "category": "Guidance",
+     "firstSeen": "2026-06-07T06:41:36+00:00",
+     "companyId": 34,
+     "company": "S&P Global",
+     "asset": "Aktien",
+     "status": "Watchlist"
+    },
+    {
+     "date": "2026-05-19",
+     "title": "S&P Global Declares Second Quarter Dividend",
+     "summary": "S&P Global Declares Second Quarter Dividend PR Newswire",
+     "source": "PR Newswire",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcjlVSi11QVlBeEtNLTN6Y0pONjZRbG9pNTltNk1OdU95T1BqX21kS2wwUWdUdVVwbUZwUXNreGpnX3BMY1V3Rk5XUjhSUXRGLXNkcWkwM2R4ZE8xN1cxN25YZ1pDeWZWNmhKR3MyRFpvOTNnQmJtZUJTS0hCS1Exa3BkNDJwSDFqYmVjYjZiQUhFNlpKRC1qeE5BOXRQVTg?oc=5",
+     "category": "Sonstiges",
+     "firstSeen": "2026-06-07T06:41:36+00:00",
      "companyId": 34,
      "company": "S&P Global",
      "asset": "Aktien",
@@ -2799,6 +2814,32 @@
    "status": "Portfolio"
   },
   {
+   "date": "2026-06-05",
+   "title": "Meta Considers Raising Billions in Share Sale, FT Reports",
+   "summary": "Meta Considers Raising Billions in Share Sale, FT Reports Bloomberg",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaFhZRkpXQnBRajRLWmNWQkFCZTU2T2UzVXZOS09NRjFycU4tcXhjc00wbEg5ZDZsOTk5azlhYTVZWU05ejVIMUJjM1FMRjNBU1Z6Sy1rck41Mk5JdWxKdjlwTWhid1pTRnNsbXlaWVBCYzJ5cWJlZFd4aDhCUjBPXzNnUkRERUI2R2xmbHp3bGJHeFk3bnY5LXdpdVNqUGotQWtfSlREUnZWT0k?oc=5",
+   "category": "Markt",
+   "firstSeen": "2026-06-07T06:41:36+00:00",
+   "companyId": 22,
+   "company": "Meta",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-04",
+   "title": "Chapters Health System Named as a 2026 Top Workplace for Nursing",
+   "summary": "Chapters Health System Named as a 2026 Top Workplace for Nursing PR Newswire",
+   "source": "PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQenJmMERKT2hMdlBlU3VlLXAwcHJtREZPU3BhTHp6RWIwRWl3amtjN0RMemh2T0pCeTliX1pyYlNhQVJNZlFkN0tZTFA1REo1bnlSSDA5ZkVXM2xzWS01X2IwekZHV3pGTGE3UzNtTUhrSjNoZkN3dXVYX3dWVHlsOGUwZllNZlRGb2tyZlc2RVpaVEctXzYwN2c1eGpoakRhWGoyZi1TQW9GTkJjQ1pReEh3TzZFUWQzR1J4TA?oc=5",
+   "category": "Sonstiges",
+   "firstSeen": "2026-06-07T06:41:36+00:00",
+   "companyId": 2,
+   "company": "Chapters",
+   "asset": "Anleihen",
+   "status": "Portfolio"
+  },
+  {
    "date": "2026-06-04",
    "title": "SueWallSt Reminds Graphic Packaging Holding Company Investors of the Pending Class Action Lawsuit With a Lead Plaintiff Deadline of July 6, 2026 - GPK",
    "summary": "SueWallSt Reminds Graphic Packaging Holding Company Investors of the Pending Class Action Lawsuit With a Lead Plaintiff Deadline of July 6, 2026 - GPK PR Newswire",
@@ -2851,19 +2892,6 @@
    "status": "Portfolio"
   },
   {
-   "date": "2026-06-04",
-   "title": "S&P Global Launches Agentic AI-Powered Credit Memo Builder™ to Streamline Credit Analysis",
-   "summary": "S&P Global Launches Agentic AI-Powered Credit Memo Builder™ to Streamline Credit Analysis PR Newswire",
-   "source": "PR Newswire",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUmtJTWNRQjhuSEF4SlNRR082MEI4N1RMNUNFRHJJeEw3WGpjakRvQlFqTURmM0o3Q3RVeDlvRUZVclVhcUQteG1DZUl2XzBZUUxTVm45VEhyZFJRdF9sZGljZEZ2aVBtcGczM2dhMnVzQ0xZb21wbmRhY2JfY1BoRFlOV3BVa3plTkM0RGZ2ZHBFbnVQZlRWbXd4aTZCQnhUZDEzaEJKRHJHeXpoNGI0ZF8yRmx5blIxR2IzajFEeUZya1pSM3lqN1hlczl0Z3NfS1hJd2UxRXRkdTQ?oc=5",
-   "category": "Sonstiges",
-   "firstSeen": "2026-06-05T12:36:11+00:00",
-   "companyId": 34,
-   "company": "S&P Global",
-   "asset": "Aktien",
-   "status": "Watchlist"
-  },
-  {
    "date": "2026-06-03",
    "title": "Mineral Resources Director Trims Shareholding in Compliant On-Market Trade",
    "summary": "Mineral Resources Director Trims Shareholding in Compliant On-Market Trade The Globe and Mail",
@@ -2904,6 +2932,19 @@
   },
   {
    "date": "2026-06-03",
+   "title": "Meta shares defy tech weakness thanks to an update that fights the bear case",
+   "summary": "Meta shares defy tech weakness thanks to an update that fights the bear case CNBC",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWXhSU3Q4UmdtaHJSc0FCUTJINm1YQm1Nd2F4UlFNbktnWl9RVXN2dG85S1V4ZXBVQ21ibXI2cWhsZWJmVTJpY0dkRjViVVl4YWNzV09weVViLVJSbGp5OURVbXVReEk1YjRoakFXXzFqbGRRMTNOanlWRlhza2FwQlZwLThYa1VlVzdieVpQUGZpSGoxaTAzVjR4cnRuZF83U28zTW85LUgyR3o0WTZKYXczNA?oc=5",
+   "category": "Earnings",
+   "firstSeen": "2026-06-07T06:41:36+00:00",
+   "companyId": 22,
+   "company": "Meta",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-03",
    "title": "Tencent Cloud Partners with UXSoft to Build Smarter Retail Operations for Hung Fook Tong, Hong Kong's Largest Herbal Product Retailer",
    "summary": "Tencent Cloud Partners with UXSoft to Build Smarter Retail Operations for Hung Fook Tong, Hong Kong's Largest Herbal Product Retailer PR Newswire",
    "source": "PR Newswire",
@@ -2938,19 +2979,6 @@
    "firstSeen": "2026-06-03T09:21:56+00:00",
    "companyId": 20,
    "company": "Microsoft",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-02",
-   "title": "Vistry appoints Kate Rust as Commercial Director in East Anglia",
-   "summary": "Vistry appoints Kate Rust as Commercial Director in East Anglia Peterborough Telegraph",
-   "source": "Peterborough Telegraph",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQkhUVlNGQTVKOW1oRlQ1RFhxdmY4cHN1Y2Z6MkRNSjFjSVAxMFYwY29NNFc2NVZPenpCV1ZfcXg0UHpSMUkwdmk5OGg0U1JMTU5zTFF3dnF2ZkZCWXgxdnNheEZLRktLU2ptNkNycTZlVDc3UXBVSjZQX1dvV0RGakxrVjlxSkdVVmk0ek1SYm9KekNRNHZSenBmaHVaNF9QYzhQalhlQ0Vvc3JFcmdCQWF6aFpoX0lCanc?oc=5",
-   "category": "Markt",
-   "firstSeen": "2026-06-05T12:36:11+00:00",
-   "companyId": 29,
-   "company": "Vistry",
    "asset": "Aktien",
    "status": "Portfolio"
   },
@@ -3033,32 +3061,6 @@
    "status": "Portfolio"
   },
   {
-   "date": "2026-05-31",
-   "title": "The High-Stakes Hunt for the Next Amazon in the AI Haystack",
-   "summary": "The High-Stakes Hunt for the Next Amazon in the AI Haystack WSJ",
-   "source": "WSJ",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZmJlTUVuQ3ZnN3NhVDdMZF9xTVpnZVBESjcxRmtLb3lpTHp0ZzZPOVFyWkZRbTlIcUZZQmZ4dXZIWmRSRDZMTzJXTEtrS1MxUzRpMGhMZEVvTktSQldGZmlSVWdpRVJOTjQ2Y1RZeGJycXBhUTJMenNoZXFYMWNGN0RDVFg4Z1VSOElKMDl5TXVCWGtSRVZXZjJWY08?oc=5",
-   "category": "M&A",
-   "firstSeen": "2026-06-06T04:19:57+00:00",
-   "companyId": 18,
-   "company": "Amazon",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-05-31",
-   "title": "UBS Reaffirms Their Buy Rating on Tencent Holdings (TCTZF)",
-   "summary": "UBS Reaffirms Their Buy Rating on Tencent Holdings (TCTZF) The Globe and Mail",
-   "source": "The Globe and Mail",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPa0lPNGFicUpVMU1mSjkwTDRFaFJVaGs4a3prZS1GTnR2dXJ2WlpZTnF4clJDMlZCUzhIZW1ON1k3R29hVHVWUTZsZkhza2wwMFQwUVJuMDR1eWtveHM5bkdLLXBLUjhUTHFhZ0lrRC1rRzhEQXY1V0VwRmJ0MGhuZExXa1VCdER0RFJRSENVQXU2VHFDeXhzbEpMWkprV0JoRXhZS1pzc0FDR2twLUtPTFZxeVR6b1hBTVN0S0ZBZi15S0FWMk5EeldMS3NhcEpCQ294Vm5OOURJZw?oc=5",
-   "category": "Rating",
-   "firstSeen": "2026-06-05T12:36:11+00:00",
-   "companyId": 31,
-   "company": "Tencent",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
    "date": "2026-05-29",
    "title": "HCA Healthcare Inc. stock outperforms competitors despite losses on the day",
    "summary": "HCA Healthcare Inc. stock outperforms competitors despite losses on the day MarketWatch",
@@ -3081,19 +3083,6 @@
    "firstSeen": "2026-06-07T04:55:52+00:00",
    "companyId": 31,
    "company": "Tencent",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-05-29",
-   "title": "Salesforce CEO Marc Benioff says that the company has almost not hired engineers since last two years, re",
-   "summary": "Salesforce CEO Marc Benioff says that the company has almost not hired engineers since last two years, re The Times of India",
-   "source": "The Times of India",
-   "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxPYXF4eXNkNDRUd1FZVmFTeWl3aU9POGUzeVhTWHQtUmVtbHRRbjhTYnE0dWdMSHZlZGlHWXppYmszX04xdlVvM21KSXctS0phRmY0dFE5WUplUmtaRjdwZHUySWlnZGczWFBnN3lUanBvc2pIWFFmbU5hbEJpa0JVUEF0alVDNUVhMGF5UXBDYXpGOGxPZS1CalFnRFc2cVJpdEFpTV9hckNfY3BXRW1MS2pnR2M1amFNRE1EaW0wSlJHdTJwd2xBS2FKM0NpMlNFUG9wZjV2TERsUDVkcjVvY0t6SnlkU3hCYXhFVXRySkZHSTFnRmJnallhR1BCYXp4RlVfQ0ZXQllTSW5RR2xDTmI5Ykhtc2oyU0xxRnVLUkpjdmg5SnlGMFJOUHoxRExGZG8xUVlIMlctNUxYUFHSAcMCQVVfeXFMT2RJVmxDRHVzTUU4RHdjWDh1UC1JQmljenY1akNoSU5CMy1LZ0k3b0l2eFZlaEp3VDVGOWpsTWFHcnZXVnZCTVRselJhRzlQQXUzdk82NnNrZmMxOFR4eWFwTjRKVXV3S25XZE05VkM4bDlUcXlYbE9BczVRMVFWSllfVTZqNkZaUzdZbldKWDVlVGhmanlJMHd3QkJXdDNFX1p3SjVQdVFYc2hST2JSaWNhRUhqVzlRMTlGY3FBUHZXOTlweHhLYW1RNzBMakxqMV9qQUJDSVNaWVNhMnBvU2k5bEk0UlBXTGhSaTdkejVrX1JYYldUNVlLa2Q3MnRsM3JDa0FyWWEzV0ROOVF6V3loRFN1dy11Y2JoVmplVWlGYk1taEZ0dWNiSzhKU28tdkl5S3NMU2F4NkFsQVdET0d3cHM?oc=5",
-   "category": "Markt",
-   "firstSeen": "2026-06-06T04:19:57+00:00",
-   "companyId": 32,
-   "company": "Salesforce",
    "asset": "Aktien",
    "status": "Portfolio"
   },
@@ -3133,18 +3122,6 @@
    "company": "Salesforce",
    "asset": "Aktien",
    "status": "Portfolio"
-  },
-  {
-   "date": "2026-05-28",
-   "title": "ION Commodities expands collaboration with S&P Global Energy Platts",
-   "summary": "ION Commodities expands collaboration with S&P Global Energy Platts PR Newswire",
-   "source": "PR Newswire",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS1RzODdLWWt0SjhWaDk0WGR5Z1dsUFI4cDJ1NUN6UTZObEp5X3I1dUxna0dpNUFRa0tua2Q0SkN6RXpKSm11ZVBtNzJrT3k2ZVVmaFFpNEZkMWFnUlEyM1FWTmtQcHIxeU5nMklDcm5VamhfQWpFaEFNdHdyQWVPZ29sUmh0d3dLSFNyNU0zdGlWd3RhcGxISTFVaXJ4N2JZVnBkTjB5djNTbDVncUU1eHNndEdFbFBvOVBIYWxzVQ?oc=5",
-   "category": "Sonstiges",
-   "companyId": 34,
-   "company": "S&P Global",
-   "asset": "Aktien",
-   "status": "Watchlist"
   },
   {
    "date": "2026-05-28",
@@ -3222,6 +3199,19 @@
   },
   {
    "date": "2026-05-27",
+   "title": "Tencent Announces Three Initiatives to Make Inbound Payments for International Visitors Easier Than Ever During APEC 2026",
+   "summary": "Tencent Announces Three Initiatives to Make Inbound Payments for International Visitors Easier Than Ever During APEC 2026 PR Newswire",
+   "source": "PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNQnhXcXpOcVhneXpmRWI5NS0xVm15cHpGQkszT3lKVHFKdE03SHByblM1ODc1cnpQaEtPNEVxbU1DWnFhUjcxS0FKakdFRW0wZlpkUVdXQWNxdmhtN1hCX1pmbm4zUlFyVEhybVh0Nl9oa3JHZXdvcjFMVjlCS1BFVHl5TFA2aHVmLUdURVFhemkxd25XUkhXVkxzUWpXMmtFc3dYdjFwVlI2U0ZNNWxKbkw0ZnkwYnM2dTJQTUFORk9LUWd6VHc3c3FFZzlFTi1yVjBBTS1sTGhKTHZXQUp6ZDVfUjVCc0ZvQS1kTkZZYUlDV1hfb1ozb01MZ2Zmb1BXMzJkblAzSVJGMWhFVVRF?oc=5",
+   "category": "Sonstiges",
+   "firstSeen": "2026-06-07T06:41:36+00:00",
+   "companyId": 31,
+   "company": "Tencent",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-05-27",
    "title": "Salesforce First-Quarter Sales, Profit Rise Amid Agentforce Efforts",
    "summary": "Salesforce First-Quarter Sales, Profit Rise Amid Agentforce Efforts WSJ",
    "source": "WSJ",
@@ -3247,24 +3237,24 @@
   },
   {
    "date": "2026-05-27",
+   "title": "Salesforce turbocharges $25 billion stock buying spree with debt, cuts cash flow guidance in half",
+   "summary": "Salesforce turbocharges $25 billion stock buying spree with debt, cuts cash flow guidance in half Fortune",
+   "source": "Fortune",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZXAyV1o2UTgyMm1nRVdFSzFCenJhZUFSM3VGQ0RXR1RSMFdmTmlxMlVsWUhFTktxd1hQT0tVYnA2aUJmaldaejZBaF9rdTNYd050VE9Cc0drbVBMdTJ4Z3gtbFBHd1NUMHp5OVgxZFNhdFE5SmdwUWpNTnBCV3hSTDIzUDNjRjMtTjFmLUF5bHRRZkR1WGlwUnY4SVpnOFVQUklQTmxaQlBaRUtyMm55Ulk5T2tTWi1nQnU5V3N1RE9hVEFFWXc?oc=5",
+   "category": "Guidance",
+   "firstSeen": "2026-06-07T06:41:36+00:00",
+   "companyId": 32,
+   "company": "Salesforce",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-05-27",
    "title": "S&P Global Mobility Opens FeeSync to Entire Automotive Industry at No Cost, Establishing First-of-Its-Kind Dealer Fee Transparency Infrastructure",
    "summary": "S&P Global Mobility Opens FeeSync to Entire Automotive Industry at No Cost, Establishing First-of-Its-Kind Dealer Fee Transparency Infrastructure PR Newswire",
    "source": "PR Newswire",
    "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOejJFak5UTGE2LXdjbWhINzY3OG1ZMEU2MGR4UnJzT1NOb3VncW9ObkM1N2RwVi1tenZfZG5MSlEyQ3FFS0tJWXNITC1fYUhDR1pYXy1LMTdoZU5aWU85alFuVUdPdk1hUVpkckx3MVpBd2NXVjVUc0Z6Y1E1WjhNdEsyWm1TSE96MHl0TFNscHFtUUdKMnJNRFUxQ1hWMHZXZ2NwRGFCVnlCU0lWdVpxNlJ3TzRfajU3Sl9TR3lnY0ZDZ0RjZWh6SnR2QUJiNUs5ZmM1cWd2VElkMmwyb3JUNmNmUDlVQXQ4MXJfc0NqanpGd1I3UEJ5Zkx6dkxISjE4aDNMd2xJZmZkdXVoUnctRDNEWnBSeUhxLTlFU2JZTWRKa1A5Znc?oc=5",
    "category": "Sonstiges",
-   "companyId": 34,
-   "company": "S&P Global",
-   "asset": "Aktien",
-   "status": "Watchlist"
-  },
-  {
-   "date": "2026-05-27",
-   "title": "S&P Global Ratings Wins CLO Rating Agency of the Year at GlobalCapital's U.S. Securitization Awards 2026",
-   "summary": "S&P Global Ratings Wins CLO Rating Agency of the Year at GlobalCapital's U.S. Securitization Awards 2026 PR Newswire",
-   "source": "PR Newswire",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVzhUOVRONHFvdUpBTW1qcnRQYVhJaDhIb0loTlo0ekQxS1VhTXRrMnowR1g1TTc5aERMeElBSWhpMnRCSENGR054djJIMGFwcTB0amRCdDNyelQyc1JaYjVXVXVBWURjclJVUF9HV2lISGZzRllNYW5LNnlFWTFyNk14aU9GZVBOVkdJOVZubTVLYnc3Z3RoeWlabnFlazJ2aThrQmtJX21zWXFDWDhZd2pzTVNCYkdqcl9XY3lNQU53SnVVaDNsd1ZoUkkyV1hrS3E0RjBzdEN4U2hSQzZWN0Q2c2pWRWMydmtwRQ?oc=5",
-   "category": "Rating",
-   "firstSeen": "2026-06-05T12:36:11+00:00",
    "companyId": 34,
    "company": "S&P Global",
    "asset": "Aktien",
@@ -3409,6 +3399,19 @@
    "status": "Portfolio"
   },
   {
+   "date": "2026-05-21",
+   "title": "S&P Global Announces Approval of Separation of Mobility Global",
+   "summary": "S&P Global Announces Approval of Separation of Mobility Global PR Newswire",
+   "source": "PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUkJFTk5iNXBlYXczY3k1M1ZYTF9YeWJScmo5R2JtR0lxM2JjdTBFUG1GdVZxZTF6VG5ZU05aMWFuemhqVXY5UnFsQVAzZUE2VE05ZllGRE5HYkR1ektpWm5TeGE0akJ2NlY1LVNDUUNubWFQaFNSQ3NsblB0SmtRM3UwWFA0RkdNa2lSb29OUm92NXNwN1ozNGRJQjBndmtBS2xBLWV0c3JfNjhMMG45Q0FRc3hqV3ZX?oc=5",
+   "category": "Sonstiges",
+   "firstSeen": "2026-06-07T06:41:36+00:00",
+   "companyId": 34,
+   "company": "S&P Global",
+   "asset": "Aktien",
+   "status": "Watchlist"
+  },
+  {
    "date": "2026-05-20",
    "title": "Ubisoft flags more losses after record hit",
    "summary": "Ubisoft flags more losses after record hit Reuters",
@@ -3446,6 +3449,32 @@
    "status": "Portfolio"
   },
   {
+   "date": "2026-05-20",
+   "title": "Amcor launches global call for startups for Amcor Lift-Off -- Rigids challenge",
+   "summary": "Amcor launches global call for startups for Amcor Lift-Off -- Rigids challenge PR Newswire",
+   "source": "PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTnI2djZENjlpbUNEN1B5ZDljTlphNTFZdEViOEhYaDdNdUM0eTZWaU0zTXBxRTFZRVdjMXgyMzJCYjg5SXpqX0JaSm9SWDRSNnBic0FQZVVvR3o4cGNWYkUxVVZtelNsc0JpbGNxdkhMMTk3MmpaR2hQVVRNYVhxYUJpQnlKbG9YOHBlNmxWcWZqelhSVmxnUjZzYVhNUFRwOVZLT200YjZJTkI1OUhMdnR6WU9LbmQ3SHZ5bWw1X0xBakJQVENXdi15Y1Y?oc=5",
+   "category": "Sonstiges",
+   "firstSeen": "2026-06-07T06:41:36+00:00",
+   "companyId": 24,
+   "company": "Amcor",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-05-20",
+   "title": "S&P Global Ratings Maalot Raises Elbit Systems' Long Term Rating to \"ilAAA\" (Local Scale), With a Stable Outlook and Reaffirms Short Term Rating of \"ilA-1+\" (Local Scale)",
+   "summary": "S&P Global Ratings Maalot Raises Elbit Systems' Long Term Rating to \"ilAAA\" (Local Scale), With a Stable Outlook and Reaffirms Short Term Rating of \"ilA-1+\" (Local Scale) PR Newswire",
+   "source": "PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQLWNlZkRoRE43ZlphQkZDVFpkeGdVaUozRGQ1YmZTZ0pfc21jaVpaSTQ3X29CTjZhbUNQdUN1UERCWnluUWYwY2NvVDlKaHg2R3ZKb0ZKc1FNU25hbW83T1h2Zkd3UGxVZDIwTUR3aTlmQWxCUmF5eDJSRTN3R3NJQ1NKT29HNjdCMjlGOHptcEV4bXN4SUpjRjdBS0J0ZUw3b2R3N3Z3aF9Idl9OaXJaQTRqUFVWVzVKNWJxaDdyRXlJMHBzNU1paVMwaUhqNThOb1ozak96QVRDTnM5UUxMRDdtM01XVFl5bTRsM2F6UkhfSnltaVdyTGl1NDhsQ2RsN0owajE1SC1sLWp1Zmh4VDZrNDBXeER0aHpEa2lXZkcydFRpV0tTSUg3a2U0Z3F6X3RQdkVsRFBVdw?oc=5",
+   "category": "Guidance",
+   "firstSeen": "2026-06-07T06:41:36+00:00",
+   "companyId": 34,
+   "company": "S&P Global",
+   "asset": "Aktien",
+   "status": "Watchlist"
+  },
+  {
    "date": "2026-05-19",
    "title": "HCA Healthcare Colleagues Volunteer More Than 41,800 Hours During Annual Days of Service Initiative",
    "summary": "HCA Healthcare Colleagues Volunteer More Than 41,800 Hours During Annual Days of Service Initiative Business Wire",
@@ -3458,6 +3487,19 @@
    "status": "Portfolio"
   },
   {
+   "date": "2026-05-19",
+   "title": "S&P Global Declares Second Quarter Dividend",
+   "summary": "S&P Global Declares Second Quarter Dividend PR Newswire",
+   "source": "PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcjlVSi11QVlBeEtNLTN6Y0pONjZRbG9pNTltNk1OdU95T1BqX21kS2wwUWdUdVVwbUZwUXNreGpnX3BMY1V3Rk5XUjhSUXRGLXNkcWkwM2R4ZE8xN1cxN25YZ1pDeWZWNmhKR3MyRFpvOTNnQmJtZUJTS0hCS1Exa3BkNDJwSDFqYmVjYjZiQUhFNlpKRC1qeE5BOXRQVTg?oc=5",
+   "category": "Sonstiges",
+   "firstSeen": "2026-06-07T06:41:36+00:00",
+   "companyId": 34,
+   "company": "S&P Global",
+   "asset": "Aktien",
+   "status": "Watchlist"
+  },
+  {
    "date": "2026-05-18",
    "title": "Eurofins Scientific SE: Weekly Report on Share Repurchases From 11th May to 15th May 2026",
    "summary": "Eurofins Scientific SE: Weekly Report on Share Repurchases From 11th May to 15th May 2026 Business Wire",
@@ -3467,18 +3509,6 @@
    "firstSeen": "2026-06-07T04:55:52+00:00",
    "companyId": 14,
    "company": "Eurofins Scientific",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-05-18",
-   "title": "Exclusive: Meta lays out details of May 20 restructuring in internal document",
-   "summary": "Exclusive: Meta lays out details of May 20 restructuring in internal document Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeU9uWEUtam15N0pKQzdxSGZBOGVhZG84V3BETV9USHJsSjhmSThFSE5Cd3FfeGMzeUZneWxyemRqNjF4Sjc4clRPeDdMUzBud19OYzBnWENaLVQwRnBiNUZTYUlNU01qd1NYdFNqZk5MZW1QTXRCdWwxLTdndTdyTm1lR2dCRmtrYl9ybEVacXV4dDRhQ1kwcUdqeXBxeEkwYVNKWjJlSkRMWVBscnhpQndJUQ?oc=5",
-   "category": "Markt",
-   "companyId": 22,
-   "company": "Meta",
    "asset": "Aktien",
    "status": "Portfolio"
   },
