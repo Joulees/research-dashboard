@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-15T05:27:56+00:00",
+ "generatedAt": "2026-06-15T07:36:18+00:00",
  "companies": {
   "1": {
    "news": [],
@@ -176,6 +176,32 @@
      "source": "CNBC",
      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY2g0WGk0Y2xkZDZFMk1QRnJWamFwZWh0Tm5Oa19NMlV4Ul9mQ2ZoemFWQkszaVVMOVdtZHJkUFBjczFYRERNcmRXdVhzVk14V2NWWk12WjZRZk1SMEZPbUltdUVxaGlWUGZmRkNDbDVHeERBYUZodml1VVJUQ1ktc00ydWEzNXlZcUpkcdIBkgFBVV95cUxOX0otQ0lMZFJ4TldxSDNfdGhBLVRCODE3UklMZlo0U01vY0ZnV1NITlJSN05IMm51U1ZiemFpUE1rcm5acWJVaUdrOVhkbWJGUE5mOG5lbjZPTmVyWTJwRDc3QkZpVkRSMldPSU92VWNoOS1XZllPMTI4TnI1Y3hwZ0VnZ1BDaGFyVmV4SjBfUE1IZw?oc=5",
      "category": "Earnings",
+     "companyId": 6,
+     "company": "Ubisoft",
+     "asset": "Anleihen",
+     "status": "Portfolio"
+    },
+    {
+     "date": "2026-05-21",
+     "title": "Ubisoft Delays Profit, Cash Flow Targets as Reboot Continues",
+     "summary": "Ubisoft Delays Profit, Cash Flow Targets as Reboot Continues WSJ",
+     "source": "WSJ",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM1NYb0N5MUdoUGoxSHJpdjhVYWJ2dE1vWjYwY2lLZV8wMVBVUTJwYTdWRzc2UGlnUVpKNGxXd3JmaEtmS0FYakkwaGJfczZxQm1vdmI4YVJrSk1yVlJLQXRaaHpPOURRZHdCOExEN1VBX0w3OF9Jd3l2Nmc4eVV0ODdtZzVGaXBSaXpieHdWSDdJbmRuRVVVTF9SN2Vvdw?oc=5",
+     "category": "Earnings",
+     "firstSeen": "2026-06-15T07:36:18+00:00",
+     "companyId": 6,
+     "company": "Ubisoft",
+     "asset": "Anleihen",
+     "status": "Portfolio"
+    },
+    {
+     "date": "2026-05-21",
+     "title": "Ubisoft Shares Plunge After Grim Annual Results",
+     "summary": "Ubisoft Shares Plunge After Grim Annual Results Barron's",
+     "source": "Barron's",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNLXdpUmJkYjE2a2Z4VkRFM2hkako5ZTROeXBKMHRzajJhSVZ1V1NBMGpXaWp1Tjl6NzlVUTlxUXZVTGIzaU82emlHcEYtMDFsWllMN2pocDdCWXdQWWlBNEM5YkZoVVpYSm5ObW9JOHNGOExELXpoVUR1VzI0OHpfTTgyX3hwMTZxUExzNVl3?oc=5",
+     "category": "Earnings",
+     "firstSeen": "2026-06-15T07:36:18+00:00",
      "companyId": 6,
      "company": "Ubisoft",
      "asset": "Anleihen",
@@ -1980,12 +2006,13 @@
   "29": {
    "news": [
     {
-     "date": "2026-05-16",
-     "title": "Vistry orders workers to down tools to preserve cash",
-     "summary": "Vistry orders workers to down tools to preserve cash The Times",
-     "source": "The Times",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZFR6Nl9VNzUxc0l6YmVDUnNlbDR3OF9CWkNVd0ZDd1RxUlJTN0FOdXMxVGU2MW5fVVBxMjd1MEhhQ0JkZHZqRGFiN0RORjFySUpUWE9LNEdheHNKVndSbkFWd1poQlIwM3FRS09UU0s1R2VnUVJaWlNobDlGMzQwbzl5VVBsSzlJSGNSSGNUR0M4Zk1QVEVicy1HczRmMlRiTHdqWThRS280VkZzTU1LXw?oc=5",
+     "date": "2026-06-02",
+     "title": "Vistry appoints Kate Rust as Commercial Director in East Anglia",
+     "summary": "Vistry appoints Kate Rust as Commercial Director in East Anglia Peterborough Telegraph",
+     "source": "Peterborough Telegraph",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQkhUVlNGQTVKOW1oRlQ1RFhxdmY4cHN1Y2Z6MkRNSjFjSVAxMFYwY29NNFc2NVZPenpCV1ZfcXg0UHpSMUkwdmk5OGg0U1JMTU5zTFF3dnF2ZkZCWXgxdnNheEZLRktLU2ptNkNycTZlVDc3UXBVSjZQX1dvV0RGakxrVjlxSkdVVmk0ek1SYm9KekNRNHZSenBmaHVaNF9QYzhQalhlQ0Vvc3JFcmdCQWF6aFpoX0lCanc?oc=5",
      "category": "Markt",
+     "firstSeen": "2026-06-15T07:36:18+00:00",
      "companyId": 29,
      "company": "Vistry",
      "asset": "Aktien",
@@ -3014,6 +3041,19 @@
   },
   {
    "date": "2026-06-02",
+   "title": "Vistry appoints Kate Rust as Commercial Director in East Anglia",
+   "summary": "Vistry appoints Kate Rust as Commercial Director in East Anglia Peterborough Telegraph",
+   "source": "Peterborough Telegraph",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQkhUVlNGQTVKOW1oRlQ1RFhxdmY4cHN1Y2Z6MkRNSjFjSVAxMFYwY29NNFc2NVZPenpCV1ZfcXg0UHpSMUkwdmk5OGg0U1JMTU5zTFF3dnF2ZkZCWXgxdnNheEZLRktLU2ptNkNycTZlVDc3UXBVSjZQX1dvV0RGakxrVjlxSkdVVmk0ek1SYm9KekNRNHZSenBmaHVaNF9QYzhQalhlQ0Vvc3JFcmdCQWF6aFpoX0lCanc?oc=5",
+   "category": "Markt",
+   "firstSeen": "2026-06-15T07:36:18+00:00",
+   "companyId": 29,
+   "company": "Vistry",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-02",
    "title": "Tencent moves closer to launching AI agent for China’s most-used app",
    "summary": "Tencent moves closer to launching AI agent for China’s most-used app Financial Times",
    "source": "Financial Times",
@@ -3281,6 +3321,32 @@
   },
   {
    "date": "2026-05-21",
+   "title": "Ubisoft Delays Profit, Cash Flow Targets as Reboot Continues",
+   "summary": "Ubisoft Delays Profit, Cash Flow Targets as Reboot Continues WSJ",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM1NYb0N5MUdoUGoxSHJpdjhVYWJ2dE1vWjYwY2lLZV8wMVBVUTJwYTdWRzc2UGlnUVpKNGxXd3JmaEtmS0FYakkwaGJfczZxQm1vdmI4YVJrSk1yVlJLQXRaaHpPOURRZHdCOExEN1VBX0w3OF9Jd3l2Nmc4eVV0ODdtZzVGaXBSaXpieHdWSDdJbmRuRVVVTF9SN2Vvdw?oc=5",
+   "category": "Earnings",
+   "firstSeen": "2026-06-15T07:36:18+00:00",
+   "companyId": 6,
+   "company": "Ubisoft",
+   "asset": "Anleihen",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-05-21",
+   "title": "Ubisoft Shares Plunge After Grim Annual Results",
+   "summary": "Ubisoft Shares Plunge After Grim Annual Results Barron's",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNLXdpUmJkYjE2a2Z4VkRFM2hkako5ZTROeXBKMHRzajJhSVZ1V1NBMGpXaWp1Tjl6NzlVUTlxUXZVTGIzaU82emlHcEYtMDFsWllMN2pocDdCWXdQWWlBNEM5YkZoVVpYSm5ObW9JOHNGOExELXpoVUR1VzI0OHpfTTgyX3hwMTZxUExzNVl3?oc=5",
+   "category": "Earnings",
+   "firstSeen": "2026-06-15T07:36:18+00:00",
+   "companyId": 6,
+   "company": "Ubisoft",
+   "asset": "Anleihen",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-05-21",
    "title": "Palliser Capital Welcomes Japan Post Holdings’ New Group Medium-Term Management Plan",
    "summary": "Palliser Capital Welcomes Japan Post Holdings’ New Group Medium-Term Management Plan Business Wire",
    "source": "Business Wire",
@@ -3351,18 +3417,6 @@
    "firstSeen": "2026-06-09T04:34:25+00:00",
    "companyId": 14,
    "company": "Eurofins Scientific",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-05-16",
-   "title": "Vistry orders workers to down tools to preserve cash",
-   "summary": "Vistry orders workers to down tools to preserve cash The Times",
-   "source": "The Times",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZFR6Nl9VNzUxc0l6YmVDUnNlbDR3OF9CWkNVd0ZDd1RxUlJTN0FOdXMxVGU2MW5fVVBxMjd1MEhhQ0JkZHZqRGFiN0RORjFySUpUWE9LNEdheHNKVndSbkFWd1poQlIwM3FRS09UU0s1R2VnUVJaWlNobDlGMzQwbzl5VVBsSzlJSGNSSGNUR0M4Zk1QVEVicy1HczRmMlRiTHdqWThRS280VkZzTU1LXw?oc=5",
-   "category": "Markt",
-   "companyId": 29,
-   "company": "Vistry",
    "asset": "Aktien",
    "status": "Portfolio"
   }
