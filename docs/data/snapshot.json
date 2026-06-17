@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-17T05:16:24+00:00",
+ "generatedAt": "2026-06-17T07:26:11+00:00",
  "companies": {
   "1": {
    "news": [],
@@ -505,6 +505,19 @@
   "12": {
    "news": [
     {
+     "date": "2026-06-16",
+     "title": "Post Holdings (POST) Q2 2026 Earnings Call Transcript",
+     "summary": "Post Holdings (POST) Q2 2026 Earnings Call Transcript Fortune",
+     "source": "Fortune",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBzd2RNMW5kUlZPenlRbmV6TW11V3VWZUJjWnpyVmhqdzhRVGpiTjZtVElmVGN5RlVvd0ZtbEkxQlY3Tld3WDFzNmtQWXVrVklHQ1RrcmRGQWpRZ3pnVWtYUmRuYzYyXzZ1eDBv?oc=5",
+     "category": "Earnings",
+     "firstSeen": "2026-06-17T07:26:11+00:00",
+     "companyId": 12,
+     "company": "Post Holdings",
+     "asset": "Anleihen",
+     "status": "Portfolio"
+    },
+    {
      "date": "2026-05-27",
      "title": "Japan Post Holdings Completes ¥150 Billion Share Buyback via ToSTNeT-3",
      "summary": "Japan Post Holdings Completes ¥150 Billion Share Buyback via ToSTNeT-3 The Globe and Mail",
@@ -663,13 +676,13 @@
      "status": "Portfolio"
     },
     {
-     "date": "2026-05-18",
-     "title": "Eurofins Scientific SE: Weekly Report on Share Repurchases From 11th May to 15th May 2026",
-     "summary": "Eurofins Scientific SE: Weekly Report on Share Repurchases From 11th May to 15th May 2026 Business Wire",
+     "date": "2026-06-01",
+     "title": "Eurofins Scientific SE: Weekly Report on Share Repurchases From 25th May to 29th May 2026",
+     "summary": "Eurofins Scientific SE: Weekly Report on Share Repurchases From 25th May to 29th May 2026 Business Wire",
      "source": "Business Wire",
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbUt2TXhZamFGNFF6VkZuRk9BbE43cVlkNEJLTGRNUWY0VlFkODdmTm01aW1ZemxjV1RpOVNjQl81clNlWXhZR1d2YmtyZXpsQlZYMDQ0Q1hGd21QMEZQa0ViUzNhMkIwSGRpZi1hSkJfNDV3a1dBdUd5SjgwMFEtNEg2REowaEVsNVllaG9zb0xQbFlMM1RUOVlDeE4yS3lkbHlzcjlhdHBJMlpra0R6VjdLWnJERkx2OHFTUmtvejlPX2RZVkkxQWVqV244LXhsdHBwcXdmeEhSSXRoT0E?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUWNHQ1ZLNExlNHVOckVManZLbHdCM3lySHdhOFFLZ0Ffa3NKQ0dfV3B3ZU1ZZDhQZXRkYXBHX0NMN2ZfOHkxODl1czUzYUF5cnZrVUgyRHdicGM0bGpBX1dvc0FGaThWSVhiZDRWX1ZkUW5HYmQ3WVA0X1RZS1VaRHVWMXhiYzF2ZEVhS1FEdWUyWUFOdnR0T1VJU3NJazdNWWFUTkpFZ295V3l3Q25ELUxxWGlTNG5CZ0hXTnBxZ0NqSW9fRUpFZWF2bVNGRHl2OUVBX0doY09ZN2tDeEE?oc=5",
      "category": "Sonstiges",
-     "firstSeen": "2026-06-09T04:34:25+00:00",
+     "firstSeen": "2026-06-17T07:26:11+00:00",
      "companyId": 14,
      "company": "Eurofins Scientific",
      "asset": "Aktien",
@@ -804,19 +817,6 @@
   "18": {
    "news": [
     {
-     "date": "2026-06-16",
-     "title": "SpaceX ist wertvoller als Amazon und kündigt 60-Milliarden-Übernahme von Anysphere an",
-     "summary": "SpaceX ist wertvoller als Amazon und kündigt 60-Milliarden-Übernahme von Anysphere an Manager Magazin",
-     "source": "Manager Magazin",
-     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQejlDWUsxM3QyNHNhQ2NGa1J6ay0tZVZzV2xvc3FTcGRyX2g1RmNjcUxqSkRHTjhoY3dySXMzWDFmeS0wMGYyekdoRlRVcDQxaDlReGJNMmVZOXFMdlpLc1ZjQlNsd1JfYUdPenJzb2xrRW0wSXlNV3RKNVVHb2NvRXRYTzN1d2NUYmZXSENTVEdXVG1sZ09LTGY2cThBaTc2amJMOWpCNkN5TndYOW1IcWNiQV9WMzBseUZBcEk3OE52RG9LSDFmelJGX3R3Sll3aEJLOE9TV0tUZGFuZnEwZVJ3?oc=5",
-     "category": "M&A",
-     "firstSeen": "2026-06-17T05:16:24+00:00",
-     "companyId": 18,
-     "company": "Amazon",
-     "asset": "Aktien",
-     "status": "Portfolio"
-    },
-    {
      "date": "2026-06-13",
      "title": "Amazon CEO’s Talks With U.S. Officials Triggered Crackdown on Anthropic Models",
      "summary": "Amazon CEO’s Talks With U.S. Officials Triggered Crackdown on Anthropic Models WSJ",
@@ -876,6 +876,19 @@
      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWttSERubEN5MHdjMEoyazlrNkh4eHhLa1A2eFd4a0NFTVhGNWRrMWFCaXBUNVhqMm0xZldrX0VySl83X2ZvbDJiRXlmeTFlb3prMm9YR2FGZzhkNGJBSGJXblBDZl9vRUFRM25XQk90VWs0MTNmclBpQk1fcXBoZEhEaDTSAYoBQVVfeXFMT0twd3NYUkJVVUdCa0hYMHFOSWw0X0pOYURNdHMwSVJVcmdBZlh0Q2ZoUHhCUVZtMDN4Wi1nMWFoVEh4M2lRM1J1dXRBS2N1WThnMW55WklWVjBTR1NaLTdFOF9fSXJkUU1IeEtXbWUySFVIVmV0UVVkZWFKeHVGM24zLWpiWEVEem5R?oc=5",
      "category": "Markt",
      "firstSeen": "2026-06-06T04:19:57+00:00",
+     "companyId": 18,
+     "company": "Amazon",
+     "asset": "Aktien",
+     "status": "Portfolio"
+    },
+    {
+     "date": "2026-05-30",
+     "title": "The High-Stakes Hunt for the Next Amazon in the AI Haystack",
+     "summary": "The High-Stakes Hunt for the Next Amazon in the AI Haystack WSJ",
+     "source": "WSJ",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZmJlTUVuQ3ZnN3NhVDdMZF9xTVpnZVBESjcxRmtLb3lpTHp0ZzZPOVFyWkZRbTlIcUZZQmZ4dXZIWmRSRDZMTzJXTEtrS1MxUzRpMGhMZEVvTktSQldGZmlSVWdpRVJOTjQ2Y1RZeGJycXBhUTJMenNoZXFYMWNGN0RDVFg4Z1VSOElKMDl5TXVCWGtSRVZXZjJWY08?oc=5",
+     "category": "M&A",
+     "firstSeen": "2026-06-17T07:26:11+00:00",
      "companyId": 18,
      "company": "Amazon",
      "asset": "Aktien",
@@ -2206,19 +2219,6 @@
      "status": "Portfolio"
     },
     {
-     "date": "2026-06-12",
-     "title": "Tencent Cloud Secures Top Spot Across Three MongoDB Categories in APAC Gaming Sector",
-     "summary": "Tencent Cloud Secures Top Spot Across Three MongoDB Categories in APAC Gaming Sector PR Newswire",
-     "source": "PR Newswire",
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMnRvSkV0c1I1bkJJcWhscC12U2lVeUpPQXFQMV9LVVVnVVNpWGZjTnFIeDNTSFFjQ3Qzci1wUlBJVGFzOTdyUUhIWkwxLVlYaXE4NGIyRmUtekxWY2dvblhldVgzcE5xYmJGVHZhd3hkUDdMajB3TWVXUlRSemJubkFpbDJDLUN2S3p0U19ja1FkMGdyQTFJVC1qcmRDSGsxOHlTQ28zakFHUGJhSk1XSkN5NDczRjBVS2JGUW9seWxMaHRURTFRb0dSUVAwcHBjOUVZME5pNTlxb2JFWkE?oc=5",
-     "category": "Sonstiges",
-     "firstSeen": "2026-06-16T05:32:48+00:00",
-     "companyId": 31,
-     "company": "Tencent",
-     "asset": "Aktien",
-     "status": "Portfolio"
-    },
-    {
      "date": "2026-06-10",
      "title": "Tencent raises $4.6bn in dual dollar, yuan bond issuances",
      "summary": "Tencent raises $4.6bn in dual dollar, yuan bond issuances Nikkei Asia",
@@ -2265,6 +2265,19 @@
      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUjlFamFxa29LdDg3QXRMc1Ryc05nY3E0YVVVM0pTWDY2Zm9mWXhfT24wQU92RzRZdTd4d0RiVlVaM0I0QnVxNEI5STdidWUzWkRsdzRKWnFRdjRCZWRWMGxfRU1ZY2pRN0VvaXRoek1KaHpJejVzdmJrQWhwUjdkbllKdjNLRlNDanRLbExuSU1IRU1LdlRpM3lDYTRtdDJhOXVRZm5ZQTZNdzk4MC0tUGozVTYxOWRMVE5Zd3psUQ?oc=5",
      "category": "Rating",
      "firstSeen": "2026-06-08T05:01:19+00:00",
+     "companyId": 31,
+     "company": "Tencent",
+     "asset": "Aktien",
+     "status": "Portfolio"
+    },
+    {
+     "date": "2026-06-02",
+     "title": "Tencent moves closer to launching AI agent for China’s most-used app",
+     "summary": "Tencent moves closer to launching AI agent for China’s most-used app Financial Times",
+     "source": "Financial Times",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdWpQdDEyUk45SnVqaGNVZ2lwdlpfWTRTaDBEQVk4b1hsaEdHbEFFMEE4V3pkVlcwSWJPZmVCM3pVY2pvbjZNTHJ5OXpHR1BYRHFlUlIyN2VSMGdZMlVLNTBoQThqVUNVZThYN0pSUGRtZnpRclUyTmpaZ0ZKeU1ZdHJHNHY?oc=5",
+     "category": "Markt",
+     "firstSeen": "2026-06-17T07:26:11+00:00",
      "companyId": 31,
      "company": "Tencent",
      "asset": "Aktien",
@@ -2321,6 +2334,19 @@
     },
     {
      "date": "2026-05-27",
+     "title": "Salesforce revenue forecast disappoints amid AI disruption fears",
+     "summary": "Salesforce revenue forecast disappoints amid AI disruption fears Reuters",
+     "source": "Reuters",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRkhJSHBtSndfN25MekplUUlqWkFqSEd5MDlDR2swa2dZX2RSVkxFc3ZDYllaby1LLTROYU1NQ3RZSkVlZmg2bHRKYWtXVEx2RE0zd2FXRk95THlRcUViZWJGRmxjbnlEblN4MGQ4X0NPNGg0N0dPZFVNdUlWaFNPdllDZmRXVGRiQmR2S0JrZU9sM2VSb0xlSg?oc=5",
+     "category": "Earnings",
+     "firstSeen": "2026-06-17T05:16:24+00:00",
+     "companyId": 32,
+     "company": "Salesforce",
+     "asset": "Aktien",
+     "status": "Portfolio"
+    },
+    {
+     "date": "2026-05-27",
      "title": "Salesforce CEO Marc Benioff outlines his plan to turn around his struggling stock",
      "summary": "Salesforce CEO Marc Benioff outlines his plan to turn around his struggling stock CNBC",
      "source": "CNBC",
@@ -2340,19 +2366,6 @@
      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNX2loUDJsRXNldTJmeXgwYnVPMU04TGJLZVZ3Y3FsanV6dVJfSDI2N0hxQy13NWRQWklwdV9hcVZ3R2hmell0cmVlXzV5S3VHLVhZWVdMTDYwM0otUFVIdU1iNWhvWk5hSXlJd3A4S2N0M3Zoc1A4YnltRE9mNUhNcy1jUFlpcFgtaUZZMXBJRkd6VUZDZlE5WmtLWV9UZ3FrVldicWMwdndiWjBIb3RmSlI1MXdCUGphbWlfeHJibG1RZmFMSlgxR2FlY2c?oc=5",
      "category": "Earnings",
      "firstSeen": "2026-06-16T05:32:48+00:00",
-     "companyId": 32,
-     "company": "Salesforce",
-     "asset": "Aktien",
-     "status": "Portfolio"
-    },
-    {
-     "date": "2026-05-27",
-     "title": "Salesforce revenue forecast disappoints amid AI disruption fears",
-     "summary": "Salesforce revenue forecast disappoints amid AI disruption fears Reuters",
-     "source": "Reuters",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRkhJSHBtSndfN25MekplUUlqWkFqSEd5MDlDR2swa2dZX2RSVkxFc3ZDYllaby1LLTROYU1NQ3RZSkVlZmg2bHRKYWtXVEx2RE0zd2FXRk95THlRcUViZWJGRmxjbnlEblN4MGQ4X0NPNGg0N0dPZFVNdUlWaFNPdllDZmRXVGRiQmR2S0JrZU9sM2VSb0xlSg?oc=5",
-     "category": "Earnings",
-     "firstSeen": "2026-06-17T05:16:24+00:00",
      "companyId": 32,
      "company": "Salesforce",
      "asset": "Aktien",
@@ -2539,6 +2552,19 @@
      "company": "Adyen",
      "asset": "Aktien",
      "status": "Watchlist"
+    },
+    {
+     "date": "2026-05-28",
+     "title": "ROLLER arbeitet mit Adyen zusammen und ermöglicht über 3.000 Veranstaltungsorten schnelle Embedded Finance durch Capital",
+     "summary": "ROLLER arbeitet mit Adyen zusammen und ermöglicht über 3.000 Veranstaltungsorten schnelle Embedded Finance durch Capital PR Newswire",
+     "source": "PR Newswire",
+     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNTDFQQUZKMENjY1EyVV92RDh1Rm9YVnNSRlQyZ0JLdU1pOEtWZ19haU02N2FTbGxFVlBZRlVIdGVkYTdYSXZJUE5LMklXRHJuRVVzLW1qeDF3a1pGLWVQeVA3ajg1UzVXYmVGT3NVajg5dnFsOERfLXE1YjAtY3NxQ1dTWndHUHR4WFhiNWdPQl9LMm9HY1hCclA0VDhyYUwwMFdmTmstdVMxRmxoRTItQ2h4Q3NxRTBpcy1DNkl6cnJ3SEFBa0Q3Ml9WY0JlSDNCMVNwSGw3MVhScHZjOUkzU094WDk4VkhwT2taMEU1b2tXaDQwODZ1bVAxMnhHSzdvaG1vMk9GNA?oc=5",
+     "category": "Sonstiges",
+     "firstSeen": "2026-06-17T07:26:11+00:00",
+     "companyId": 36,
+     "company": "Adyen",
+     "asset": "Aktien",
+     "status": "Watchlist"
     }
    ],
    "events": [],
@@ -2615,15 +2641,15 @@
   },
   {
    "date": "2026-06-16",
-   "title": "SpaceX ist wertvoller als Amazon und kündigt 60-Milliarden-Übernahme von Anysphere an",
-   "summary": "SpaceX ist wertvoller als Amazon und kündigt 60-Milliarden-Übernahme von Anysphere an Manager Magazin",
-   "source": "Manager Magazin",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQejlDWUsxM3QyNHNhQ2NGa1J6ay0tZVZzV2xvc3FTcGRyX2g1RmNjcUxqSkRHTjhoY3dySXMzWDFmeS0wMGYyekdoRlRVcDQxaDlReGJNMmVZOXFMdlpLc1ZjQlNsd1JfYUdPenJzb2xrRW0wSXlNV3RKNVVHb2NvRXRYTzN1d2NUYmZXSENTVEdXVG1sZ09LTGY2cThBaTc2amJMOWpCNkN5TndYOW1IcWNiQV9WMzBseUZBcEk3OE52RG9LSDFmelJGX3R3Sll3aEJLOE9TV0tUZGFuZnEwZVJ3?oc=5",
-   "category": "M&A",
-   "firstSeen": "2026-06-17T05:16:24+00:00",
-   "companyId": 18,
-   "company": "Amazon",
-   "asset": "Aktien",
+   "title": "Post Holdings (POST) Q2 2026 Earnings Call Transcript",
+   "summary": "Post Holdings (POST) Q2 2026 Earnings Call Transcript Fortune",
+   "source": "Fortune",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBzd2RNMW5kUlZPenlRbmV6TW11V3VWZUJjWnpyVmhqdzhRVGpiTjZtVElmVGN5RlVvd0ZtbEkxQlY3Tld3WDFzNmtQWXVrVklHQ1RrcmRGQWpRZ3pnVWtYUmRuYzYyXzZ1eDBv?oc=5",
+   "category": "Earnings",
+   "firstSeen": "2026-06-17T07:26:11+00:00",
+   "companyId": 12,
+   "company": "Post Holdings",
+   "asset": "Anleihen",
    "status": "Portfolio"
   },
   {
@@ -2818,19 +2844,6 @@
    "firstSeen": "2026-06-14T05:06:19+00:00",
    "companyId": 22,
    "company": "Meta",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-12",
-   "title": "Tencent Cloud Secures Top Spot Across Three MongoDB Categories in APAC Gaming Sector",
-   "summary": "Tencent Cloud Secures Top Spot Across Three MongoDB Categories in APAC Gaming Sector PR Newswire",
-   "source": "PR Newswire",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMnRvSkV0c1I1bkJJcWhscC12U2lVeUpPQXFQMV9LVVVnVVNpWGZjTnFIeDNTSFFjQ3Qzci1wUlBJVGFzOTdyUUhIWkwxLVlYaXE4NGIyRmUtekxWY2dvblhldVgzcE5xYmJGVHZhd3hkUDdMajB3TWVXUlRSemJubkFpbDJDLUN2S3p0U19ja1FkMGdyQTFJVC1qcmRDSGsxOHlTQ28zakFHUGJhSk1XSkN5NDczRjBVS2JGUW9seWxMaHRURTFRb0dSUVAwcHBjOUVZME5pNTlxb2JFWkE?oc=5",
-   "category": "Sonstiges",
-   "firstSeen": "2026-06-16T05:32:48+00:00",
-   "companyId": 31,
-   "company": "Tencent",
    "asset": "Aktien",
    "status": "Portfolio"
   },
@@ -3135,6 +3148,19 @@
   },
   {
    "date": "2026-06-02",
+   "title": "Tencent moves closer to launching AI agent for China’s most-used app",
+   "summary": "Tencent moves closer to launching AI agent for China’s most-used app Financial Times",
+   "source": "Financial Times",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdWpQdDEyUk45SnVqaGNVZ2lwdlpfWTRTaDBEQVk4b1hsaEdHbEFFMEE4V3pkVlcwSWJPZmVCM3pVY2pvbjZNTHJ5OXpHR1BYRHFlUlIyN2VSMGdZMlVLNTBoQThqVUNVZThYN0pSUGRtZnpRclUyTmpaZ0ZKeU1ZdHJHNHY?oc=5",
+   "category": "Markt",
+   "firstSeen": "2026-06-17T07:26:11+00:00",
+   "companyId": 31,
+   "company": "Tencent",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-02",
    "title": "The Conference Board to Honor S&P Global and UL Solutions at 2026 People First Awards Dinner",
    "summary": "The Conference Board to Honor S&P Global and UL Solutions at 2026 People First Awards Dinner PR Newswire",
    "source": "PR Newswire",
@@ -3170,6 +3196,32 @@
    "companyId": 8,
    "company": "Prosus",
    "asset": "Anleihen",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-01",
+   "title": "Eurofins Scientific SE: Weekly Report on Share Repurchases From 25th May to 29th May 2026",
+   "summary": "Eurofins Scientific SE: Weekly Report on Share Repurchases From 25th May to 29th May 2026 Business Wire",
+   "source": "Business Wire",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUWNHQ1ZLNExlNHVOckVManZLbHdCM3lySHdhOFFLZ0Ffa3NKQ0dfV3B3ZU1ZZDhQZXRkYXBHX0NMN2ZfOHkxODl1czUzYUF5cnZrVUgyRHdicGM0bGpBX1dvc0FGaThWSVhiZDRWX1ZkUW5HYmQ3WVA0X1RZS1VaRHVWMXhiYzF2ZEVhS1FEdWUyWUFOdnR0T1VJU3NJazdNWWFUTkpFZ295V3l3Q25ELUxxWGlTNG5CZ0hXTnBxZ0NqSW9fRUpFZWF2bVNGRHl2OUVBX0doY09ZN2tDeEE?oc=5",
+   "category": "Sonstiges",
+   "firstSeen": "2026-06-17T07:26:11+00:00",
+   "companyId": 14,
+   "company": "Eurofins Scientific",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-05-30",
+   "title": "The High-Stakes Hunt for the Next Amazon in the AI Haystack",
+   "summary": "The High-Stakes Hunt for the Next Amazon in the AI Haystack WSJ",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZmJlTUVuQ3ZnN3NhVDdMZF9xTVpnZVBESjcxRmtLb3lpTHp0ZzZPOVFyWkZRbTlIcUZZQmZ4dXZIWmRSRDZMTzJXTEtrS1MxUzRpMGhMZEVvTktSQldGZmlSVWdpRVJOTjQ2Y1RZeGJycXBhUTJMenNoZXFYMWNGN0RDVFg4Z1VSOElKMDl5TXVCWGtSRVZXZjJWY08?oc=5",
+   "category": "M&A",
+   "firstSeen": "2026-06-17T07:26:11+00:00",
+   "companyId": 18,
+   "company": "Amazon",
+   "asset": "Aktien",
    "status": "Portfolio"
   },
   {
@@ -3217,6 +3269,19 @@
    "source": "PR Newswire",
    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPTVIyaENCc3ZKRGZHUms4RTRzSWVqTGlZRWtRQjBtZjlZT01mSjZhaGk1NnR3S3VvT2dQWE5GanZIeXl4Qno0cTkyOHA0QWVYdmVUYi1Yc0ZJeVNQbjREVG94RHpqblNMa2I1cXkxTkI3Qm11X2lWSUZja2x3Y3ZEQktmNTRSTm1zQnNMWXB5anRTODdhSHNrbVpvV25KRDZPaG9CMFhOUlB2TmU4ejA1WW1fWWROVGcxX3BtM0hfQXRPN056eWFLeW51ekY2QnpGaE15TnNCbHFHSzhSc3BGUXo3dml5eGlTUmd4VQ?oc=5",
    "category": "Sonstiges",
+   "companyId": 36,
+   "company": "Adyen",
+   "asset": "Aktien",
+   "status": "Watchlist"
+  },
+  {
+   "date": "2026-05-28",
+   "title": "ROLLER arbeitet mit Adyen zusammen und ermöglicht über 3.000 Veranstaltungsorten schnelle Embedded Finance durch Capital",
+   "summary": "ROLLER arbeitet mit Adyen zusammen und ermöglicht über 3.000 Veranstaltungsorten schnelle Embedded Finance durch Capital PR Newswire",
+   "source": "PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNTDFQQUZKMENjY1EyVV92RDh1Rm9YVnNSRlQyZ0JLdU1pOEtWZ19haU02N2FTbGxFVlBZRlVIdGVkYTdYSXZJUE5LMklXRHJuRVVzLW1qeDF3a1pGLWVQeVA3ajg1UzVXYmVGT3NVajg5dnFsOERfLXE1YjAtY3NxQ1dTWndHUHR4WFhiNWdPQl9LMm9HY1hCclA0VDhyYUwwMFdmTmstdVMxRmxoRTItQ2h4Q3NxRTBpcy1DNkl6cnJ3SEFBa0Q3Ml9WY0JlSDNCMVNwSGw3MVhScHZjOUkzU094WDk4VkhwT2taMEU1b2tXaDQwODZ1bVAxMnhHSzdvaG1vMk9GNA?oc=5",
+   "category": "Sonstiges",
+   "firstSeen": "2026-06-17T07:26:11+00:00",
    "companyId": 36,
    "company": "Adyen",
    "asset": "Aktien",
@@ -3275,6 +3340,19 @@
   },
   {
    "date": "2026-05-27",
+   "title": "Salesforce revenue forecast disappoints amid AI disruption fears",
+   "summary": "Salesforce revenue forecast disappoints amid AI disruption fears Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRkhJSHBtSndfN25MekplUUlqWkFqSEd5MDlDR2swa2dZX2RSVkxFc3ZDYllaby1LLTROYU1NQ3RZSkVlZmg2bHRKYWtXVEx2RE0zd2FXRk95THlRcUViZWJGRmxjbnlEblN4MGQ4X0NPNGg0N0dPZFVNdUlWaFNPdllDZmRXVGRiQmR2S0JrZU9sM2VSb0xlSg?oc=5",
+   "category": "Earnings",
+   "firstSeen": "2026-06-17T05:16:24+00:00",
+   "companyId": 32,
+   "company": "Salesforce",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-05-27",
    "title": "Salesforce CEO Marc Benioff outlines his plan to turn around his struggling stock",
    "summary": "Salesforce CEO Marc Benioff outlines his plan to turn around his struggling stock CNBC",
    "source": "CNBC",
@@ -3294,19 +3372,6 @@
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNX2loUDJsRXNldTJmeXgwYnVPMU04TGJLZVZ3Y3FsanV6dVJfSDI2N0hxQy13NWRQWklwdV9hcVZ3R2hmell0cmVlXzV5S3VHLVhZWVdMTDYwM0otUFVIdU1iNWhvWk5hSXlJd3A4S2N0M3Zoc1A4YnltRE9mNUhNcy1jUFlpcFgtaUZZMXBJRkd6VUZDZlE5WmtLWV9UZ3FrVldicWMwdndiWjBIb3RmSlI1MXdCUGphbWlfeHJibG1RZmFMSlgxR2FlY2c?oc=5",
    "category": "Earnings",
    "firstSeen": "2026-06-16T05:32:48+00:00",
-   "companyId": 32,
-   "company": "Salesforce",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-05-27",
-   "title": "Salesforce revenue forecast disappoints amid AI disruption fears",
-   "summary": "Salesforce revenue forecast disappoints amid AI disruption fears Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRkhJSHBtSndfN25MekplUUlqWkFqSEd5MDlDR2swa2dZX2RSVkxFc3ZDYllaby1LLTROYU1NQ3RZSkVlZmg2bHRKYWtXVEx2RE0zd2FXRk95THlRcUViZWJGRmxjbnlEblN4MGQ4X0NPNGg0N0dPZFVNdUlWaFNPdllDZmRXVGRiQmR2S0JrZU9sM2VSb0xlSg?oc=5",
-   "category": "Earnings",
-   "firstSeen": "2026-06-17T05:16:24+00:00",
    "companyId": 32,
    "company": "Salesforce",
    "asset": "Aktien",
@@ -3434,19 +3499,6 @@
    "category": "Sonstiges",
    "companyId": 30,
    "company": "HCA Healthcare",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-05-18",
-   "title": "Eurofins Scientific SE: Weekly Report on Share Repurchases From 11th May to 15th May 2026",
-   "summary": "Eurofins Scientific SE: Weekly Report on Share Repurchases From 11th May to 15th May 2026 Business Wire",
-   "source": "Business Wire",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbUt2TXhZamFGNFF6VkZuRk9BbE43cVlkNEJLTGRNUWY0VlFkODdmTm01aW1ZemxjV1RpOVNjQl81clNlWXhZR1d2YmtyZXpsQlZYMDQ0Q1hGd21QMEZQa0ViUzNhMkIwSGRpZi1hSkJfNDV3a1dBdUd5SjgwMFEtNEg2REowaEVsNVllaG9zb0xQbFlMM1RUOVlDeE4yS3lkbHlzcjlhdHBJMlpra0R6VjdLWnJERkx2OHFTUmtvejlPX2RZVkkxQWVqV244LXhsdHBwcXdmeEhSSXRoT0E?oc=5",
-   "category": "Sonstiges",
-   "firstSeen": "2026-06-09T04:34:25+00:00",
-   "companyId": 14,
-   "company": "Eurofins Scientific",
    "asset": "Aktien",
    "status": "Portfolio"
   }
