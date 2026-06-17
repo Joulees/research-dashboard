@@ -783,7 +783,7 @@ def _insider_key(x):
     return x.get("url") or "|".join(str(x.get(k, "")) for k in ("date", "insider", "shares", "code"))
 
 
-def process_company(c, prev_entry=None, run_stamp=None):
+def process_company(c, prev_entry=None, run_stamp=None, refresh_events=True):
     """Sammelt News, Kurse und IR-Events fuer EINEN Titel.
     Inkrementell: bereits bekannte News werden 1:1 uebernommen (keine erneute KI-Summary);
     nur WIRKLICH NEUE Meldungen gehen an Claude und werden mit firstSeen=run_stamp markiert."""
@@ -836,8 +836,8 @@ def process_company(c, prev_entry=None, run_stamp=None):
 
     # Events: nur optionale IR-Termine von der Unternehmens-IR-Seite (falls URL hinterlegt).
     # Earnings (eigene Titel + Wettbewerber) holt zentral die Yahoo-Phase in main(); firstSeen
-    # fuer ALLE Events wird ebenfalls dort gesetzt.
-    if c.get("irCalendarUrl"):
+    # fuer ALLE Events wird ebenfalls dort gesetzt. Nur am woechentlichen Refresh-Tag abrufen.
+    if refresh_events and c.get("irCalendarUrl"):
         for e in get_ir_events(c.get("irCalendarUrl"), name):
             e.update({"companyId": cid, "company": name, "source": "IR-Seite", "peer": False})
             entry["events"].append(e)
@@ -857,99 +857,122 @@ def main():
         companies = json.load(f)
 
     # Vorherigen Snapshot laden (fuer inkrementelle News + Wettbewerber-Symbol-Cache)
-    prev, prev_peer = {}, {}
+    prev, prev_peer, prev_ev_refreshed = {}, {}, None
     try:
         with open(OUT_FILE, encoding="utf-8") as f:
             _prev_full = json.load(f)
         prev = _prev_full.get("companies", {})
         prev_peer = _prev_full.get("peerSymbols", {})
+        prev_ev_refreshed = _prev_full.get("eventsRefreshedAt")
     except Exception:
-        prev, prev_peer = {}, {}
+        prev, prev_peer, prev_ev_refreshed = {}, {}, None
+
+    # Events (Earnings-Kalender) nur EINMAL pro Woche aktualisieren — montags frueh, plus
+    # Erst-Befuellung und ein Sicherheitsnetz, falls >7 Tage kein Refresh gelang. An allen
+    # anderen Tagen werden die Termine aus dem vorherigen Snapshot uebernommen (schont Yahoo).
+    _last_ev_date = None
+    try:
+        _last_ev_date = dt.date.fromisoformat(str(prev_ev_refreshed)[:10]) if prev_ev_refreshed else None
+    except Exception:
+        _last_ev_date = None
+    _days_since = (TODAY - _last_ev_date).days if _last_ev_date else 9999
+    refresh_events = (_last_ev_date is None) or (_days_since >= 7) or \
+                     (TODAY.weekday() == 0 and _last_ev_date != TODAY)   # weekday 0 = Montag
 
     run_stamp = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     snapshot = {"generatedAt": run_stamp, "companies": {}, "news": [], "events": [], "insider": []}
 
     from concurrent.futures import ThreadPoolExecutor
     print(f"Verarbeite {len(companies)} Titel parallel (inkrementell) …")
+    print(f"Event-Kalender: {'AKTUALISIEREN (woechentlich/montags)' if refresh_events else 'aus Vorlauf uebernehmen'}.")
     with ThreadPoolExecutor(max_workers=6) as pool:
         results = list(pool.map(
-            lambda c: process_company(c, prev.get(str(c["id"])), run_stamp), companies))
+            lambda c: process_company(c, prev.get(str(c["id"])), run_stamp, refresh_events), companies))
 
-    # ---------- Earnings-Termine via Yahoo: eigene Titel + festgelegte Wettbewerber ----------
-    today_iso = TODAY.isoformat()
-    horizon_iso = (TODAY + dt.timedelta(days=EVENT_HORIZON_DAYS)).isoformat()
-    entries = {cid: entry for cid, entry in results}
-    op, crumb = yahoo_session()
-    if not crumb:
-        print("HINWEIS: Kein Yahoo-Crumb erhalten — Earnings-Termine werden uebersprungen "
-              "(Yahoo evtl. temporaer ratenbegrenzt). Naechster Lauf versucht es erneut.")
+    if refresh_events:
+        # ---------- Earnings-Termine via Yahoo: eigene Titel + festgelegte Wettbewerber ----------
+        today_iso = TODAY.isoformat()
+        horizon_iso = (TODAY + dt.timedelta(days=EVENT_HORIZON_DAYS)).isoformat()
+        entries = {cid: entry for cid, entry in results}
+        op, crumb = yahoo_session()
+        if not crumb:
+            print("HINWEIS: Kein Yahoo-Crumb erhalten — Earnings-Termine werden uebersprungen "
+                  "(Yahoo evtl. temporaer ratenbegrenzt). Naechster Lauf versucht es erneut.")
 
-    # 1) Wettbewerber-Namen -> Symbole aufloesen (Cache aus dem vorherigen Snapshot weiterverwenden)
-    peer_syms = dict(prev_peer or {})
-    if crumb:
-        new_resolved = 0
+        # 1) Wettbewerber-Namen -> Symbole aufloesen (Cache aus dem vorherigen Snapshot weiterverwenden)
+        peer_syms = dict(prev_peer or {})
+        if crumb:
+            new_resolved = 0
+            for c in companies:
+                for nm in (c.get("competitors") or []):
+                    if nm and nm not in peer_syms:
+                        sym = yahoo_resolve_symbol(op, nm)
+                        if sym:
+                            peer_syms[nm] = sym
+                            new_resolved += 1
+                        time.sleep(0.25)
+            if new_resolved:
+                print(f"   Wettbewerber-Symbole neu aufgeloest: {new_resolved}")
+
+        # 2) Benoetigte Symbole sammeln (dedupliziert) -> jedes Symbol nur EINMAL abfragen
+        need = {}   # symbol -> Liste von (cid, Anzeigename, is_peer, peer_of)
         for c in companies:
-            for nm in (c.get("competitors") or []):
-                if nm and nm not in peer_syms:
-                    sym = yahoo_resolve_symbol(op, nm)
-                    if sym:
-                        peer_syms[nm] = sym
-                        new_resolved += 1
-                    time.sleep(0.25)
-        if new_resolved:
-            print(f"   Wettbewerber-Symbole neu aufgeloest: {new_resolved}")
+            cid, nm, sym = c["id"], c["name"], c.get("symbol")
+            if sym:
+                need.setdefault(sym, []).append((cid, nm, False, None))
+            for pn in (c.get("competitors") or []):
+                psym = peer_syms.get(pn)
+                if psym:
+                    need.setdefault(psym, []).append((cid, pn, True, nm))
 
-    # 2) Benoetigte Symbole sammeln (dedupliziert) -> jedes Symbol nur EINMAL abfragen
-    need = {}   # symbol -> Liste von (cid, Anzeigename, is_peer, peer_of)
-    for c in companies:
-        cid, nm, sym = c["id"], c["name"], c.get("symbol")
-        if sym:
-            need.setdefault(sym, []).append((cid, nm, False, None))
-        for pn in (c.get("competitors") or []):
-            psym = peer_syms.get(pn)
-            if psym:
-                need.setdefault(psym, []).append((cid, pn, True, nm))
+        # 3) Earnings je Symbol holen (sequentiell + sanftes Pacing -> schont Yahoo)
+        earnings_cache = {}
+        if crumb:
+            for sym in need:
+                earnings_cache[sym] = yahoo_next_earnings(op, crumb, sym)
+                time.sleep(0.25)
+            got = sum(1 for v in earnings_cache.values() if v)
+            print(f"   Earnings abgefragt: {len(need)} Symbole, davon {got} mit Termin.")
 
-    # 3) Earnings je Symbol holen (sequentiell + sanftes Pacing -> schont Yahoo)
-    earnings_cache = {}
-    if crumb:
-        for sym in need:
-            earnings_cache[sym] = yahoo_next_earnings(op, crumb, sym)
-            time.sleep(0.25)
-        got = sum(1 for v in earnings_cache.values() if v)
-        print(f"   Earnings abgefragt: {len(need)} Symbole, davon {got} mit Termin.")
-
-    # 4) Events bauen und an die jeweiligen Eintraege haengen
-    for sym, attribs in need.items():
-        for ds in earnings_cache.get(sym, []):
-            if not (today_iso <= ds <= horizon_iso):
-                continue
-            for cid, disp, is_peer, peer_of in attribs:
-                ent = entries.get(cid)
-                if ent is None:
+        # 4) Events bauen und an die jeweiligen Eintraege haengen
+        for sym, attribs in need.items():
+            for ds in earnings_cache.get(sym, []):
+                if not (today_iso <= ds <= horizon_iso):
                     continue
-                ev = {"date": ds, "type": "Earnings",
-                      "title": f"{disp}: Quartalszahlen" + (" (Wettbewerber)" if is_peer else ""),
-                      "company": disp, "companyId": cid,
-                      "source": "Yahoo Finance", "peer": is_peer}
-                if is_peer:
-                    ev["peerOf"] = peer_of
-                ent["events"].append(ev)
+                for cid, disp, is_peer, peer_of in attribs:
+                    ent = entries.get(cid)
+                    if ent is None:
+                        continue
+                    ev = {"date": ds, "type": "Earnings",
+                          "title": f"{disp}: Quartalszahlen" + (" (Wettbewerber)" if is_peer else ""),
+                          "company": disp, "companyId": cid,
+                          "source": "Yahoo Finance", "peer": is_peer}
+                    if is_peer:
+                        ev["peerOf"] = peer_of
+                    ent["events"].append(ev)
 
-    # 5) firstSeen fuer ALLE Events je Titel setzen (inkrementell ggue. Vorlauf) + Dedupe + Sortierung
-    for cid, entry in results:
-        prev_ev = {_event_key(e): e for e in (prev.get(str(cid), {}) or {}).get("events", [])}
-        seen = {}
-        for e in entry["events"]:
-            k = _event_key(e)
-            if k in seen:
-                continue
-            e["firstSeen"] = (prev_ev[k].get("firstSeen") if (k in prev_ev and prev_ev[k].get("firstSeen"))
-                              else run_stamp)
-            seen[k] = e
-        entry["events"] = sorted(seen.values(), key=lambda e: e.get("date", ""))
+        # 5) firstSeen fuer ALLE Events je Titel setzen (inkrementell ggue. Vorlauf) + Dedupe + Sortierung
+        for cid, entry in results:
+            prev_ev = {_event_key(e): e for e in (prev.get(str(cid), {}) or {}).get("events", [])}
+            seen = {}
+            for e in entry["events"]:
+                k = _event_key(e)
+                if k in seen:
+                    continue
+                e["firstSeen"] = (prev_ev[k].get("firstSeen") if (k in prev_ev and prev_ev[k].get("firstSeen"))
+                                  else run_stamp)
+                seen[k] = e
+            entry["events"] = sorted(seen.values(), key=lambda e: e.get("date", ""))
 
-    snapshot["peerSymbols"] = peer_syms
+        # Crumb erhalten = Refresh galt als erfolgreich -> Wochenstempel setzen; sonst Vorlauf-Stempel behalten
+        snapshot["eventsRefreshedAt"] = run_stamp if crumb else prev_ev_refreshed
+        snapshot["peerSymbols"] = peer_syms
+    else:
+        # Kein Refresh-Tag: Events 1:1 aus dem vorherigen Snapshot uebernehmen (firstSeen bleibt erhalten)
+        for cid, entry in results:
+            entry["events"] = (prev.get(str(cid), {}) or {}).get("events", [])
+        snapshot["eventsRefreshedAt"] = prev_ev_refreshed
+        snapshot["peerSymbols"] = prev_peer
 
     new_count = 0
     for cid, entry in results:
