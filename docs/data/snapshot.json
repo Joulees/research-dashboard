@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-17T12:29:16+00:00",
+ "generatedAt": "2026-06-17T12:50:24+00:00",
  "companies": {
   "1": {
    "news": [],
@@ -86,6 +86,32 @@
      "company": "Borr",
      "asset": "Anleihen",
      "status": "Portfolio"
+    },
+    {
+     "date": "2026-06-09",
+     "title": "Solaris Energy Infrastructure, Borr Drilling, and Kosmos Energy Shares Are Falling, What You Need To Know",
+     "summary": "Solaris Energy Infrastructure, Borr Drilling, and Kosmos Energy Shares Are Falling, What You Need To Know The Globe and Mail",
+     "source": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxONEVfZDFQVlNYcWVzSzBfSGwtcnZyb2ZKUy1CSi1SMFV1bEJMYXRiSFdFVzN2dVNrYkJmbkZkS3lVenJnZ3hMU0h0Z2ZVTnNSbmh0TmZ2Q3VISWdEanFkZnVaX3JETTIyMWFIN0dyMHNIUkdUYlY5VzhnRmVEc3dJcW1RNGMyZlZvWUZLQm02SWJZSFNBRTc3Wkl3LW9KYzFzTnZwUTlPamtaSnZnLUpHLVp3ZmlnRV9HRlBWY3RVdlNTdVJGWEVWLWpJcHFCSFNGSXJrWW5sTDQzUTF2OFl3bnZhOVBYdTVRUzk2Tjk2dUppMlBQblJEXzV1bWR5VVM2M0pfVC1mY0x1YUZsUmJlRVlINWQ?oc=5",
+     "category": "Markt",
+     "firstSeen": "2026-06-17T12:50:24+00:00",
+     "companyId": 4,
+     "company": "Borr",
+     "asset": "Anleihen",
+     "status": "Portfolio"
+    },
+    {
+     "date": "2026-05-21",
+     "title": "Borr Drilling shareholders back board, auditor and fee cap at 2026 AGM",
+     "summary": "Borr Drilling shareholders back board, auditor and fee cap at 2026 AGM The Globe and Mail",
+     "source": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxORTZ4aDZzU1BZRERfZGZRcjZ1NFpabTBFUUhyT3BaYW5mbEVKazRMMkw2OUZRTWVIUFNnM3pMdkVlR2o0cXo0VXRtcGJMNGdJU05DU0pvSldpdjFpOThPY1BBcXZZQXNfc3pWMVRIMm1lZ2gxM0poSmg0QklOODNCOW0wdC1vQldfZVhOY0R6M0ZZeklRLS1TeEZoV1ZoWUVjdE5UblBEbmFEbGt6ZldYRmJ5QzhBQ2tDMUFaOW8xVDhMUVNkMEFoQy11bnFLMVlwV0RnZzZwQm56bGREaWtZOHkyQWc?oc=5",
+     "category": "Conference",
+     "firstSeen": "2026-06-17T12:50:24+00:00",
+     "companyId": 4,
+     "company": "Borr",
+     "asset": "Anleihen",
+     "status": "Portfolio"
     }
    ],
    "events": [],
@@ -100,7 +126,8 @@
      "price": 4.7,
      "value": 4996100,
      "url": "https://www.sec.gov/Archives/edgar/data/1715497/000162828026042068/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-06-09",
@@ -112,7 +139,8 @@
      "price": 4.7,
      "value": 37600000,
      "url": "https://www.sec.gov/Archives/edgar/data/1715497/000162828026042066/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-04-16",
@@ -124,7 +152,8 @@
      "price": 5.58,
      "value": 2790900,
      "url": "https://www.sec.gov/Archives/edgar/data/1715497/000162828026025616/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     }
    ],
    "tech": null,
@@ -216,59 +245,7 @@
    }
   },
   "8": {
-   "news": [
-    {
-     "date": "2026-06-10",
-     "title": "Prosus steps up open-ended share buyback with €107m purchase",
-     "summary": "Prosus steps up open-ended share buyback with €107m purchase The Globe and Mail",
-     "source": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTVRJam03Z0hNal9ESGlpbTJEdWdJZVZVd0lScFlENXBUN1VZbmhhb1dqZl9VWk5vaGFPMlp2T2VhWFBIR2thdnFNb2stUzhHd0ZMOVRkRlBzd1QzRUh3UEk1SkxoX0JrS0pzdmtiY2trUzBGSTFpZG1aV1hCbzhtRXBvRDczUmFSdjNyWDZNV3hKTEZ1MTRLc3FCZlFnOExrOTlYblhJMUFjczZaOGV1Ym0ySEJCMWJabzh2WkFZQV9IaHg2NnVPdHRORFNLWmZEUGhMQnJNUUtIT3JXOFRHWkt3?oc=5",
-     "category": "Markt",
-     "firstSeen": "2026-06-12T05:03:14+00:00",
-     "companyId": 8,
-     "company": "Prosus",
-     "asset": "Anleihen",
-     "status": "Portfolio"
-    },
-    {
-     "date": "2026-06-01",
-     "title": "Prosus given more time to comply with Delivery Hero stake sale, EU regulators say",
-     "summary": "Prosus given more time to comply with Delivery Hero stake sale, EU regulators say Reuters",
-     "source": "Reuters",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPczNnVHN6NldfREFrenlsQnVNLXNLalZ5VlZ5OHViU3RyTTVjaWwzeVdPaUFheXYyOUN6NTBvckRQSS1aa2g2b1VtQ1FwMDJELXd3bm5SUmlXZ3ZSVEtMVmdoMlpnRERfNG95OHlUeVVUd1czYnk1NEhPV1RfWXhwV2FsQXI0MWtHQ2VwZTJ0OWpTX3FUSnczLTNvYVh5b0pBZzI3WFRxYkhQMUhjUk5vdlVJZjF3ZXd5WVVfMUJrcw?oc=5",
-     "category": "M&A",
-     "firstSeen": "2026-06-02T09:02:02+00:00",
-     "companyId": 8,
-     "company": "Prosus",
-     "asset": "Anleihen",
-     "status": "Portfolio"
-    },
-    {
-     "date": "2026-06-01",
-     "title": "Prosus considering raising Delivery Hero stake in bid to thwart Uber takeover, FT reports",
-     "summary": "Prosus considering raising Delivery Hero stake in bid to thwart Uber takeover, FT reports Reuters",
-     "source": "Reuters",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQkFqNmIxTTc3dUIxNGpCdFpsRXA0RVRTX1k3a3M5VmFGeVBWdFAtZDB0Uy1VbkxUTVJVV2ZGenZVTHg0SUt3SzRoVkI1SUFITUg0MjJZVWJNZXhzc3o2UnJwbTU3TXM0ejQxdEZHMldLVEJ6MG42SlRYbHBCblVfblAxdWt1dGFLVFFrbUhNMExfVkM3VndzV0ttMVFpOWRZdVJuSDJrVUNYV3Z3X0Iwa3NNdi1wY0l4MVZn?oc=5",
-     "category": "M&A",
-     "firstSeen": "2026-06-02T09:02:02+00:00",
-     "companyId": 8,
-     "company": "Prosus",
-     "asset": "Anleihen",
-     "status": "Portfolio"
-    },
-    {
-     "date": "2026-05-25",
-     "title": "Prosus Asks EU to End Forced Sale of Delivery Hero Stake",
-     "summary": "Prosus Asks EU to End Forced Sale of Delivery Hero Stake Bloomberg.com",
-     "source": "Bloomberg.com",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbnRzdC1aWEFhdzlOUGs1TnpYcVRhZGFrdF9WX1pmYnFoSmFQdVQ5Mms0OGpUcnhCWU0taGhvMVRDaS0wR1lIREJnR0xneXRPTmFRbnNsT0lrZkNxZ1BuWlZyTEFHYmplUkdJWHAtNUZVNVR3akdwVHdkLU1GZjhDeFdsbVBZZUZ5SlZWaURkZnRtYWNMSzRsRFFVZGZXSFo1aVRRYjc2bEtiYkE?oc=5",
-     "category": "M&A",
-     "companyId": 8,
-     "company": "Prosus",
-     "asset": "Anleihen",
-     "status": "Portfolio"
-    }
-   ],
+   "news": [],
    "events": [],
    "insider": [],
    "tech": null,
@@ -301,6 +278,19 @@
      "company": "XPO",
      "asset": "Anleihen",
      "status": "Portfolio"
+    },
+    {
+     "date": "2026-06-06",
+     "title": "Barclays Sticks to Its Buy Rating for XPO (XPO)",
+     "summary": "Barclays Sticks to Its Buy Rating for XPO (XPO) The Globe and Mail",
+     "source": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMXFsYzdTMTRCRm9CT3RXeUdxekNGY0E4dm5CVTBpZWU2d1NJMHJxSGFQMWhRNmlIUXlQc24ySUpESXpBTmgyZHl5WWNodlhLeHRFcVRvaDNTOW1kd0RXaHI3a2FYMzQ5VDZhb2l1Umxsc0UwYUpPN2EzUmVZV3JqeHRzUWhLSDk1ZmdKV1dKSWZVdTYwbzFJel9rWmVZeXNYSU5jd2EtejZqM0dhVHlrQjZjWjZhVnE5V05oX0I1RTJvRFFQczFhNQ?oc=5",
+     "category": "Rating",
+     "firstSeen": "2026-06-17T12:50:24+00:00",
+     "companyId": 10,
+     "company": "XPO",
+     "asset": "Anleihen",
+     "status": "Portfolio"
     }
    ],
    "events": [],
@@ -315,7 +305,8 @@
      "price": 215.61,
      "value": 517471,
      "url": "https://www.sec.gov/Archives/edgar/data/1166003/000116600326000066/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     }
    ],
    "tech": null,
@@ -417,7 +408,8 @@
      "price": null,
      "value": null,
      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312526234664/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-08",
@@ -429,7 +421,8 @@
      "price": 11.0,
      "value": 153991,
      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312526216732/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-07",
@@ -441,7 +434,8 @@
      "price": 11.19,
      "value": 200000,
      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312526216815/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     }
    ],
    "tech": null,
@@ -452,6 +446,19 @@
   },
   "12": {
    "news": [
+    {
+     "date": "2026-06-16",
+     "title": "Post Holdings (POST) Q2 2026 Earnings Call Transcript",
+     "summary": "Post Holdings (POST) Q2 2026 Earnings Call Transcript Fortune",
+     "source": "Fortune",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBzd2RNMW5kUlZPenlRbmV6TW11V3VWZUJjWnpyVmhqdzhRVGpiTjZtVElmVGN5RlVvd0ZtbEkxQlY3Tld3WDFzNmtQWXVrVklHQ1RrcmRGQWpRZ3pnVWtYUmRuYzYyXzZ1eDBv?oc=5",
+     "category": "Earnings",
+     "firstSeen": "2026-06-17T12:50:24+00:00",
+     "companyId": 12,
+     "company": "Post Holdings",
+     "asset": "Anleihen",
+     "status": "Portfolio"
+    },
     {
      "date": "2026-05-27",
      "title": "Japan Post Holdings Completes ¥150 Billion Share Buyback via ToSTNeT-3",
@@ -503,7 +510,8 @@
      "price": 105.05,
      "value": 649839,
      "url": "https://www.sec.gov/Archives/edgar/data/1530950/000125718626000016/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     }
    ],
    "tech": null,
@@ -526,7 +534,8 @@
      "price": 193.98,
      "value": 2909745,
      "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000069/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-12",
@@ -538,7 +547,8 @@
      "price": 199.25,
      "value": 2681161,
      "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000067/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-11",
@@ -550,7 +560,8 @@
      "price": 199.15,
      "value": 1408580,
      "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000067/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-07",
@@ -562,7 +573,8 @@
      "price": 192.1,
      "value": 9887527,
      "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000065/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-06",
@@ -574,7 +586,8 @@
      "price": 174.87,
      "value": 381916,
      "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000064/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-01",
@@ -586,7 +599,8 @@
      "price": 149.84,
      "value": 182864678,
      "url": "https://www.sec.gov/Archives/edgar/data/927066/000119312526207021/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     }
    ],
    "tech": null,
@@ -670,7 +684,8 @@
      "price": 147.4,
      "value": 3095,
      "url": "https://www.wienerborse.at/uploads/u/cms/files/marktdaten/statistiken/directors-dealings-2026.pdf",
-     "source": "Wiener Börse"
+     "source": "Wiener Börse",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-04-29",
@@ -682,7 +697,8 @@
      "price": 147.5,
      "value": 1190030,
      "url": "https://www.wienerborse.at/uploads/u/cms/files/marktdaten/statistiken/directors-dealings-2026.pdf",
-     "source": "Wiener Börse"
+     "source": "Wiener Börse",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-04-22",
@@ -694,7 +710,8 @@
      "price": 150.9,
      "value": 754500,
      "url": "https://www.wienerborse.at/uploads/u/cms/files/marktdaten/statistiken/directors-dealings-2026.pdf",
-     "source": "Wiener Börse"
+     "source": "Wiener Börse",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-04-21",
@@ -706,7 +723,8 @@
      "price": 149.0,
      "value": 1490000,
      "url": "https://www.wienerborse.at/uploads/u/cms/files/marktdaten/statistiken/directors-dealings-2026.pdf",
-     "source": "Wiener Börse"
+     "source": "Wiener Börse",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-04-21",
@@ -718,7 +736,8 @@
      "price": 148.0,
      "value": 1480000,
      "url": "https://www.wienerborse.at/uploads/u/cms/files/marktdaten/statistiken/directors-dealings-2026.pdf",
-     "source": "Wiener Börse"
+     "source": "Wiener Börse",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-04-21",
@@ -730,7 +749,8 @@
      "price": 149.85,
      "value": 749250,
      "url": "https://www.wienerborse.at/uploads/u/cms/files/marktdaten/statistiken/directors-dealings-2026.pdf",
-     "source": "Wiener Börse"
+     "source": "Wiener Börse",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     }
    ],
    "tech": null,
@@ -829,7 +849,8 @@
      "price": 266.19,
      "value": 266190,
      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000018/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-22",
@@ -841,7 +862,8 @@
      "price": 268.53,
      "value": 2489273,
      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000155797926000006/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-21",
@@ -853,7 +875,8 @@
      "price": 261.95,
      "value": 1363726,
      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000008/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-21",
@@ -865,7 +888,8 @@
      "price": 263.1,
      "value": 1375238,
      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000008/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-21",
@@ -877,7 +901,8 @@
      "price": 263.95,
      "value": 1495784,
      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000008/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-21",
@@ -889,7 +914,8 @@
      "price": 264.97,
      "value": 953908,
      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000008/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-21",
@@ -901,7 +927,8 @@
      "price": 265.61,
      "value": 79684,
      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000008/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-21",
@@ -913,7 +940,8 @@
      "price": 261.93,
      "value": 1115027,
      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000008/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-21",
@@ -925,7 +953,8 @@
      "price": 263.18,
      "value": 1198522,
      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000008/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-21",
@@ -937,7 +966,8 @@
      "price": 264.03,
      "value": 974009,
      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000008/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-21",
@@ -949,7 +979,8 @@
      "price": 264.95,
      "value": 671374,
      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000008/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-21",
@@ -961,7 +992,8 @@
      "price": 265.64,
      "value": 115022,
      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000008/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-21",
@@ -973,7 +1005,8 @@
      "price": 261.88,
      "value": 1099888,
      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000020/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-21",
@@ -985,7 +1018,8 @@
      "price": 263.12,
      "value": 360468,
      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000020/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-21",
@@ -997,7 +1031,8 @@
      "price": 263.85,
      "value": 211083,
      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000020/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     }
    ],
    "tech": null,
@@ -1071,7 +1106,8 @@
      "price": 402.84,
      "value": 1812780,
      "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000121/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-06-08",
@@ -1083,7 +1119,8 @@
      "price": 412.45,
      "value": 1031125,
      "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000109/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     }
    ],
    "tech": null,
@@ -1195,7 +1232,8 @@
      "price": 629.29,
      "value": 317162,
      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008488/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-06-01",
@@ -1207,7 +1245,8 @@
      "price": 629.29,
      "value": 526715,
      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-06-01",
@@ -1219,7 +1258,8 @@
      "price": 629.29,
      "value": 51601,
      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-06-01",
@@ -1231,7 +1271,8 @@
      "price": 629.29,
      "value": 35869,
      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-06-01",
@@ -1243,7 +1284,8 @@
      "price": 629.29,
      "value": 51601,
      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-06-01",
@@ -1255,7 +1297,8 @@
      "price": 629.29,
      "value": 256750,
      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-27",
@@ -1267,7 +1310,8 @@
      "price": 609.92,
      "value": 1268023,
      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008089/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-26",
@@ -1279,7 +1323,8 @@
      "price": 608.98,
      "value": 509716,
      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007988/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-26",
@@ -1291,7 +1336,8 @@
      "price": 608.98,
      "value": 49936,
      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007988/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-26",
@@ -1303,7 +1349,8 @@
      "price": 608.98,
      "value": 34711,
      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007988/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-26",
@@ -1315,7 +1362,8 @@
      "price": 608.98,
      "value": 49936,
      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007988/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-26",
@@ -1327,7 +1375,8 @@
      "price": 608.98,
      "value": 248463,
      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007988/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-18",
@@ -1339,7 +1388,8 @@
      "price": 609.35,
      "value": 510025,
      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007493/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-18",
@@ -1351,7 +1401,8 @@
      "price": 609.35,
      "value": 49966,
      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007493/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-18",
@@ -1363,7 +1414,8 @@
      "price": 609.35,
      "value": 34732,
      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007493/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     }
    ],
    "tech": null,
@@ -1433,7 +1485,8 @@
      "price": 143.77,
      "value": 3427764,
      "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000607/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-12",
@@ -1445,7 +1498,8 @@
      "price": 145.02,
      "value": 6351876,
      "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000607/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-12",
@@ -1457,7 +1511,8 @@
      "price": 145.85,
      "value": 1195094,
      "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000607/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-12",
@@ -1469,7 +1524,8 @@
      "price": 146.51,
      "value": 24027,
      "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000607/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-07",
@@ -1481,7 +1537,8 @@
      "price": 150.0,
      "value": 675600,
      "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000587/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-06",
@@ -1493,7 +1550,8 @@
      "price": 147.59,
      "value": 378273,
      "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000588/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-06",
@@ -1505,7 +1563,8 @@
      "price": 148.43,
      "value": 1656775,
      "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000588/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-06",
@@ -1517,7 +1576,8 @@
      "price": 149.19,
      "value": 1223954,
      "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000588/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-06",
@@ -1529,7 +1589,8 @@
      "price": 150.35,
      "value": 461724,
      "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000588/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-06",
@@ -1541,7 +1602,8 @@
      "price": 147.59,
      "value": 378125,
      "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000588/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-06",
@@ -1553,7 +1615,8 @@
      "price": 148.43,
      "value": 1656924,
      "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000588/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-06",
@@ -1565,7 +1628,8 @@
      "price": 149.19,
      "value": 1223954,
      "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000588/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-05-06",
@@ -1577,7 +1641,8 @@
      "price": 150.35,
      "value": 461724,
      "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000588/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     }
    ],
    "tech": null,
@@ -1969,7 +2034,8 @@
      "price": 431.39,
      "value": 1078475,
      "url": "https://www.sec.gov/Archives/edgar/data/64040/000185349726000004/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-04-30",
@@ -1981,7 +2047,8 @@
      "price": 434.03,
      "value": 500000,
      "url": "https://www.sec.gov/Archives/edgar/data/64040/000203383426000014/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     },
     {
      "date": "2026-04-29",
@@ -1993,7 +2060,8 @@
      "price": 429.93,
      "value": 998297,
      "url": "https://www.sec.gov/Archives/edgar/data/64040/000165789026000008/",
-     "source": "SEC"
+     "source": "SEC",
+     "firstSeen": "2026-06-17T12:50:24+00:00"
     }
    ],
    "tech": null,
@@ -2122,6 +2190,19 @@
    "firstSeen": "2026-06-17T05:16:24+00:00",
    "companyId": 11,
    "company": "Graphic Packaging",
+   "asset": "Anleihen",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-16",
+   "title": "Post Holdings (POST) Q2 2026 Earnings Call Transcript",
+   "summary": "Post Holdings (POST) Q2 2026 Earnings Call Transcript Fortune",
+   "source": "Fortune",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBzd2RNMW5kUlZPenlRbmV6TW11V3VWZUJjWnpyVmhqdzhRVGpiTjZtVElmVGN5RlVvd0ZtbEkxQlY3Tld3WDFzNmtQWXVrVklHQ1RrcmRGQWpRZ3pnVWtYUmRuYzYyXzZ1eDBv?oc=5",
+   "category": "Earnings",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
+   "companyId": 12,
+   "company": "Post Holdings",
    "asset": "Anleihen",
    "status": "Portfolio"
   },
@@ -2361,19 +2442,6 @@
   },
   {
    "date": "2026-06-10",
-   "title": "Prosus steps up open-ended share buyback with €107m purchase",
-   "summary": "Prosus steps up open-ended share buyback with €107m purchase The Globe and Mail",
-   "source": "The Globe and Mail",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTVRJam03Z0hNal9ESGlpbTJEdWdJZVZVd0lScFlENXBUN1VZbmhhb1dqZl9VWk5vaGFPMlp2T2VhWFBIR2thdnFNb2stUzhHd0ZMOVRkRlBzd1QzRUh3UEk1SkxoX0JrS0pzdmtiY2trUzBGSTFpZG1aV1hCbzhtRXBvRDczUmFSdjNyWDZNV3hKTEZ1MTRLc3FCZlFnOExrOTlYblhJMUFjczZaOGV1Ym0ySEJCMWJabzh2WkFZQV9IaHg2NnVPdHRORFNLWmZEUGhMQnJNUUtIT3JXOFRHWkt3?oc=5",
-   "category": "Markt",
-   "firstSeen": "2026-06-12T05:03:14+00:00",
-   "companyId": 8,
-   "company": "Prosus",
-   "asset": "Anleihen",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-10",
    "title": "Amazon trucking expansion sparks freight stock sell-off",
    "summary": "Amazon trucking expansion sparks freight stock sell-off CNBC",
    "source": "CNBC",
@@ -2421,6 +2489,19 @@
    "firstSeen": "2026-06-16T07:41:15+00:00",
    "companyId": 2,
    "company": "Chapters",
+   "asset": "Anleihen",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-09",
+   "title": "Solaris Energy Infrastructure, Borr Drilling, and Kosmos Energy Shares Are Falling, What You Need To Know",
+   "summary": "Solaris Energy Infrastructure, Borr Drilling, and Kosmos Energy Shares Are Falling, What You Need To Know The Globe and Mail",
+   "source": "The Globe and Mail",
+   "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxONEVfZDFQVlNYcWVzSzBfSGwtcnZyb2ZKUy1CSi1SMFV1bEJMYXRiSFdFVzN2dVNrYkJmbkZkS3lVenJnZ3hMU0h0Z2ZVTnNSbmh0TmZ2Q3VISWdEanFkZnVaX3JETTIyMWFIN0dyMHNIUkdUYlY5VzhnRmVEc3dJcW1RNGMyZlZvWUZLQm02SWJZSFNBRTc3Wkl3LW9KYzFzTnZwUTlPamtaSnZnLUpHLVp3ZmlnRV9HRlBWY3RVdlNTdVJGWEVWLWpJcHFCSFNGSXJrWW5sTDQzUTF2OFl3bnZhOVBYdTVRUzk2Tjk2dUppMlBQblJEXzV1bWR5VVM2M0pfVC1mY0x1YUZsUmJlRVlINWQ?oc=5",
+   "category": "Markt",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
+   "companyId": 4,
+   "company": "Borr",
    "asset": "Anleihen",
    "status": "Portfolio"
   },
@@ -2529,6 +2610,19 @@
    "status": "Watchlist"
   },
   {
+   "date": "2026-06-06",
+   "title": "Barclays Sticks to Its Buy Rating for XPO (XPO)",
+   "summary": "Barclays Sticks to Its Buy Rating for XPO (XPO) The Globe and Mail",
+   "source": "The Globe and Mail",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMXFsYzdTMTRCRm9CT3RXeUdxekNGY0E4dm5CVTBpZWU2d1NJMHJxSGFQMWhRNmlIUXlQc24ySUpESXpBTmgyZHl5WWNodlhLeHRFcVRvaDNTOW1kd0RXaHI3a2FYMzQ5VDZhb2l1Umxsc0UwYUpPN2EzUmVZV3JqeHRzUWhLSDk1ZmdKV1dKSWZVdTYwbzFJel9rWmVZeXNYSU5jd2EtejZqM0dhVHlrQjZjWjZhVnE5V05oX0I1RTJvRFFQczFhNQ?oc=5",
+   "category": "Rating",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
+   "companyId": 10,
+   "company": "XPO",
+   "asset": "Anleihen",
+   "status": "Portfolio"
+  },
+  {
    "date": "2026-06-04",
    "title": "Chapters Health System Named as a 2026 Top Workplace for Nursing",
    "summary": "Chapters Health System Named as a 2026 Top Workplace for Nursing PR Newswire",
@@ -2631,32 +2725,6 @@
    "company": "S&P Global",
    "asset": "Aktien",
    "status": "Watchlist"
-  },
-  {
-   "date": "2026-06-01",
-   "title": "Prosus given more time to comply with Delivery Hero stake sale, EU regulators say",
-   "summary": "Prosus given more time to comply with Delivery Hero stake sale, EU regulators say Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPczNnVHN6NldfREFrenlsQnVNLXNLalZ5VlZ5OHViU3RyTTVjaWwzeVdPaUFheXYyOUN6NTBvckRQSS1aa2g2b1VtQ1FwMDJELXd3bm5SUmlXZ3ZSVEtMVmdoMlpnRERfNG95OHlUeVVUd1czYnk1NEhPV1RfWXhwV2FsQXI0MWtHQ2VwZTJ0OWpTX3FUSnczLTNvYVh5b0pBZzI3WFRxYkhQMUhjUk5vdlVJZjF3ZXd5WVVfMUJrcw?oc=5",
-   "category": "M&A",
-   "firstSeen": "2026-06-02T09:02:02+00:00",
-   "companyId": 8,
-   "company": "Prosus",
-   "asset": "Anleihen",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-01",
-   "title": "Prosus considering raising Delivery Hero stake in bid to thwart Uber takeover, FT reports",
-   "summary": "Prosus considering raising Delivery Hero stake in bid to thwart Uber takeover, FT reports Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQkFqNmIxTTc3dUIxNGpCdFpsRXA0RVRTX1k3a3M5VmFGeVBWdFAtZDB0Uy1VbkxUTVJVV2ZGenZVTHg0SUt3SzRoVkI1SUFITUg0MjJZVWJNZXhzc3o2UnJwbTU3TXM0ejQxdEZHMldLVEJ6MG42SlRYbHBCblVfblAxdWt1dGFLVFFrbUhNMExfVkM3VndzV0ttMVFpOWRZdVJuSDJrVUNYV3Z3X0Iwa3NNdi1wY0l4MVZn?oc=5",
-   "category": "M&A",
-   "firstSeen": "2026-06-02T09:02:02+00:00",
-   "companyId": 8,
-   "company": "Prosus",
-   "asset": "Anleihen",
-   "status": "Portfolio"
   },
   {
    "date": "2026-06-01",
@@ -2851,14 +2919,15 @@
    "status": "Portfolio"
   },
   {
-   "date": "2026-05-25",
-   "title": "Prosus Asks EU to End Forced Sale of Delivery Hero Stake",
-   "summary": "Prosus Asks EU to End Forced Sale of Delivery Hero Stake Bloomberg.com",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbnRzdC1aWEFhdzlOUGs1TnpYcVRhZGFrdF9WX1pmYnFoSmFQdVQ5Mms0OGpUcnhCWU0taGhvMVRDaS0wR1lIREJnR0xneXRPTmFRbnNsT0lrZkNxZ1BuWlZyTEFHYmplUkdJWHAtNUZVNVR3akdwVHdkLU1GZjhDeFdsbVBZZUZ5SlZWaURkZnRtYWNMSzRsRFFVZGZXSFo1aVRRYjc2bEtiYkE?oc=5",
-   "category": "M&A",
-   "companyId": 8,
-   "company": "Prosus",
+   "date": "2026-05-21",
+   "title": "Borr Drilling shareholders back board, auditor and fee cap at 2026 AGM",
+   "summary": "Borr Drilling shareholders back board, auditor and fee cap at 2026 AGM The Globe and Mail",
+   "source": "The Globe and Mail",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxORTZ4aDZzU1BZRERfZGZRcjZ1NFpabTBFUUhyT3BaYW5mbEVKazRMMkw2OUZRTWVIUFNnM3pMdkVlR2o0cXo0VXRtcGJMNGdJU05DU0pvSldpdjFpOThPY1BBcXZZQXNfc3pWMVRIMm1lZ2gxM0poSmg0QklOODNCOW0wdC1vQldfZVhOY0R6M0ZZeklRLS1TeEZoV1ZoWUVjdE5UblBEbmFEbGt6ZldYRmJ5QzhBQ2tDMUFaOW8xVDhMUVNkMEFoQy11bnFLMVlwV0RnZzZwQm56bGREaWtZOHkyQWc?oc=5",
+   "category": "Conference",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
+   "companyId": 4,
+   "company": "Borr",
    "asset": "Anleihen",
    "status": "Portfolio"
   },
@@ -2963,6 +3032,7 @@
    "value": 1812780,
    "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000121/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 20,
    "company": "Microsoft",
    "asset": "Aktien",
@@ -2979,6 +3049,7 @@
    "value": 4996100,
    "url": "https://www.sec.gov/Archives/edgar/data/1715497/000162828026042068/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 4,
    "company": "Borr",
    "asset": "Anleihen",
@@ -2995,6 +3066,7 @@
    "value": 37600000,
    "url": "https://www.sec.gov/Archives/edgar/data/1715497/000162828026042066/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 4,
    "company": "Borr",
    "asset": "Anleihen",
@@ -3011,6 +3083,7 @@
    "value": 1031125,
    "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000109/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 20,
    "company": "Microsoft",
    "asset": "Aktien",
@@ -3027,6 +3100,7 @@
    "value": 266190,
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000018/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 18,
    "company": "Amazon",
    "asset": "Aktien",
@@ -3043,6 +3117,7 @@
    "value": 317162,
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008488/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 22,
    "company": "Meta",
    "asset": "Aktien",
@@ -3059,6 +3134,7 @@
    "value": 526715,
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 22,
    "company": "Meta",
    "asset": "Aktien",
@@ -3075,6 +3151,7 @@
    "value": 51601,
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 22,
    "company": "Meta",
    "asset": "Aktien",
@@ -3091,6 +3168,7 @@
    "value": 35869,
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 22,
    "company": "Meta",
    "asset": "Aktien",
@@ -3107,6 +3185,7 @@
    "value": 51601,
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 22,
    "company": "Meta",
    "asset": "Aktien",
@@ -3123,6 +3202,7 @@
    "value": 256750,
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 22,
    "company": "Meta",
    "asset": "Aktien",
@@ -3139,6 +3219,7 @@
    "value": 517471,
    "url": "https://www.sec.gov/Archives/edgar/data/1166003/000116600326000066/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 10,
    "company": "XPO",
    "asset": "Anleihen",
@@ -3155,6 +3236,7 @@
    "value": 1268023,
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008089/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 22,
    "company": "Meta",
    "asset": "Aktien",
@@ -3171,6 +3253,7 @@
    "value": 509716,
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007988/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 22,
    "company": "Meta",
    "asset": "Aktien",
@@ -3187,6 +3270,7 @@
    "value": 49936,
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007988/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 22,
    "company": "Meta",
    "asset": "Aktien",
@@ -3203,6 +3287,7 @@
    "value": 34711,
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007988/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 22,
    "company": "Meta",
    "asset": "Aktien",
@@ -3219,6 +3304,7 @@
    "value": 49936,
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007988/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 22,
    "company": "Meta",
    "asset": "Aktien",
@@ -3235,6 +3321,7 @@
    "value": 248463,
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007988/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 22,
    "company": "Meta",
    "asset": "Aktien",
@@ -3251,6 +3338,7 @@
    "value": 2489273,
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000155797926000006/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 18,
    "company": "Amazon",
    "asset": "Aktien",
@@ -3267,6 +3355,7 @@
    "value": 1363726,
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000008/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 18,
    "company": "Amazon",
    "asset": "Aktien",
@@ -3283,6 +3372,7 @@
    "value": 1375238,
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000008/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 18,
    "company": "Amazon",
    "asset": "Aktien",
@@ -3299,6 +3389,7 @@
    "value": 1495784,
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000008/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 18,
    "company": "Amazon",
    "asset": "Aktien",
@@ -3315,6 +3406,7 @@
    "value": 953908,
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000008/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 18,
    "company": "Amazon",
    "asset": "Aktien",
@@ -3331,6 +3423,7 @@
    "value": 79684,
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000008/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 18,
    "company": "Amazon",
    "asset": "Aktien",
@@ -3347,6 +3440,7 @@
    "value": 1115027,
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000008/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 18,
    "company": "Amazon",
    "asset": "Aktien",
@@ -3363,6 +3457,7 @@
    "value": 1198522,
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000008/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 18,
    "company": "Amazon",
    "asset": "Aktien",
@@ -3379,6 +3474,7 @@
    "value": 974009,
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000008/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 18,
    "company": "Amazon",
    "asset": "Aktien",
@@ -3395,6 +3491,7 @@
    "value": 671374,
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000008/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 18,
    "company": "Amazon",
    "asset": "Aktien",
@@ -3411,6 +3508,7 @@
    "value": 115022,
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000008/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 18,
    "company": "Amazon",
    "asset": "Aktien",
@@ -3427,6 +3525,7 @@
    "value": 1099888,
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000020/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 18,
    "company": "Amazon",
    "asset": "Aktien",
@@ -3443,6 +3542,7 @@
    "value": 360468,
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000020/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 18,
    "company": "Amazon",
    "asset": "Aktien",
@@ -3459,6 +3559,7 @@
    "value": 211083,
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000020/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 18,
    "company": "Amazon",
    "asset": "Aktien",
@@ -3475,6 +3576,7 @@
    "value": null,
    "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312526234664/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 11,
    "company": "Graphic Packaging",
    "asset": "Anleihen",
@@ -3491,6 +3593,7 @@
    "value": 510025,
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007493/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 22,
    "company": "Meta",
    "asset": "Aktien",
@@ -3507,6 +3610,7 @@
    "value": 49966,
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007493/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 22,
    "company": "Meta",
    "asset": "Aktien",
@@ -3523,6 +3627,7 @@
    "value": 34732,
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007493/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 22,
    "company": "Meta",
    "asset": "Aktien",
@@ -3539,6 +3644,7 @@
    "value": 2909745,
    "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000069/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 13,
    "company": "Da Vita",
    "asset": "Anleihen",
@@ -3555,6 +3661,7 @@
    "value": 649839,
    "url": "https://www.sec.gov/Archives/edgar/data/1530950/000125718626000016/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 12,
    "company": "Post Holdings",
    "asset": "Anleihen",
@@ -3571,6 +3678,7 @@
    "value": 2681161,
    "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000067/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 13,
    "company": "Da Vita",
    "asset": "Anleihen",
@@ -3587,6 +3695,7 @@
    "value": 3427764,
    "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000607/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 25,
    "company": "AerCap Holdings",
    "asset": "Aktien",
@@ -3603,6 +3712,7 @@
    "value": 6351876,
    "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000607/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 25,
    "company": "AerCap Holdings",
    "asset": "Aktien",
@@ -3619,6 +3729,7 @@
    "value": 1195094,
    "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000607/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 25,
    "company": "AerCap Holdings",
    "asset": "Aktien",
@@ -3635,6 +3746,7 @@
    "value": 24027,
    "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000607/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 25,
    "company": "AerCap Holdings",
    "asset": "Aktien",
@@ -3651,6 +3763,7 @@
    "value": 1408580,
    "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000067/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 13,
    "company": "Da Vita",
    "asset": "Anleihen",
@@ -3667,6 +3780,7 @@
    "value": 153991,
    "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312526216732/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 11,
    "company": "Graphic Packaging",
    "asset": "Anleihen",
@@ -3683,6 +3797,7 @@
    "value": 200000,
    "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312526216815/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 11,
    "company": "Graphic Packaging",
    "asset": "Anleihen",
@@ -3699,6 +3814,7 @@
    "value": 9887527,
    "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000065/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 13,
    "company": "Da Vita",
    "asset": "Anleihen",
@@ -3715,6 +3831,7 @@
    "value": 675600,
    "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000587/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 25,
    "company": "AerCap Holdings",
    "asset": "Aktien",
@@ -3731,6 +3848,7 @@
    "value": 381916,
    "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000064/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 13,
    "company": "Da Vita",
    "asset": "Anleihen",
@@ -3747,6 +3865,7 @@
    "value": 378273,
    "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000588/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 25,
    "company": "AerCap Holdings",
    "asset": "Aktien",
@@ -3763,6 +3882,7 @@
    "value": 1656775,
    "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000588/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 25,
    "company": "AerCap Holdings",
    "asset": "Aktien",
@@ -3779,6 +3899,7 @@
    "value": 1223954,
    "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000588/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 25,
    "company": "AerCap Holdings",
    "asset": "Aktien",
@@ -3795,6 +3916,7 @@
    "value": 461724,
    "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000588/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 25,
    "company": "AerCap Holdings",
    "asset": "Aktien",
@@ -3811,6 +3933,7 @@
    "value": 378125,
    "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000588/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 25,
    "company": "AerCap Holdings",
    "asset": "Aktien",
@@ -3827,6 +3950,7 @@
    "value": 1656924,
    "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000588/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 25,
    "company": "AerCap Holdings",
    "asset": "Aktien",
@@ -3843,6 +3967,7 @@
    "value": 1223954,
    "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000588/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 25,
    "company": "AerCap Holdings",
    "asset": "Aktien",
@@ -3859,6 +3984,7 @@
    "value": 461724,
    "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000588/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 25,
    "company": "AerCap Holdings",
    "asset": "Aktien",
@@ -3875,6 +4001,7 @@
    "value": 182864678,
    "url": "https://www.sec.gov/Archives/edgar/data/927066/000119312526207021/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 13,
    "company": "Da Vita",
    "asset": "Anleihen",
@@ -3891,6 +4018,7 @@
    "value": 1078475,
    "url": "https://www.sec.gov/Archives/edgar/data/64040/000185349726000004/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 34,
    "company": "S&P Global",
    "asset": "Aktien",
@@ -3907,6 +4035,7 @@
    "value": 500000,
    "url": "https://www.sec.gov/Archives/edgar/data/64040/000203383426000014/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 34,
    "company": "S&P Global",
    "asset": "Aktien",
@@ -3923,6 +4052,7 @@
    "value": 3095,
    "url": "https://www.wienerborse.at/uploads/u/cms/files/marktdaten/statistiken/directors-dealings-2026.pdf",
    "source": "Wiener Börse",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 16,
    "company": "BAWAG",
    "asset": "Aktien",
@@ -3939,6 +4069,7 @@
    "value": 1190030,
    "url": "https://www.wienerborse.at/uploads/u/cms/files/marktdaten/statistiken/directors-dealings-2026.pdf",
    "source": "Wiener Börse",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 16,
    "company": "BAWAG",
    "asset": "Aktien",
@@ -3955,6 +4086,7 @@
    "value": 998297,
    "url": "https://www.sec.gov/Archives/edgar/data/64040/000165789026000008/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 34,
    "company": "S&P Global",
    "asset": "Aktien",
@@ -3971,6 +4103,7 @@
    "value": 754500,
    "url": "https://www.wienerborse.at/uploads/u/cms/files/marktdaten/statistiken/directors-dealings-2026.pdf",
    "source": "Wiener Börse",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 16,
    "company": "BAWAG",
    "asset": "Aktien",
@@ -3987,6 +4120,7 @@
    "value": 1490000,
    "url": "https://www.wienerborse.at/uploads/u/cms/files/marktdaten/statistiken/directors-dealings-2026.pdf",
    "source": "Wiener Börse",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 16,
    "company": "BAWAG",
    "asset": "Aktien",
@@ -4003,6 +4137,7 @@
    "value": 1480000,
    "url": "https://www.wienerborse.at/uploads/u/cms/files/marktdaten/statistiken/directors-dealings-2026.pdf",
    "source": "Wiener Börse",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 16,
    "company": "BAWAG",
    "asset": "Aktien",
@@ -4019,6 +4154,7 @@
    "value": 749250,
    "url": "https://www.wienerborse.at/uploads/u/cms/files/marktdaten/statistiken/directors-dealings-2026.pdf",
    "source": "Wiener Börse",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 16,
    "company": "BAWAG",
    "asset": "Aktien",
@@ -4035,6 +4171,7 @@
    "value": 2790900,
    "url": "https://www.sec.gov/Archives/edgar/data/1715497/000162828026025616/",
    "source": "SEC",
+   "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 4,
    "company": "Borr",
    "asset": "Anleihen",
