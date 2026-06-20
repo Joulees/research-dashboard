@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-20T04:40:41+00:00",
+ "generatedAt": "2026-06-20T06:39:41+00:00",
  "companies": {
   "1": {
    "news": [],
@@ -152,19 +152,6 @@
   },
   "4": {
    "news": [
-    {
-     "date": "2026-06-19",
-     "title": "Bronstein, Gewirtz & Grossman, LLC Is Investigating Borr Drilling Limited (BORR) And Encourages Stockholders to Connect",
-     "summary": "Bronstein, Gewirtz & Grossman, LLC Is Investigating Borr Drilling Limited (BORR) And Encourages Stockholders to Connect ACCESS Newswire",
-     "source": "ACCESS Newswire",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOXzRvaXdETXFoZmt3NTQ1dWZLTDRpQzRPVVdVWk9wakQ1S2JQYklkdDZnaEc1eldqdXdSNUNBTWhha0MtSHVVeTZOTDlxbVp1UEk4U1VNdEVjWWdacWRJRF9fSEZBY19CRFdBdVVmaGJXWUlSRVZsbWZjZlJXMjNmSXU1eFBYNDJBU281YTk2Rk9BcWhTVDZNX2tsWS11ZWllWDVfUHkzVlF0YXVXSEptU0VJa19HUGluSzQtQWJVdmc2Yms4MU1LSWVUYm53TDVOVzFjd2JDZThWczJpZnI5ZnQ3eUw?oc=5",
-     "category": "Sonstiges",
-     "firstSeen": "2026-06-20T04:40:41+00:00",
-     "companyId": 4,
-     "company": "Borr",
-     "asset": "Anleihen",
-     "status": "Portfolio"
-    },
     {
      "date": "2026-06-12",
      "title": "BORR Investors Have Opportunity to Join Borr Drilling Limited Fraud Investigation with the Schall Law Firm",
@@ -696,6 +683,19 @@
   "11": {
    "news": [
     {
+     "date": "2026-06-20",
+     "title": "GPK INVESTOR ALERT: Bronstein, Gewirtz and Grossman, LLC Announces that Graphic Packaging Holding Company Shareholders Have Opportunity to Lead Class Action Lawsuit!",
+     "summary": "GPK INVESTOR ALERT: Bronstein, Gewirtz and Grossman, LLC Announces that Graphic Packaging Holding Company Shareholders Have Opportunity to Lead Class Action Lawsuit! ACCESS Newswire",
+     "source": "ACCESS Newswire",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVG1JazJlZFBjbGRYb1pITTM1YTNMamdpWXl4QzlUV2pKYlZ0LV9Ed0JOaG1OdnVCbTZYTnlLVll5N0FKTzY4UW1XOXlvZDNoQ3dCQTBpVmhwRFhKcFNXUkJFRmlfYzItTnFZakYwbU5yUEoxRXNuSU5TeUhYR1pnN3c0ZWZPdDNFWDJlUm81cHp1WUhKVmVzX1RxM3UydmhWcF9RcmhOSzNDa05tanVpTTR3aG9aM0pRRmRuQUpXMEhiUEswb3hLWl9Uc1V3SVVpOU92TjMwQjBDOUh2Q3RWMjNhWQ?oc=5",
+     "category": "Sonstiges",
+     "firstSeen": "2026-06-20T06:39:41+00:00",
+     "companyId": 11,
+     "company": "Graphic Packaging",
+     "asset": "Anleihen",
+     "status": "Portfolio"
+    },
+    {
      "date": "2026-06-19",
      "title": "Class Action Lawsuit Filed Against Graphic Packaging Holding Company (GPK) - Recover Losses - Contact Levi & Korsinsky Before July 6, 2026",
      "summary": "Class Action Lawsuit Filed Against Graphic Packaging Holding Company (GPK) - Recover Losses - Contact Levi & Korsinsky Before July 6, 2026 ACCESS Newswire",
@@ -755,19 +755,6 @@
      "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOYjd6NVEtcWlCNVVpb0p1RmFPeTB1cG9FWlZiZGJOS2NZaXhHaGVVWkNtMW5uOEd3Mm1MXzZLd0s1Y18yTnptTkpNYnByRlFhdXJFd1RJUUdaVWhMSnJXcnh3X19xRmJZZ3lmMElXZGRjX1FDaG5ENkg5Ukt4SWJTZjNEWmxkV0NsNWFBV1JsTUs1N0JPYVZLV2tQYzF4TUtFcndYcEdobDVpcnlTYzNvV29ZRk9QV19BbUI4SGZXU3l3ZjBjdkExWkloWUozV0FBYmhqLXZKU2RUeVdtRWNNTlFTME5CYnpjMFZFckQ3akxKZ0J5bHFiTDg0TEVKZEszc2dtZXFLU0V6blRrODEyd1dsWmxtVnZhUm9fZmxIUXhtRWNUZXl0TVFySQ?oc=5",
      "category": "Sonstiges",
      "firstSeen": "2026-06-18T07:04:40+00:00",
-     "companyId": 11,
-     "company": "Graphic Packaging",
-     "asset": "Anleihen",
-     "status": "Portfolio"
-    },
-    {
-     "date": "2026-06-16",
-     "title": "Portnoy Law Firm Announces Class Action on Behalf of Graphic Packaging Holding Company Investors",
-     "summary": "Portnoy Law Firm Announces Class Action on Behalf of Graphic Packaging Holding Company Investors GlobeNewswire",
-     "source": "GlobeNewswire",
-     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQZjJnbTFyMFdsUjF5ZEUxQm5CT2VGV0tqd3piSGMtQ1ZMZGcwNXJVVVZXTC1vWmxrTUdtVkpmSDJtOThBemN1blRGRExvZWFDS1FuZ3VWd2hyTWp6QlQ3ZXZNeFhNVjlURGptaHJMbG5HQm0tQUU4ZHpWWXZHbE0xd0ozY1Y3RzhUUWRxUWxsOE5RZU9VS3E5Y2FBV3JRRDNFMHo2Z1IwUzc2M0RLcHZsZ0VTYmd4bVlMXzJJRWN5bzlOXzFuSUJLZW5UbURjamZCa09yeUNPVGt1RDN6TU9yeHRCbEhHdkFybllmdksxV0ZMUnhHY0xtU3JsLWs?oc=5",
-     "category": "Sonstiges",
-     "firstSeen": "2026-06-17T05:16:24+00:00",
      "companyId": 11,
      "company": "Graphic Packaging",
      "asset": "Anleihen",
@@ -1380,6 +1367,19 @@
      "status": "Portfolio"
     },
     {
+     "date": "2026-06-10",
+     "title": "Amazon trucking expansion sparks freight stock sell-off",
+     "summary": "Amazon trucking expansion sparks freight stock sell-off CNBC",
+     "source": "CNBC",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeFF3eExnenBldld3T3lmVVNEM0lXb2E5dDAwOVFyYk5sVXlZXzJCajdOdXNWUGFpT1k3RGxYMHB1ZEJhRnJOOVFwZ3ZFUmE4TzBwRDZiUDRSRDFHMVQ5TTduWTF1bkFCSkQyZEVNQjJ4V2Z2VU9iTk1uSXlEZVp4cTNrVy01UXNHamd2T9IBkgFBVV95cUxNNXRuS29hVFhSUEg2d1B1SFBidld2djhIVi1qU3JZWU5Sb1k5T3FKMFQ3dHB6MFJJOXRzemxZT1NQeUlRcHFTLXNydGlmQk51RktfMGp5STZwVVgtQk1lMVUzOF80ODZkeHhFOU9fczI3cncwd2s4UnNCNHc4X0tYbkJlRTZZam9HUXpiMHFiT1FMUQ?oc=5",
+     "category": "M&A",
+     "firstSeen": "2026-06-20T06:39:41+00:00",
+     "companyId": 18,
+     "company": "Amazon",
+     "asset": "Aktien",
+     "status": "Portfolio"
+    },
+    {
      "date": "2026-06-09",
      "title": "Amazon issues record-setting Canadian dollar-denominated corporate bond deal",
      "summary": "Amazon issues record-setting Canadian dollar-denominated corporate bond deal Reuters",
@@ -1832,34 +1832,7 @@
    }
   },
   "20": {
-   "news": [
-    {
-     "date": "2026-06-15",
-     "title": "Microsoft sued by shareholders over expenses, cloud business, AI",
-     "summary": "Microsoft sued by shareholders over expenses, cloud business, AI Reuters",
-     "source": "Reuters",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUmJQUkh0dTUzZ2dITlpFWVp1ZGp4d0t2T3RYNHZMTVVra042ZVNYTk94R1dKdjM2cU0yWTh5cXNCVlVHTkFXRDFiT3ptRnNPeDUteGR1RDV5eWVoS3M4NFJsNDVpcHlVTVluQWViLUI0a29XR0JOaERIUXZnUTJ2V2VXSWs4MFBzMlFUR2NGNHJRcEFjUWptTU84dEZ2UllET0NWX2hsTDgwRDQ?oc=5",
-     "category": "Markt",
-     "firstSeen": "2026-06-16T05:32:48+00:00",
-     "companyId": 20,
-     "company": "Microsoft",
-     "asset": "Aktien",
-     "status": "Portfolio"
-    },
-    {
-     "date": "2026-06-02",
-     "title": "Microsoft seeks to be AI’s center of gravity again. CEO Satya Nadella is in San Francisco to make the case",
-     "summary": "Microsoft seeks to be AI’s center of gravity again. CEO Satya Nadella is in San Francisco to make the case Fortune",
-     "source": "Fortune",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQzR2ZUZnLThsRmV1TlV4QXVEVkY5YzJBZWFSaWhVQnVCbWhyREhkajd1bEh2OGRSUlM3QUVfMUs0VDlmeWVjMXVnejRCWE91MFBham83MkEzS3BLdmU0MXFmb1dfN085MWZ6NVBGbFVFQ2VtVDJMYnVnbmNKeU1uUGJxNmRqQQ?oc=5",
-     "category": "Markt",
-     "firstSeen": "2026-06-19T07:24:52+00:00",
-     "companyId": 20,
-     "company": "Microsoft",
-     "asset": "Aktien",
-     "status": "Portfolio"
-    }
-   ],
+   "news": [],
    "events": [
     {
      "date": "2026-07-29",
@@ -1916,7 +1889,34 @@
      "firstSeen": "2026-06-17T13:12:03+00:00"
     }
    ],
-   "insider": [],
+   "insider": [
+    {
+     "date": "2026-06-10",
+     "insider": "Numoto Takeshi",
+     "role": "EVP, Chief Marketing Officer",
+     "code": "S",
+     "kind": "Verkauf",
+     "shares": 4500,
+     "price": 402.84,
+     "value": 1812780,
+     "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000121/",
+     "source": "SEC",
+     "firstSeen": "2026-06-20T06:39:41+00:00"
+    },
+    {
+     "date": "2026-06-08",
+     "insider": "Numoto Takeshi",
+     "role": "EVP, Chief Marketing Officer",
+     "code": "S",
+     "kind": "Verkauf",
+     "shares": 2500,
+     "price": 412.45,
+     "value": 1031125,
+     "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000109/",
+     "source": "SEC",
+     "firstSeen": "2026-06-20T06:39:41+00:00"
+    }
+   ],
    "tech": {
     "currency": "USD",
     "closes": [
@@ -2172,7 +2172,164 @@
      "firstSeen": "2026-06-17T13:12:03+00:00"
     }
    ],
-   "insider": [],
+   "insider": [
+    {
+     "date": "2026-06-15",
+     "insider": "Olivan Javier",
+     "role": "Chief Operating Officer",
+     "code": "S",
+     "kind": "Verkauf",
+     "shares": 140,
+     "price": 600.0,
+     "value": 84000,
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326009164/",
+     "source": "SEC",
+     "firstSeen": "2026-06-20T06:39:41+00:00"
+    },
+    {
+     "date": "2026-06-15",
+     "insider": "Olivan Javier",
+     "role": "Chief Operating Officer",
+     "code": "S",
+     "kind": "Verkauf",
+     "shares": 164,
+     "price": 600.0,
+     "value": 98400,
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326009164/",
+     "source": "SEC",
+     "firstSeen": "2026-06-20T06:39:41+00:00"
+    },
+    {
+     "date": "2026-06-15",
+     "insider": "Olivan Javier",
+     "role": "Chief Operating Officer",
+     "code": "S",
+     "kind": "Verkauf",
+     "shares": 114,
+     "price": 600.0,
+     "value": 68400,
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326009164/",
+     "source": "SEC",
+     "firstSeen": "2026-06-20T06:39:41+00:00"
+    },
+    {
+     "date": "2026-06-15",
+     "insider": "Olivan Javier",
+     "role": "Chief Operating Officer",
+     "code": "S",
+     "kind": "Verkauf",
+     "shares": 164,
+     "price": 600.0,
+     "value": 98400,
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326009164/",
+     "source": "SEC",
+     "firstSeen": "2026-06-20T06:39:41+00:00"
+    },
+    {
+     "date": "2026-06-15",
+     "insider": "Olivan Javier",
+     "role": "Chief Operating Officer",
+     "code": "S",
+     "kind": "Verkauf",
+     "shares": 816,
+     "price": 600.0,
+     "value": 489600,
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326009164/",
+     "source": "SEC",
+     "firstSeen": "2026-06-20T06:39:41+00:00"
+    },
+    {
+     "date": "2026-06-01",
+     "insider": "KIMMITT ROBERT M",
+     "role": "Director",
+     "code": "S",
+     "kind": "Verkauf",
+     "shares": 504,
+     "price": 629.29,
+     "value": 317162,
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008488/",
+     "source": "SEC",
+     "firstSeen": "2026-06-20T06:39:41+00:00"
+    },
+    {
+     "date": "2026-06-01",
+     "insider": "Olivan Javier",
+     "role": "Chief Operating Officer",
+     "code": "S",
+     "kind": "Verkauf",
+     "shares": 837,
+     "price": 629.29,
+     "value": 526715,
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
+     "source": "SEC",
+     "firstSeen": "2026-06-20T06:39:41+00:00"
+    },
+    {
+     "date": "2026-06-01",
+     "insider": "Olivan Javier",
+     "role": "Chief Operating Officer",
+     "code": "S",
+     "kind": "Verkauf",
+     "shares": 82,
+     "price": 629.29,
+     "value": 51601,
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
+     "source": "SEC",
+     "firstSeen": "2026-06-20T06:39:41+00:00"
+    },
+    {
+     "date": "2026-06-01",
+     "insider": "Olivan Javier",
+     "role": "Chief Operating Officer",
+     "code": "S",
+     "kind": "Verkauf",
+     "shares": 57,
+     "price": 629.29,
+     "value": 35869,
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
+     "source": "SEC",
+     "firstSeen": "2026-06-20T06:39:41+00:00"
+    },
+    {
+     "date": "2026-06-01",
+     "insider": "Olivan Javier",
+     "role": "Chief Operating Officer",
+     "code": "S",
+     "kind": "Verkauf",
+     "shares": 82,
+     "price": 629.29,
+     "value": 51601,
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
+     "source": "SEC",
+     "firstSeen": "2026-06-20T06:39:41+00:00"
+    },
+    {
+     "date": "2026-06-01",
+     "insider": "Olivan Javier",
+     "role": "Chief Operating Officer",
+     "code": "S",
+     "kind": "Verkauf",
+     "shares": 408,
+     "price": 629.29,
+     "value": 256750,
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
+     "source": "SEC",
+     "firstSeen": "2026-06-20T06:39:41+00:00"
+    },
+    {
+     "date": "2026-05-27",
+     "insider": "Mahoney Curtis J.",
+     "role": "Chief Legal Officer",
+     "code": "S",
+     "kind": "Verkauf",
+     "shares": 2079,
+     "price": 609.92,
+     "value": 1268023,
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008089/",
+     "source": "SEC",
+     "firstSeen": "2026-06-20T06:39:41+00:00"
+    }
+   ],
    "tech": {
     "currency": "USD",
     "closes": [
@@ -2438,6 +2595,19 @@
      "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000607/",
      "source": "SEC",
      "firstSeen": "2026-06-17T12:50:24+00:00"
+    },
+    {
+     "date": "2026-05-07",
+     "insider": "Drouillard Vincent",
+     "role": "General Counsel",
+     "code": "S",
+     "kind": "Verkauf",
+     "shares": 4504,
+     "price": 150.0,
+     "value": 675600,
+     "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000587/",
+     "source": "SEC",
+     "firstSeen": "2026-06-20T06:39:41+00:00"
     },
     {
      "date": "2026-05-06",
@@ -3173,7 +3343,86 @@
    }
   },
   "34": {
-   "news": [],
+   "news": [
+    {
+     "date": "2026-06-17",
+     "title": "S&P Global Ratings Affirms Ecopetrol's Global and Stand-Alone Credit Ratings",
+     "summary": "S&P Global Ratings Affirms Ecopetrol's Global and Stand-Alone Credit Ratings PR Newswire",
+     "source": "PR Newswire",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaUJvRTN2M3ZCam5ienRBeWNyX1ZaamlBeGF0Y2pXdkYyM3JNbnJBS1BONlhmLURuUXZOcGY5UVR4WHFvOUpxZmRYV0NRS2tabDh1ZGdDRlY5ZFlBdGI4X0xJa2RrWE14WXNWa3NfNFBBd0YwbzZJM2ZPeDExcktURjh3eGt2bHVCX05hcU9aQXNFTzM3LU54bzJkVmJlLU5UNGFBd3BPN3FIMF9HMXIzQzBkbnRsRDljS2p1MHFxRlh1Tk5tRWc1RE5B?oc=5",
+     "category": "Rating",
+     "firstSeen": "2026-06-20T06:39:41+00:00",
+     "companyId": 34,
+     "company": "S&P Global",
+     "asset": "Aktien",
+     "status": "Watchlist"
+    },
+    {
+     "date": "2026-06-10",
+     "title": "Sands China Recognised by S&P Global's Sustainability Yearbook for Fourth Consecutive Year",
+     "summary": "Sands China Recognised by S&P Global's Sustainability Yearbook for Fourth Consecutive Year PR Newswire",
+     "source": "PR Newswire",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQODFlUmFrb0Q1cXI3SlhNRjFuNlN1VmpiMEh5LU13T3FHdV9SbEV0UmlwaC1IY2hlbjN2WGVyWmVvSVk3ZGJRS2ZtUVFGOV9EeTFwVzR1VjBqSXQtbmhrRkVDaEhLQXhyQmwwMlRQTXllaWRuaEVKejBvNnBfdGdxaFYyYjZ1NHM4b01NMW5SVzRRdmJyRGdrZjU1UHRtcXJXRnhhcTg5emtWTExBVkQzelh6dlVKckhuNnl6OFlIMHAyaXI3MnNidnlycVMzZ1lvWXd4Nnd3UHRVTUhB?oc=5",
+     "category": "Sonstiges",
+     "firstSeen": "2026-06-20T06:39:41+00:00",
+     "companyId": 34,
+     "company": "S&P Global",
+     "asset": "Aktien",
+     "status": "Watchlist"
+    },
+    {
+     "date": "2026-06-08",
+     "title": "S&P Global Expands AI Ecosystem Reach with Cohere to Power Trusted, Agentic Workflows for Financial Institutions",
+     "summary": "S&P Global Expands AI Ecosystem Reach with Cohere to Power Trusted, Agentic Workflows for Financial Institutions PR Newswire",
+     "source": "PR Newswire",
+     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNZHE4UjZXUl9OdXA3Y1J3d2NGMVFhYWtyWFIxcXl4bTFOeWFjZktmNWZFQW1zUTRRMjR5XzRjWEY4S3dwLWJUdFR3NGMxS1BJQlFGbmFDX0pQTzRaYnhqcmVVWDlzcTFDRUxNSVhua2R6SnZEYTVRaElBLUNjR1lPV1J6N1NIb05jZUVidWw2d1FkbXluNHhSUklMQU1VNFlMZnZmc3ZPQ2RjNVJYNW1CSlJoUC1ZWEszZlV3VDQycUlBTEljTTFQSzU4OUFGbW9YUklhYkoybFpOZFNVV2JiV1NDUVNDdXdyTFRtQ3RWY3V2WXprdGt1T1Vn?oc=5",
+     "category": "Sonstiges",
+     "firstSeen": "2026-06-20T06:39:41+00:00",
+     "companyId": 34,
+     "company": "S&P Global",
+     "asset": "Aktien",
+     "status": "Watchlist"
+    },
+    {
+     "date": "2026-06-04",
+     "title": "S&P Global Launches Agentic AI-Powered Credit Memo Builder™ to Streamline Credit Analysis",
+     "summary": "S&P Global Launches Agentic AI-Powered Credit Memo Builder™ to Streamline Credit Analysis PR Newswire",
+     "source": "PR Newswire",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUmtJTWNRQjhuSEF4SlNRR082MEI4N1RMNUNFRHJJeEw3WGpjakRvQlFqTURmM0o3Q3RVeDlvRUZVclVhcUQteG1DZUl2XzBZUUxTVm45VEhyZFJRdF9sZGljZEZ2aVBtcGczM2dhMnVzQ0xZb21wbmRhY2JfY1BoRFlOV3BVa3plTkM0RGZ2ZHBFbnVQZlRWbXd4aTZCQnhUZDEzaEJKRHJHeXpoNGI0ZF8yRmx5blIxR2IzajFEeUZya1pSM3lqN1hlczl0Z3NfS1hJd2UxRXRkdTQ?oc=5",
+     "category": "Sonstiges",
+     "firstSeen": "2026-06-20T06:39:41+00:00",
+     "companyId": 34,
+     "company": "S&P Global",
+     "asset": "Aktien",
+     "status": "Watchlist"
+    },
+    {
+     "date": "2026-06-02",
+     "title": "The Conference Board to Honor S&P Global and UL Solutions at 2026 People First Awards Dinner",
+     "summary": "The Conference Board to Honor S&P Global and UL Solutions at 2026 People First Awards Dinner PR Newswire",
+     "source": "PR Newswire",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQdXVVWjZ0WEpTTUk3b1lrZTRQdWNxd096YTNYMTZCdEIwZ2tXTzJmdEU3aGFoTjhTM3RLN002bTVZU3pqS1h6c3VpSmR2ZDUwVHJJUl81NGFMNWl1UUhXdlpsWlZ2SzgyeDlVUmoxMjhUOG5mSnVWdkhyaWYzWTJWQi10QUhpc0R4VkZXZFFYZkx1Zm9GZ091LVNEV3Z2bGpSZUpaOXhtLUQxT2dLc21ncW5fdVBOeTBGQThQUHNJNnYzLWRJMVVNRWZZaVRWLV9NNnlNRXpGcG84ZG52ZWVNXw?oc=5",
+     "category": "Conference",
+     "firstSeen": "2026-06-20T06:39:41+00:00",
+     "companyId": 34,
+     "company": "S&P Global",
+     "asset": "Aktien",
+     "status": "Watchlist"
+    },
+    {
+     "date": "2026-05-26",
+     "title": "S&P Global Energy president Dave Ernsberger warns the principle of freedom of maritime flow is at stake",
+     "summary": "S&P Global Energy president Dave Ernsberger warns the principle of freedom of maritime flow is at stake CNBC",
+     "source": "CNBC",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdzJNZ3d3SnpaUXBKWHNzWlJRY2twRm0wSXE5VHIwN2tSZjFvY2FRMzRqMHFXZ1piRE5kS0FudHFpajRXU3Y3MUYtTVJabTFlcEljX3RaT1g3elN3RmFYUW5qVi1SckhZVnphdFRqNkhscnFLaC1pYjgyZDhUSnlYNDdGOERpWU5INmkwdUdpSVVONlBS?oc=5",
+     "category": "M&A",
+     "firstSeen": "2026-06-20T06:39:41+00:00",
+     "companyId": 34,
+     "company": "S&P Global",
+     "asset": "Aktien",
+     "status": "Watchlist"
+    }
+   ],
    "events": [
     {
      "date": "2026-07-01",
@@ -3219,7 +3468,47 @@
      "firstSeen": "2026-06-17T13:12:03+00:00"
     }
    ],
-   "insider": [],
+   "insider": [
+    {
+     "date": "2026-05-01",
+     "insider": "Clay Catherine R",
+     "role": "CEO, S&P Dow Jones Indices",
+     "code": "P",
+     "kind": "Kauf",
+     "shares": 2500,
+     "price": 431.39,
+     "value": 1078475,
+     "url": "https://www.sec.gov/Archives/edgar/data/64040/000185349726000004/",
+     "source": "SEC",
+     "firstSeen": "2026-06-20T06:39:41+00:00"
+    },
+    {
+     "date": "2026-04-30",
+     "insider": "Moritz Robert Edward Jr.",
+     "role": "Director",
+     "code": "P",
+     "kind": "Kauf",
+     "shares": 1151,
+     "price": 434.03,
+     "value": 500000,
+     "url": "https://www.sec.gov/Archives/edgar/data/64040/000203383426000014/",
+     "source": "SEC",
+     "firstSeen": "2026-06-20T06:39:41+00:00"
+    },
+    {
+     "date": "2026-04-29",
+     "insider": "CHEUNG MARTINA",
+     "role": "CEO & President",
+     "code": "P",
+     "kind": "Kauf",
+     "shares": 2322,
+     "price": 429.93,
+     "value": 998297,
+     "url": "https://www.sec.gov/Archives/edgar/data/64040/000165789026000008/",
+     "source": "SEC",
+     "firstSeen": "2026-06-20T06:39:41+00:00"
+    }
+   ],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -3343,15 +3632,15 @@
  },
  "news": [
   {
-   "date": "2026-06-19",
-   "title": "Bronstein, Gewirtz & Grossman, LLC Is Investigating Borr Drilling Limited (BORR) And Encourages Stockholders to Connect",
-   "summary": "Bronstein, Gewirtz & Grossman, LLC Is Investigating Borr Drilling Limited (BORR) And Encourages Stockholders to Connect ACCESS Newswire",
+   "date": "2026-06-20",
+   "title": "GPK INVESTOR ALERT: Bronstein, Gewirtz and Grossman, LLC Announces that Graphic Packaging Holding Company Shareholders Have Opportunity to Lead Class Action Lawsuit!",
+   "summary": "GPK INVESTOR ALERT: Bronstein, Gewirtz and Grossman, LLC Announces that Graphic Packaging Holding Company Shareholders Have Opportunity to Lead Class Action Lawsuit! ACCESS Newswire",
    "source": "ACCESS Newswire",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOXzRvaXdETXFoZmt3NTQ1dWZLTDRpQzRPVVdVWk9wakQ1S2JQYklkdDZnaEc1eldqdXdSNUNBTWhha0MtSHVVeTZOTDlxbVp1UEk4U1VNdEVjWWdacWRJRF9fSEZBY19CRFdBdVVmaGJXWUlSRVZsbWZjZlJXMjNmSXU1eFBYNDJBU281YTk2Rk9BcWhTVDZNX2tsWS11ZWllWDVfUHkzVlF0YXVXSEptU0VJa19HUGluSzQtQWJVdmc2Yms4MU1LSWVUYm53TDVOVzFjd2JDZThWczJpZnI5ZnQ3eUw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVG1JazJlZFBjbGRYb1pITTM1YTNMamdpWXl4QzlUV2pKYlZ0LV9Ed0JOaG1OdnVCbTZYTnlLVll5N0FKTzY4UW1XOXlvZDNoQ3dCQTBpVmhwRFhKcFNXUkJFRmlfYzItTnFZakYwbU5yUEoxRXNuSU5TeUhYR1pnN3c0ZWZPdDNFWDJlUm81cHp1WUhKVmVzX1RxM3UydmhWcF9RcmhOSzNDa05tanVpTTR3aG9aM0pRRmRuQUpXMEhiUEswb3hLWl9Uc1V3SVVpOU92TjMwQjBDOUh2Q3RWMjNhWQ?oc=5",
    "category": "Sonstiges",
-   "firstSeen": "2026-06-20T04:40:41+00:00",
-   "companyId": 4,
-   "company": "Borr",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 11,
+   "company": "Graphic Packaging",
    "asset": "Anleihen",
    "status": "Portfolio"
   },
@@ -3512,6 +3801,19 @@
    "status": "Portfolio"
   },
   {
+   "date": "2026-06-17",
+   "title": "S&P Global Ratings Affirms Ecopetrol's Global and Stand-Alone Credit Ratings",
+   "summary": "S&P Global Ratings Affirms Ecopetrol's Global and Stand-Alone Credit Ratings PR Newswire",
+   "source": "PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaUJvRTN2M3ZCam5ienRBeWNyX1ZaamlBeGF0Y2pXdkYyM3JNbnJBS1BONlhmLURuUXZOcGY5UVR4WHFvOUpxZmRYV0NRS2tabDh1ZGdDRlY5ZFlBdGI4X0xJa2RrWE14WXNWa3NfNFBBd0YwbzZJM2ZPeDExcktURjh3eGt2bHVCX05hcU9aQXNFTzM3LU54bzJkVmJlLU5UNGFBd3BPN3FIMF9HMXIzQzBkbnRsRDljS2p1MHFxRlh1Tk5tRWc1RE5B?oc=5",
+   "category": "Rating",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 34,
+   "company": "S&P Global",
+   "asset": "Aktien",
+   "status": "Watchlist"
+  },
+  {
    "date": "2026-06-16",
    "title": "GPK Shareholder Alert: July 6, 2026 Lead Plaintiff Deadline in Graphic Packaging Holding Company Securities Class Action - Contact The Gross Law Firm",
    "summary": "GPK Shareholder Alert: July 6, 2026 Lead Plaintiff Deadline in Graphic Packaging Holding Company Securities Class Action - Contact The Gross Law Firm PR Newswire",
@@ -3519,19 +3821,6 @@
    "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOYjd6NVEtcWlCNVVpb0p1RmFPeTB1cG9FWlZiZGJOS2NZaXhHaGVVWkNtMW5uOEd3Mm1MXzZLd0s1Y18yTnptTkpNYnByRlFhdXJFd1RJUUdaVWhMSnJXcnh3X19xRmJZZ3lmMElXZGRjX1FDaG5ENkg5Ukt4SWJTZjNEWmxkV0NsNWFBV1JsTUs1N0JPYVZLV2tQYzF4TUtFcndYcEdobDVpcnlTYzNvV29ZRk9QV19BbUI4SGZXU3l3ZjBjdkExWkloWUozV0FBYmhqLXZKU2RUeVdtRWNNTlFTME5CYnpjMFZFckQ3akxKZ0J5bHFiTDg0TEVKZEszc2dtZXFLU0V6blRrODEyd1dsWmxtVnZhUm9fZmxIUXhtRWNUZXl0TVFySQ?oc=5",
    "category": "Sonstiges",
    "firstSeen": "2026-06-18T07:04:40+00:00",
-   "companyId": 11,
-   "company": "Graphic Packaging",
-   "asset": "Anleihen",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-16",
-   "title": "Portnoy Law Firm Announces Class Action on Behalf of Graphic Packaging Holding Company Investors",
-   "summary": "Portnoy Law Firm Announces Class Action on Behalf of Graphic Packaging Holding Company Investors GlobeNewswire",
-   "source": "GlobeNewswire",
-   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQZjJnbTFyMFdsUjF5ZEUxQm5CT2VGV0tqd3piSGMtQ1ZMZGcwNXJVVVZXTC1vWmxrTUdtVkpmSDJtOThBemN1blRGRExvZWFDS1FuZ3VWd2hyTWp6QlQ3ZXZNeFhNVjlURGptaHJMbG5HQm0tQUU4ZHpWWXZHbE0xd0ozY1Y3RzhUUWRxUWxsOE5RZU9VS3E5Y2FBV3JRRDNFMHo2Z1IwUzc2M0RLcHZsZ0VTYmd4bVlMXzJJRWN5bzlOXzFuSUJLZW5UbURjamZCa09yeUNPVGt1RDN6TU9yeHRCbEhHdkFybllmdksxV0ZMUnhHY0xtU3JsLWs?oc=5",
-   "category": "Sonstiges",
-   "firstSeen": "2026-06-17T05:16:24+00:00",
    "companyId": 11,
    "company": "Graphic Packaging",
    "asset": "Anleihen",
@@ -3587,19 +3876,6 @@
    "companyId": 3,
    "company": "International Petroleum",
    "asset": "Anleihen",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-15",
-   "title": "Microsoft sued by shareholders over expenses, cloud business, AI",
-   "summary": "Microsoft sued by shareholders over expenses, cloud business, AI Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUmJQUkh0dTUzZ2dITlpFWVp1ZGp4d0t2T3RYNHZMTVVra042ZVNYTk94R1dKdjM2cU0yWTh5cXNCVlVHTkFXRDFiT3ptRnNPeDUteGR1RDV5eWVoS3M4NFJsNDVpcHlVTVluQWViLUI0a29XR0JOaERIUXZnUTJ2V2VXSWs4MFBzMlFUR2NGNHJRcEFjUWptTU84dEZ2UllET0NWX2hsTDgwRDQ?oc=5",
-   "category": "Markt",
-   "firstSeen": "2026-06-16T05:32:48+00:00",
-   "companyId": 20,
-   "company": "Microsoft",
-   "asset": "Aktien",
    "status": "Portfolio"
   },
   {
@@ -3759,6 +4035,32 @@
    "status": "Portfolio"
   },
   {
+   "date": "2026-06-10",
+   "title": "Amazon trucking expansion sparks freight stock sell-off",
+   "summary": "Amazon trucking expansion sparks freight stock sell-off CNBC",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeFF3eExnenBldld3T3lmVVNEM0lXb2E5dDAwOVFyYk5sVXlZXzJCajdOdXNWUGFpT1k3RGxYMHB1ZEJhRnJOOVFwZ3ZFUmE4TzBwRDZiUDRSRDFHMVQ5TTduWTF1bkFCSkQyZEVNQjJ4V2Z2VU9iTk1uSXlEZVp4cTNrVy01UXNHamd2T9IBkgFBVV95cUxNNXRuS29hVFhSUEg2d1B1SFBidld2djhIVi1qU3JZWU5Sb1k5T3FKMFQ3dHB6MFJJOXRzemxZT1NQeUlRcHFTLXNydGlmQk51RktfMGp5STZwVVgtQk1lMVUzOF80ODZkeHhFOU9fczI3cncwd2s4UnNCNHc4X0tYbkJlRTZZam9HUXpiMHFiT1FMUQ?oc=5",
+   "category": "M&A",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 18,
+   "company": "Amazon",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-10",
+   "title": "Sands China Recognised by S&P Global's Sustainability Yearbook for Fourth Consecutive Year",
+   "summary": "Sands China Recognised by S&P Global's Sustainability Yearbook for Fourth Consecutive Year PR Newswire",
+   "source": "PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQODFlUmFrb0Q1cXI3SlhNRjFuNlN1VmpiMEh5LU13T3FHdV9SbEV0UmlwaC1IY2hlbjN2WGVyWmVvSVk3ZGJRS2ZtUVFGOV9EeTFwVzR1VjBqSXQtbmhrRkVDaEhLQXhyQmwwMlRQTXllaWRuaEVKejBvNnBfdGdxaFYyYjZ1NHM4b01NMW5SVzRRdmJyRGdrZjU1UHRtcXJXRnhhcTg5emtWTExBVkQzelh6dlVKckhuNnl6OFlIMHAyaXI3MnNidnlycVMzZ1lvWXd4Nnd3UHRVTUhB?oc=5",
+   "category": "Sonstiges",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 34,
+   "company": "S&P Global",
+   "asset": "Aktien",
+   "status": "Watchlist"
+  },
+  {
    "date": "2026-06-09",
    "title": "Chapters Health System Awarded $150,000 Grant from the Golisano Foundation to Expand Inclusive Pediatric Hospice Care in Southwest Florida",
    "summary": "Chapters Health System Awarded $150,000 Grant from the Golisano Foundation to Expand Inclusive Pediatric Hospice Care in Southwest Florida PR Newswire",
@@ -3824,6 +4126,19 @@
    "status": "Portfolio"
   },
   {
+   "date": "2026-06-08",
+   "title": "S&P Global Expands AI Ecosystem Reach with Cohere to Power Trusted, Agentic Workflows for Financial Institutions",
+   "summary": "S&P Global Expands AI Ecosystem Reach with Cohere to Power Trusted, Agentic Workflows for Financial Institutions PR Newswire",
+   "source": "PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNZHE4UjZXUl9OdXA3Y1J3d2NGMVFhYWtyWFIxcXl4bTFOeWFjZktmNWZFQW1zUTRRMjR5XzRjWEY4S3dwLWJUdFR3NGMxS1BJQlFGbmFDX0pQTzRaYnhqcmVVWDlzcTFDRUxNSVhua2R6SnZEYTVRaElBLUNjR1lPV1J6N1NIb05jZUVidWw2d1FkbXluNHhSUklMQU1VNFlMZnZmc3ZPQ2RjNVJYNW1CSlJoUC1ZWEszZlV3VDQycUlBTEljTTFQSzU4OUFGbW9YUklhYkoybFpOZFNVV2JiV1NDUVNDdXdyTFRtQ3RWY3V2WXprdGt1T1Vn?oc=5",
+   "category": "Sonstiges",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 34,
+   "company": "S&P Global",
+   "asset": "Aktien",
+   "status": "Watchlist"
+  },
+  {
    "date": "2026-06-04",
    "title": "Chapters Health System Named as a 2026 Top Workplace for Nursing",
    "summary": "Chapters Health System Named as a 2026 Top Workplace for Nursing PR Newswire",
@@ -3835,6 +4150,19 @@
    "company": "Chapters",
    "asset": "Anleihen",
    "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-04",
+   "title": "S&P Global Launches Agentic AI-Powered Credit Memo Builder™ to Streamline Credit Analysis",
+   "summary": "S&P Global Launches Agentic AI-Powered Credit Memo Builder™ to Streamline Credit Analysis PR Newswire",
+   "source": "PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUmtJTWNRQjhuSEF4SlNRR082MEI4N1RMNUNFRHJJeEw3WGpjakRvQlFqTURmM0o3Q3RVeDlvRUZVclVhcUQteG1DZUl2XzBZUUxTVm45VEhyZFJRdF9sZGljZEZ2aVBtcGczM2dhMnVzQ0xZb21wbmRhY2JfY1BoRFlOV3BVa3plTkM0RGZ2ZHBFbnVQZlRWbXd4aTZCQnhUZDEzaEJKRHJHeXpoNGI0ZF8yRmx5blIxR2IzajFEeUZya1pSM3lqN1hlczl0Z3NfS1hJd2UxRXRkdTQ?oc=5",
+   "category": "Sonstiges",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 34,
+   "company": "S&P Global",
+   "asset": "Aktien",
+   "status": "Watchlist"
   },
   {
    "date": "2026-06-03",
@@ -3864,19 +4192,6 @@
   },
   {
    "date": "2026-06-02",
-   "title": "Microsoft seeks to be AI’s center of gravity again. CEO Satya Nadella is in San Francisco to make the case",
-   "summary": "Microsoft seeks to be AI’s center of gravity again. CEO Satya Nadella is in San Francisco to make the case Fortune",
-   "source": "Fortune",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQzR2ZUZnLThsRmV1TlV4QXVEVkY5YzJBZWFSaWhVQnVCbWhyREhkajd1bEh2OGRSUlM3QUVfMUs0VDlmeWVjMXVnejRCWE91MFBham83MkEzS3BLdmU0MXFmb1dfN085MWZ6NVBGbFVFQ2VtVDJMYnVnbmNKeU1uUGJxNmRqQQ?oc=5",
-   "category": "Markt",
-   "firstSeen": "2026-06-19T07:24:52+00:00",
-   "companyId": 20,
-   "company": "Microsoft",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-02",
    "title": "Vistry appoints Kate Rust as Commercial Director in East Anglia",
    "summary": "Vistry appoints Kate Rust as Commercial Director in East Anglia Peterborough Telegraph",
    "source": "Peterborough Telegraph",
@@ -3887,6 +4202,19 @@
    "company": "Vistry",
    "asset": "Aktien",
    "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-02",
+   "title": "The Conference Board to Honor S&P Global and UL Solutions at 2026 People First Awards Dinner",
+   "summary": "The Conference Board to Honor S&P Global and UL Solutions at 2026 People First Awards Dinner PR Newswire",
+   "source": "PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQdXVVWjZ0WEpTTUk3b1lrZTRQdWNxd096YTNYMTZCdEIwZ2tXTzJmdEU3aGFoTjhTM3RLN002bTVZU3pqS1h6c3VpSmR2ZDUwVHJJUl81NGFMNWl1UUhXdlpsWlZ2SzgyeDlVUmoxMjhUOG5mSnVWdkhyaWYzWTJWQi10QUhpc0R4VkZXZFFYZkx1Zm9GZ091LVNEV3Z2bGpSZUpaOXhtLUQxT2dLc21ncW5fdVBOeTBGQThQUHNJNnYzLWRJMVVNRWZZaVRWLV9NNnlNRXpGcG84ZG52ZWVNXw?oc=5",
+   "category": "Conference",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 34,
+   "company": "S&P Global",
+   "asset": "Aktien",
+   "status": "Watchlist"
   },
   {
    "date": "2026-06-01",
@@ -4014,6 +4342,19 @@
    "company": "Salesforce",
    "asset": "Aktien",
    "status": "Portfolio"
+  },
+  {
+   "date": "2026-05-26",
+   "title": "S&P Global Energy president Dave Ernsberger warns the principle of freedom of maritime flow is at stake",
+   "summary": "S&P Global Energy president Dave Ernsberger warns the principle of freedom of maritime flow is at stake CNBC",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdzJNZ3d3SnpaUXBKWHNzWlJRY2twRm0wSXE5VHIwN2tSZjFvY2FRMzRqMHFXZ1piRE5kS0FudHFpajRXU3Y3MUYtTVJabTFlcEljX3RaT1g3elN3RmFYUW5qVi1SckhZVnphdFRqNkhscnFLaC1pYjgyZDhUSnlYNDdGOERpWU5INmkwdUdpSVVONlBS?oc=5",
+   "category": "M&A",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 34,
+   "company": "S&P Global",
+   "asset": "Aktien",
+   "status": "Watchlist"
   },
   {
    "date": "2026-05-21",
@@ -5214,6 +5555,91 @@
   },
   {
    "date": "2026-06-15",
+   "insider": "Olivan Javier",
+   "role": "Chief Operating Officer",
+   "code": "S",
+   "kind": "Verkauf",
+   "shares": 140,
+   "price": 600.0,
+   "value": 84000,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326009164/",
+   "source": "SEC",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 22,
+   "company": "Meta",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-15",
+   "insider": "Olivan Javier",
+   "role": "Chief Operating Officer",
+   "code": "S",
+   "kind": "Verkauf",
+   "shares": 164,
+   "price": 600.0,
+   "value": 98400,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326009164/",
+   "source": "SEC",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 22,
+   "company": "Meta",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-15",
+   "insider": "Olivan Javier",
+   "role": "Chief Operating Officer",
+   "code": "S",
+   "kind": "Verkauf",
+   "shares": 114,
+   "price": 600.0,
+   "value": 68400,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326009164/",
+   "source": "SEC",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 22,
+   "company": "Meta",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-15",
+   "insider": "Olivan Javier",
+   "role": "Chief Operating Officer",
+   "code": "S",
+   "kind": "Verkauf",
+   "shares": 164,
+   "price": 600.0,
+   "value": 98400,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326009164/",
+   "source": "SEC",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 22,
+   "company": "Meta",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-15",
+   "insider": "Olivan Javier",
+   "role": "Chief Operating Officer",
+   "code": "S",
+   "kind": "Verkauf",
+   "shares": 816,
+   "price": 600.0,
+   "value": 489600,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326009164/",
+   "source": "SEC",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 22,
+   "company": "Meta",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-15",
    "insider": "Stuart Cormac",
    "role": "Chief Accounting Officer",
    "code": "S",
@@ -5226,6 +5652,23 @@
    "firstSeen": "2026-06-18T05:02:14+00:00",
    "companyId": 25,
    "company": "AerCap Holdings",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-10",
+   "insider": "Numoto Takeshi",
+   "role": "EVP, Chief Marketing Officer",
+   "code": "S",
+   "kind": "Verkauf",
+   "shares": 4500,
+   "price": 402.84,
+   "value": 1812780,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000121/",
+   "source": "SEC",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 20,
+   "company": "Microsoft",
    "asset": "Aktien",
    "status": "Portfolio"
   },
@@ -5264,6 +5707,23 @@
    "status": "Portfolio"
   },
   {
+   "date": "2026-06-08",
+   "insider": "Numoto Takeshi",
+   "role": "EVP, Chief Marketing Officer",
+   "code": "S",
+   "kind": "Verkauf",
+   "shares": 2500,
+   "price": 412.45,
+   "value": 1031125,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000109/",
+   "source": "SEC",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 20,
+   "company": "Microsoft",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
    "date": "2026-06-01",
    "insider": "Herrington Douglas J",
    "role": "CEO Worldwide Amazon Stores",
@@ -5277,6 +5737,108 @@
    "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 18,
    "company": "Amazon",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-01",
+   "insider": "KIMMITT ROBERT M",
+   "role": "Director",
+   "code": "S",
+   "kind": "Verkauf",
+   "shares": 504,
+   "price": 629.29,
+   "value": 317162,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008488/",
+   "source": "SEC",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 22,
+   "company": "Meta",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-01",
+   "insider": "Olivan Javier",
+   "role": "Chief Operating Officer",
+   "code": "S",
+   "kind": "Verkauf",
+   "shares": 837,
+   "price": 629.29,
+   "value": 526715,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
+   "source": "SEC",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 22,
+   "company": "Meta",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-01",
+   "insider": "Olivan Javier",
+   "role": "Chief Operating Officer",
+   "code": "S",
+   "kind": "Verkauf",
+   "shares": 82,
+   "price": 629.29,
+   "value": 51601,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
+   "source": "SEC",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 22,
+   "company": "Meta",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-01",
+   "insider": "Olivan Javier",
+   "role": "Chief Operating Officer",
+   "code": "S",
+   "kind": "Verkauf",
+   "shares": 57,
+   "price": 629.29,
+   "value": 35869,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
+   "source": "SEC",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 22,
+   "company": "Meta",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-01",
+   "insider": "Olivan Javier",
+   "role": "Chief Operating Officer",
+   "code": "S",
+   "kind": "Verkauf",
+   "shares": 82,
+   "price": 629.29,
+   "value": 51601,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
+   "source": "SEC",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 22,
+   "company": "Meta",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-01",
+   "insider": "Olivan Javier",
+   "role": "Chief Operating Officer",
+   "code": "S",
+   "kind": "Verkauf",
+   "shares": 408,
+   "price": 629.29,
+   "value": 256750,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
+   "source": "SEC",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 22,
+   "company": "Meta",
    "asset": "Aktien",
    "status": "Portfolio"
   },
@@ -5295,6 +5857,23 @@
    "companyId": 10,
    "company": "XPO",
    "asset": "Anleihen",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-05-27",
+   "insider": "Mahoney Curtis J.",
+   "role": "Chief Legal Officer",
+   "code": "S",
+   "kind": "Verkauf",
+   "shares": 2079,
+   "price": 609.92,
+   "value": 1268023,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008089/",
+   "source": "SEC",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 22,
+   "company": "Meta",
+   "asset": "Aktien",
    "status": "Portfolio"
   },
   {
@@ -5740,6 +6319,23 @@
    "status": "Portfolio"
   },
   {
+   "date": "2026-05-07",
+   "insider": "Drouillard Vincent",
+   "role": "General Counsel",
+   "code": "S",
+   "kind": "Verkauf",
+   "shares": 4504,
+   "price": 150.0,
+   "value": 675600,
+   "url": "https://www.sec.gov/Archives/edgar/data/1378789/000095015726000587/",
+   "source": "SEC",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 25,
+   "company": "AerCap Holdings",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
    "date": "2026-05-06",
    "insider": "HEARTY JAMES O",
    "role": "Chief Compliance Officer",
@@ -5893,6 +6489,40 @@
    "status": "Portfolio"
   },
   {
+   "date": "2026-05-01",
+   "insider": "Clay Catherine R",
+   "role": "CEO, S&P Dow Jones Indices",
+   "code": "P",
+   "kind": "Kauf",
+   "shares": 2500,
+   "price": 431.39,
+   "value": 1078475,
+   "url": "https://www.sec.gov/Archives/edgar/data/64040/000185349726000004/",
+   "source": "SEC",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 34,
+   "company": "S&P Global",
+   "asset": "Aktien",
+   "status": "Watchlist"
+  },
+  {
+   "date": "2026-04-30",
+   "insider": "Moritz Robert Edward Jr.",
+   "role": "Director",
+   "code": "P",
+   "kind": "Kauf",
+   "shares": 1151,
+   "price": 434.03,
+   "value": 500000,
+   "url": "https://www.sec.gov/Archives/edgar/data/64040/000203383426000014/",
+   "source": "SEC",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 34,
+   "company": "S&P Global",
+   "asset": "Aktien",
+   "status": "Watchlist"
+  },
+  {
    "date": "2026-04-29",
    "insider": "Anas Abuzaakouk",
    "role": "Chief Executive Officer",
@@ -5925,6 +6555,23 @@
    "company": "BAWAG",
    "asset": "Aktien",
    "status": "Portfolio"
+  },
+  {
+   "date": "2026-04-29",
+   "insider": "CHEUNG MARTINA",
+   "role": "CEO & President",
+   "code": "P",
+   "kind": "Kauf",
+   "shares": 2322,
+   "price": 429.93,
+   "value": 998297,
+   "url": "https://www.sec.gov/Archives/edgar/data/64040/000165789026000008/",
+   "source": "SEC",
+   "firstSeen": "2026-06-20T06:39:41+00:00",
+   "companyId": 34,
+   "company": "S&P Global",
+   "asset": "Aktien",
+   "status": "Watchlist"
   },
   {
    "date": "2026-04-22",
