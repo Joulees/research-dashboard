@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-26T06:19:35+00:00",
+ "generatedAt": "2026-06-27T04:15:46+00:00",
  "companies": {
   "1": {
    "news": [],
@@ -333,7 +333,21 @@
    }
   },
   "6": {
-   "news": [],
+   "news": [
+    {
+     "date": "2026-06-02",
+     "title": "Ubisoft Reveals Rayman Legends Retold, Available on October 1",
+     "summary": "Ubisoft Reveals Rayman Legends Retold, Available on October 1 Business Wire",
+     "source": "Business Wire",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdmhKbUVIdTl6UzVpRFFLVTh4cHdWZVFqVTlERmxlNkt5c21EUHhvVG84SEdrcHIxWUhoLTdaVG1pZFpKWXVNckVJZU5pdkFZNEs5YWVTRm05SmV6TU4zS1ZsZURFLTRkekVYSzQxck1laDB0Y29velZyV3JSZjdHUUk3QmZWbDNOM3FoMU1qX3huMUp4NXlEYmVHX3VIcVg1ckQxZERKcDhrYjhnMHVtLXVGS05RbVln?oc=5",
+     "category": "Sonstiges",
+     "firstSeen": "2026-06-27T04:15:46+00:00",
+     "companyId": 6,
+     "company": "Ubisoft",
+     "asset": "Anleihen",
+     "status": "Portfolio"
+    }
+   ],
    "events": [
     {
      "date": "2026-07-28",
@@ -400,6 +414,19 @@
   "8": {
    "news": [
     {
+     "date": "2026-06-24",
+     "title": "Prosus launches ToqanClaw to help businesses build AI tools through conversation",
+     "summary": "Prosus launches ToqanClaw to help businesses build AI tools through conversation Fortune India",
+     "source": "Fortune India",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSUVULUxia3RTcjRnYjNjWmtOWUZMLXMwSW1KRWdiaW1WaEIzZEJtUDduUXNRUHZ1ODZXc2kyWGtYOFBacERRR3BWUmRfaEg1aWFzQzhZdzVNM2pXOEVUa3U5OTlPNm8tWGJIc19xajh5b21BeExtZ0pTSEJVNzJBVkhsZThfTGVDb1NTS3R0bG94TTlXSHFGdjlFbUhYNnlOejNWd2FjdHRaN1JfeGRHd0pIaW5fUndJTE1OQjVwS25fRklRM0VRadIB1gFBVV95cUxPS1hhSjVzb3VqRnZTRVg5OXNXc3dJdTEwMXA4OGhMcUFqRTd4OXFtSDBKb0ZFb1BrUTBYcXE2ckxnSGRtRi1HeDU4ODFIeTkzYnNJWHBFY1RMQkV3cE45R2dNd2RXZGxmYzFEZUd1Z2lGbDBUbUh5cHc5YlF5NC16Q3pDdVMxS1lEeldFVWZEVUUzZ09ud3Yzd1VJQ3otUHF0TThBYXA0ODRzYmRuazhCZUlfYUphSW9KeGk0UlBPODBtOW8zakllMF9OR1V0MldIMVF6TlhR?oc=5",
+     "category": "Markt",
+     "firstSeen": "2026-06-27T04:15:46+00:00",
+     "companyId": 8,
+     "company": "Prosus",
+     "asset": "Anleihen",
+     "status": "Portfolio"
+    },
+    {
      "date": "2026-06-19",
      "title": "Tech Investor Prosus Posts Core Earnings Rise on Growth Across Units, Tencent",
      "summary": "Tech Investor Prosus Posts Core Earnings Rise on Growth Across Units, Tencent WSJ",
@@ -420,19 +447,6 @@
      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMlY3cXJDb0lsM1NBUmxSRS1IZ3ZUbjRnT1pKMnNfWDNIeXJYRzM2b0NoeEVoSFRxQTBMVjlocFNDazJfUFdHczNMandsdU9rZUtVZzcyNjJHZVhDaFFzX0toMF8wbUFHSk5EVi1LR2pQY0M0YTY2NEVQSFRraE55VXpsaGl0dlJpVDMxdEFEQk15c0hCTFI4RGxna0pjakJpTmIyQUdaOUEtRFlfNm40SQ?oc=5",
      "category": "Earnings",
      "firstSeen": "2026-06-19T07:24:52+00:00",
-     "companyId": 8,
-     "company": "Prosus",
-     "asset": "Anleihen",
-     "status": "Portfolio"
-    },
-    {
-     "date": "2026-06-03",
-     "title": "Prosus Buys Back €80 Million of Shares in Ongoing Repurchase Programme",
-     "summary": "Prosus Buys Back €80 Million of Shares in Ongoing Repurchase Programme The Globe and Mail",
-     "source": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPRTVZWkp4Q1hYcEV0RXl3VUo1dUlNZ2JSN0ZUWml6OGJtVWcyZDVQYnNKVTZ5ZUF0VG5qU0cyeEN1bF94dUdVSWpRVERVME1MT05jQWU3Vk0yeFhiR3U2NGpMSWx5cUNCSi00T0k1eHRIV2tfbVNSeUp2NTJicS11V3loZkwtZUR1TW84dGctY191NjJiQktHcTdQMUQtcWtsT3dqaE52NGdXbEpQZmIxdm9MVXFkZXVPaTNCWUJWSTQ0WmNiVHJQdC1jejlEbVNpTVdaM0tocWlXWFd2NjBxLVZZN3FLMjBXVnlFeFhtaw?oc=5",
-     "category": "Markt",
-     "firstSeen": "2026-06-19T05:24:02+00:00",
      "companyId": 8,
      "company": "Prosus",
      "asset": "Anleihen",
@@ -683,26 +697,13 @@
   "11": {
    "news": [
     {
-     "date": "2026-06-25",
-     "title": "GPK SHAREHOLDER ACTION REMINDER: Faruqi & Faruqi, LLP Reminds Graphic Packaging (GPK) Investors of Securities Class Action Lawsuit Deadline on July 6, 2026",
-     "summary": "GPK SHAREHOLDER ACTION REMINDER: Faruqi & Faruqi, LLP Reminds Graphic Packaging (GPK) Investors of Securities Class Action Lawsuit Deadline on July 6, 2026 PR Newswire",
-     "source": "PR Newswire",
-     "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNaVdOYjBPLXVjZlNrRXZSZTNHWjg2cjRkd09ZZXZ6dFpjem9qR1o5RTY1eFl2OGRNeWUyOHFaV2Jyd0t5UWNJV19fUV94bXdBb3p4eVRkWEtrVUQyS1lGbngyb3hjU1dvNWtWZGhoWkpuSm5PdHRhZXZFbm53cE01aHljNjdncHVxR0JZczhaWjdjV1hPdnpQYlRTWG9pdFh5dFhkYUJCV0dfS0c0c1BNMUx5T1Q5MjFPQWR4alJ6SkdxRmRDTGdYcm1EVlJ5a0ZmU1U1VzlTNV8yOHotYmJyR0t3bGpsdllaUHhOQXBCQnQ0dkkybnF0VVVHYkkyeXNTaHhxdUo1VzlPMkpuVWpGd3VMVi1DdExfc1p3TjdCQmx4bEg4Z3RpZVRwLUZ5dw?oc=5",
-     "category": "Sonstiges",
-     "firstSeen": "2026-06-26T04:39:14+00:00",
-     "companyId": 11,
-     "company": "Graphic Packaging",
-     "asset": "Anleihen",
-     "status": "Portfolio"
-    },
-    {
-     "date": "2026-06-25",
-     "title": "Class Action Alert: Levi & Korsinsky Reminds Graphic Packaging Holding Company (GPK) Investors of July 6, 2026 Deadline",
-     "summary": "Class Action Alert: Levi & Korsinsky Reminds Graphic Packaging Holding Company (GPK) Investors of July 6, 2026 Deadline ACCESS Newswire",
+     "date": "2026-06-26",
+     "title": "July 6, 2026 Deadline Approaching: Join Class Action Against Graphic Packaging Holding Company (GPK) - Contact Levi & Korsinsky",
+     "summary": "July 6, 2026 Deadline Approaching: Join Class Action Against Graphic Packaging Holding Company (GPK) - Contact Levi & Korsinsky ACCESS Newswire",
      "source": "ACCESS Newswire",
-     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZGtNcGFvZjFZR3VpUm5QOWo3S0FNS1JZNU5ud2VsUWJGd1BuTUhodWtLMEZZeGl0eU1XS3ZXM1Jub2ZqelhhcHRkcGNDSENmUV9sMlpBa1hGQXRlT2xfSjcweEJOeU1IWkFBbzBhNFBIM1VWeEdkN0NKcTY4Y0FxVS1EeFVxN0FzN1BjcnV2ZlNfcHB2NC1ydU9IV0NTaHBfTy1jYnNkeW9SSmZ3Zkx6ZmVOZG0zdkxHQ0JDaC1hbzJVd0RZU19aSnBfY05iOHVTVWUySU9RUU5tcS15ZzkzTW40SQ?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOU2J1b1ZkVVp1NlV6R2JRTWhZN2hibmNDZHNfVjZ1VnNXSm9YdXhRRk1HbXY3SWtRWlZGakZob3NkLUxVUUdkbzFsU0l4T3NwUThKWmpUbGVna09WdEdKZ0hQU2Q0V2ZSUDVJelZ5VkdmRG81OEIxallnNkVvRWdWdGJMYnlEM25CanRFaVNjWHQwLUtncmNpTkFjSU8zY3dLTmFJbURFN0dDQVhIeTlTM1hUMUtuT3dfcXpCRnEzeGxOeGJIbTN6cVpEMDBibDFsZmFEdXo0UTU1bHJuSjBmTFF1dFA?oc=5",
      "category": "Sonstiges",
-     "firstSeen": "2026-06-26T04:39:14+00:00",
+     "firstSeen": "2026-06-27T04:15:46+00:00",
      "companyId": 11,
      "company": "Graphic Packaging",
      "asset": "Anleihen",
@@ -755,6 +756,19 @@
      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNcm9IUURlLVd5MkdSWjEtS3pHOHFFRnNyOC1IbnkyVHRMaW83amhMbVZjZF9CRk9zOWRsNEt0QWZJZHFuTTRJTWxaNUY4ckxTUXVRMExYNU01cUNGRHRYSEpnMUg2SWpxd01md2tTZ3R3MVlSa3k0d3o2ZHFFUmxOM2JpSkxuMW9TaHhaalVObE1QX2VGOXlyV19HU0FaTTJ1M2t5NnYxTGU0b2VlaDFldExIby03S3d0dVJ1ZFVmZ2Z1bW1yTFRreUNMbUtudnpybFB1VHd4RDk4X2pNb1NDdXQ5UnBnb1Q1LWNaZEJEWnphQkpSMHV2WjBKSkdJOVNKREJXRlBzd1NaeTRNTl9BRWdiS0dnc2pGdWIya0R0eUJab2NlZEJTaVpfTFpiN19qNHJGSzFhTWR6MWVBc3pV?oc=5",
      "category": "Earnings",
      "firstSeen": "2026-06-26T06:19:35+00:00",
+     "companyId": 11,
+     "company": "Graphic Packaging",
+     "asset": "Anleihen",
+     "status": "Portfolio"
+    },
+    {
+     "date": "2026-06-23",
+     "title": "Graphic Packaging Holding (GPK) Q1 2026 Earnings Call Transcript",
+     "summary": "Graphic Packaging Holding (GPK) Q1 2026 Earnings Call Transcript Fortune",
+     "source": "Fortune",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBQRHo0dmszTnV2eUZPN01mQlE4NEcyQXNYNm5JMGZISmFkTDE2VlI0X0RMc2RuOUpSR1JLbnY2RjVuV190eS1IUnpWbnh6eDRRYUZ6M1ZLdktWVDB6ZTVWMzd1X3c5TXVyVnFMcHdkd3ZnUElHQ1FCX19oWQ?oc=5",
+     "category": "Earnings",
+     "firstSeen": "2026-06-27T04:15:46+00:00",
      "companyId": 11,
      "company": "Graphic Packaging",
      "asset": "Anleihen",
@@ -1703,7 +1717,6 @@
    "tech": {
     "currency": "USD",
     "closes": [
-     208.72,
      206.96,
      204.08,
      199.6,
@@ -1797,21 +1810,21 @@
      232.79,
      234.11,
      234.27,
-     227.01
+     227.01,
+     232.69
     ],
-    "price": 227.01,
-    "sma50": 256.44,
+    "price": 232.69,
+    "sma50": 256.13,
     "sma200": null,
-    "rsi": 30,
+    "rsi": 39,
     "macd": "baerisch",
     "high": 274.99,
     "low": 198.79,
-    "score": -1,
-    "label": "Neutral",
+    "score": -2,
+    "label": "Baerisch",
     "reasons": [
      "Kurs unter SMA50",
-     "MACD unter Signallinie",
-     "RSI ueberverkauft (<30)"
+     "MACD unter Signallinie"
     ]
    },
    "profile": {
@@ -1875,19 +1888,6 @@
   },
   "20": {
    "news": [
-    {
-     "date": "2026-06-03",
-     "title": "Microsoft teases new era of AI-driven devices at annual developer conference",
-     "summary": "Microsoft teases new era of AI-driven devices at annual developer conference Reuters",
-     "source": "Reuters",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNd2hudE1XOEVGajhxeFBhMXZBbDRYTHJieG1waXZLRG85S3lNSGFKWnVCQnNLWnd0RmNsZjBGcFoxQlhqR3l5T1A5Ni02UU42SnRZUEJ5WWJMMUJPTWdBVjV2SW5NQ0NUQ25JWURYSEVJdmFTMGlGX2M3VHpWLUs2MG5MeFh4aUJrcjk4OG16OHk3S0tUSW9JUW5jR0JrWU9HRUNJcFpqcVdxVXFmR0wwOEIyODNESk5HWUE?oc=5",
-     "category": "Conference",
-     "firstSeen": "2026-06-26T06:19:35+00:00",
-     "companyId": 20,
-     "company": "Microsoft",
-     "asset": "Aktien",
-     "status": "Portfolio"
-    },
     {
      "date": "2026-06-02",
      "title": "Microsoft seeks to be AI’s center of gravity again. CEO Satya Nadella is in San Francisco to make the case",
@@ -1989,7 +1989,6 @@
    "tech": {
     "currency": "USD",
     "closes": [
-     413.6,
      413.27,
      404.37,
      401.84,
@@ -2083,21 +2082,21 @@
      367.34,
      373.94,
      365.46,
-     352.83
+     352.83,
+     372.97
     ],
-    "price": 352.83,
-    "sma50": 411.74,
+    "price": 372.97,
+    "sma50": 410.97,
     "sma200": null,
-    "rsi": 15,
+    "rsi": 31,
     "macd": "baerisch",
     "high": 460.52,
     "low": 352.83,
-    "score": -1,
-    "label": "Neutral",
+    "score": -2,
+    "label": "Baerisch",
     "reasons": [
      "Kurs unter SMA50",
-     "MACD unter Signallinie",
-     "RSI ueberverkauft (<30)"
+     "MACD unter Signallinie"
     ]
    },
    "profile": {
@@ -2130,10 +2129,10 @@
    "news": [
     {
      "date": "2026-06-23",
-     "title": "Meta launches cheaper range of AI smart glasses starting at $299",
-     "summary": "Meta launches cheaper range of AI smart glasses starting at $299 Reuters",
-     "source": "Reuters",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcHdqWktPUlFDUEx5WmktWHhqVkxzVlloYUpWYXVzRGlWdlA5RXZfUE1yT1VWbU9pRU84U1BpdUFoUUl2Y3pxX0g0cTlRckdwYXllSVJkNndsYTMyd3RGNWh1RGtSYk4tUUQwcTQtcU5nQkRISU5CMmhSMUJjUkE4cEtnVlRuWXNJSmp5YkJpSHhzWkh4WEtpUzJ2SUpYVDg?oc=5",
+     "title": "Meta Launches Cheaper Own-Brand Smart Glasses For $299/£269, Beating Apple To Release",
+     "summary": "Meta Launches Cheaper Own-Brand Smart Glasses For $299/£269, Beating Apple To Release Forbes",
+     "source": "Forbes",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUl9SeXdyWWVNTXVnVzZJV3VzU2U3MkQ4TXVhU2RxaXVzdERmODBMV2NobmRZdmliWGJ0MWVxSTZSX0ZCZzJUMFdob01uYWR1NVJld3FYNFNudm5sT3NZNnZETGdyQ0dWYUhUczRKYllSRm9xTU04bk9DUlVFN3hMTlR5OVlHUEVNWXZNWUlmVUE1TS1pcHVsTkFoZWhaSUZSTk9QN3FDRGpJdlhJUW9EdEs1ZXhuZXQyNFhSS0FlTEVjLWZWQ1ExZnVYRQ?oc=5",
      "category": "Markt",
      "firstSeen": "2026-06-24T04:35:26+00:00",
      "companyId": 22,
@@ -2143,10 +2142,10 @@
     },
     {
      "date": "2026-06-23",
-     "title": "Meta Launches Cheaper Own-Brand Smart Glasses For $299/£269, Beating Apple To Release",
-     "summary": "Meta Launches Cheaper Own-Brand Smart Glasses For $299/£269, Beating Apple To Release Forbes",
-     "source": "Forbes",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUl9SeXdyWWVNTXVnVzZJV3VzU2U3MkQ4TXVhU2RxaXVzdERmODBMV2NobmRZdmliWGJ0MWVxSTZSX0ZCZzJUMFdob01uYWR1NVJld3FYNFNudm5sT3NZNnZETGdyQ0dWYUhUczRKYllSRm9xTU04bk9DUlVFN3hMTlR5OVlHUEVNWXZNWUlmVUE1TS1pcHVsTkFoZWhaSUZSTk9QN3FDRGpJdlhJUW9EdEs1ZXhuZXQyNFhSS0FlTEVjLWZWQ1ExZnVYRQ?oc=5",
+     "title": "Meta launches cheaper range of AI smart glasses starting at $299",
+     "summary": "Meta launches cheaper range of AI smart glasses starting at $299 Reuters",
+     "source": "Reuters",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcHdqWktPUlFDUEx5WmktWHhqVkxzVlloYUpWYXVzRGlWdlA5RXZfUE1yT1VWbU9pRU84U1BpdUFoUUl2Y3pxX0g0cTlRckdwYXllSVJkNndsYTMyd3RGNWh1RGtSYk4tUUQwcTQtcU5nQkRISU5CMmhSMUJjUkE4cEtnVlRuWXNJSmp5YkJpSHhzWkh4WEtpUzJ2SUpYVDg?oc=5",
      "category": "Markt",
      "firstSeen": "2026-06-24T04:35:26+00:00",
      "companyId": 22,
@@ -2181,6 +2180,19 @@
      "status": "Portfolio"
     },
     {
+     "date": "2026-06-12",
+     "title": "Zuckerberg says Meta made 'mistakes' in AI workforce shift",
+     "summary": "Zuckerberg says Meta made 'mistakes' in AI workforce shift Reuters",
+     "source": "Reuters",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMDl3TDBSSG5DbXEwYTcwNlcwaTJ5dWpZV29IWEpNYnVKc2UzT2NpaWdZMXdpbWU1WklwMHdqWXBXRG13cU9Dc0h1NDdQcTRNN1JLR1hjU0RuUkRxSUl4NzFtRTJoTUJPVS1xdzJKdGR0TFVXUTRVbzBscFY4OHJqbzVRUkoycTNvV2s0eWY4WWxNRDJiSW5QU25Qd0tvYU5WNXc?oc=5",
+     "category": "M&A",
+     "firstSeen": "2026-06-27T04:15:46+00:00",
+     "companyId": 22,
+     "company": "Meta",
+     "asset": "Aktien",
+     "status": "Portfolio"
+    },
+    {
      "date": "2026-06-09",
      "title": "Meta ordered by EU to allow rival AI chatbots back on WhatsApp for free",
      "summary": "Meta ordered by EU to allow rival AI chatbots back on WhatsApp for free Reuters",
@@ -2188,19 +2200,6 @@
      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcXp3X1FBSF9FaFhHYXROV2RXZGlhSm5QemljMlBHQ25xbmpZM3I1dGtuc20tQmN5ME9SN2hTS09aZjVzZjdiU0RZQ3Fsb3QwS2I5UHdWc2VMTHpPdU9DWEx3YndGV2tza3dsQUJIZUpsUXNwOE1vVV8wRzZBQ1AwQkNlbnBDazNpMmZ0OHBjVk4yRTdyUThpdEg1ZGIyYkpZWUhNdm5LdF8yeHlHN2w3Tg?oc=5",
      "category": "Markt",
      "firstSeen": "2026-06-26T04:39:14+00:00",
-     "companyId": 22,
-     "company": "Meta",
-     "asset": "Aktien",
-     "status": "Portfolio"
-    },
-    {
-     "date": "2026-06-08",
-     "title": "Meta Launches ‘Workforce Academy’ to Train Workers to Build Data Centers",
-     "summary": "Meta Launches ‘Workforce Academy’ to Train Workers to Build Data Centers WSJ",
-     "source": "WSJ",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSEtMMlBHT09QWkZrRldsMmw0X0dMeTdRX0E3VjZMdnlZeEhtZnY0N3hGaUhRUHhBX1NVbURqNW1QSW0tUTcxd2lZMVdpQzE5UzM1Wk5DdVF4bmJKeGZodWt5ZlpZZHJDaGNQUkNjc0ozRFBmbVBmc1dqZU10cEM4bVZiS1RQbUpxWmFzRTRrSG00MmJ4Y1l5N3M5R1RURlBETjU5RURKTWVWR2s?oc=5",
-     "category": "Markt",
-     "firstSeen": "2026-06-24T06:15:08+00:00",
      "companyId": 22,
      "company": "Meta",
      "asset": "Aktien",
@@ -2391,7 +2390,6 @@
    "tech": {
     "currency": "USD",
     "closes": [
-     677.22,
      670.72,
      668.69,
      649.81,
@@ -2485,21 +2483,21 @@
      563.85,
      562.2,
      557.67,
-     542.87
+     542.87,
+     550.25
     ],
-    "price": 542.87,
-    "sma50": 615.33,
+    "price": 550.25,
+    "sma50": 612.9,
     "sma200": null,
-    "rsi": 25,
+    "rsi": 35,
     "macd": "baerisch",
     "high": 688.55,
     "low": 525.72,
-    "score": -1,
-    "label": "Neutral",
+    "score": -2,
+    "label": "Baerisch",
     "reasons": [
      "Kurs unter SMA50",
-     "MACD unter Signallinie",
-     "RSI ueberverkauft (<30)"
+     "MACD unter Signallinie"
     ]
    },
    "profile": {
@@ -2902,33 +2900,7 @@
    }
   },
   "30": {
-   "news": [
-    {
-     "date": "2026-06-17",
-     "title": "HCA Healthcare Inc. stock outperforms competitors despite losses on the day",
-     "summary": "HCA Healthcare Inc. stock outperforms competitors despite losses on the day MarketWatch",
-     "source": "MarketWatch",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRk8zVFUyaWlYVXZTcHMwemhaX3h0bkxVMlktNVFzUVJlUFYwZW9xejMwYU53LWhGT2VfS0hGbHZuQ2Q3eURyY0xHbVRYZWl4eEFDdTZrbEdxRFpGeDVIR1ZlcWtXLXRrTV9id0NxQ3NmaUhSMzNUaFdwRXJNM3UzNFBBdXJ6TER4MEc0NlBaYjByYlltS2pjQnR5Yl9sMHlpcWNtZ2dpY1NLeHJCWFFYZHp4d0Y5bE9DUVhfTFRVTk5LbDNFTHlWWDY2NmNhdUk?oc=5",
-     "category": "Earnings",
-     "firstSeen": "2026-06-20T04:40:41+00:00",
-     "companyId": 30,
-     "company": "HCA Healthcare",
-     "asset": "Aktien",
-     "status": "Portfolio"
-    },
-    {
-     "date": "2026-05-27",
-     "title": "HCA Healthcare Announces Agreement to Acquire The College of Health Care Professions",
-     "summary": "HCA Healthcare Announces Agreement to Acquire The College of Health Care Professions Business Wire",
-     "source": "Business Wire",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQS0VYdmh5SklHMUhOcnJqWTFVelVtcmY4SFZIbTZLNi1mOTB0YWtkamI4N2FUZ1I4M1pMWEZIRlRBVnpqQ3J3alVBSVZpQmk4X3JNVnpleXd3cGZjaUZjUUtrdHFiZzAtY3daS0dKcS02aHFNbHgwbDhTV1NibXczeEhhZHNjc1pwSV9kSmlrSmlmRU5HOC1ZRDZrWl9lcDZObDdCMnRPTURfZkJ3QzYxZnVGQzhSSDFCeWFBdVZGLWFMTXI4Wk5nMGFMZGFON0lUekdraC1QVG0?oc=5",
-     "category": "M&A",
-     "companyId": 30,
-     "company": "HCA Healthcare",
-     "asset": "Aktien",
-     "status": "Portfolio"
-    }
-   ],
+   "news": [],
    "events": [
     {
      "date": "2026-07-21",
@@ -2967,7 +2939,6 @@
    "tech": {
     "currency": "USD",
     "closes": [
-     497.54,
      501.91,
      531.47,
      535.22,
@@ -3061,12 +3032,13 @@
      376.99,
      386.92,
      387.76,
-     386.94
+     386.94,
+     391.68
     ],
-    "price": 386.94,
-    "sma50": 412.27,
+    "price": 391.68,
+    "sma50": 410.33,
     "sma200": null,
-    "rsi": 63,
+    "rsi": 61,
     "macd": "bullisch",
     "high": 545.13,
     "low": 361.32,
@@ -3242,64 +3214,25 @@
      "status": "Portfolio"
     },
     {
+     "date": "2026-06-16",
+     "title": "Salesforce’s stock seals longest losing streak on record as newest AI acquisition sparks anxiety",
+     "summary": "Salesforce’s stock seals longest losing streak on record as newest AI acquisition sparks anxiety MarketWatch",
+     "source": "MarketWatch",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTHdBUmFicnJPalpPNG5CN29kUGZOR1hkSDNwYnQtbFNiTDBwTXFMRFFhUUlfcGdyZjl5OF9jNzMxNjN5U09LWkZSclI0bkExUnBEOVBUY2lHd0RmaThlam45enJwX1Nwa2p2d0FJbFdDeUNYa0hka1E1el9rQjdRUzV6Yzh0N3YzNlNDbXdTVFJrb3Z6bF9LMUNvZFd5WlVxenh0ZV9yTzkyck9XaHA2cTNkOFBTeEhnOTlZanp5Znl1eXItbTJMZnhIWGtfbFVrZm5GQQ?oc=5",
+     "category": "M&A",
+     "firstSeen": "2026-06-27T04:15:46+00:00",
+     "companyId": 32,
+     "company": "Salesforce",
+     "asset": "Aktien",
+     "status": "Portfolio"
+    },
+    {
      "date": "2026-05-28",
      "title": "As AI slashes white-collar jobs, Salesforce CEO Marc Benioff says almost no one is being hired—except in sales",
      "summary": "As AI slashes white-collar jobs, Salesforce CEO Marc Benioff says almost no one is being hired—except in sales Fortune",
      "source": "Fortune",
      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWWJxTk9fUk50dXZ5REJpNjVhckg1UlNSTldDRHR2LUh3Ukdrb1EwdWphWFBqbXlSYkF1MzZiMllBV3NxbmFTbzNQbWdMLTlaeHB5VnlNN1BzWmJPSjZsTTFBM1BqZlNieGhCWGI0a0JyYkNtNGZpby1kdzZpWF9zcVVUQU4yTHVMRzI0YnRwZkc4NVVQWkN1bFNsM3M1Q1AzUmtGZ2ZjQXgyOGo2djRnY3JLNHJzYVpKeENXZTFHQQ?oc=5",
      "category": "Markt",
-     "companyId": 32,
-     "company": "Salesforce",
-     "asset": "Aktien",
-     "status": "Portfolio"
-    },
-    {
-     "date": "2026-05-28",
-     "title": "Salesforce Gives Lukewarm Outlook That Fuels Disruption Fears",
-     "summary": "Salesforce Gives Lukewarm Outlook That Fuels Disruption Fears Bloomberg.com",
-     "source": "Bloomberg.com",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZlBjWUpGY3FUTUk2ZWR2UEVVdDl3MDRKX1d3QTRpcnlmRXlOVjZYaE5NY01NaGJsYmtINkJ2YUN0YVlJclh6ampONGpfWGc3dUpGWHBDdXR0M2lwOHFmdXhlWjJNa05iTlBqbWJ6T2VHYW5ETWlQak9iMG5YMGpIeGlfMktiaTU4dmRxME9GNGN1OXZ4UDBnX3FXV2xTaWRjVHdyUjlTUnBVamxXUlppVExn?oc=5",
-     "category": "Guidance",
-     "firstSeen": "2026-06-26T06:19:35+00:00",
-     "companyId": 32,
-     "company": "Salesforce",
-     "asset": "Aktien",
-     "status": "Portfolio"
-    },
-    {
-     "date": "2026-05-27",
-     "title": "Salesforce beats on earnings and revenue but full-year guidance comes in light",
-     "summary": "Salesforce beats on earnings and revenue but full-year guidance comes in light CNBC",
-     "source": "CNBC",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONTcta0duTkxlTnA1RUk4aGpMdjIxTGN0WlJmcVNGYmZqV1dfd3ZBRTZnQkVRVnVwTXBnQTZKdklCcURKXzlMdW1RSmVFUjFwUVlMYmFmX1pPX0o3TDdQRUtOckpITVlPa1RIR2VYSzJ0XzZkMGNkdGlhSnhIckFRRNIBhgFBVV95cUxPeS11ODJfajlNNnMtbU4yUHRyelY5a2VTM3d1Z0IzckliX0F0M1hWazd0VlBwSy1fdWszS3ZHNjMyMDJVVGgxR0RMZTBDVVRaYnVTc1BiaktiaHpneXhpRFNHREt0T052YUtBdmNFMi1XRFdjYmZNWlJnUHhXVklaZzM1OVJyUQ?oc=5",
-     "category": "Earnings",
-     "firstSeen": "2026-06-06T06:01:46+00:00",
-     "companyId": 32,
-     "company": "Salesforce",
-     "asset": "Aktien",
-     "status": "Portfolio"
-    },
-    {
-     "date": "2026-05-27",
-     "title": "Salesforce CEO Marc Benioff outlines his plan to turn around his struggling stock",
-     "summary": "Salesforce CEO Marc Benioff outlines his plan to turn around his struggling stock CNBC",
-     "source": "CNBC",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaFhLak05anFQWkdWQlh4dEJYaDVMQkJWdTkwdjFBbWRScVBoZWJ5S2lkaDNmUkxlbDJ2bFNXd0JOMjEwR1Z1MFR3N0hyY3E5TDJhTFNDenJJMXBVZHAxVElIT1QwU0diWUgtX0lMTmN4Q240elVXTGdoTWE0MEFKN2JQVEc3dWdQSVY0SFZxa2hJYU5oSGdfVEF3WFRIX0lnSGw3cnd4ZmhkeXpzUGhXM0F2ck9BS2t0N2fSAb8BQVVfeXFMTW5DRWFuZjRSd09wMkRSbTV0azV0V3NSU0RrUTk0dzhHekc5Y1RucDhfUkxzeS1CdXN5Rl8zZ2loZGhFamVkU3FPR0xkdHdNYjlVTVVEWGJZZEdQVWV6SGtyX0VZR25WYjItc3diR1pJdFhLWWdna1JrWWgyaC1hQklya1pSUE9XSzBLbWFGSTVpRTJLV3kzbWN6YWJva0ZNaFNMNGE0dkl2bkxCSnlXREZ0amZlekU1SDlwakJScnM?oc=5",
-     "category": "Markt",
-     "firstSeen": "2026-06-15T05:27:56+00:00",
-     "companyId": 32,
-     "company": "Salesforce",
-     "asset": "Aktien",
-     "status": "Portfolio"
-    },
-    {
-     "date": "2026-05-27",
-     "title": "Salesforce turbocharges $25 billion stock buying spree with debt, cuts cash flow guidance in half",
-     "summary": "Salesforce turbocharges $25 billion stock buying spree with debt, cuts cash flow guidance in half Fortune",
-     "source": "Fortune",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZXAyV1o2UTgyMm1nRVdFSzFCenJhZUFSM3VGQ0RXR1RSMFdmTmlxMlVsWUhFTktxd1hQT0tVYnA2aUJmaldaejZBaF9rdTNYd050VE9Cc0drbVBMdTJ4Z3gtbFBHd1NUMHp5OVgxZFNhdFE5SmdwUWpNTnBCV3hSTDIzUDNjRjMtTjFmLUF5bHRRZkR1WGlwUnY4SVpnOFVQUklQTmxaQlBaRUtyMm55Ulk5T2tTWi1nQnU5V3N1RE9hVEFFWXc?oc=5",
-     "category": "Guidance",
-     "firstSeen": "2026-06-22T05:30:24+00:00",
      "companyId": 32,
      "company": "Salesforce",
      "asset": "Aktien",
@@ -3411,32 +3344,6 @@
      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMjdCOTBXMG9FOHR3QVFFaHlJcWFHRkdGYnkzUmN0WEVhTUF4bXQ3OG5ESlNuNzdtYjg4NEp2eWcyYVBWSFRUYjZwcU1KWlBCX3FBMW9xRkNXUGNMZDFJeEkwT3M5d09CaVNqcjN5M3Q3Tm14eFRpSzdVVm1oODhTUDZyZGNJWGtESkVOSjYxRE1USDVLdWN6dU9sNmhuUQ?oc=5",
      "category": "Sonstiges",
      "firstSeen": "2026-06-23T04:20:05+00:00",
-     "companyId": 34,
-     "company": "S&P Global",
-     "asset": "Aktien",
-     "status": "Watchlist"
-    },
-    {
-     "date": "2026-06-16",
-     "title": "New S&P Global Energy Study Shows Biofuels Expansion Benefits for Agriculture",
-     "summary": "New S&P Global Energy Study Shows Biofuels Expansion Benefits for Agriculture AgNewsWire",
-     "source": "AgNewsWire",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYzFLa0RlejUtTWtMYmdtVFJyZldQX0RvMjllLUdnNldsaER5NmJLS1d5cDNlMlVsd3hFTmxzTTYtR2podGFJLUNDX1VwUnRSVXZHTXM2SE1rNk1DMzFKaEI5QkpwOUFDWHVNbVpLcGdxY01zN2FIMmoyMkFUbVEyWFl2WU9ZSG5LdU5CYkNMRldZSGtkVzNCRGhDSlhIejFKUVVUY2V0V0FMY1FzcXE0WQ?oc=5",
-     "category": "M&A",
-     "firstSeen": "2026-06-25T04:33:56+00:00",
-     "companyId": 34,
-     "company": "S&P Global",
-     "asset": "Aktien",
-     "status": "Watchlist"
-    },
-    {
-     "date": "2026-06-12",
-     "title": "S&P Global Energy Launches United Nations Global Compact Screening Dataset",
-     "summary": "S&P Global Energy Launches United Nations Global Compact Screening Dataset PR Newswire",
-     "source": "PR Newswire",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcFhNNlhjRldsSklweENUTWRDckY1VmEzRTZQVlNQTG1hSmxXcklGRnVhNFVwX1RaRzJ4ZXZTZ21LblJYTzgycjQ4LU02TThFRXF4VFV0SXdFVmRScnBtYi1kcXFOQ244dF83MzY5R25pZzVoZ2lrb3ZtaHlZWWZ4R3BSME5HS2NfWnNtX0FrUWxUaEI3SVYtQ21nejZMS2JsU2thTFhjazVPc1VEeXJnakozYmEtZmlfQVR6bzV5T0daYWF4WnZLRA?oc=5",
-     "category": "Sonstiges",
-     "firstSeen": "2026-06-25T04:33:56+00:00",
      "companyId": 34,
      "company": "S&P Global",
      "asset": "Aktien",
@@ -3624,18 +3531,6 @@
      "company": "Adyen",
      "asset": "Aktien",
      "status": "Watchlist"
-    },
-    {
-     "date": "2026-05-28",
-     "title": "ROLLER Partners with Adyen to Empower Over 3,000 Venues with Fast, Embedded Financing through Capital",
-     "summary": "ROLLER Partners with Adyen to Empower Over 3,000 Venues with Fast, Embedded Financing through Capital PR Newswire",
-     "source": "PR Newswire",
-     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPTVIyaENCc3ZKRGZHUms4RTRzSWVqTGlZRWtRQjBtZjlZT01mSjZhaGk1NnR3S3VvT2dQWE5GanZIeXl4Qno0cTkyOHA0QWVYdmVUYi1Yc0ZJeVNQbjREVG94RHpqblNMa2I1cXkxTkI3Qm11X2lWSUZja2x3Y3ZEQktmNTRSTm1zQnNMWXB5anRTODdhSHNrbVpvV25KRDZPaG9CMFhOUlB2TmU4ejA1WW1fWWROVGcxX3BtM0hfQXRPN056eWFLeW51ekY2QnpGaE15TnNCbHFHSzhSc3BGUXo3dml5eGlTUmd4VQ?oc=5",
-     "category": "Sonstiges",
-     "companyId": 36,
-     "company": "Adyen",
-     "asset": "Aktien",
-     "status": "Watchlist"
     }
    ],
    "events": [
@@ -3742,6 +3637,19 @@
  "news": [
   {
    "date": "2026-06-26",
+   "title": "July 6, 2026 Deadline Approaching: Join Class Action Against Graphic Packaging Holding Company (GPK) - Contact Levi & Korsinsky",
+   "summary": "July 6, 2026 Deadline Approaching: Join Class Action Against Graphic Packaging Holding Company (GPK) - Contact Levi & Korsinsky ACCESS Newswire",
+   "source": "ACCESS Newswire",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOU2J1b1ZkVVp1NlV6R2JRTWhZN2hibmNDZHNfVjZ1VnNXSm9YdXhRRk1HbXY3SWtRWlZGakZob3NkLUxVUUdkbzFsU0l4T3NwUThKWmpUbGVna09WdEdKZ0hQU2Q0V2ZSUDVJelZ5VkdmRG81OEIxallnNkVvRWdWdGJMYnlEM25CanRFaVNjWHQwLUtncmNpTkFjSU8zY3dLTmFJbURFN0dDQVhIeTlTM1hUMUtuT3dfcXpCRnEzeGxOeGJIbTN6cVpEMDBibDFsZmFEdXo0UTU1bHJuSjBmTFF1dFA?oc=5",
+   "category": "Sonstiges",
+   "firstSeen": "2026-06-27T04:15:46+00:00",
+   "companyId": 11,
+   "company": "Graphic Packaging",
+   "asset": "Anleihen",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-26",
    "title": "Stellar Pictures Showcases Five Major Series at Tencent",
    "summary": "Stellar Pictures Showcases Five Major Series at Tencent GlobeNewswire",
    "source": "GlobeNewswire",
@@ -3763,32 +3671,6 @@
    "firstSeen": "2026-06-26T04:39:14+00:00",
    "companyId": 4,
    "company": "Borr",
-   "asset": "Anleihen",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-25",
-   "title": "GPK SHAREHOLDER ACTION REMINDER: Faruqi & Faruqi, LLP Reminds Graphic Packaging (GPK) Investors of Securities Class Action Lawsuit Deadline on July 6, 2026",
-   "summary": "GPK SHAREHOLDER ACTION REMINDER: Faruqi & Faruqi, LLP Reminds Graphic Packaging (GPK) Investors of Securities Class Action Lawsuit Deadline on July 6, 2026 PR Newswire",
-   "source": "PR Newswire",
-   "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNaVdOYjBPLXVjZlNrRXZSZTNHWjg2cjRkd09ZZXZ6dFpjem9qR1o5RTY1eFl2OGRNeWUyOHFaV2Jyd0t5UWNJV19fUV94bXdBb3p4eVRkWEtrVUQyS1lGbngyb3hjU1dvNWtWZGhoWkpuSm5PdHRhZXZFbm53cE01aHljNjdncHVxR0JZczhaWjdjV1hPdnpQYlRTWG9pdFh5dFhkYUJCV0dfS0c0c1BNMUx5T1Q5MjFPQWR4alJ6SkdxRmRDTGdYcm1EVlJ5a0ZmU1U1VzlTNV8yOHotYmJyR0t3bGpsdllaUHhOQXBCQnQ0dkkybnF0VVVHYkkyeXNTaHhxdUo1VzlPMkpuVWpGd3VMVi1DdExfc1p3TjdCQmx4bEg4Z3RpZVRwLUZ5dw?oc=5",
-   "category": "Sonstiges",
-   "firstSeen": "2026-06-26T04:39:14+00:00",
-   "companyId": 11,
-   "company": "Graphic Packaging",
-   "asset": "Anleihen",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-25",
-   "title": "Class Action Alert: Levi & Korsinsky Reminds Graphic Packaging Holding Company (GPK) Investors of July 6, 2026 Deadline",
-   "summary": "Class Action Alert: Levi & Korsinsky Reminds Graphic Packaging Holding Company (GPK) Investors of July 6, 2026 Deadline ACCESS Newswire",
-   "source": "ACCESS Newswire",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZGtNcGFvZjFZR3VpUm5QOWo3S0FNS1JZNU5ud2VsUWJGd1BuTUhodWtLMEZZeGl0eU1XS3ZXM1Jub2ZqelhhcHRkcGNDSENmUV9sMlpBa1hGQXRlT2xfSjcweEJOeU1IWkFBbzBhNFBIM1VWeEdkN0NKcTY4Y0FxVS1EeFVxN0FzN1BjcnV2ZlNfcHB2NC1ydU9IV0NTaHBfTy1jYnNkeW9SSmZ3Zkx6ZmVOZG0zdkxHQ0JDaC1hbzJVd0RZU19aSnBfY05iOHVTVWUySU9RUU5tcS15ZzkzTW40SQ?oc=5",
-   "category": "Sonstiges",
-   "firstSeen": "2026-06-26T04:39:14+00:00",
-   "companyId": 11,
-   "company": "Graphic Packaging",
    "asset": "Anleihen",
    "status": "Portfolio"
   },
@@ -3830,6 +3712,19 @@
    "company": "Adyen",
    "asset": "Aktien",
    "status": "Watchlist"
+  },
+  {
+   "date": "2026-06-24",
+   "title": "Prosus launches ToqanClaw to help businesses build AI tools through conversation",
+   "summary": "Prosus launches ToqanClaw to help businesses build AI tools through conversation Fortune India",
+   "source": "Fortune India",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSUVULUxia3RTcjRnYjNjWmtOWUZMLXMwSW1KRWdiaW1WaEIzZEJtUDduUXNRUHZ1ODZXc2kyWGtYOFBacERRR3BWUmRfaEg1aWFzQzhZdzVNM2pXOEVUa3U5OTlPNm8tWGJIc19xajh5b21BeExtZ0pTSEJVNzJBVkhsZThfTGVDb1NTS3R0bG94TTlXSHFGdjlFbUhYNnlOejNWd2FjdHRaN1JfeGRHd0pIaW5fUndJTE1OQjVwS25fRklRM0VRadIB1gFBVV95cUxPS1hhSjVzb3VqRnZTRVg5OXNXc3dJdTEwMXA4OGhMcUFqRTd4OXFtSDBKb0ZFb1BrUTBYcXE2ckxnSGRtRi1HeDU4ODFIeTkzYnNJWHBFY1RMQkV3cE45R2dNd2RXZGxmYzFEZUd1Z2lGbDBUbUh5cHc5YlF5NC16Q3pDdVMxS1lEeldFVWZEVUUzZ09ud3Yzd1VJQ3otUHF0TThBYXA0ODRzYmRuazhCZUlfYUphSW9KeGk0UlBPODBtOW8zakllMF9OR1V0MldIMVF6TlhR?oc=5",
+   "category": "Markt",
+   "firstSeen": "2026-06-27T04:15:46+00:00",
+   "companyId": 8,
+   "company": "Prosus",
+   "asset": "Anleihen",
+   "status": "Portfolio"
   },
   {
    "date": "2026-06-24",
@@ -3937,10 +3832,23 @@
   },
   {
    "date": "2026-06-23",
-   "title": "Meta launches cheaper range of AI smart glasses starting at $299",
-   "summary": "Meta launches cheaper range of AI smart glasses starting at $299 Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcHdqWktPUlFDUEx5WmktWHhqVkxzVlloYUpWYXVzRGlWdlA5RXZfUE1yT1VWbU9pRU84U1BpdUFoUUl2Y3pxX0g0cTlRckdwYXllSVJkNndsYTMyd3RGNWh1RGtSYk4tUUQwcTQtcU5nQkRISU5CMmhSMUJjUkE4cEtnVlRuWXNJSmp5YkJpSHhzWkh4WEtpUzJ2SUpYVDg?oc=5",
+   "title": "Graphic Packaging Holding (GPK) Q1 2026 Earnings Call Transcript",
+   "summary": "Graphic Packaging Holding (GPK) Q1 2026 Earnings Call Transcript Fortune",
+   "source": "Fortune",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBQRHo0dmszTnV2eUZPN01mQlE4NEcyQXNYNm5JMGZISmFkTDE2VlI0X0RMc2RuOUpSR1JLbnY2RjVuV190eS1IUnpWbnh6eDRRYUZ6M1ZLdktWVDB6ZTVWMzd1X3c5TXVyVnFMcHdkd3ZnUElHQ1FCX19oWQ?oc=5",
+   "category": "Earnings",
+   "firstSeen": "2026-06-27T04:15:46+00:00",
+   "companyId": 11,
+   "company": "Graphic Packaging",
+   "asset": "Anleihen",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-23",
+   "title": "Meta Launches Cheaper Own-Brand Smart Glasses For $299/£269, Beating Apple To Release",
+   "summary": "Meta Launches Cheaper Own-Brand Smart Glasses For $299/£269, Beating Apple To Release Forbes",
+   "source": "Forbes",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUl9SeXdyWWVNTXVnVzZJV3VzU2U3MkQ4TXVhU2RxaXVzdERmODBMV2NobmRZdmliWGJ0MWVxSTZSX0ZCZzJUMFdob01uYWR1NVJld3FYNFNudm5sT3NZNnZETGdyQ0dWYUhUczRKYllSRm9xTU04bk9DUlVFN3hMTlR5OVlHUEVNWXZNWUlmVUE1TS1pcHVsTkFoZWhaSUZSTk9QN3FDRGpJdlhJUW9EdEs1ZXhuZXQyNFhSS0FlTEVjLWZWQ1ExZnVYRQ?oc=5",
    "category": "Markt",
    "firstSeen": "2026-06-24T04:35:26+00:00",
    "companyId": 22,
@@ -3950,10 +3858,10 @@
   },
   {
    "date": "2026-06-23",
-   "title": "Meta Launches Cheaper Own-Brand Smart Glasses For $299/£269, Beating Apple To Release",
-   "summary": "Meta Launches Cheaper Own-Brand Smart Glasses For $299/£269, Beating Apple To Release Forbes",
-   "source": "Forbes",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUl9SeXdyWWVNTXVnVzZJV3VzU2U3MkQ4TXVhU2RxaXVzdERmODBMV2NobmRZdmliWGJ0MWVxSTZSX0ZCZzJUMFdob01uYWR1NVJld3FYNFNudm5sT3NZNnZETGdyQ0dWYUhUczRKYllSRm9xTU04bk9DUlVFN3hMTlR5OVlHUEVNWXZNWUlmVUE1TS1pcHVsTkFoZWhaSUZSTk9QN3FDRGpJdlhJUW9EdEs1ZXhuZXQyNFhSS0FlTEVjLWZWQ1ExZnVYRQ?oc=5",
+   "title": "Meta launches cheaper range of AI smart glasses starting at $299",
+   "summary": "Meta launches cheaper range of AI smart glasses starting at $299 Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcHdqWktPUlFDUEx5WmktWHhqVkxzVlloYUpWYXVzRGlWdlA5RXZfUE1yT1VWbU9pRU84U1BpdUFoUUl2Y3pxX0g0cTlRckdwYXllSVJkNndsYTMyd3RGNWh1RGtSYk4tUUQwcTQtcU5nQkRISU5CMmhSMUJjUkE4cEtnVlRuWXNJSmp5YkJpSHhzWkh4WEtpUzJ2SUpYVDg?oc=5",
    "category": "Markt",
    "firstSeen": "2026-06-24T04:35:26+00:00",
    "companyId": 22,
@@ -4092,19 +4000,6 @@
    "status": "Portfolio"
   },
   {
-   "date": "2026-06-17",
-   "title": "HCA Healthcare Inc. stock outperforms competitors despite losses on the day",
-   "summary": "HCA Healthcare Inc. stock outperforms competitors despite losses on the day MarketWatch",
-   "source": "MarketWatch",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRk8zVFUyaWlYVXZTcHMwemhaX3h0bkxVMlktNVFzUVJlUFYwZW9xejMwYU53LWhGT2VfS0hGbHZuQ2Q3eURyY0xHbVRYZWl4eEFDdTZrbEdxRFpGeDVIR1ZlcWtXLXRrTV9id0NxQ3NmaUhSMzNUaFdwRXJNM3UzNFBBdXJ6TER4MEc0NlBaYjByYlltS2pjQnR5Yl9sMHlpcWNtZ2dpY1NLeHJCWFFYZHp4d0Y5bE9DUVhfTFRVTk5LbDNFTHlWWDY2NmNhdUk?oc=5",
-   "category": "Earnings",
-   "firstSeen": "2026-06-20T04:40:41+00:00",
-   "companyId": 30,
-   "company": "HCA Healthcare",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
    "date": "2026-06-16",
    "title": "Post Holdings (POST) Q2 2026 Earnings Call Transcript",
    "summary": "Post Holdings (POST) Q2 2026 Earnings Call Transcript Fortune",
@@ -4119,16 +4014,16 @@
   },
   {
    "date": "2026-06-16",
-   "title": "New S&P Global Energy Study Shows Biofuels Expansion Benefits for Agriculture",
-   "summary": "New S&P Global Energy Study Shows Biofuels Expansion Benefits for Agriculture AgNewsWire",
-   "source": "AgNewsWire",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYzFLa0RlejUtTWtMYmdtVFJyZldQX0RvMjllLUdnNldsaER5NmJLS1d5cDNlMlVsd3hFTmxzTTYtR2podGFJLUNDX1VwUnRSVXZHTXM2SE1rNk1DMzFKaEI5QkpwOUFDWHVNbVpLcGdxY01zN2FIMmoyMkFUbVEyWFl2WU9ZSG5LdU5CYkNMRldZSGtkVzNCRGhDSlhIejFKUVVUY2V0V0FMY1FzcXE0WQ?oc=5",
+   "title": "Salesforce’s stock seals longest losing streak on record as newest AI acquisition sparks anxiety",
+   "summary": "Salesforce’s stock seals longest losing streak on record as newest AI acquisition sparks anxiety MarketWatch",
+   "source": "MarketWatch",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTHdBUmFicnJPalpPNG5CN29kUGZOR1hkSDNwYnQtbFNiTDBwTXFMRFFhUUlfcGdyZjl5OF9jNzMxNjN5U09LWkZSclI0bkExUnBEOVBUY2lHd0RmaThlam45enJwX1Nwa2p2d0FJbFdDeUNYa0hka1E1el9rQjdRUzV6Yzh0N3YzNlNDbXdTVFJrb3Z6bF9LMUNvZFd5WlVxenh0ZV9yTzkyck9XaHA2cTNkOFBTeEhnOTlZanp5Znl1eXItbTJMZnhIWGtfbFVrZm5GQQ?oc=5",
    "category": "M&A",
-   "firstSeen": "2026-06-25T04:33:56+00:00",
-   "companyId": 34,
-   "company": "S&P Global",
+   "firstSeen": "2026-06-27T04:15:46+00:00",
+   "companyId": 32,
+   "company": "Salesforce",
    "asset": "Aktien",
-   "status": "Watchlist"
+   "status": "Portfolio"
   },
   {
    "date": "2026-06-16",
@@ -4223,16 +4118,16 @@
   },
   {
    "date": "2026-06-12",
-   "title": "S&P Global Energy Launches United Nations Global Compact Screening Dataset",
-   "summary": "S&P Global Energy Launches United Nations Global Compact Screening Dataset PR Newswire",
-   "source": "PR Newswire",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcFhNNlhjRldsSklweENUTWRDckY1VmEzRTZQVlNQTG1hSmxXcklGRnVhNFVwX1RaRzJ4ZXZTZ21LblJYTzgycjQ4LU02TThFRXF4VFV0SXdFVmRScnBtYi1kcXFOQ244dF83MzY5R25pZzVoZ2lrb3ZtaHlZWWZ4R3BSME5HS2NfWnNtX0FrUWxUaEI3SVYtQ21nejZMS2JsU2thTFhjazVPc1VEeXJnakozYmEtZmlfQVR6bzV5T0daYWF4WnZLRA?oc=5",
-   "category": "Sonstiges",
-   "firstSeen": "2026-06-25T04:33:56+00:00",
-   "companyId": 34,
-   "company": "S&P Global",
+   "title": "Zuckerberg says Meta made 'mistakes' in AI workforce shift",
+   "summary": "Zuckerberg says Meta made 'mistakes' in AI workforce shift Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMDl3TDBSSG5DbXEwYTcwNlcwaTJ5dWpZV29IWEpNYnVKc2UzT2NpaWdZMXdpbWU1WklwMHdqWXBXRG13cU9Dc0h1NDdQcTRNN1JLR1hjU0RuUkRxSUl4NzFtRTJoTUJPVS1xdzJKdGR0TFVXUTRVbzBscFY4OHJqbzVRUkoycTNvV2s0eWY4WWxNRDJiSW5QU25Qd0tvYU5WNXc?oc=5",
+   "category": "M&A",
+   "firstSeen": "2026-06-27T04:15:46+00:00",
+   "companyId": 22,
+   "company": "Meta",
    "asset": "Aktien",
-   "status": "Watchlist"
+   "status": "Portfolio"
   },
   {
    "date": "2026-06-11",
@@ -4270,19 +4165,6 @@
    "firstSeen": "2026-06-09T04:34:25+00:00",
    "companyId": 18,
    "company": "Amazon",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-08",
-   "title": "Meta Launches ‘Workforce Academy’ to Train Workers to Build Data Centers",
-   "summary": "Meta Launches ‘Workforce Academy’ to Train Workers to Build Data Centers WSJ",
-   "source": "WSJ",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSEtMMlBHT09QWkZrRldsMmw0X0dMeTdRX0E3VjZMdnlZeEhtZnY0N3hGaUhRUHhBX1NVbURqNW1QSW0tUTcxd2lZMVdpQzE5UzM1Wk5DdVF4bmJKeGZodWt5ZlpZZHJDaGNQUkNjc0ozRFBmbVBmc1dqZU10cEM4bVZiS1RQbUpxWmFzRTRrSG00MmJ4Y1l5N3M5R1RURlBETjU5RURKTWVWR2s?oc=5",
-   "category": "Markt",
-   "firstSeen": "2026-06-24T06:15:08+00:00",
-   "companyId": 22,
-   "company": "Meta",
    "asset": "Aktien",
    "status": "Portfolio"
   },
@@ -4327,19 +4209,6 @@
   },
   {
    "date": "2026-06-03",
-   "title": "Prosus Buys Back €80 Million of Shares in Ongoing Repurchase Programme",
-   "summary": "Prosus Buys Back €80 Million of Shares in Ongoing Repurchase Programme The Globe and Mail",
-   "source": "The Globe and Mail",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPRTVZWkp4Q1hYcEV0RXl3VUo1dUlNZ2JSN0ZUWml6OGJtVWcyZDVQYnNKVTZ5ZUF0VG5qU0cyeEN1bF94dUdVSWpRVERVME1MT05jQWU3Vk0yeFhiR3U2NGpMSWx5cUNCSi00T0k1eHRIV2tfbVNSeUp2NTJicS11V3loZkwtZUR1TW84dGctY191NjJiQktHcTdQMUQtcWtsT3dqaE52NGdXbEpQZmIxdm9MVXFkZXVPaTNCWUJWSTQ0WmNiVHJQdC1jejlEbVNpTVdaM0tocWlXWFd2NjBxLVZZN3FLMjBXVnlFeFhtaw?oc=5",
-   "category": "Markt",
-   "firstSeen": "2026-06-19T05:24:02+00:00",
-   "companyId": 8,
-   "company": "Prosus",
-   "asset": "Anleihen",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-03",
    "title": "XPO Provides North American LTL Operating Data for May 2026",
    "summary": "XPO Provides North American LTL Operating Data for May 2026 GlobeNewswire",
    "source": "GlobeNewswire",
@@ -4352,16 +4221,16 @@
    "status": "Portfolio"
   },
   {
-   "date": "2026-06-03",
-   "title": "Microsoft teases new era of AI-driven devices at annual developer conference",
-   "summary": "Microsoft teases new era of AI-driven devices at annual developer conference Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNd2hudE1XOEVGajhxeFBhMXZBbDRYTHJieG1waXZLRG85S3lNSGFKWnVCQnNLWnd0RmNsZjBGcFoxQlhqR3l5T1A5Ni02UU42SnRZUEJ5WWJMMUJPTWdBVjV2SW5NQ0NUQ25JWURYSEVJdmFTMGlGX2M3VHpWLUs2MG5MeFh4aUJrcjk4OG16OHk3S0tUSW9JUW5jR0JrWU9HRUNJcFpqcVdxVXFmR0wwOEIyODNESk5HWUE?oc=5",
-   "category": "Conference",
-   "firstSeen": "2026-06-26T06:19:35+00:00",
-   "companyId": 20,
-   "company": "Microsoft",
-   "asset": "Aktien",
+   "date": "2026-06-02",
+   "title": "Ubisoft Reveals Rayman Legends Retold, Available on October 1",
+   "summary": "Ubisoft Reveals Rayman Legends Retold, Available on October 1 Business Wire",
+   "source": "Business Wire",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdmhKbUVIdTl6UzVpRFFLVTh4cHdWZVFqVTlERmxlNkt5c21EUHhvVG84SEdrcHIxWUhoLTdaVG1pZFpKWXVNckVJZU5pdkFZNEs5YWVTRm05SmV6TU4zS1ZsZURFLTRkekVYSzQxck1laDB0Y29velZyV3JSZjdHUUk3QmZWbDNOM3FoMU1qX3huMUp4NXlEYmVHX3VIcVg1ckQxZERKcDhrYjhnMHVtLXVGS05RbVln?oc=5",
+   "category": "Sonstiges",
+   "firstSeen": "2026-06-27T04:15:46+00:00",
+   "companyId": 6,
+   "company": "Ubisoft",
+   "asset": "Anleihen",
    "status": "Portfolio"
   },
   {
@@ -4443,19 +4312,6 @@
   },
   {
    "date": "2026-05-28",
-   "title": "Salesforce Gives Lukewarm Outlook That Fuels Disruption Fears",
-   "summary": "Salesforce Gives Lukewarm Outlook That Fuels Disruption Fears Bloomberg.com",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZlBjWUpGY3FUTUk2ZWR2UEVVdDl3MDRKX1d3QTRpcnlmRXlOVjZYaE5NY01NaGJsYmtINkJ2YUN0YVlJclh6ampONGpfWGc3dUpGWHBDdXR0M2lwOHFmdXhlWjJNa05iTlBqbWJ6T2VHYW5ETWlQak9iMG5YMGpIeGlfMktiaTU4dmRxME9GNGN1OXZ4UDBnX3FXV2xTaWRjVHdyUjlTUnBVamxXUlppVExn?oc=5",
-   "category": "Guidance",
-   "firstSeen": "2026-06-26T06:19:35+00:00",
-   "companyId": 32,
-   "company": "Salesforce",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-05-28",
    "title": "ION Commodities expands collaboration with S&P Global Energy Platts",
    "summary": "ION Commodities expands collaboration with S&P Global Energy Platts PR Newswire",
    "source": "PR Newswire",
@@ -4466,69 +4322,6 @@
    "company": "S&P Global",
    "asset": "Aktien",
    "status": "Watchlist"
-  },
-  {
-   "date": "2026-05-28",
-   "title": "ROLLER Partners with Adyen to Empower Over 3,000 Venues with Fast, Embedded Financing through Capital",
-   "summary": "ROLLER Partners with Adyen to Empower Over 3,000 Venues with Fast, Embedded Financing through Capital PR Newswire",
-   "source": "PR Newswire",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPTVIyaENCc3ZKRGZHUms4RTRzSWVqTGlZRWtRQjBtZjlZT01mSjZhaGk1NnR3S3VvT2dQWE5GanZIeXl4Qno0cTkyOHA0QWVYdmVUYi1Yc0ZJeVNQbjREVG94RHpqblNMa2I1cXkxTkI3Qm11X2lWSUZja2x3Y3ZEQktmNTRSTm1zQnNMWXB5anRTODdhSHNrbVpvV25KRDZPaG9CMFhOUlB2TmU4ejA1WW1fWWROVGcxX3BtM0hfQXRPN056eWFLeW51ekY2QnpGaE15TnNCbHFHSzhSc3BGUXo3dml5eGlTUmd4VQ?oc=5",
-   "category": "Sonstiges",
-   "companyId": 36,
-   "company": "Adyen",
-   "asset": "Aktien",
-   "status": "Watchlist"
-  },
-  {
-   "date": "2026-05-27",
-   "title": "HCA Healthcare Announces Agreement to Acquire The College of Health Care Professions",
-   "summary": "HCA Healthcare Announces Agreement to Acquire The College of Health Care Professions Business Wire",
-   "source": "Business Wire",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQS0VYdmh5SklHMUhOcnJqWTFVelVtcmY4SFZIbTZLNi1mOTB0YWtkamI4N2FUZ1I4M1pMWEZIRlRBVnpqQ3J3alVBSVZpQmk4X3JNVnpleXd3cGZjaUZjUUtrdHFiZzAtY3daS0dKcS02aHFNbHgwbDhTV1NibXczeEhhZHNjc1pwSV9kSmlrSmlmRU5HOC1ZRDZrWl9lcDZObDdCMnRPTURfZkJ3QzYxZnVGQzhSSDFCeWFBdVZGLWFMTXI4Wk5nMGFMZGFON0lUekdraC1QVG0?oc=5",
-   "category": "M&A",
-   "companyId": 30,
-   "company": "HCA Healthcare",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-05-27",
-   "title": "Salesforce beats on earnings and revenue but full-year guidance comes in light",
-   "summary": "Salesforce beats on earnings and revenue but full-year guidance comes in light CNBC",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONTcta0duTkxlTnA1RUk4aGpMdjIxTGN0WlJmcVNGYmZqV1dfd3ZBRTZnQkVRVnVwTXBnQTZKdklCcURKXzlMdW1RSmVFUjFwUVlMYmFmX1pPX0o3TDdQRUtOckpITVlPa1RIR2VYSzJ0XzZkMGNkdGlhSnhIckFRRNIBhgFBVV95cUxPeS11ODJfajlNNnMtbU4yUHRyelY5a2VTM3d1Z0IzckliX0F0M1hWazd0VlBwSy1fdWszS3ZHNjMyMDJVVGgxR0RMZTBDVVRaYnVTc1BiaktiaHpneXhpRFNHREt0T052YUtBdmNFMi1XRFdjYmZNWlJnUHhXVklaZzM1OVJyUQ?oc=5",
-   "category": "Earnings",
-   "firstSeen": "2026-06-06T06:01:46+00:00",
-   "companyId": 32,
-   "company": "Salesforce",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-05-27",
-   "title": "Salesforce CEO Marc Benioff outlines his plan to turn around his struggling stock",
-   "summary": "Salesforce CEO Marc Benioff outlines his plan to turn around his struggling stock CNBC",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaFhLak05anFQWkdWQlh4dEJYaDVMQkJWdTkwdjFBbWRScVBoZWJ5S2lkaDNmUkxlbDJ2bFNXd0JOMjEwR1Z1MFR3N0hyY3E5TDJhTFNDenJJMXBVZHAxVElIT1QwU0diWUgtX0lMTmN4Q240elVXTGdoTWE0MEFKN2JQVEc3dWdQSVY0SFZxa2hJYU5oSGdfVEF3WFRIX0lnSGw3cnd4ZmhkeXpzUGhXM0F2ck9BS2t0N2fSAb8BQVVfeXFMTW5DRWFuZjRSd09wMkRSbTV0azV0V3NSU0RrUTk0dzhHekc5Y1RucDhfUkxzeS1CdXN5Rl8zZ2loZGhFamVkU3FPR0xkdHdNYjlVTVVEWGJZZEdQVWV6SGtyX0VZR25WYjItc3diR1pJdFhLWWdna1JrWWgyaC1hQklya1pSUE9XSzBLbWFGSTVpRTJLV3kzbWN6YWJva0ZNaFNMNGE0dkl2bkxCSnlXREZ0amZlekU1SDlwakJScnM?oc=5",
-   "category": "Markt",
-   "firstSeen": "2026-06-15T05:27:56+00:00",
-   "companyId": 32,
-   "company": "Salesforce",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-05-27",
-   "title": "Salesforce turbocharges $25 billion stock buying spree with debt, cuts cash flow guidance in half",
-   "summary": "Salesforce turbocharges $25 billion stock buying spree with debt, cuts cash flow guidance in half Fortune",
-   "source": "Fortune",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZXAyV1o2UTgyMm1nRVdFSzFCenJhZUFSM3VGQ0RXR1RSMFdmTmlxMlVsWUhFTktxd1hQT0tVYnA2aUJmaldaejZBaF9rdTNYd050VE9Cc0drbVBMdTJ4Z3gtbFBHd1NUMHp5OVgxZFNhdFE5SmdwUWpNTnBCV3hSTDIzUDNjRjMtTjFmLUF5bHRRZkR1WGlwUnY4SVpnOFVQUklQTmxaQlBaRUtyMm55Ulk5T2tTWi1nQnU5V3N1RE9hVEFFWXc?oc=5",
-   "category": "Guidance",
-   "firstSeen": "2026-06-22T05:30:24+00:00",
-   "companyId": 32,
-   "company": "Salesforce",
-   "asset": "Aktien",
-   "status": "Portfolio"
   }
  ],
  "events": [
