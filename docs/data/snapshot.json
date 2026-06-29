@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-28T06:36:17+00:00",
+ "generatedAt": "2026-06-29T04:58:56+00:00",
  "companies": {
   "1": {
    "news": [],
@@ -139,13 +139,13 @@
      "status": "Portfolio"
     },
     {
-     "date": "2026-06-19",
-     "title": "Bronstein, Gewirtz & Grossman, LLC Is Investigating Borr Drilling Limited (BORR) And Encourages Stockholders to Connect",
-     "summary": "Bronstein, Gewirtz & Grossman, LLC Is Investigating Borr Drilling Limited (BORR) And Encourages Stockholders to Connect ACCESS Newswire",
+     "date": "2026-06-17",
+     "title": "Borr Drilling Limited (BORR) Investigation: Bronstein, Gewirtz & Grossman, LLC Encourages Stockholders to Contact the Firm to Learn More About the Investigation",
+     "summary": "Borr Drilling Limited (BORR) Investigation: Bronstein, Gewirtz & Grossman, LLC Encourages Stockholders to Contact the Firm to Learn More About the Investigation ACCESS Newswire",
      "source": "ACCESS Newswire",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOXzRvaXdETXFoZmt3NTQ1dWZLTDRpQzRPVVdVWk9wakQ1S2JQYklkdDZnaEc1eldqdXdSNUNBTWhha0MtSHVVeTZOTDlxbVp1UEk4U1VNdEVjWWdacWRJRF9fSEZBY19CRFdBdVVmaGJXWUlSRVZsbWZjZlJXMjNmSXU1eFBYNDJBU281YTk2Rk9BcWhTVDZNX2tsWS11ZWllWDVfUHkzVlF0YXVXSEptU0VJa19HUGluSzQtQWJVdmc2Yms4MU1LSWVUYm53TDVOVzFjd2JDZThWczJpZnI5ZnQ3eUw?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNU3BEVzRwdnpoMHpDRk9ENkkxUWJ3cU95U0t2R1pXWWxuUVdzSW1aRWRBeUZhMnZfeEFSM3A3aC1oWXd5aXViZTA4RjduZUx0NE11ektNN0t2eVR1aFpnYklmYTVZQlpvb0stVERxbWFkNFpNLXh3aEdZR2FYSlA4bVdycmdLd1JwS3VrUEVmbzYxSG5MWTF1aEowUHE0SC1VYkFad1FwNnNNVVk5OHdhX2ZKQVFVZDVsSG9FMGhJem1oaDMyUEVBaHVoWmNFVGxleF83ckhMdjRqNUtRV2plYjRWYWw?oc=5",
      "category": "Sonstiges",
-     "firstSeen": "2026-06-21T05:18:08+00:00",
+     "firstSeen": "2026-06-29T04:58:56+00:00",
      "companyId": 4,
      "company": "Borr",
      "asset": "Anleihen",
@@ -293,19 +293,6 @@
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOU2I1Wk1sdXNaMHpLSWlrdWNPVFNGXzU2SmtSQy1ob0U4Wlp4SDVQR0ZRay1IcmNPZTV5UnpuZC1ObjlBcnRTWGFkMjV2OW9nWkkyRjAteUo2aDlDVHljQUdGVDdxZGQyNG1uWklRM2JROUw2WXBZS2RHV0p2NV9Pb0FwQWpqUUFsNWJtSmkxeUk5Um9MT01VNzRXVmxEWUNTVTNyRDc3VDNYR3hmd0xheURaaEtrbGVtYWhkNURVVlB6UVRqXzhZ?oc=5",
      "category": "Sonstiges",
      "firstSeen": "2026-06-24T04:35:26+00:00",
-     "companyId": 5,
-     "company": "Mineral Resources",
-     "asset": "Anleihen",
-     "status": "Portfolio"
-    },
-    {
-     "date": "2026-05-29",
-     "title": "Ramaco Resources CEO Randall W. Atkins Appears on CNBC's Morning Call to Discuss Critical Minerals and Energy Market Trends",
-     "summary": "Ramaco Resources CEO Randall W. Atkins Appears on CNBC's Morning Call to Discuss Critical Minerals and Energy Market Trends PR Newswire",
-     "source": "PR Newswire",
-     "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQNDMzNThGSVZsSm0xdWhzQkhvSVFHY2E2bEtJVjJIdjFhc3pMaDZ6eC1nTHl2Q2xCdW9tcERnM0s3bF9iLXdHMnQ4clh6NE5wbzk2VDByTWVxNWp2VDc5S1FacHNSYjh4UkZHSVZmVVV0VmlpLUQ3MlBHMVFMcTAtYk5MZXJsOU1uUXFWS2gwb3BUMThxSnhhcVFRVkFoSVEtbW5RWWJHQ282dDNhNVVXZkVSaVBWcHdlZE5zNTJtUnBSc3VGVjVxc2RzeEdCeW1CeGNseThFeXVZVHpMbndwQWRFUUZ5MHhMSFVWSjB1WU5DNlFFNHFHWmgxbWs2MjFjQ0FXRWttVzU?oc=5",
-     "category": "Sonstiges",
-     "firstSeen": "2026-06-25T04:33:56+00:00",
      "companyId": 5,
      "company": "Mineral Resources",
      "asset": "Anleihen",
@@ -553,6 +540,19 @@
   "10": {
    "news": [
     {
+     "date": "2026-06-08",
+     "title": "Reply at Gartner® Marketing Symposium/Xpo™ 2026, Sharing Expertise in Applying AI to Customer Experience and Marketing Operations",
+     "summary": "Reply at Gartner® Marketing Symposium/Xpo™ 2026, Sharing Expertise in Applying AI to Customer Experience and Marketing Operations PR Newswire",
+     "source": "PR Newswire",
+     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQYkVQWUZEZjVGTVVzRGtqeWxmc3RRV2JkY3V0alJjVXNwV1MxeXFUeEFZOVRpaV81ME5hTGNDX0ppcVZpaUxRdi1vcVhfMXhPOEhZR1BjQjhuWGZueW5QMGs3VEl3ZXM4Slg0ckdyQU9EUGhrUDNUNG9HNnFqemx3S0JiMEhabmZJTUk3dXVfOEUyaWhoVkNhYndvejhVNFZubkZzZzZ3UW9sUWM4cm5VcEEtczNldkVYdGZMNEUtWTVMZm1jcXNPeE5rTktibzNWYnYwUmpBX1huVGZNY2l2VzhRSU9yempjZDNmalhLOGhSNmlLT1FWY0RlYS02aENxa2IxdjEtMFFxcUJqUHc?oc=5",
+     "category": "Sonstiges",
+     "firstSeen": "2026-06-29T04:58:56+00:00",
+     "companyId": 10,
+     "company": "XPO",
+     "asset": "Anleihen",
+     "status": "Portfolio"
+    },
+    {
      "date": "2026-06-04",
      "title": "XPO Unveils Trailer Fleet Honoring America’s 250th Anniversary",
      "summary": "XPO Unveils Trailer Fleet Honoring America’s 250th Anniversary GlobeNewswire",
@@ -580,17 +580,6 @@
     }
    ],
    "events": [
-    {
-     "date": "2026-06-25",
-     "type": "Earnings",
-     "title": "FedEx Freight: Quartalszahlen (Wettbewerber)",
-     "company": "FedEx Freight",
-     "companyId": 10,
-     "source": "Yahoo Finance",
-     "peer": true,
-     "peerOf": "XPO",
-     "firstSeen": "2026-06-17T13:12:03+00:00"
-    },
     {
      "date": "2026-07-22",
      "type": "Earnings",
@@ -644,6 +633,17 @@
      "source": "Yahoo Finance",
      "peer": false,
      "firstSeen": "2026-06-17T13:12:03+00:00"
+    },
+    {
+     "date": "2026-09-08",
+     "type": "Earnings",
+     "title": "FedEx Freight: Quartalszahlen (Wettbewerber)",
+     "company": "FedEx Freight",
+     "companyId": 10,
+     "source": "Yahoo Finance",
+     "peer": true,
+     "peerOf": "XPO",
+     "firstSeen": "2026-06-29T04:58:56+00:00"
     }
    ],
    "insider": [
@@ -683,13 +683,13 @@
      "status": "Portfolio"
     },
     {
-     "date": "2026-06-25",
-     "title": "GPK Investors Have Opportunity to Lead Graphic Packaging Holding Company Securities Fraud Lawsuit with the Schall Law Firm",
-     "summary": "GPK Investors Have Opportunity to Lead Graphic Packaging Holding Company Securities Fraud Lawsuit with the Schall Law Firm PR Newswire",
-     "source": "PR Newswire",
-     "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQY0JVcXJWbzNvbjNxWmptUmlpcmRycWVwZ1VQMlY1THhkS1hYZ2Fyd1BzaW9QWDFZOFdiT2ZPMnk1Nmt4aGl3NjhHcWlFYkF0R0V1M0EwRkRYVGRjSzdaQ0VSYkh0Unl6aXFlOEJtakpvQkZNQ2cwck4teGREbjBYSFNERFNCb1UxT2FKdEpZUF8wUVlEM1puQzJORU1zTEgyQWxWeEFNb0xKTzQwaU5leTdENnRid1JKSVdPbk9kek9sdllXYjhnZzVVRGFBRFBtdXE3WFM1QmlTVVA1Q3hMMlpVYWFZeXdKTU9TRnJQX29UQ0Ytb2c1Yzdqc2pKdS1fY0xZVmNScHpUQQ?oc=5",
+     "date": "2026-06-26",
+     "title": "Class Action Filed Against Graphic Packaging Holding Company (GPK) Over Securities Violations - Contact Levi & Korsinsky Today",
+     "summary": "Class Action Filed Against Graphic Packaging Holding Company (GPK) Over Securities Violations - Contact Levi & Korsinsky Today ACCESS Newswire",
+     "source": "ACCESS Newswire",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTG9oNFFFR3M3NFZfc0k4YjVVRG9qT1NyNm5pcGlsSDBOQlRzUHJ0QjBXVDF6aW4xZE1RV3FIS2M4aEVCdFpGaGpVYmhNejM2QmdJaDU1cmNKZzJTR05hdDFhTmVROG5sLUd6b0tfbEtfb3VlbHJtN0NTVURCVTU3M2VQTjdDUHd0Z3lZNUhRbEZuU1lpVlNreGltTG9CUFdJZFZSRF85bEI1a2p0R0prem5YQVB6Z2I3akFKMEpFOENUU1dISWJNZS1iUjVFVE1Cdk94VDNZU2lXaU9hSlNOLUpYSWg?oc=5",
      "category": "Sonstiges",
-     "firstSeen": "2026-06-28T04:49:54+00:00",
+     "firstSeen": "2026-06-29T04:58:56+00:00",
      "companyId": 11,
      "company": "Graphic Packaging",
      "asset": "Anleihen",
@@ -759,6 +759,17 @@
      "peer": true,
      "peerOf": "Graphic Packaging",
      "firstSeen": "2026-06-17T13:12:03+00:00"
+    },
+    {
+     "date": "2026-07-22",
+     "type": "Earnings",
+     "title": "Sonoco: Quartalszahlen (Wettbewerber)",
+     "company": "Sonoco",
+     "companyId": 11,
+     "source": "Yahoo Finance",
+     "peer": true,
+     "peerOf": "Graphic Packaging",
+     "firstSeen": "2026-06-29T04:58:56+00:00"
     },
     {
      "date": "2026-07-28",
@@ -1931,34 +1942,7 @@
      "firstSeen": "2026-06-17T13:12:03+00:00"
     }
    ],
-   "insider": [
-    {
-     "date": "2026-06-10",
-     "insider": "Numoto Takeshi",
-     "role": "EVP, Chief Marketing Officer",
-     "code": "S",
-     "kind": "Verkauf",
-     "shares": 4500,
-     "price": 402.84,
-     "value": 1812780,
-     "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000121/",
-     "source": "SEC",
-     "firstSeen": "2026-06-20T06:39:41+00:00"
-    },
-    {
-     "date": "2026-06-08",
-     "insider": "Numoto Takeshi",
-     "role": "EVP, Chief Marketing Officer",
-     "code": "S",
-     "kind": "Verkauf",
-     "shares": 2500,
-     "price": 412.45,
-     "value": 1031125,
-     "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000109/",
-     "source": "SEC",
-     "firstSeen": "2026-06-20T06:39:41+00:00"
-    }
-   ],
+   "insider": [],
    "tech": {
     "currency": "USD",
     "closes": [
@@ -2202,164 +2186,7 @@
      "firstSeen": "2026-06-17T13:12:03+00:00"
     }
    ],
-   "insider": [
-    {
-     "date": "2026-06-15",
-     "insider": "Olivan Javier",
-     "role": "Chief Operating Officer",
-     "code": "S",
-     "kind": "Verkauf",
-     "shares": 140,
-     "price": 600.0,
-     "value": 84000,
-     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326009164/",
-     "source": "SEC",
-     "firstSeen": "2026-06-23T06:18:29+00:00"
-    },
-    {
-     "date": "2026-06-15",
-     "insider": "Olivan Javier",
-     "role": "Chief Operating Officer",
-     "code": "S",
-     "kind": "Verkauf",
-     "shares": 164,
-     "price": 600.0,
-     "value": 98400,
-     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326009164/",
-     "source": "SEC",
-     "firstSeen": "2026-06-23T06:18:29+00:00"
-    },
-    {
-     "date": "2026-06-15",
-     "insider": "Olivan Javier",
-     "role": "Chief Operating Officer",
-     "code": "S",
-     "kind": "Verkauf",
-     "shares": 114,
-     "price": 600.0,
-     "value": 68400,
-     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326009164/",
-     "source": "SEC",
-     "firstSeen": "2026-06-23T06:18:29+00:00"
-    },
-    {
-     "date": "2026-06-15",
-     "insider": "Olivan Javier",
-     "role": "Chief Operating Officer",
-     "code": "S",
-     "kind": "Verkauf",
-     "shares": 164,
-     "price": 600.0,
-     "value": 98400,
-     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326009164/",
-     "source": "SEC",
-     "firstSeen": "2026-06-23T06:18:29+00:00"
-    },
-    {
-     "date": "2026-06-15",
-     "insider": "Olivan Javier",
-     "role": "Chief Operating Officer",
-     "code": "S",
-     "kind": "Verkauf",
-     "shares": 816,
-     "price": 600.0,
-     "value": 489600,
-     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326009164/",
-     "source": "SEC",
-     "firstSeen": "2026-06-23T06:18:29+00:00"
-    },
-    {
-     "date": "2026-06-01",
-     "insider": "KIMMITT ROBERT M",
-     "role": "Director",
-     "code": "S",
-     "kind": "Verkauf",
-     "shares": 504,
-     "price": 629.29,
-     "value": 317162,
-     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008488/",
-     "source": "SEC",
-     "firstSeen": "2026-06-23T06:18:29+00:00"
-    },
-    {
-     "date": "2026-06-01",
-     "insider": "Olivan Javier",
-     "role": "Chief Operating Officer",
-     "code": "S",
-     "kind": "Verkauf",
-     "shares": 837,
-     "price": 629.29,
-     "value": 526715,
-     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
-     "source": "SEC",
-     "firstSeen": "2026-06-23T06:18:29+00:00"
-    },
-    {
-     "date": "2026-06-01",
-     "insider": "Olivan Javier",
-     "role": "Chief Operating Officer",
-     "code": "S",
-     "kind": "Verkauf",
-     "shares": 82,
-     "price": 629.29,
-     "value": 51601,
-     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
-     "source": "SEC",
-     "firstSeen": "2026-06-23T06:18:29+00:00"
-    },
-    {
-     "date": "2026-06-01",
-     "insider": "Olivan Javier",
-     "role": "Chief Operating Officer",
-     "code": "S",
-     "kind": "Verkauf",
-     "shares": 57,
-     "price": 629.29,
-     "value": 35869,
-     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
-     "source": "SEC",
-     "firstSeen": "2026-06-23T06:18:29+00:00"
-    },
-    {
-     "date": "2026-06-01",
-     "insider": "Olivan Javier",
-     "role": "Chief Operating Officer",
-     "code": "S",
-     "kind": "Verkauf",
-     "shares": 82,
-     "price": 629.29,
-     "value": 51601,
-     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
-     "source": "SEC",
-     "firstSeen": "2026-06-23T06:18:29+00:00"
-    },
-    {
-     "date": "2026-06-01",
-     "insider": "Olivan Javier",
-     "role": "Chief Operating Officer",
-     "code": "S",
-     "kind": "Verkauf",
-     "shares": 408,
-     "price": 629.29,
-     "value": 256750,
-     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
-     "source": "SEC",
-     "firstSeen": "2026-06-23T06:18:29+00:00"
-    },
-    {
-     "date": "2026-05-27",
-     "insider": "Mahoney Curtis J.",
-     "role": "Chief Legal Officer",
-     "code": "S",
-     "kind": "Verkauf",
-     "shares": 2079,
-     "price": 609.92,
-     "value": 1268023,
-     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008089/",
-     "source": "SEC",
-     "firstSeen": "2026-06-23T06:18:29+00:00"
-    }
-   ],
+   "insider": [],
    "tech": {
     "currency": "USD",
     "closes": [
@@ -2527,6 +2354,17 @@
     }
    ],
    "events": [
+    {
+     "date": "2026-07-22",
+     "type": "Earnings",
+     "title": "Sonoco: Quartalszahlen (Wettbewerber)",
+     "company": "Sonoco",
+     "companyId": 24,
+     "source": "Yahoo Finance",
+     "peer": true,
+     "peerOf": "Amcor",
+     "firstSeen": "2026-06-29T04:58:56+00:00"
+    },
     {
      "date": "2026-07-29",
      "type": "Earnings",
@@ -2764,17 +2602,6 @@
    "news": [],
    "events": [
     {
-     "date": "2026-07-30",
-     "type": "Earnings",
-     "title": "BorgWarner: Quartalszahlen (Wettbewerber)",
-     "company": "BorgWarner",
-     "companyId": 27,
-     "source": "Yahoo Finance",
-     "peer": true,
-     "peerOf": "Linamar Corp",
-     "firstSeen": "2026-06-17T13:12:03+00:00"
-    },
-    {
      "date": "2026-07-31",
      "type": "Earnings",
      "title": "Magna International: Quartalszahlen (Wettbewerber)",
@@ -2784,6 +2611,17 @@
      "peer": true,
      "peerOf": "Linamar Corp",
      "firstSeen": "2026-06-17T13:12:03+00:00"
+    },
+    {
+     "date": "2026-08-05",
+     "type": "Earnings",
+     "title": "BorgWarner: Quartalszahlen (Wettbewerber)",
+     "company": "BorgWarner",
+     "companyId": 27,
+     "source": "Yahoo Finance",
+     "peer": true,
+     "peerOf": "Linamar Corp",
+     "firstSeen": "2026-06-29T04:58:56+00:00"
     }
    ],
    "insider": [],
@@ -2850,34 +2688,9 @@
      "company": "Vistry",
      "asset": "Aktien",
      "status": "Portfolio"
-    },
-    {
-     "date": "2026-05-30",
-     "title": "Vistry Updates Share Capital and Voting Rights After Buyback",
-     "summary": "Vistry Updates Share Capital and Voting Rights After Buyback The Globe and Mail",
-     "source": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQQm96cHFJMVNNZGI4aE9ySVBnZW5lRVNRYkVFMnc1b2p4TDlaTzNHd1dwUkZWRjI2NkZyWE9fR2szMDQ2NDhSTHl5d0RRYmxXU0ZOUkdhUHhSSG5SbWpIa1lLUFI5TUVObWdPM2JUY3hTUHk0ZUpjVUMwLXp3T2hLalFGWHFfaDJOUjlyc2NsREFNWF90M2EzbnFqNjBRNS1FWVBZNXJNdkNscXJpcUVUNWlhbEMzc2dCdXZ0WjJYd05TZ2stV083YkNEbkFqdUVLazZNQnlRVHc?oc=5",
-     "category": "Markt",
-     "firstSeen": "2026-06-28T04:49:54+00:00",
-     "companyId": 29,
-     "company": "Vistry",
-     "asset": "Aktien",
-     "status": "Portfolio"
     }
    ],
-   "events": [
-    {
-     "date": "2026-06-24",
-     "type": "Earnings",
-     "title": "Berkeley Group: Quartalszahlen (Wettbewerber)",
-     "company": "Berkeley Group",
-     "companyId": 29,
-     "source": "Yahoo Finance",
-     "peer": true,
-     "peerOf": "Vistry",
-     "firstSeen": "2026-06-17T13:12:03+00:00"
-    }
-   ],
+   "events": [],
    "insider": [],
    "tech": null,
    "profile": {
@@ -2889,17 +2702,6 @@
    "news": [],
    "events": [
     {
-     "date": "2026-07-21",
-     "type": "Earnings",
-     "title": "Tenet Healthcare: Quartalszahlen (Wettbewerber)",
-     "company": "Tenet Healthcare",
-     "companyId": 30,
-     "source": "Yahoo Finance",
-     "peer": true,
-     "peerOf": "HCA Healthcare",
-     "firstSeen": "2026-06-17T13:12:03+00:00"
-    },
-    {
      "date": "2026-07-24",
      "type": "Earnings",
      "title": "HCA Healthcare: Quartalszahlen",
@@ -2908,6 +2710,17 @@
      "source": "Yahoo Finance",
      "peer": false,
      "firstSeen": "2026-06-17T13:12:03+00:00"
+    },
+    {
+     "date": "2026-07-24",
+     "type": "Earnings",
+     "title": "Tenet Healthcare: Quartalszahlen (Wettbewerber)",
+     "company": "Tenet Healthcare",
+     "companyId": 30,
+     "source": "Yahoo Finance",
+     "peer": true,
+     "peerOf": "HCA Healthcare",
+     "firstSeen": "2026-06-29T04:58:56+00:00"
     },
     {
      "date": "2026-07-27",
@@ -3069,6 +2882,19 @@
      "status": "Portfolio"
     },
     {
+     "date": "2026-06-25",
+     "title": "CORRECTION - Quino Energy Receives Award from Tencent’s",
+     "summary": "CORRECTION - Quino Energy Receives Award from Tencent’s GlobeNewswire",
+     "source": "GlobeNewswire",
+     "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQRnYtU0ZqZHE1aEJTNjBlQ2I2OElseVZDTVdIcU1IcTN5UGNOMF9qRFBWMmpudEI5aUJ0MWgxM0hNai1odDNtM3Z5WkFlZ2x4VDVtYkliOWwxQ2JUYkZoWXlaYlFtWWtHVmFqeWlRblBseGtqSnNqVzFRdWxRVGtEUFFiMEwzRTFzSXFwNkdTV0xxZ19ST3FrUU9jT0ZIU3FZX3g2bkVPUjh4NWtWU1BJR2hwWVFSR2ZPdHhYMVZBQThXUGN2RjhDck5JQ2RGUnhsU2E4c3QzVmNGNjY0eTlhQmRocVdTQ0poSjF0TGpNd2k5WTFqNHVuV016cmd1S0l4RXVrcXl2Q1FWX2t6b3F0V2h4aFljYk5fYWFYeG5ZNTNJNF9Q?oc=5",
+     "category": "Sonstiges",
+     "firstSeen": "2026-06-29T04:58:56+00:00",
+     "companyId": 31,
+     "company": "Tencent",
+     "asset": "Aktien",
+     "status": "Portfolio"
+    },
+    {
      "date": "2026-06-19",
      "title": "Tech Investor Prosus Posts Core Earnings Rise on Growth Across Units, Tencent",
      "summary": "Tech Investor Prosus Posts Core Earnings Rise on Growth Across Units, Tencent WSJ",
@@ -3102,19 +2928,6 @@
      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQU3ZqSG9QQlB2NUh1OTluR0Y0WUJxRzloM05EcXQzSjhMb1oxX0dXbzc0Z0tUZDNNN18zd0I5X19WbUZsd0xZdDFfTkNyWkpxRmhmVlRid1RpSWViWmFYRTMxRE0wdDF4aTJtcnlxQ1FLblF4bVhWQUkwcHRvWE0wZF9EQ08wd3FnMWFSYzhDTHFySjlWV0g3Zm1FMFNDeDJBanhoVlNNa25QeGlEOUpodDFIWEF2WkFxekZQQlBFd3dZTzhud0F0d2tKMVNEVkJFcUVILW4tS1lpYlRlZHJ6M1hadUVMNlJkVVpjNGtnOTJmS0Z6eXl4Ym41aVo2THRRdGszWC1rNFhYSHRnaEhQQUR5UF9NS09kdHFDb3g1VEw?oc=5",
      "category": "Sonstiges",
      "firstSeen": "2026-06-27T06:00:44+00:00",
-     "companyId": 31,
-     "company": "Tencent",
-     "asset": "Aktien",
-     "status": "Portfolio"
-    },
-    {
-     "date": "2026-06-16",
-     "title": "Tencent Cloud and Inworld AI Announce Strategic Partnership to Deliver a One-Stop, Lifelike, Realtime Voice AI Solution",
-     "summary": "Tencent Cloud and Inworld AI Announce Strategic Partnership to Deliver a One-Stop, Lifelike, Realtime Voice AI Solution PR Newswire",
-     "source": "PR Newswire",
-     "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPLUNVVFQzVjlGNEMxeGxkYXZZSENXMEozRXU2MF9hUXhaZ01nU2ozeDNPZ2ViN3FaOGNINDVXQS1aV0RwQnVrYmhHSmhMelZSN3VScXNuc2FfVFQtbGNob0owa0pfTmRuWXVqWTAzVERYdzRqNjRUSlNDM3dtelE5cFI0dmczQUxuU2V2cGJ3dWtDU0NKb0ZvM01WUERZZzYwME94RS1YRE1LSmswTnVqM2lUQ0E1WW5EcEJxbFZJQzZrRlVtUnNpOEFpM0JvQjJ5UG9uZkNzN3RqUEN3dl8xeE5HdHVQTzZnYk9lVjJ6UTRMazF1Y2xwazR2Sklnd0hwckVjODVMR2Jydw?oc=5",
-     "category": "Sonstiges",
-     "firstSeen": "2026-06-28T04:49:54+00:00",
      "companyId": 31,
      "company": "Tencent",
      "asset": "Aktien",
@@ -3434,47 +3247,7 @@
      "firstSeen": "2026-06-17T13:12:03+00:00"
     }
    ],
-   "insider": [
-    {
-     "date": "2026-05-01",
-     "insider": "Clay Catherine R",
-     "role": "CEO, S&P Dow Jones Indices",
-     "code": "P",
-     "kind": "Kauf",
-     "shares": 2500,
-     "price": 431.39,
-     "value": 1078475,
-     "url": "https://www.sec.gov/Archives/edgar/data/64040/000185349726000004/",
-     "source": "SEC",
-     "firstSeen": "2026-06-23T06:18:29+00:00"
-    },
-    {
-     "date": "2026-04-30",
-     "insider": "Moritz Robert Edward Jr.",
-     "role": "Director",
-     "code": "P",
-     "kind": "Kauf",
-     "shares": 1151,
-     "price": 434.03,
-     "value": 500000,
-     "url": "https://www.sec.gov/Archives/edgar/data/64040/000203383426000014/",
-     "source": "SEC",
-     "firstSeen": "2026-06-23T06:18:29+00:00"
-    },
-    {
-     "date": "2026-04-29",
-     "insider": "CHEUNG MARTINA",
-     "role": "CEO & President",
-     "code": "P",
-     "kind": "Kauf",
-     "shares": 2322,
-     "price": 429.93,
-     "value": 998297,
-     "url": "https://www.sec.gov/Archives/edgar/data/64040/000165789026000008/",
-     "source": "SEC",
-     "firstSeen": "2026-06-23T06:18:29+00:00"
-    }
-   ],
+   "insider": [],
    "tech": null,
    "profile": {
     "businessModel": "",
@@ -3650,6 +3423,19 @@
   },
   {
    "date": "2026-06-26",
+   "title": "Class Action Filed Against Graphic Packaging Holding Company (GPK) Over Securities Violations - Contact Levi & Korsinsky Today",
+   "summary": "Class Action Filed Against Graphic Packaging Holding Company (GPK) Over Securities Violations - Contact Levi & Korsinsky Today ACCESS Newswire",
+   "source": "ACCESS Newswire",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTG9oNFFFR3M3NFZfc0k4YjVVRG9qT1NyNm5pcGlsSDBOQlRzUHJ0QjBXVDF6aW4xZE1RV3FIS2M4aEVCdFpGaGpVYmhNejM2QmdJaDU1cmNKZzJTR05hdDFhTmVROG5sLUd6b0tfbEtfb3VlbHJtN0NTVURCVTU3M2VQTjdDUHd0Z3lZNUhRbEZuU1lpVlNreGltTG9CUFdJZFZSRF85bEI1a2p0R0prem5YQVB6Z2I3akFKMEpFOENUU1dISWJNZS1iUjVFVE1Cdk94VDNZU2lXaU9hSlNOLUpYSWg?oc=5",
+   "category": "Sonstiges",
+   "firstSeen": "2026-06-29T04:58:56+00:00",
+   "companyId": 11,
+   "company": "Graphic Packaging",
+   "asset": "Anleihen",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-26",
    "title": "Stellar Pictures Showcases Five Major Series at Tencent",
    "summary": "Stellar Pictures Showcases Five Major Series at Tencent GlobeNewswire",
    "source": "GlobeNewswire",
@@ -3676,25 +3462,25 @@
   },
   {
    "date": "2026-06-25",
-   "title": "GPK Investors Have Opportunity to Lead Graphic Packaging Holding Company Securities Fraud Lawsuit with the Schall Law Firm",
-   "summary": "GPK Investors Have Opportunity to Lead Graphic Packaging Holding Company Securities Fraud Lawsuit with the Schall Law Firm PR Newswire",
-   "source": "PR Newswire",
-   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQY0JVcXJWbzNvbjNxWmptUmlpcmRycWVwZ1VQMlY1THhkS1hYZ2Fyd1BzaW9QWDFZOFdiT2ZPMnk1Nmt4aGl3NjhHcWlFYkF0R0V1M0EwRkRYVGRjSzdaQ0VSYkh0Unl6aXFlOEJtakpvQkZNQ2cwck4teGREbjBYSFNERFNCb1UxT2FKdEpZUF8wUVlEM1puQzJORU1zTEgyQWxWeEFNb0xKTzQwaU5leTdENnRid1JKSVdPbk9kek9sdllXYjhnZzVVRGFBRFBtdXE3WFM1QmlTVVA1Q3hMMlpVYWFZeXdKTU9TRnJQX29UQ0Ytb2c1Yzdqc2pKdS1fY0xZVmNScHpUQQ?oc=5",
-   "category": "Sonstiges",
-   "firstSeen": "2026-06-28T04:49:54+00:00",
-   "companyId": 11,
-   "company": "Graphic Packaging",
-   "asset": "Anleihen",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-25",
    "title": "Aircapture's Patented Microwave Direct Air Capture Technology Wins Tencent CarbonX 2.0 Award",
    "summary": "Aircapture's Patented Microwave Direct Air Capture Technology Wins Tencent CarbonX 2.0 Award PR Newswire",
    "source": "PR Newswire",
    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPejJ6Y1hZV3o2RklHZ3lmWFdPQ1dua0p1LXpHUk1zU2ZzWFpjS1JfMk50a3E3MG82Y0FkV3gzTl9hMUQ4S0JBZFFlVlo5cUQ1NER0b1h5aHNUN2hVaUlObkMtV0NxaDhoaGZxU1BmazVEajhxN25YdE5IWHVjWTlDRWg5amhhNjk3V0FRMkJ4QTluYnExS0N4dmhwcVVidm54c1IxTHQxUmt5ZmNodFJTbTlKTElDNWpBeVhQNHdrWjdMM3gyNFhVM2xCUTdvb0EtVXktWDN2bEdDLTZpMFQwaw?oc=5",
    "category": "Sonstiges",
    "firstSeen": "2026-06-26T04:39:14+00:00",
+   "companyId": 31,
+   "company": "Tencent",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-25",
+   "title": "CORRECTION - Quino Energy Receives Award from Tencent’s",
+   "summary": "CORRECTION - Quino Energy Receives Award from Tencent’s GlobeNewswire",
+   "source": "GlobeNewswire",
+   "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQRnYtU0ZqZHE1aEJTNjBlQ2I2OElseVZDTVdIcU1IcTN5UGNOMF9qRFBWMmpudEI5aUJ0MWgxM0hNai1odDNtM3Z5WkFlZ2x4VDVtYkliOWwxQ2JUYkZoWXlaYlFtWWtHVmFqeWlRblBseGtqSnNqVzFRdWxRVGtEUFFiMEwzRTFzSXFwNkdTV0xxZ19ST3FrUU9jT0ZIU3FZX3g2bkVPUjh4NWtWU1BJR2hwWVFSR2ZPdHhYMVZBQThXUGN2RjhDck5JQ2RGUnhsU2E4c3QzVmNGNjY0eTlhQmRocVdTQ0poSjF0TGpNd2k5WTFqNHVuV016cmd1S0l4RXVrcXl2Q1FWX2t6b3F0V2h4aFljYk5fYWFYeG5ZNTNJNF9Q?oc=5",
+   "category": "Sonstiges",
+   "firstSeen": "2026-06-29T04:58:56+00:00",
    "companyId": 31,
    "company": "Tencent",
    "asset": "Aktien",
@@ -3871,19 +3657,6 @@
   },
   {
    "date": "2026-06-19",
-   "title": "Bronstein, Gewirtz & Grossman, LLC Is Investigating Borr Drilling Limited (BORR) And Encourages Stockholders to Connect",
-   "summary": "Bronstein, Gewirtz & Grossman, LLC Is Investigating Borr Drilling Limited (BORR) And Encourages Stockholders to Connect ACCESS Newswire",
-   "source": "ACCESS Newswire",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOXzRvaXdETXFoZmt3NTQ1dWZLTDRpQzRPVVdVWk9wakQ1S2JQYklkdDZnaEc1eldqdXdSNUNBTWhha0MtSHVVeTZOTDlxbVp1UEk4U1VNdEVjWWdacWRJRF9fSEZBY19CRFdBdVVmaGJXWUlSRVZsbWZjZlJXMjNmSXU1eFBYNDJBU281YTk2Rk9BcWhTVDZNX2tsWS11ZWllWDVfUHkzVlF0YXVXSEptU0VJa19HUGluSzQtQWJVdmc2Yms4MU1LSWVUYm53TDVOVzFjd2JDZThWczJpZnI5ZnQ3eUw?oc=5",
-   "category": "Sonstiges",
-   "firstSeen": "2026-06-21T05:18:08+00:00",
-   "companyId": 4,
-   "company": "Borr",
-   "asset": "Anleihen",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-19",
    "title": "Tech Investor Prosus Posts Core Earnings Rise on Growth Across Units, Tencent",
    "summary": "Tech Investor Prosus Posts Core Earnings Rise on Growth Across Units, Tencent WSJ",
    "source": "WSJ",
@@ -3988,6 +3761,19 @@
   },
   {
    "date": "2026-06-17",
+   "title": "Borr Drilling Limited (BORR) Investigation: Bronstein, Gewirtz & Grossman, LLC Encourages Stockholders to Contact the Firm to Learn More About the Investigation",
+   "summary": "Borr Drilling Limited (BORR) Investigation: Bronstein, Gewirtz & Grossman, LLC Encourages Stockholders to Contact the Firm to Learn More About the Investigation ACCESS Newswire",
+   "source": "ACCESS Newswire",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNU3BEVzRwdnpoMHpDRk9ENkkxUWJ3cU95U0t2R1pXWWxuUVdzSW1aRWRBeUZhMnZfeEFSM3A3aC1oWXd5aXViZTA4RjduZUx0NE11ektNN0t2eVR1aFpnYklmYTVZQlpvb0stVERxbWFkNFpNLXh3aEdZR2FYSlA4bVdycmdLd1JwS3VrUEVmbzYxSG5MWTF1aEowUHE0SC1VYkFad1FwNnNNVVk5OHdhX2ZKQVFVZDVsSG9FMGhJem1oaDMyUEVBaHVoWmNFVGxleF83ckhMdjRqNUtRV2plYjRWYWw?oc=5",
+   "category": "Sonstiges",
+   "firstSeen": "2026-06-29T04:58:56+00:00",
+   "companyId": 4,
+   "company": "Borr",
+   "asset": "Anleihen",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-17",
    "title": "S&P Global Ratings Affirms Ecopetrol's Global and Stand-Alone Credit Ratings",
    "summary": "S&P Global Ratings Affirms Ecopetrol's Global and Stand-Alone Credit Ratings PR Newswire",
    "source": "PR Newswire",
@@ -4010,19 +3796,6 @@
    "companyId": 12,
    "company": "Post Holdings",
    "asset": "Anleihen",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-16",
-   "title": "Tencent Cloud and Inworld AI Announce Strategic Partnership to Deliver a One-Stop, Lifelike, Realtime Voice AI Solution",
-   "summary": "Tencent Cloud and Inworld AI Announce Strategic Partnership to Deliver a One-Stop, Lifelike, Realtime Voice AI Solution PR Newswire",
-   "source": "PR Newswire",
-   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPLUNVVFQzVjlGNEMxeGxkYXZZSENXMEozRXU2MF9hUXhaZ01nU2ozeDNPZ2ViN3FaOGNINDVXQS1aV0RwQnVrYmhHSmhMelZSN3VScXNuc2FfVFQtbGNob0owa0pfTmRuWXVqWTAzVERYdzRqNjRUSlNDM3dtelE5cFI0dmczQUxuU2V2cGJ3dWtDU0NKb0ZvM01WUERZZzYwME94RS1YRE1LSmswTnVqM2lUQ0E1WW5EcEJxbFZJQzZrRlVtUnNpOEFpM0JvQjJ5UG9uZkNzN3RqUEN3dl8xeE5HdHVQTzZnYk9lVjJ6UTRMazF1Y2xwazR2Sklnd0hwckVjODVMR2Jydw?oc=5",
-   "category": "Sonstiges",
-   "firstSeen": "2026-06-28T04:49:54+00:00",
-   "companyId": 31,
-   "company": "Tencent",
-   "asset": "Aktien",
    "status": "Portfolio"
   },
   {
@@ -4196,6 +3969,19 @@
   },
   {
    "date": "2026-06-08",
+   "title": "Reply at Gartner® Marketing Symposium/Xpo™ 2026, Sharing Expertise in Applying AI to Customer Experience and Marketing Operations",
+   "summary": "Reply at Gartner® Marketing Symposium/Xpo™ 2026, Sharing Expertise in Applying AI to Customer Experience and Marketing Operations PR Newswire",
+   "source": "PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQYkVQWUZEZjVGTVVzRGtqeWxmc3RRV2JkY3V0alJjVXNwV1MxeXFUeEFZOVRpaV81ME5hTGNDX0ppcVZpaUxRdi1vcVhfMXhPOEhZR1BjQjhuWGZueW5QMGs3VEl3ZXM4Slg0ckdyQU9EUGhrUDNUNG9HNnFqemx3S0JiMEhabmZJTUk3dXVfOEUyaWhoVkNhYndvejhVNFZubkZzZzZ3UW9sUWM4cm5VcEEtczNldkVYdGZMNEUtWTVMZm1jcXNPeE5rTktibzNWYnYwUmpBX1huVGZNY2l2VzhRSU9yempjZDNmalhLOGhSNmlLT1FWY0RlYS02aENxa2IxdjEtMFFxcUJqUHc?oc=5",
+   "category": "Sonstiges",
+   "firstSeen": "2026-06-29T04:58:56+00:00",
+   "companyId": 10,
+   "company": "XPO",
+   "asset": "Anleihen",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-08",
    "title": "Corning shares jump 4% after company strikes deal to power Amazon AI data centers in U.S.",
    "summary": "Corning shares jump 4% after company strikes deal to power Amazon AI data centers in U.S. CNBC",
    "source": "CNBC",
@@ -4297,57 +4083,9 @@
    "company": "Prosus",
    "asset": "Anleihen",
    "status": "Portfolio"
-  },
-  {
-   "date": "2026-05-30",
-   "title": "Vistry Updates Share Capital and Voting Rights After Buyback",
-   "summary": "Vistry Updates Share Capital and Voting Rights After Buyback The Globe and Mail",
-   "source": "The Globe and Mail",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQQm96cHFJMVNNZGI4aE9ySVBnZW5lRVNRYkVFMnc1b2p4TDlaTzNHd1dwUkZWRjI2NkZyWE9fR2szMDQ2NDhSTHl5d0RRYmxXU0ZOUkdhUHhSSG5SbWpIa1lLUFI5TUVObWdPM2JUY3hTUHk0ZUpjVUMwLXp3T2hLalFGWHFfaDJOUjlyc2NsREFNWF90M2EzbnFqNjBRNS1FWVBZNXJNdkNscXJpcUVUNWlhbEMzc2dCdXZ0WjJYd05TZ2stV083YkNEbkFqdUVLazZNQnlRVHc?oc=5",
-   "category": "Markt",
-   "firstSeen": "2026-06-28T04:49:54+00:00",
-   "companyId": 29,
-   "company": "Vistry",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-05-29",
-   "title": "Ramaco Resources CEO Randall W. Atkins Appears on CNBC's Morning Call to Discuss Critical Minerals and Energy Market Trends",
-   "summary": "Ramaco Resources CEO Randall W. Atkins Appears on CNBC's Morning Call to Discuss Critical Minerals and Energy Market Trends PR Newswire",
-   "source": "PR Newswire",
-   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQNDMzNThGSVZsSm0xdWhzQkhvSVFHY2E2bEtJVjJIdjFhc3pMaDZ6eC1nTHl2Q2xCdW9tcERnM0s3bF9iLXdHMnQ4clh6NE5wbzk2VDByTWVxNWp2VDc5S1FacHNSYjh4UkZHSVZmVVV0VmlpLUQ3MlBHMVFMcTAtYk5MZXJsOU1uUXFWS2gwb3BUMThxSnhhcVFRVkFoSVEtbW5RWWJHQ282dDNhNVVXZkVSaVBWcHdlZE5zNTJtUnBSc3VGVjVxc2RzeEdCeW1CeGNseThFeXVZVHpMbndwQWRFUUZ5MHhMSFVWSjB1WU5DNlFFNHFHWmgxbWs2MjFjQ0FXRWttVzU?oc=5",
-   "category": "Sonstiges",
-   "firstSeen": "2026-06-25T04:33:56+00:00",
-   "companyId": 5,
-   "company": "Mineral Resources",
-   "asset": "Anleihen",
-   "status": "Portfolio"
   }
  ],
  "events": [
-  {
-   "date": "2026-06-24",
-   "type": "Earnings",
-   "title": "Berkeley Group: Quartalszahlen (Wettbewerber)",
-   "company": "Berkeley Group",
-   "companyId": 29,
-   "source": "Yahoo Finance",
-   "peer": true,
-   "peerOf": "Vistry",
-   "firstSeen": "2026-06-17T13:12:03+00:00"
-  },
-  {
-   "date": "2026-06-25",
-   "type": "Earnings",
-   "title": "FedEx Freight: Quartalszahlen (Wettbewerber)",
-   "company": "FedEx Freight",
-   "companyId": 10,
-   "source": "Yahoo Finance",
-   "peer": true,
-   "peerOf": "XPO",
-   "firstSeen": "2026-06-17T13:12:03+00:00"
-  },
   {
    "date": "2026-06-29",
    "type": "Earnings",
@@ -4490,17 +4228,6 @@
   {
    "date": "2026-07-21",
    "type": "Earnings",
-   "title": "Tenet Healthcare: Quartalszahlen (Wettbewerber)",
-   "company": "Tenet Healthcare",
-   "companyId": 30,
-   "source": "Yahoo Finance",
-   "peer": true,
-   "peerOf": "HCA Healthcare",
-   "firstSeen": "2026-06-17T13:12:03+00:00"
-  },
-  {
-   "date": "2026-07-21",
-   "type": "Earnings",
    "title": "MSCI: Quartalszahlen (Wettbewerber)",
    "company": "MSCI",
    "companyId": 34,
@@ -4530,6 +4257,28 @@
    "peer": true,
    "peerOf": "Graphic Packaging",
    "firstSeen": "2026-06-17T13:12:03+00:00"
+  },
+  {
+   "date": "2026-07-22",
+   "type": "Earnings",
+   "title": "Sonoco: Quartalszahlen (Wettbewerber)",
+   "company": "Sonoco",
+   "companyId": 11,
+   "source": "Yahoo Finance",
+   "peer": true,
+   "peerOf": "Graphic Packaging",
+   "firstSeen": "2026-06-29T04:58:56+00:00"
+  },
+  {
+   "date": "2026-07-22",
+   "type": "Earnings",
+   "title": "Sonoco: Quartalszahlen (Wettbewerber)",
+   "company": "Sonoco",
+   "companyId": 24,
+   "source": "Yahoo Finance",
+   "peer": true,
+   "peerOf": "Amcor",
+   "firstSeen": "2026-06-29T04:58:56+00:00"
   },
   {
    "date": "2026-07-22",
@@ -4617,6 +4366,17 @@
    "source": "Yahoo Finance",
    "peer": false,
    "firstSeen": "2026-06-17T13:12:03+00:00"
+  },
+  {
+   "date": "2026-07-24",
+   "type": "Earnings",
+   "title": "Tenet Healthcare: Quartalszahlen (Wettbewerber)",
+   "company": "Tenet Healthcare",
+   "companyId": 30,
+   "source": "Yahoo Finance",
+   "peer": true,
+   "peerOf": "HCA Healthcare",
+   "firstSeen": "2026-06-29T04:58:56+00:00"
   },
   {
    "date": "2026-07-27",
@@ -4877,17 +4637,6 @@
   {
    "date": "2026-07-30",
    "type": "Earnings",
-   "title": "BorgWarner: Quartalszahlen (Wettbewerber)",
-   "company": "BorgWarner",
-   "companyId": 27,
-   "source": "Yahoo Finance",
-   "peer": true,
-   "peerOf": "Linamar Corp",
-   "firstSeen": "2026-06-17T13:12:03+00:00"
-  },
-  {
-   "date": "2026-07-30",
-   "type": "Earnings",
    "title": "MTU Aero Engines: Quartalszahlen",
    "company": "MTU Aero Engines",
    "companyId": 28,
@@ -5067,6 +4816,17 @@
    "peer": true,
    "peerOf": "Amazon",
    "firstSeen": "2026-06-17T13:12:03+00:00"
+  },
+  {
+   "date": "2026-08-05",
+   "type": "Earnings",
+   "title": "BorgWarner: Quartalszahlen (Wettbewerber)",
+   "company": "BorgWarner",
+   "companyId": 27,
+   "source": "Yahoo Finance",
+   "peer": true,
+   "peerOf": "Linamar Corp",
+   "firstSeen": "2026-06-29T04:58:56+00:00"
   },
   {
    "date": "2026-08-05",
@@ -5379,6 +5139,17 @@
    "firstSeen": "2026-06-17T13:12:03+00:00"
   },
   {
+   "date": "2026-09-08",
+   "type": "Earnings",
+   "title": "FedEx Freight: Quartalszahlen (Wettbewerber)",
+   "company": "FedEx Freight",
+   "companyId": 10,
+   "source": "Yahoo Finance",
+   "peer": true,
+   "peerOf": "XPO",
+   "firstSeen": "2026-06-29T04:58:56+00:00"
+  },
+  {
    "date": "2026-09-09",
    "type": "Earnings",
    "title": "Oracle: Quartalszahlen (Wettbewerber)",
@@ -5506,91 +5277,6 @@
   },
   {
    "date": "2026-06-15",
-   "insider": "Olivan Javier",
-   "role": "Chief Operating Officer",
-   "code": "S",
-   "kind": "Verkauf",
-   "shares": 140,
-   "price": 600.0,
-   "value": 84000,
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326009164/",
-   "source": "SEC",
-   "firstSeen": "2026-06-23T06:18:29+00:00",
-   "companyId": 22,
-   "company": "Meta",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-15",
-   "insider": "Olivan Javier",
-   "role": "Chief Operating Officer",
-   "code": "S",
-   "kind": "Verkauf",
-   "shares": 164,
-   "price": 600.0,
-   "value": 98400,
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326009164/",
-   "source": "SEC",
-   "firstSeen": "2026-06-23T06:18:29+00:00",
-   "companyId": 22,
-   "company": "Meta",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-15",
-   "insider": "Olivan Javier",
-   "role": "Chief Operating Officer",
-   "code": "S",
-   "kind": "Verkauf",
-   "shares": 114,
-   "price": 600.0,
-   "value": 68400,
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326009164/",
-   "source": "SEC",
-   "firstSeen": "2026-06-23T06:18:29+00:00",
-   "companyId": 22,
-   "company": "Meta",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-15",
-   "insider": "Olivan Javier",
-   "role": "Chief Operating Officer",
-   "code": "S",
-   "kind": "Verkauf",
-   "shares": 164,
-   "price": 600.0,
-   "value": 98400,
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326009164/",
-   "source": "SEC",
-   "firstSeen": "2026-06-23T06:18:29+00:00",
-   "companyId": 22,
-   "company": "Meta",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-15",
-   "insider": "Olivan Javier",
-   "role": "Chief Operating Officer",
-   "code": "S",
-   "kind": "Verkauf",
-   "shares": 816,
-   "price": 600.0,
-   "value": 489600,
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326009164/",
-   "source": "SEC",
-   "firstSeen": "2026-06-23T06:18:29+00:00",
-   "companyId": 22,
-   "company": "Meta",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-15",
    "insider": "Stuart Cormac",
    "role": "Chief Accounting Officer",
    "code": "S",
@@ -5603,23 +5289,6 @@
    "firstSeen": "2026-06-18T05:02:14+00:00",
    "companyId": 25,
    "company": "AerCap Holdings",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-10",
-   "insider": "Numoto Takeshi",
-   "role": "EVP, Chief Marketing Officer",
-   "code": "S",
-   "kind": "Verkauf",
-   "shares": 4500,
-   "price": 402.84,
-   "value": 1812780,
-   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000121/",
-   "source": "SEC",
-   "firstSeen": "2026-06-20T06:39:41+00:00",
-   "companyId": 20,
-   "company": "Microsoft",
    "asset": "Aktien",
    "status": "Portfolio"
   },
@@ -5658,23 +5327,6 @@
    "status": "Portfolio"
   },
   {
-   "date": "2026-06-08",
-   "insider": "Numoto Takeshi",
-   "role": "EVP, Chief Marketing Officer",
-   "code": "S",
-   "kind": "Verkauf",
-   "shares": 2500,
-   "price": 412.45,
-   "value": 1031125,
-   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000109/",
-   "source": "SEC",
-   "firstSeen": "2026-06-20T06:39:41+00:00",
-   "companyId": 20,
-   "company": "Microsoft",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
    "date": "2026-06-01",
    "insider": "Herrington Douglas J",
    "role": "CEO Worldwide Amazon Stores",
@@ -5688,108 +5340,6 @@
    "firstSeen": "2026-06-17T12:50:24+00:00",
    "companyId": 18,
    "company": "Amazon",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-01",
-   "insider": "KIMMITT ROBERT M",
-   "role": "Director",
-   "code": "S",
-   "kind": "Verkauf",
-   "shares": 504,
-   "price": 629.29,
-   "value": 317162,
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008488/",
-   "source": "SEC",
-   "firstSeen": "2026-06-23T06:18:29+00:00",
-   "companyId": 22,
-   "company": "Meta",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-01",
-   "insider": "Olivan Javier",
-   "role": "Chief Operating Officer",
-   "code": "S",
-   "kind": "Verkauf",
-   "shares": 837,
-   "price": 629.29,
-   "value": 526715,
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
-   "source": "SEC",
-   "firstSeen": "2026-06-23T06:18:29+00:00",
-   "companyId": 22,
-   "company": "Meta",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-01",
-   "insider": "Olivan Javier",
-   "role": "Chief Operating Officer",
-   "code": "S",
-   "kind": "Verkauf",
-   "shares": 82,
-   "price": 629.29,
-   "value": 51601,
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
-   "source": "SEC",
-   "firstSeen": "2026-06-23T06:18:29+00:00",
-   "companyId": 22,
-   "company": "Meta",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-01",
-   "insider": "Olivan Javier",
-   "role": "Chief Operating Officer",
-   "code": "S",
-   "kind": "Verkauf",
-   "shares": 57,
-   "price": 629.29,
-   "value": 35869,
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
-   "source": "SEC",
-   "firstSeen": "2026-06-23T06:18:29+00:00",
-   "companyId": 22,
-   "company": "Meta",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-01",
-   "insider": "Olivan Javier",
-   "role": "Chief Operating Officer",
-   "code": "S",
-   "kind": "Verkauf",
-   "shares": 82,
-   "price": 629.29,
-   "value": 51601,
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
-   "source": "SEC",
-   "firstSeen": "2026-06-23T06:18:29+00:00",
-   "companyId": 22,
-   "company": "Meta",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-01",
-   "insider": "Olivan Javier",
-   "role": "Chief Operating Officer",
-   "code": "S",
-   "kind": "Verkauf",
-   "shares": 408,
-   "price": 629.29,
-   "value": 256750,
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/",
-   "source": "SEC",
-   "firstSeen": "2026-06-23T06:18:29+00:00",
-   "companyId": 22,
-   "company": "Meta",
    "asset": "Aktien",
    "status": "Portfolio"
   },
@@ -5808,23 +5358,6 @@
    "companyId": 10,
    "company": "XPO",
    "asset": "Anleihen",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-05-27",
-   "insider": "Mahoney Curtis J.",
-   "role": "Chief Legal Officer",
-   "code": "S",
-   "kind": "Verkauf",
-   "shares": 2079,
-   "price": 609.92,
-   "value": 1268023,
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008089/",
-   "source": "SEC",
-   "firstSeen": "2026-06-23T06:18:29+00:00",
-   "companyId": 22,
-   "company": "Meta",
-   "asset": "Aktien",
    "status": "Portfolio"
   },
   {
@@ -6525,40 +6058,6 @@
    "status": "Portfolio"
   },
   {
-   "date": "2026-05-01",
-   "insider": "Clay Catherine R",
-   "role": "CEO, S&P Dow Jones Indices",
-   "code": "P",
-   "kind": "Kauf",
-   "shares": 2500,
-   "price": 431.39,
-   "value": 1078475,
-   "url": "https://www.sec.gov/Archives/edgar/data/64040/000185349726000004/",
-   "source": "SEC",
-   "firstSeen": "2026-06-23T06:18:29+00:00",
-   "companyId": 34,
-   "company": "S&P Global",
-   "asset": "Aktien",
-   "status": "Watchlist"
-  },
-  {
-   "date": "2026-04-30",
-   "insider": "Moritz Robert Edward Jr.",
-   "role": "Director",
-   "code": "P",
-   "kind": "Kauf",
-   "shares": 1151,
-   "price": 434.03,
-   "value": 500000,
-   "url": "https://www.sec.gov/Archives/edgar/data/64040/000203383426000014/",
-   "source": "SEC",
-   "firstSeen": "2026-06-23T06:18:29+00:00",
-   "companyId": 34,
-   "company": "S&P Global",
-   "asset": "Aktien",
-   "status": "Watchlist"
-  },
-  {
    "date": "2026-04-29",
    "insider": "Anas Abuzaakouk",
    "role": "Chief Executive Officer",
@@ -6591,23 +6090,6 @@
    "company": "BAWAG",
    "asset": "Aktien",
    "status": "Portfolio"
-  },
-  {
-   "date": "2026-04-29",
-   "insider": "CHEUNG MARTINA",
-   "role": "CEO & President",
-   "code": "P",
-   "kind": "Kauf",
-   "shares": 2322,
-   "price": 429.93,
-   "value": 998297,
-   "url": "https://www.sec.gov/Archives/edgar/data/64040/000165789026000008/",
-   "source": "SEC",
-   "firstSeen": "2026-06-23T06:18:29+00:00",
-   "companyId": 34,
-   "company": "S&P Global",
-   "asset": "Aktien",
-   "status": "Watchlist"
   },
   {
    "date": "2026-04-22",
@@ -6695,7 +6177,7 @@
    "status": "Portfolio"
   }
  ],
- "eventsRefreshedAt": "2026-06-22T05:30:24+00:00",
+ "eventsRefreshedAt": "2026-06-29T04:58:56+00:00",
  "peerSymbols": {
   "OSB Group": "OSB.L",
   "Constellation Software": "CSU.TO",
