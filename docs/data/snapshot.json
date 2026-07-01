@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-01T04:53:35+00:00",
+ "generatedAt": "2026-07-01T06:43:27+00:00",
  "companies": {
   "1": {
    "news": [],
@@ -126,13 +126,13 @@
   "4": {
    "news": [
     {
-     "date": "2026-06-25",
-     "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Borr Drilling Limited - BORR",
-     "summary": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Borr Drilling Limited - BORR PR Newswire",
-     "source": "PR Newswire",
-     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQWHNCQi0tYWd3MDh5bzlPUkZvb2tRX3dFUU5sZXN1djh3cWdqenlZdzZSOWg1RWFJOHQ3ZnRLS29NLWRqU3l2LTZpOEtlZkdSTHJ5bWRWdF9MbktIMm81OURVTnNTSG9vZ0FnQ0xqd0hadU0tbVJ4RUFkRzJSekhSM2dxSnI0ZlVCMHBFX3JfQTc4bG9PMVdwdW5uZXZpMjdoOU5jSjVUNkxpekdkWFdLeXQ3NDhhZVNLSEF0dGtQMmFhcERMREIxR3ZWWTg3a1p4SG9Gckp5OXpWQWVMMjdEejBRc0NpWC1YTVJtLVlhUVN0VFZDUG1z?oc=5",
+     "date": "2026-06-28",
+     "title": "Bronstein, Gewirtz & Grossman, LLC Initiates an Investigation into Allegations Against Borr Drilling Limited (BORR) And Encourages Shareholders to Reach Out",
+     "summary": "Bronstein, Gewirtz & Grossman, LLC Initiates an Investigation into Allegations Against Borr Drilling Limited (BORR) And Encourages Shareholders to Reach Out ACCESS Newswire",
+     "source": "ACCESS Newswire",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdWZELVNBT0dSNkU3TGlSOXktX2MzcTNYUXdaWjY4bmowQllqQVhSa3hxVjc3Tk1FVVo1TXNEVEhTNWtDaU5MYUJmOGJ2TEEwVXZCN2k2eDhaYkIyelloQzdnQ1VXWTBkeUZBa2NqZWVUR3BId3JpSWNtZ3p4WU1tdDZGTWM2MTdWUUN2U1kwczMwenBEajhmTEFBWnRfWjlNbkZMNmdTWHc2LWliVnN2djk3bDFfNmVHbjRxM2VuSThFdlBrTG1QNzFSLWp5aGRSbDVfUVFJRzFZRFlYTTNILS0zdWs?oc=5",
      "category": "Sonstiges",
-     "firstSeen": "2026-06-26T04:39:14+00:00",
+     "firstSeen": "2026-07-01T06:43:27+00:00",
      "companyId": 4,
      "company": "Borr",
      "asset": "Anleihen",
@@ -146,6 +146,19 @@
      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNmlsblZ4bGNTVE5CSm5OSnBPb3JxdWdmZi1WT2lBNmFmUXY1MEo5UGRGWlZ4OVJtY0dnOVgxQVlzUFVnV3FUNHp5NktjZ2ZXN0t4eTNHeHkwSV9NTzhoOTF5R0JPWGw0QTF1NVF0czRYWVNjQkxDaUNIaEJHajhFNC1DZUFON1Rnajh4TzBFWWtZV0RFZ0s4UGVRcDFwWktKaXViYVhZSzRPX3JNMUsxNTY4LU8zOGhjQjNiTU02U3BUUkV6QWZfLWtxRWFPUHlyQ0p3N2xxTGtvMXhxb0dtZy04VDQ?oc=5",
      "category": "Sonstiges",
      "firstSeen": "2026-06-30T04:33:28+00:00",
+     "companyId": 4,
+     "company": "Borr",
+     "asset": "Anleihen",
+     "status": "Portfolio"
+    },
+    {
+     "date": "2026-06-18",
+     "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Borr Drilling Limited - BORR",
+     "summary": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Borr Drilling Limited - BORR PR Newswire",
+     "source": "PR Newswire",
+     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQUmp6MW1PeEdTVmwySkFqR2pVVldLSXdBdTBNVzN1bVlxRVNxam9WYnRmUXNvRVFiM3FZdHhiVzRONjdINFdUTVhWalRVU1pEbEc1TWh3bmg1ZTFXUGVrUWpJWEFUVC1idC1FRmNodTBZaEdNTnFUZ2tyZ2pwY3poYk9QclMtcW1CcE5ZUkphTDd0Z2JLbTBGdlRwUHhlMV8xcVc5MjNxdHo5Q3hpb3UwMEhiMFZ4amtva3c0WHU0OGd3amJ1ZzNma1Job3dyYVpEMFl4aVRJTW5jNmJ3V0xnMkdEd1U0YzBlTFNXMEhtYU00SjJFby04?oc=5",
+     "category": "Sonstiges",
+     "firstSeen": "2026-07-01T06:43:27+00:00",
      "companyId": 4,
      "company": "Borr",
      "asset": "Anleihen",
@@ -722,19 +735,6 @@
      "status": "Portfolio"
     },
     {
-     "date": "2026-06-30",
-     "title": "Deadline Alert: Graphic Packaging Holding Company (GPK)",
-     "summary": "Deadline Alert: Graphic Packaging Holding Company (GPK) GlobeNewswire",
-     "source": "GlobeNewswire",
-     "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxNRFJQVTNoN055ZUh5bE5MVHl4ZWZ4YUlZblRaNlNfMjQ5aC1nd1hjUEpyeU1SMGprcHBCN1dnQUlpTGtocWdndGQ3Mm4yNmZtSDN2el9HcENsVXpSb1ItNUxSODF1a2xkUjZlZHNRUVJ4QTVUOVlEbkJKenZzSTlyby1CYnlhMm1URFVxUUE1Y0lRUW9BS0loVTRLeElmY21OcUdkTzhKczlYTnRTM05VSXA3M2NyV25Ha1RXZmhNQmlYRERDX2tMRnNVSjVQNTEtbGZxZ1E0YmdUdHI2RFpTRW9MdDQwdTdZcUxEeld5R1BSMGtBUDdOVjlUNnZsZ0Vhd0JFU3pnTENlQjJINTB2UWloTEszUHVyU0U2eWNzUUJUc1NTT1NnaFducjNyUWpnanJwd1BiUTJBOHhqSXcyRkNTTE90c29MdlBFV0lCVFhJM3c0MHpJ?oc=5",
-     "category": "Sonstiges",
-     "firstSeen": "2026-07-01T04:53:35+00:00",
-     "companyId": 11,
-     "company": "Graphic Packaging",
-     "asset": "Anleihen",
-     "status": "Portfolio"
-    },
-    {
      "date": "2026-06-26",
      "title": "Class Action Filed Against Graphic Packaging Holding Company (GPK) Over Securities Violations - Contact Levi & Korsinsky Today",
      "summary": "Class Action Filed Against Graphic Packaging Holding Company (GPK) Over Securities Violations - Contact Levi & Korsinsky Today ACCESS Newswire",
@@ -755,6 +755,19 @@
      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOU2J1b1ZkVVp1NlV6R2JRTWhZN2hibmNDZHNfVjZ1VnNXSm9YdXhRRk1HbXY3SWtRWlZGakZob3NkLUxVUUdkbzFsU0l4T3NwUThKWmpUbGVna09WdEdKZ0hQU2Q0V2ZSUDVJelZ5VkdmRG81OEIxallnNkVvRWdWdGJMYnlEM25CanRFaVNjWHQwLUtncmNpTkFjSU8zY3dLTmFJbURFN0dDQVhIeTlTM1hUMUtuT3dfcXpCRnEzeGxOeGJIbTN6cVpEMDBibDFsZmFEdXo0UTU1bHJuSjBmTFF1dFA?oc=5",
      "category": "Sonstiges",
      "firstSeen": "2026-06-27T04:15:46+00:00",
+     "companyId": 11,
+     "company": "Graphic Packaging",
+     "asset": "Anleihen",
+     "status": "Portfolio"
+    },
+    {
+     "date": "2026-06-24",
+     "title": "Graphic Packaging Holding Company (GPK) Lawsuit - Investors Urged to Contact Levi & Korsinsky Before July 6, 2026",
+     "summary": "Graphic Packaging Holding Company (GPK) Lawsuit - Investors Urged to Contact Levi & Korsinsky Before July 6, 2026 ACCESS Newswire",
+     "source": "ACCESS Newswire",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOS0NxSmM1UXItSXlRa3dWaGd0eTFlQmtPX1EwWmhJWkw5SEkyZW1EeDhRbHJUcVY0Y0sycmpOWDlwR09QLUY0cGUzLUpZaGdGTFJ4TXdXWURNT0E4VWphUHJmaU9aODk1SmhnTEZtbUEyRG5xYTB4cGFqWnZ3SGdfUWMzQ25pa3ZncHpoTFcwT2sybE9lM1pFQ1M5ZE9HS3NOM3gyMUFHaW04dElaVEM4TVJuc1VvUjBTQmhWaktDRzJ6Rmw4emdYbUc4YnJTbVZrcWhCSDVkTXlIdlVmQm9YX19XZFQ?oc=5",
+     "category": "Sonstiges",
+     "firstSeen": "2026-07-01T06:43:27+00:00",
      "companyId": 11,
      "company": "Graphic Packaging",
      "asset": "Anleihen",
@@ -1924,19 +1937,6 @@
      "company": "Microsoft",
      "asset": "Aktien",
      "status": "Portfolio"
-    },
-    {
-     "date": "2026-06-02",
-     "title": "Microsoft seeks to be AI’s center of gravity again. CEO Satya Nadella is in San Francisco to make the case",
-     "summary": "Microsoft seeks to be AI’s center of gravity again. CEO Satya Nadella is in San Francisco to make the case Fortune",
-     "source": "Fortune",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQzR2ZUZnLThsRmV1TlV4QXVEVkY5YzJBZWFSaWhVQnVCbWhyREhkajd1bEh2OGRSUlM3QUVfMUs0VDlmeWVjMXVnejRCWE91MFBham83MkEzS3BLdmU0MXFmb1dfN085MWZ6NVBGbFVFQ2VtVDJMYnVnbmNKeU1uUGJxNmRqQQ?oc=5",
-     "category": "Markt",
-     "firstSeen": "2026-06-26T06:19:35+00:00",
-     "companyId": 20,
-     "company": "Microsoft",
-     "asset": "Aktien",
-     "status": "Portfolio"
     }
    ],
    "events": [
@@ -2839,21 +2839,7 @@
    }
   },
   "26": {
-   "news": [
-    {
-     "date": "2026-06-29",
-     "title": "OSB GROUP PLC - Transaction in Own Shares",
-     "summary": "OSB GROUP PLC - Transaction in Own Shares GlobeNewswire",
-     "source": "GlobeNewswire",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRHBsMi13WVJWeFV2cjk0Z0laelB6LVJBS1RzRXBpWXZXR0FWS0ZIZ0JmaHNkOFFLSzIzN3hMeWN6a3NxM2tYemxkRzJNU3hrZ2Y4MFRZenJQZklZNnVJVWM0XzdMdHlMN0hxd2cxNVFoRHh2WHJMVjBuR0xXZ0xaQTIxLWtnb1pJd3BiYzdPVUNkcDV3elRFRl9lVlkweHBnemVUaVZHVVRQcUtmRV90Qg?oc=5",
-     "category": "Sonstiges",
-     "firstSeen": "2026-06-30T04:33:28+00:00",
-     "companyId": 26,
-     "company": "OSB Group",
-     "asset": "Aktien",
-     "status": "Portfolio"
-    }
-   ],
+   "news": [],
    "events": [],
    "insider": [],
    "tech": null,
@@ -3199,13 +3185,13 @@
      "status": "Portfolio"
     },
     {
-     "date": "2026-06-08",
-     "title": "Tencent Aims to Raise $3 Billion in Dollar, Yuan Bond Offering",
-     "summary": "Tencent Aims to Raise $3 Billion in Dollar, Yuan Bond Offering Bloomberg.com",
-     "source": "Bloomberg.com",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdGNLUXVWdlFlYjJqTTVzdGM2M0R6OWFyZTRsS1VwVEtleF9GVENaUmYyT0pXSEE3ZGt2N2d1OFlFTUZEVC1pVHRic3RJRTFuQ3FZdENpRm5pNUFQMkRTQ3prUnpyak9YcnB4RE1nNjYzeVJJSWNJUkhMdnVHanliaENwcXZ3ZXQzVjlwLVo5ZjVOeVdVaURfZ19XdG1SbWNwTFI4c3FMTnFrRnVBN19iQQ?oc=5",
-     "category": "Rating",
-     "firstSeen": "2026-07-01T04:53:35+00:00",
+     "date": "2026-06-02",
+     "title": "Tencent moves closer to launching AI agent for China’s most-used app",
+     "summary": "Tencent moves closer to launching AI agent for China’s most-used app Financial Times",
+     "source": "Financial Times",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdWpQdDEyUk45SnVqaGNVZ2lwdlpfWTRTaDBEQVk4b1hsaEdHbEFFMEE4V3pkVlcwSWJPZmVCM3pVY2pvbjZNTHJ5OXpHR1BYRHFlUlIyN2VSMGdZMlVLNTBoQThqVUNVZThYN0pSUGRtZnpRclUyTmpaZ0ZKeU1ZdHJHNHY?oc=5",
+     "category": "Markt",
+     "firstSeen": "2026-07-01T06:43:27+00:00",
      "companyId": 31,
      "company": "Tencent",
      "asset": "Aktien",
@@ -3277,6 +3263,19 @@
   },
   "32": {
    "news": [
+    {
+     "date": "2026-06-29",
+     "title": "Cherokee Federal Achieves Summit-Level Salesforce Partner Status, Expanding Secure Federal Modernization Capabilities",
+     "summary": "Cherokee Federal Achieves Summit-Level Salesforce Partner Status, Expanding Secure Federal Modernization Capabilities PR Newswire",
+     "source": "PR Newswire",
+     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNc0ZsLTBaNzhXVjJLS3RfS3kwUmpycjhCeVFJSGk4aml1VmFuMHZEeEFZdXNBc1lvZTFMUWVXVGJWMlpEejRUSUZreFBnLW5TWnB6azR3dzY4T3N0cWR5ajVVYmhQQUVBc0dyNE51OTBab3JVYWhQVjhmM2wzZkhnTHhBei1WcVhIZUYwUzRxWFgxQk5FeUxjRHc4cGQtUTUyemxMaXBacFRldGdNWGxqVnpjbE8wTUdIWGYySEhLdzBUbUJYNG12RFFlOEc0OXl4ZWF1MEFsaGoxVEg2V09sLW9YZTVxTTRuQzVwYjg4ZWdzcm1tZ0ppN0YwMGxSSE9mVkE?oc=5",
+     "category": "Sonstiges",
+     "firstSeen": "2026-07-01T06:43:27+00:00",
+     "companyId": 32,
+     "company": "Salesforce",
+     "asset": "Aktien",
+     "status": "Portfolio"
+    },
     {
      "date": "2026-06-25",
      "title": "Bill Nygren: Salesforce is not done growing, now redirecting cash flow to purchase shares",
@@ -3741,19 +3740,6 @@
   },
   {
    "date": "2026-06-30",
-   "title": "Deadline Alert: Graphic Packaging Holding Company (GPK)",
-   "summary": "Deadline Alert: Graphic Packaging Holding Company (GPK) GlobeNewswire",
-   "source": "GlobeNewswire",
-   "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxNRFJQVTNoN055ZUh5bE5MVHl4ZWZ4YUlZblRaNlNfMjQ5aC1nd1hjUEpyeU1SMGprcHBCN1dnQUlpTGtocWdndGQ3Mm4yNmZtSDN2el9HcENsVXpSb1ItNUxSODF1a2xkUjZlZHNRUVJ4QTVUOVlEbkJKenZzSTlyby1CYnlhMm1URFVxUUE1Y0lRUW9BS0loVTRLeElmY21OcUdkTzhKczlYTnRTM05VSXA3M2NyV25Ha1RXZmhNQmlYRERDX2tMRnNVSjVQNTEtbGZxZ1E0YmdUdHI2RFpTRW9MdDQwdTdZcUxEeld5R1BSMGtBUDdOVjlUNnZsZ0Vhd0JFU3pnTENlQjJINTB2UWloTEszUHVyU0U2eWNzUUJUc1NTT1NnaFducjNyUWpnanJwd1BiUTJBOHhqSXcyRkNTTE90c29MdlBFV0lCVFhJM3c0MHpJ?oc=5",
-   "category": "Sonstiges",
-   "firstSeen": "2026-07-01T04:53:35+00:00",
-   "companyId": 11,
-   "company": "Graphic Packaging",
-   "asset": "Anleihen",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-30",
    "title": "Eurofins Scientific: Director/PDMR Shareholding",
    "summary": "Eurofins Scientific: Director/PDMR Shareholding Business Wire",
    "source": "Business Wire",
@@ -3884,19 +3870,6 @@
   },
   {
    "date": "2026-06-29",
-   "title": "OSB GROUP PLC - Transaction in Own Shares",
-   "summary": "OSB GROUP PLC - Transaction in Own Shares GlobeNewswire",
-   "source": "GlobeNewswire",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRHBsMi13WVJWeFV2cjk0Z0laelB6LVJBS1RzRXBpWXZXR0FWS0ZIZ0JmaHNkOFFLSzIzN3hMeWN6a3NxM2tYemxkRzJNU3hrZ2Y4MFRZenJQZklZNnVJVWM0XzdMdHlMN0hxd2cxNVFoRHh2WHJMVjBuR0xXZ0xaQTIxLWtnb1pJd3BiYzdPVUNkcDV3elRFRl9lVlkweHBnemVUaVZHVVRQcUtmRV90Qg?oc=5",
-   "category": "Sonstiges",
-   "firstSeen": "2026-06-30T04:33:28+00:00",
-   "companyId": 26,
-   "company": "OSB Group",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-29",
    "title": "EXCLUSIVE: China's CXMT wins $3 billion memory supply deal with Tencent, sources say",
    "summary": "EXCLUSIVE: China's CXMT wins $3 billion memory supply deal with Tencent, sources say Reuters",
    "source": "Reuters",
@@ -3905,6 +3878,19 @@
    "firstSeen": "2026-06-30T04:33:28+00:00",
    "companyId": 31,
    "company": "Tencent",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-29",
+   "title": "Cherokee Federal Achieves Summit-Level Salesforce Partner Status, Expanding Secure Federal Modernization Capabilities",
+   "summary": "Cherokee Federal Achieves Summit-Level Salesforce Partner Status, Expanding Secure Federal Modernization Capabilities PR Newswire",
+   "source": "PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNc0ZsLTBaNzhXVjJLS3RfS3kwUmpycjhCeVFJSGk4aml1VmFuMHZEeEFZdXNBc1lvZTFMUWVXVGJWMlpEejRUSUZreFBnLW5TWnB6azR3dzY4T3N0cWR5ajVVYmhQQUVBc0dyNE51OTBab3JVYWhQVjhmM2wzZkhnTHhBei1WcVhIZUYwUzRxWFgxQk5FeUxjRHc4cGQtUTUyemxMaXBacFRldGdNWGxqVnpjbE8wTUdIWGYySEhLdzBUbUJYNG12RFFlOEc0OXl4ZWF1MEFsaGoxVEg2V09sLW9YZTVxTTRuQzVwYjg4ZWdzcm1tZ0ppN0YwMGxSSE9mVkE?oc=5",
+   "category": "Sonstiges",
+   "firstSeen": "2026-07-01T06:43:27+00:00",
+   "companyId": 32,
+   "company": "Salesforce",
    "asset": "Aktien",
    "status": "Portfolio"
   },
@@ -3920,6 +3906,19 @@
    "company": "S&P Global",
    "asset": "Aktien",
    "status": "Watchlist"
+  },
+  {
+   "date": "2026-06-28",
+   "title": "Bronstein, Gewirtz & Grossman, LLC Initiates an Investigation into Allegations Against Borr Drilling Limited (BORR) And Encourages Shareholders to Reach Out",
+   "summary": "Bronstein, Gewirtz & Grossman, LLC Initiates an Investigation into Allegations Against Borr Drilling Limited (BORR) And Encourages Shareholders to Reach Out ACCESS Newswire",
+   "source": "ACCESS Newswire",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdWZELVNBT0dSNkU3TGlSOXktX2MzcTNYUXdaWjY4bmowQllqQVhSa3hxVjc3Tk1FVVo1TXNEVEhTNWtDaU5MYUJmOGJ2TEEwVXZCN2k2eDhaYkIyelloQzdnQ1VXWTBkeUZBa2NqZWVUR3BId3JpSWNtZ3p4WU1tdDZGTWM2MTdWUUN2U1kwczMwenBEajhmTEFBWnRfWjlNbkZMNmdTWHc2LWliVnN2djk3bDFfNmVHbjRxM2VuSThFdlBrTG1QNzFSLWp5aGRSbDVfUVFJRzFZRFlYTTNILS0zdWs?oc=5",
+   "category": "Sonstiges",
+   "firstSeen": "2026-07-01T06:43:27+00:00",
+   "companyId": 4,
+   "company": "Borr",
+   "asset": "Anleihen",
+   "status": "Portfolio"
   },
   {
    "date": "2026-06-26",
@@ -3971,19 +3970,6 @@
    "companyId": 31,
    "company": "Tencent",
    "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-25",
-   "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Borr Drilling Limited - BORR",
-   "summary": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Borr Drilling Limited - BORR PR Newswire",
-   "source": "PR Newswire",
-   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQWHNCQi0tYWd3MDh5bzlPUkZvb2tRX3dFUU5sZXN1djh3cWdqenlZdzZSOWg1RWFJOHQ3ZnRLS29NLWRqU3l2LTZpOEtlZkdSTHJ5bWRWdF9MbktIMm81OURVTnNTSG9vZ0FnQ0xqd0hadU0tbVJ4RUFkRzJSekhSM2dxSnI0ZlVCMHBFX3JfQTc4bG9PMVdwdW5uZXZpMjdoOU5jSjVUNkxpekdkWFdLeXQ3NDhhZVNLSEF0dGtQMmFhcERMREIxR3ZWWTg3a1p4SG9Gckp5OXpWQWVMMjdEejBRc0NpWC1YTVJtLVlhUVN0VFZDUG1z?oc=5",
-   "category": "Sonstiges",
-   "firstSeen": "2026-06-26T04:39:14+00:00",
-   "companyId": 4,
-   "company": "Borr",
-   "asset": "Anleihen",
    "status": "Portfolio"
   },
   {
@@ -4050,6 +4036,19 @@
    "company": "Adyen",
    "asset": "Aktien",
    "status": "Watchlist"
+  },
+  {
+   "date": "2026-06-24",
+   "title": "Graphic Packaging Holding Company (GPK) Lawsuit - Investors Urged to Contact Levi & Korsinsky Before July 6, 2026",
+   "summary": "Graphic Packaging Holding Company (GPK) Lawsuit - Investors Urged to Contact Levi & Korsinsky Before July 6, 2026 ACCESS Newswire",
+   "source": "ACCESS Newswire",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOS0NxSmM1UXItSXlRa3dWaGd0eTFlQmtPX1EwWmhJWkw5SEkyZW1EeDhRbHJUcVY0Y0sycmpOWDlwR09QLUY0cGUzLUpZaGdGTFJ4TXdXWURNT0E4VWphUHJmaU9aODk1SmhnTEZtbUEyRG5xYTB4cGFqWnZ3SGdfUWMzQ25pa3ZncHpoTFcwT2sybE9lM1pFQ1M5ZE9HS3NOM3gyMUFHaW04dElaVEM4TVJuc1VvUjBTQmhWaktDRzJ6Rmw4emdYbUc4YnJTbVZrcWhCSDVkTXlIdlVmQm9YX19XZFQ?oc=5",
+   "category": "Sonstiges",
+   "firstSeen": "2026-07-01T06:43:27+00:00",
+   "companyId": 11,
+   "company": "Graphic Packaging",
+   "asset": "Anleihen",
+   "status": "Portfolio"
   },
   {
    "date": "2026-06-24",
@@ -4206,6 +4205,19 @@
    "company": "Tronox",
    "asset": "Anleihen",
    "status": "Watchlist"
+  },
+  {
+   "date": "2026-06-18",
+   "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Borr Drilling Limited - BORR",
+   "summary": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Borr Drilling Limited - BORR PR Newswire",
+   "source": "PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQUmp6MW1PeEdTVmwySkFqR2pVVldLSXdBdTBNVzN1bVlxRVNxam9WYnRmUXNvRVFiM3FZdHhiVzRONjdINFdUTVhWalRVU1pEbEc1TWh3bmg1ZTFXUGVrUWpJWEFUVC1idC1FRmNodTBZaEdNTnFUZ2tyZ2pwY3poYk9QclMtcW1CcE5ZUkphTDd0Z2JLbTBGdlRwUHhlMV8xcVc5MjNxdHo5Q3hpb3UwMEhiMFZ4amtva3c0WHU0OGd3amJ1ZzNma1Job3dyYVpEMFl4aVRJTW5jNmJ3V0xnMkdEd1U0YzBlTFNXMEhtYU00SjJFby04?oc=5",
+   "category": "Sonstiges",
+   "firstSeen": "2026-07-01T06:43:27+00:00",
+   "companyId": 4,
+   "company": "Borr",
+   "asset": "Anleihen",
+   "status": "Portfolio"
   },
   {
    "date": "2026-06-17",
@@ -4378,19 +4390,6 @@
   },
   {
    "date": "2026-06-08",
-   "title": "Tencent Aims to Raise $3 Billion in Dollar, Yuan Bond Offering",
-   "summary": "Tencent Aims to Raise $3 Billion in Dollar, Yuan Bond Offering Bloomberg.com",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdGNLUXVWdlFlYjJqTTVzdGM2M0R6OWFyZTRsS1VwVEtleF9GVENaUmYyT0pXSEE3ZGt2N2d1OFlFTUZEVC1pVHRic3RJRTFuQ3FZdENpRm5pNUFQMkRTQ3prUnpyak9YcnB4RE1nNjYzeVJJSWNJUkhMdnVHanliaENwcXZ3ZXQzVjlwLVo5ZjVOeVdVaURfZ19XdG1SbWNwTFI4c3FMTnFrRnVBN19iQQ?oc=5",
-   "category": "Rating",
-   "firstSeen": "2026-07-01T04:53:35+00:00",
-   "companyId": 31,
-   "company": "Tencent",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-08",
    "title": "S&P Global Expands AI Ecosystem Reach with Cohere to Power Trusted, Agentic Workflows for Financial Institutions",
    "summary": "S&P Global Expands AI Ecosystem Reach with Cohere to Power Trusted, Agentic Workflows for Financial Institutions PR Newswire",
    "source": "PR Newswire",
@@ -4443,19 +4442,6 @@
   },
   {
    "date": "2026-06-02",
-   "title": "Microsoft seeks to be AI’s center of gravity again. CEO Satya Nadella is in San Francisco to make the case",
-   "summary": "Microsoft seeks to be AI’s center of gravity again. CEO Satya Nadella is in San Francisco to make the case Fortune",
-   "source": "Fortune",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQzR2ZUZnLThsRmV1TlV4QXVEVkY5YzJBZWFSaWhVQnVCbWhyREhkajd1bEh2OGRSUlM3QUVfMUs0VDlmeWVjMXVnejRCWE91MFBham83MkEzS3BLdmU0MXFmb1dfN085MWZ6NVBGbFVFQ2VtVDJMYnVnbmNKeU1uUGJxNmRqQQ?oc=5",
-   "category": "Markt",
-   "firstSeen": "2026-06-26T06:19:35+00:00",
-   "companyId": 20,
-   "company": "Microsoft",
-   "asset": "Aktien",
-   "status": "Portfolio"
-  },
-  {
-   "date": "2026-06-02",
    "title": "Vistry appoints Kate Rust as Commercial Director in East Anglia",
    "summary": "Vistry appoints Kate Rust as Commercial Director in East Anglia Peterborough Telegraph",
    "source": "Peterborough Telegraph",
@@ -4464,6 +4450,19 @@
    "firstSeen": "2026-06-15T07:36:18+00:00",
    "companyId": 29,
    "company": "Vistry",
+   "asset": "Aktien",
+   "status": "Portfolio"
+  },
+  {
+   "date": "2026-06-02",
+   "title": "Tencent moves closer to launching AI agent for China’s most-used app",
+   "summary": "Tencent moves closer to launching AI agent for China’s most-used app Financial Times",
+   "source": "Financial Times",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdWpQdDEyUk45SnVqaGNVZ2lwdlpfWTRTaDBEQVk4b1hsaEdHbEFFMEE4V3pkVlcwSWJPZmVCM3pVY2pvbjZNTHJ5OXpHR1BYRHFlUlIyN2VSMGdZMlVLNTBoQThqVUNVZThYN0pSUGRtZnpRclUyTmpaZ0ZKeU1ZdHJHNHY?oc=5",
+   "category": "Markt",
+   "firstSeen": "2026-07-01T06:43:27+00:00",
+   "companyId": 31,
+   "company": "Tencent",
    "asset": "Aktien",
    "status": "Portfolio"
   }
